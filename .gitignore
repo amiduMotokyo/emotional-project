@@ -1,0 +1,21 @@
+# 原始数据及可重新生成的大文件不纳入代码版本管理
+/data/
+/A/outputs/*
+!/A/outputs/.gitkeep
+/B/outputs/*
+!/B/outputs/.gitkeep
+/C/outputs/*
+!/C/outputs/.gitkeep
+
+# 本地环境及缓存
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.ipynb_checkpoints/
+
+# 操作系统与Office临时文件
+.DS_Store
+Thumbs.db
+~$*

@@ -1,0 +1,4 @@
+interface:
+  display_name: "多模态情感项目协作"
+  short_description: "按ABC模块归档代码与文档，管理需求、创新、实验及论文交付"
+  default_prompt: "使用 $emotional-project-collaboration 按本项目ABC模块归属完成当前任务，并维护相应文档与交接记录。"
