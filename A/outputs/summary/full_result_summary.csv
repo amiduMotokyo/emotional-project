@@ -1,0 +1,301 @@
+﻿sample_id,video_id,clip_id,modality,original_duration_or_length,unit,feature_dim,valid_length,aligned_granularity,padding_rule
+-3g5yACwYnA_13,-3g5yACwYnA,13,audio,5.35,seconds,25,11,0.5s,zero padding
+-3g5yACwYnA_13,-3g5yACwYnA,13,text,80.0,characters,768,20,token_position,BERT padding vector
+-3g5yACwYnA_13,-3g5yACwYnA,13,vision,5.4,seconds,20,11,0.5s,zero padding
+-3g5yACwYnA_2,-3g5yACwYnA,2,audio,9.19,seconds,25,19,0.5s,zero padding
+-3g5yACwYnA_2,-3g5yACwYnA,2,text,85.0,characters,768,19,token_position,BERT padding vector
+-3g5yACwYnA_2,-3g5yACwYnA,2,vision,9.233,seconds,20,19,0.5s,zero padding
+-3g5yACwYnA_3,-3g5yACwYnA,3,audio,14.28,seconds,25,29,0.5s,zero padding
+-3g5yACwYnA_3,-3g5yACwYnA,3,text,173.0,characters,768,42,token_position,BERT padding vector
+-3g5yACwYnA_3,-3g5yACwYnA,3,vision,14.333,seconds,20,29,0.5s,zero padding
+-3g5yACwYnA_9,-3g5yACwYnA,9,audio,8.65,seconds,25,18,0.5s,zero padding
+-3g5yACwYnA_9,-3g5yACwYnA,9,text,139.0,characters,768,30,token_position,BERT padding vector
+-3g5yACwYnA_9,-3g5yACwYnA,9,vision,8.733,seconds,20,18,0.5s,zero padding
+-3nNcZdcdvU_5,-3nNcZdcdvU,5,audio,7.74,seconds,25,16,0.5s,zero padding
+-3nNcZdcdvU_5,-3nNcZdcdvU,5,text,104.0,characters,768,24,token_position,BERT padding vector
+-3nNcZdcdvU_5,-3nNcZdcdvU,5,vision,7.833,seconds,20,16,0.5s,zero padding
+-571d8cVauQ_0,-571d8cVauQ,0,audio,4.95,seconds,25,10,0.5s,zero padding
+-571d8cVauQ_0,-571d8cVauQ,0,text,72.0,characters,768,18,token_position,BERT padding vector
+-571d8cVauQ_0,-571d8cVauQ,0,vision,5.033,seconds,20,11,0.5s,zero padding
+-571d8cVauQ_5,-571d8cVauQ,5,audio,15.07,seconds,25,31,0.5s,zero padding
+-571d8cVauQ_5,-571d8cVauQ,5,text,229.0,characters,768,50,token_position,BERT padding vector
+-571d8cVauQ_5,-571d8cVauQ,5,vision,15.133,seconds,20,31,0.5s,zero padding
+-6rXp3zJ3kc_8,-6rXp3zJ3kc,8,audio,12.69,seconds,25,26,0.5s,zero padding
+-6rXp3zJ3kc_8,-6rXp3zJ3kc,8,text,170.0,characters,768,40,token_position,BERT padding vector
+-6rXp3zJ3kc_8,-6rXp3zJ3kc,8,vision,12.767,seconds,20,26,0.5s,zero padding
+-9y-fZ3swSY_0,-9y-fZ3swSY,0,audio,6.71,seconds,25,14,0.5s,zero padding
+-9y-fZ3swSY_0,-9y-fZ3swSY,0,text,102.0,characters,768,30,token_position,BERT padding vector
+-9y-fZ3swSY_0,-9y-fZ3swSY,0,vision,6.8,seconds,20,14,0.5s,zero padding
+-9y-fZ3swSY_4,-9y-fZ3swSY,4,audio,2.62,seconds,25,6,0.5s,zero padding
+-9y-fZ3swSY_4,-9y-fZ3swSY,4,text,33.0,characters,768,13,token_position,BERT padding vector
+-9y-fZ3swSY_4,-9y-fZ3swSY,4,vision,2.667,seconds,20,6,0.5s,zero padding
+-9y-fZ3swSY_8,-9y-fZ3swSY,8,audio,4.87,seconds,25,10,0.5s,zero padding
+-9y-fZ3swSY_8,-9y-fZ3swSY,8,text,55.0,characters,768,16,token_position,BERT padding vector
+-9y-fZ3swSY_8,-9y-fZ3swSY,8,vision,4.933,seconds,20,10,0.5s,zero padding
+-AUZQgSxyPQ_2,-AUZQgSxyPQ,2,audio,22.36,seconds,25,45,0.5s,zero padding
+-AUZQgSxyPQ_2,-AUZQgSxyPQ,2,text,262.0,characters,768,50,token_position,BERT padding vector
+-AUZQgSxyPQ_2,-AUZQgSxyPQ,2,vision,22.433,seconds,20,45,0.5s,zero padding
+-HeZS2-Prhc_2,-HeZS2-Prhc,2,audio,8.11,seconds,25,17,0.5s,zero padding
+-HeZS2-Prhc_2,-HeZS2-Prhc,2,text,77.0,characters,768,19,token_position,BERT padding vector
+-HeZS2-Prhc_2,-HeZS2-Prhc,2,vision,8.167,seconds,20,17,0.5s,zero padding
+-HwX2H8Z4hY_2,-HwX2H8Z4hY,2,audio,3.87,seconds,25,8,0.5s,zero padding
+-HwX2H8Z4hY_2,-HwX2H8Z4hY,2,text,48.0,characters,768,14,token_position,BERT padding vector
+-HwX2H8Z4hY_2,-HwX2H8Z4hY,2,vision,3.933,seconds,20,8,0.5s,zero padding
+-HwX2H8Z4hY_5,-HwX2H8Z4hY,5,audio,5.5,seconds,25,11,0.5s,zero padding
+-HwX2H8Z4hY_5,-HwX2H8Z4hY,5,text,74.0,characters,768,12,token_position,BERT padding vector
+-HwX2H8Z4hY_5,-HwX2H8Z4hY,5,vision,5.567,seconds,20,12,0.5s,zero padding
+-HwX2H8Z4hY_6,-HwX2H8Z4hY,6,audio,3.21,seconds,25,7,0.5s,zero padding
+-HwX2H8Z4hY_6,-HwX2H8Z4hY,6,text,31.0,characters,768,11,token_position,BERT padding vector
+-HwX2H8Z4hY_6,-HwX2H8Z4hY,6,vision,3.267,seconds,20,7,0.5s,zero padding
+-HwX2H8Z4hY_9,-HwX2H8Z4hY,9,audio,7.59,seconds,25,16,0.5s,zero padding
+-HwX2H8Z4hY_9,-HwX2H8Z4hY,9,text,119.0,characters,768,26,token_position,BERT padding vector
+-HwX2H8Z4hY_9,-HwX2H8Z4hY,9,vision,7.7,seconds,20,16,0.5s,zero padding
+-I_e4mIh0yE_1,-I_e4mIh0yE,1,audio,7.4,seconds,25,15,0.5s,zero padding
+-I_e4mIh0yE_1,-I_e4mIh0yE,1,text,98.0,characters,768,23,token_position,BERT padding vector
+-I_e4mIh0yE_1,-I_e4mIh0yE,1,vision,7.467,seconds,20,15,0.5s,zero padding
+-I_e4mIh0yE_3,-I_e4mIh0yE,3,audio,8.95,seconds,25,18,0.5s,zero padding
+-I_e4mIh0yE_3,-I_e4mIh0yE,3,text,132.0,characters,768,32,token_position,BERT padding vector
+-I_e4mIh0yE_3,-I_e4mIh0yE,3,vision,9.0,seconds,20,19,0.5s,zero padding
+-MeTTeMJBNc_0,-MeTTeMJBNc,0,audio,9.17,seconds,25,19,0.5s,zero padding
+-MeTTeMJBNc_0,-MeTTeMJBNc,0,text,117.0,characters,768,28,token_position,BERT padding vector
+-MeTTeMJBNc_0,-MeTTeMJBNc,0,vision,9.267,seconds,20,19,0.5s,zero padding
+-MeTTeMJBNc_13,-MeTTeMJBNc,13,audio,5.21,seconds,25,11,0.5s,zero padding
+-MeTTeMJBNc_13,-MeTTeMJBNc,13,text,70.0,characters,768,18,token_position,BERT padding vector
+-MeTTeMJBNc_13,-MeTTeMJBNc,13,vision,5.267,seconds,20,11,0.5s,zero padding
+-MeTTeMJBNc_7,-MeTTeMJBNc,7,audio,10.37,seconds,25,21,0.5s,zero padding
+-MeTTeMJBNc_7,-MeTTeMJBNc,7,text,160.0,characters,768,35,token_position,BERT padding vector
+-MeTTeMJBNc_7,-MeTTeMJBNc,7,vision,10.433,seconds,20,21,0.5s,zero padding
+-NFrJFQijFE_1,-NFrJFQijFE,1,audio,5.61,seconds,25,12,0.5s,zero padding
+-NFrJFQijFE_1,-NFrJFQijFE,1,text,93.0,characters,768,18,token_position,BERT padding vector
+-NFrJFQijFE_1,-NFrJFQijFE,1,vision,5.64,seconds,20,12,0.5s,zero padding
+-NFrJFQijFE_2,-NFrJFQijFE,2,audio,6.65,seconds,25,14,0.5s,zero padding
+-NFrJFQijFE_2,-NFrJFQijFE,2,text,100.0,characters,768,20,token_position,BERT padding vector
+-NFrJFQijFE_2,-NFrJFQijFE,2,vision,6.72,seconds,20,14,0.5s,zero padding
+-RfYyzHpjk4_11,-RfYyzHpjk4,11,audio,5.03,seconds,25,11,0.5s,zero padding
+-RfYyzHpjk4_11,-RfYyzHpjk4,11,text,89.0,characters,768,21,token_position,BERT padding vector
+-RfYyzHpjk4_11,-RfYyzHpjk4,11,vision,5.1,seconds,20,11,0.5s,zero padding
+-RfYyzHpjk4_2,-RfYyzHpjk4,2,audio,5.35,seconds,25,11,0.5s,zero padding
+-RfYyzHpjk4_2,-RfYyzHpjk4,2,text,119.0,characters,768,31,token_position,BERT padding vector
+-RfYyzHpjk4_2,-RfYyzHpjk4,2,vision,5.433,seconds,20,11,0.5s,zero padding
+-RfYyzHpjk4_8,-RfYyzHpjk4,8,audio,4.49,seconds,25,9,0.5s,zero padding
+-RfYyzHpjk4_8,-RfYyzHpjk4,8,text,81.0,characters,768,23,token_position,BERT padding vector
+-RfYyzHpjk4_8,-RfYyzHpjk4,8,vision,4.533,seconds,20,10,0.5s,zero padding
+-THoVjtIkeU_12,-THoVjtIkeU,12,audio,14.76,seconds,25,30,0.5s,zero padding
+-THoVjtIkeU_12,-THoVjtIkeU,12,text,207.0,characters,768,44,token_position,BERT padding vector
+-THoVjtIkeU_12,-THoVjtIkeU,12,vision,14.8,seconds,20,30,0.5s,zero padding
+-THoVjtIkeU_2,-THoVjtIkeU,2,audio,4.19,seconds,25,9,0.5s,zero padding
+-THoVjtIkeU_2,-THoVjtIkeU,2,text,63.0,characters,768,13,token_position,BERT padding vector
+-THoVjtIkeU_2,-THoVjtIkeU,2,vision,4.233,seconds,20,9,0.5s,zero padding
+-THoVjtIkeU_6,-THoVjtIkeU,6,audio,7.94,seconds,25,16,0.5s,zero padding
+-THoVjtIkeU_6,-THoVjtIkeU,6,text,150.0,characters,768,34,token_position,BERT padding vector
+-THoVjtIkeU_6,-THoVjtIkeU,6,vision,8.0,seconds,20,17,0.5s,zero padding
+-UUCSKoHeMA_0,-UUCSKoHeMA,0,audio,7.69,seconds,25,16,0.5s,zero padding
+-UUCSKoHeMA_0,-UUCSKoHeMA,0,text,93.0,characters,768,25,token_position,BERT padding vector
+-UUCSKoHeMA_0,-UUCSKoHeMA,0,vision,7.767,seconds,20,16,0.5s,zero padding
+-UacrmKiTn4_10,-UacrmKiTn4,10,audio,7.2,seconds,25,15,0.5s,zero padding
+-UacrmKiTn4_10,-UacrmKiTn4,10,text,95.0,characters,768,24,token_position,BERT padding vector
+-UacrmKiTn4_10,-UacrmKiTn4,10,vision,7.233,seconds,20,15,0.5s,zero padding
+-UacrmKiTn4_4,-UacrmKiTn4,4,audio,4.64,seconds,25,10,0.5s,zero padding
+-UacrmKiTn4_4,-UacrmKiTn4,4,text,72.0,characters,768,17,token_position,BERT padding vector
+-UacrmKiTn4_4,-UacrmKiTn4,4,vision,4.7,seconds,20,10,0.5s,zero padding
+-UuX1xuaiiE_0,-UuX1xuaiiE,0,audio,3.53,seconds,25,8,0.5s,zero padding
+-UuX1xuaiiE_0,-UuX1xuaiiE,0,text,55.0,characters,768,14,token_position,BERT padding vector
+-UuX1xuaiiE_0,-UuX1xuaiiE,0,vision,3.6,seconds,20,8,0.5s,zero padding
+-UuX1xuaiiE_1,-UuX1xuaiiE,1,audio,10.22,seconds,25,21,0.5s,zero padding
+-UuX1xuaiiE_1,-UuX1xuaiiE,1,text,148.0,characters,768,35,token_position,BERT padding vector
+-UuX1xuaiiE_1,-UuX1xuaiiE,1,vision,10.267,seconds,20,21,0.5s,zero padding
+-UuX1xuaiiE_3,-UuX1xuaiiE,3,audio,3.99,seconds,25,8,0.5s,zero padding
+-UuX1xuaiiE_3,-UuX1xuaiiE,3,text,42.0,characters,768,11,token_position,BERT padding vector
+-UuX1xuaiiE_3,-UuX1xuaiiE,3,vision,4.067,seconds,20,9,0.5s,zero padding
+-UuX1xuaiiE_6,-UuX1xuaiiE,6,audio,7.9,seconds,25,16,0.5s,zero padding
+-UuX1xuaiiE_6,-UuX1xuaiiE,6,text,125.0,characters,768,25,token_position,BERT padding vector
+-UuX1xuaiiE_6,-UuX1xuaiiE,6,vision,7.967,seconds,20,16,0.5s,zero padding
+-a55Q6RWvTA_3,-a55Q6RWvTA,3,audio,22.04,seconds,25,45,0.5s,zero padding
+-a55Q6RWvTA_3,-a55Q6RWvTA,3,text,339.0,characters,768,50,token_position,BERT padding vector
+-a55Q6RWvTA_3,-a55Q6RWvTA,3,vision,22.1,seconds,20,45,0.5s,zero padding
+-aNfi7CP8vM_7,-aNfi7CP8vM,7,audio,8.49,seconds,25,17,0.5s,zero padding
+-aNfi7CP8vM_7,-aNfi7CP8vM,7,text,120.0,characters,768,25,token_position,BERT padding vector
+-aNfi7CP8vM_7,-aNfi7CP8vM,7,vision,8.533,seconds,20,18,0.5s,zero padding
+-aqamKhZ1Ec_0,-aqamKhZ1Ec,0,audio,10.85,seconds,25,22,0.5s,zero padding
+-aqamKhZ1Ec_0,-aqamKhZ1Ec,0,text,87.0,characters,768,18,token_position,BERT padding vector
+-aqamKhZ1Ec_0,-aqamKhZ1Ec,0,vision,10.933,seconds,20,22,0.5s,zero padding
+-dxfTGcXJoc_0,-dxfTGcXJoc,0,audio,20.37,seconds,25,41,0.5s,zero padding
+-dxfTGcXJoc_0,-dxfTGcXJoc,0,text,265.0,characters,768,50,token_position,BERT padding vector
+-dxfTGcXJoc_0,-dxfTGcXJoc,0,vision,20.467,seconds,20,41,0.5s,zero padding
+-dxfTGcXJoc_1,-dxfTGcXJoc,1,audio,15.97,seconds,25,32,0.5s,zero padding
+-dxfTGcXJoc_1,-dxfTGcXJoc,1,text,231.0,characters,768,44,token_position,BERT padding vector
+-dxfTGcXJoc_1,-dxfTGcXJoc,1,vision,16.033,seconds,20,33,0.5s,zero padding
+-dxfTGcXJoc_2,-dxfTGcXJoc,2,audio,16.59,seconds,25,34,0.5s,zero padding
+-dxfTGcXJoc_2,-dxfTGcXJoc,2,text,231.0,characters,768,42,token_position,BERT padding vector
+-dxfTGcXJoc_2,-dxfTGcXJoc,2,vision,16.633,seconds,20,34,0.5s,zero padding
+-dxfTGcXJoc_6,-dxfTGcXJoc,6,audio,12.58,seconds,25,26,0.5s,zero padding
+-dxfTGcXJoc_6,-dxfTGcXJoc,6,text,188.0,characters,768,34,token_position,BERT padding vector
+-dxfTGcXJoc_6,-dxfTGcXJoc,6,vision,12.667,seconds,20,26,0.5s,zero padding
+-egA8-b7-3M_1,-egA8-b7-3M,1,audio,10.11,seconds,25,21,0.5s,zero padding
+-egA8-b7-3M_1,-egA8-b7-3M,1,text,123.0,characters,768,24,token_position,BERT padding vector
+-egA8-b7-3M_1,-egA8-b7-3M,1,vision,10.167,seconds,20,21,0.5s,zero padding
+-egA8-b7-3M_13,-egA8-b7-3M,13,audio,3.98,seconds,25,8,0.5s,zero padding
+-egA8-b7-3M_13,-egA8-b7-3M,13,text,65.0,characters,768,18,token_position,BERT padding vector
+-egA8-b7-3M_13,-egA8-b7-3M,13,vision,4.067,seconds,20,9,0.5s,zero padding
+-egA8-b7-3M_16,-egA8-b7-3M,16,audio,5.44,seconds,25,11,0.5s,zero padding
+-egA8-b7-3M_16,-egA8-b7-3M,16,text,77.0,characters,768,15,token_position,BERT padding vector
+-egA8-b7-3M_16,-egA8-b7-3M,16,vision,5.5,seconds,20,12,0.5s,zero padding
+-egA8-b7-3M_17,-egA8-b7-3M,17,audio,7.05,seconds,25,15,0.5s,zero padding
+-egA8-b7-3M_17,-egA8-b7-3M,17,text,89.0,characters,768,21,token_position,BERT padding vector
+-egA8-b7-3M_17,-egA8-b7-3M,17,vision,7.133,seconds,20,15,0.5s,zero padding
+-egA8-b7-3M_18,-egA8-b7-3M,18,audio,8.22,seconds,25,17,0.5s,zero padding
+-egA8-b7-3M_18,-egA8-b7-3M,18,text,125.0,characters,768,29,token_position,BERT padding vector
+-egA8-b7-3M_18,-egA8-b7-3M,18,vision,8.3,seconds,20,17,0.5s,zero padding
+-egA8-b7-3M_20,-egA8-b7-3M,20,audio,6.43,seconds,25,13,0.5s,zero padding
+-egA8-b7-3M_20,-egA8-b7-3M,20,text,98.0,characters,768,26,token_position,BERT padding vector
+-egA8-b7-3M_20,-egA8-b7-3M,20,vision,6.5,seconds,20,14,0.5s,zero padding
+-egA8-b7-3M_26,-egA8-b7-3M,26,audio,5.88,seconds,25,12,0.5s,zero padding
+-egA8-b7-3M_26,-egA8-b7-3M,26,text,82.0,characters,768,21,token_position,BERT padding vector
+-egA8-b7-3M_26,-egA8-b7-3M,26,vision,5.933,seconds,20,12,0.5s,zero padding
+-egA8-b7-3M_6,-egA8-b7-3M,6,audio,6.14,seconds,25,13,0.5s,zero padding
+-egA8-b7-3M_6,-egA8-b7-3M,6,text,80.0,characters,768,15,token_position,BERT padding vector
+-egA8-b7-3M_6,-egA8-b7-3M,6,vision,6.2,seconds,20,13,0.5s,zero padding
+-egA8-b7-3M_9,-egA8-b7-3M,9,audio,4.89,seconds,25,10,0.5s,zero padding
+-egA8-b7-3M_9,-egA8-b7-3M,9,text,69.0,characters,768,14,token_position,BERT padding vector
+-egA8-b7-3M_9,-egA8-b7-3M,9,vision,4.967,seconds,20,10,0.5s,zero padding
+-hnBHBN8p5A_6,-hnBHBN8p5A,6,audio,6.29,seconds,25,13,0.5s,zero padding
+-hnBHBN8p5A_6,-hnBHBN8p5A,6,text,84.0,characters,768,16,token_position,BERT padding vector
+-hnBHBN8p5A_6,-hnBHBN8p5A,6,vision,6.34,seconds,20,13,0.5s,zero padding
+-hnBHBN8p5A_7,-hnBHBN8p5A,7,audio,7.26,seconds,25,15,0.5s,zero padding
+-hnBHBN8p5A_7,-hnBHBN8p5A,7,text,78.0,characters,768,19,token_position,BERT padding vector
+-hnBHBN8p5A_7,-hnBHBN8p5A,7,vision,7.299,seconds,20,15,0.5s,zero padding
+-iRBcNs9oI8_3,-iRBcNs9oI8,3,audio,5.49,seconds,25,11,0.5s,zero padding
+-iRBcNs9oI8_3,-iRBcNs9oI8,3,text,36.0,characters,768,11,token_position,BERT padding vector
+-iRBcNs9oI8_3,-iRBcNs9oI8,3,vision,5.539,seconds,20,12,0.5s,zero padding
+-iRBcNs9oI8_6,-iRBcNs9oI8,6,audio,2.78,seconds,25,6,0.5s,zero padding
+-iRBcNs9oI8_6,-iRBcNs9oI8,6,text,20.0,characters,768,7,token_position,BERT padding vector
+-iRBcNs9oI8_6,-iRBcNs9oI8,6,vision,2.803,seconds,20,6,0.5s,zero padding
+-iRBcNs9oI8_7,-iRBcNs9oI8,7,audio,3.96,seconds,25,8,0.5s,zero padding
+-iRBcNs9oI8_7,-iRBcNs9oI8,7,text,50.0,characters,768,17,token_position,BERT padding vector
+-iRBcNs9oI8_7,-iRBcNs9oI8,7,vision,3.971,seconds,20,8,0.5s,zero padding
+-iRBcNs9oI8_8,-iRBcNs9oI8,8,audio,7.98,seconds,25,16,0.5s,zero padding
+-iRBcNs9oI8_8,-iRBcNs9oI8,8,text,96.0,characters,768,28,token_position,BERT padding vector
+-iRBcNs9oI8_8,-iRBcNs9oI8,8,vision,8.008,seconds,20,17,0.5s,zero padding
+-iRBcNs9oI8_9,-iRBcNs9oI8,9,audio,3.33,seconds,25,7,0.5s,zero padding
+-iRBcNs9oI8_9,-iRBcNs9oI8,9,text,28.0,characters,768,7,token_position,BERT padding vector
+-iRBcNs9oI8_9,-iRBcNs9oI8,9,vision,3.37,seconds,20,7,0.5s,zero padding
+-lzEya4AM_4_5,-lzEya4AM_4,5,audio,7.52,seconds,25,16,0.5s,zero padding
+-lzEya4AM_4_5,-lzEya4AM_4,5,text,104.0,characters,768,23,token_position,BERT padding vector
+-lzEya4AM_4_5,-lzEya4AM_4,5,vision,7.6,seconds,20,16,0.5s,zero padding
+-lzEya4AM_4_6,-lzEya4AM_4,6,audio,14.7,seconds,25,30,0.5s,zero padding
+-lzEya4AM_4_6,-lzEya4AM_4,6,text,228.0,characters,768,50,token_position,BERT padding vector
+-lzEya4AM_4_6,-lzEya4AM_4,6,vision,14.733,seconds,20,30,0.5s,zero padding
+-mJ2ud6oKI8_1,-mJ2ud6oKI8,1,audio,6.01,seconds,25,13,0.5s,zero padding
+-mJ2ud6oKI8_1,-mJ2ud6oKI8,1,text,60.0,characters,768,15,token_position,BERT padding vector
+-mJ2ud6oKI8_1,-mJ2ud6oKI8,1,vision,6.039,seconds,20,13,0.5s,zero padding
+-mJ2ud6oKI8_2,-mJ2ud6oKI8,2,audio,5.66,seconds,25,12,0.5s,zero padding
+-mJ2ud6oKI8_2,-mJ2ud6oKI8,2,text,86.0,characters,768,19,token_position,BERT padding vector
+-mJ2ud6oKI8_2,-mJ2ud6oKI8,2,vision,5.672,seconds,20,12,0.5s,zero padding
+-mJ2ud6oKI8_6,-mJ2ud6oKI8,6,audio,2.18,seconds,25,5,0.5s,zero padding
+-mJ2ud6oKI8_6,-mJ2ud6oKI8,6,text,22.0,characters,768,7,token_position,BERT padding vector
+-mJ2ud6oKI8_6,-mJ2ud6oKI8,6,vision,2.202,seconds,20,5,0.5s,zero padding
+-mJ2ud6oKI8_8,-mJ2ud6oKI8,8,audio,4.13,seconds,25,9,0.5s,zero padding
+-mJ2ud6oKI8_8,-mJ2ud6oKI8,8,text,65.0,characters,768,13,token_position,BERT padding vector
+-mJ2ud6oKI8_8,-mJ2ud6oKI8,8,vision,4.137,seconds,20,9,0.5s,zero padding
+-mJ2ud6oKI8_9,-mJ2ud6oKI8,9,audio,6.86,seconds,25,14,0.5s,zero padding
+-mJ2ud6oKI8_9,-mJ2ud6oKI8,9,text,112.0,characters,768,31,token_position,BERT padding vector
+-mJ2ud6oKI8_9,-mJ2ud6oKI8,9,vision,6.907,seconds,20,14,0.5s,zero padding
+-mqbVkbCndg_0,-mqbVkbCndg,0,audio,6.34,seconds,25,13,0.5s,zero padding
+-mqbVkbCndg_0,-mqbVkbCndg,0,text,71.0,characters,768,19,token_position,BERT padding vector
+-mqbVkbCndg_0,-mqbVkbCndg,0,vision,6.433,seconds,20,13,0.5s,zero padding
+-qDkUB0GgYY_6,-qDkUB0GgYY,6,audio,4.57,seconds,25,10,0.5s,zero padding
+-qDkUB0GgYY_6,-qDkUB0GgYY,6,text,75.0,characters,768,20,token_position,BERT padding vector
+-qDkUB0GgYY_6,-qDkUB0GgYY,6,vision,4.633,seconds,20,10,0.5s,zero padding
+-ri04Z7vwnc_0,-ri04Z7vwnc,0,audio,2.72,seconds,25,6,0.5s,zero padding
+-ri04Z7vwnc_0,-ri04Z7vwnc,0,text,43.0,characters,768,10,token_position,BERT padding vector
+-ri04Z7vwnc_0,-ri04Z7vwnc,0,vision,2.753,seconds,20,6,0.5s,zero padding
+-ri04Z7vwnc_2,-ri04Z7vwnc,2,audio,5.87,seconds,25,12,0.5s,zero padding
+-ri04Z7vwnc_2,-ri04Z7vwnc,2,text,99.0,characters,768,28,token_position,BERT padding vector
+-ri04Z7vwnc_2,-ri04Z7vwnc,2,vision,5.923,seconds,20,12,0.5s,zero padding
+-ri04Z7vwnc_5,-ri04Z7vwnc,5,audio,3.39,seconds,25,7,0.5s,zero padding
+-ri04Z7vwnc_5,-ri04Z7vwnc,5,text,47.0,characters,768,13,token_position,BERT padding vector
+-ri04Z7vwnc_5,-ri04Z7vwnc,5,vision,3.42,seconds,20,7,0.5s,zero padding
+-s9qJ7ATP7w_0,-s9qJ7ATP7w,0,audio,6.67,seconds,25,14,0.5s,zero padding
+-s9qJ7ATP7w_0,-s9qJ7ATP7w,0,text,112.0,characters,768,30,token_position,BERT padding vector
+-s9qJ7ATP7w_0,-s9qJ7ATP7w,0,vision,6.767,seconds,20,14,0.5s,zero padding
+-s9qJ7ATP7w_1,-s9qJ7ATP7w,1,audio,4.6,seconds,25,10,0.5s,zero padding
+-s9qJ7ATP7w_1,-s9qJ7ATP7w,1,text,50.0,characters,768,14,token_position,BERT padding vector
+-s9qJ7ATP7w_1,-s9qJ7ATP7w,1,vision,4.633,seconds,20,10,0.5s,zero padding
+-s9qJ7ATP7w_4,-s9qJ7ATP7w,4,audio,4.2,seconds,25,9,0.5s,zero padding
+-s9qJ7ATP7w_4,-s9qJ7ATP7w,4,text,52.0,characters,768,12,token_position,BERT padding vector
+-s9qJ7ATP7w_4,-s9qJ7ATP7w,4,vision,4.267,seconds,20,9,0.5s,zero padding
+-s9qJ7ATP7w_5,-s9qJ7ATP7w,5,audio,8.35,seconds,25,17,0.5s,zero padding
+-s9qJ7ATP7w_5,-s9qJ7ATP7w,5,text,88.0,characters,768,22,token_position,BERT padding vector
+-s9qJ7ATP7w_5,-s9qJ7ATP7w,5,vision,8.4,seconds,20,17,0.5s,zero padding
+-s9qJ7ATP7w_6,-s9qJ7ATP7w,6,audio,2.27,seconds,25,5,0.5s,zero padding
+-s9qJ7ATP7w_6,-s9qJ7ATP7w,6,text,21.0,characters,768,7,token_position,BERT padding vector
+-s9qJ7ATP7w_6,-s9qJ7ATP7w,6,vision,2.333,seconds,20,5,0.5s,zero padding
+-s9qJ7ATP7w_7,-s9qJ7ATP7w,7,audio,6.79,seconds,25,14,0.5s,zero padding
+-s9qJ7ATP7w_7,-s9qJ7ATP7w,7,text,136.0,characters,768,40,token_position,BERT padding vector
+-s9qJ7ATP7w_7,-s9qJ7ATP7w,7,vision,6.867,seconds,20,14,0.5s,zero padding
+-s9qJ7ATP7w_8,-s9qJ7ATP7w,8,audio,3.14,seconds,25,7,0.5s,zero padding
+-s9qJ7ATP7w_8,-s9qJ7ATP7w,8,text,60.0,characters,768,19,token_position,BERT padding vector
+-s9qJ7ATP7w_8,-s9qJ7ATP7w,8,vision,3.2,seconds,20,7,0.5s,zero padding
+-t217m2on-s_2,-t217m2on-s,2,audio,5.59,seconds,25,12,0.5s,zero padding
+-t217m2on-s_2,-t217m2on-s,2,text,60.0,characters,768,18,token_position,BERT padding vector
+-t217m2on-s_2,-t217m2on-s,2,vision,5.633,seconds,20,12,0.5s,zero padding
+-t217m2on-s_7,-t217m2on-s,7,audio,16.98,seconds,25,34,0.5s,zero padding
+-t217m2on-s_7,-t217m2on-s,7,text,245.0,characters,768,50,token_position,BERT padding vector
+-t217m2on-s_7,-t217m2on-s,7,vision,17.033,seconds,20,35,0.5s,zero padding
+-tANM6ETl_M_3,-tANM6ETl_M,3,audio,6.56,seconds,25,14,0.5s,zero padding
+-tANM6ETl_M_3,-tANM6ETl_M,3,text,115.0,characters,768,31,token_position,BERT padding vector
+-tANM6ETl_M_3,-tANM6ETl_M,3,vision,6.633,seconds,20,14,0.5s,zero padding
+-tPCytz4rww_10,-tPCytz4rww,10,audio,4.63,seconds,25,10,0.5s,zero padding
+-tPCytz4rww_10,-tPCytz4rww,10,text,65.0,characters,768,17,token_position,BERT padding vector
+-tPCytz4rww_10,-tPCytz4rww,10,vision,4.7,seconds,20,10,0.5s,zero padding
+-tPCytz4rww_11,-tPCytz4rww,11,audio,5.33,seconds,25,11,0.5s,zero padding
+-tPCytz4rww_11,-tPCytz4rww,11,text,95.0,characters,768,22,token_position,BERT padding vector
+-tPCytz4rww_11,-tPCytz4rww,11,vision,5.433,seconds,20,11,0.5s,zero padding
+-tPCytz4rww_12,-tPCytz4rww,12,audio,11.69,seconds,25,24,0.5s,zero padding
+-tPCytz4rww_12,-tPCytz4rww,12,text,159.0,characters,768,30,token_position,BERT padding vector
+-tPCytz4rww_12,-tPCytz4rww,12,vision,11.733,seconds,20,24,0.5s,zero padding
+-tPCytz4rww_16,-tPCytz4rww,16,audio,7.09,seconds,25,15,0.5s,zero padding
+-tPCytz4rww_16,-tPCytz4rww,16,text,74.0,characters,768,19,token_position,BERT padding vector
+-tPCytz4rww_16,-tPCytz4rww,16,vision,7.167,seconds,20,15,0.5s,zero padding
+-tPCytz4rww_18,-tPCytz4rww,18,audio,6.52,seconds,25,14,0.5s,zero padding
+-tPCytz4rww_18,-tPCytz4rww,18,text,86.0,characters,768,24,token_position,BERT padding vector
+-tPCytz4rww_18,-tPCytz4rww,18,vision,6.6,seconds,20,14,0.5s,zero padding
+-uywlfIYOS8_4,-uywlfIYOS8,4,audio,5.84,seconds,25,12,0.5s,zero padding
+-uywlfIYOS8_4,-uywlfIYOS8,4,text,93.0,characters,768,24,token_position,BERT padding vector
+-uywlfIYOS8_4,-uywlfIYOS8,4,vision,5.933,seconds,20,12,0.5s,zero padding
+-vxjVxOeScU_4,-vxjVxOeScU,4,audio,8.99,seconds,25,18,0.5s,zero padding
+-vxjVxOeScU_4,-vxjVxOeScU,4,text,123.0,characters,768,29,token_position,BERT padding vector
+-vxjVxOeScU_4,-vxjVxOeScU,4,vision,9.033,seconds,20,19,0.5s,zero padding
+-wMB_hJL-3o_7,-wMB_hJL-3o,7,audio,5.93,seconds,25,12,0.5s,zero padding
+-wMB_hJL-3o_7,-wMB_hJL-3o,7,text,107.0,characters,768,25,token_position,BERT padding vector
+-wMB_hJL-3o_7,-wMB_hJL-3o,7,vision,6.0,seconds,20,13,0.5s,zero padding
+-wny0OAz3g8_0,-wny0OAz3g8,0,audio,3.23,seconds,25,7,0.5s,zero padding
+-wny0OAz3g8_0,-wny0OAz3g8,0,text,53.0,characters,768,13,token_position,BERT padding vector
+-wny0OAz3g8_0,-wny0OAz3g8,0,vision,3.3,seconds,20,7,0.5s,zero padding
+-wny0OAz3g8_1,-wny0OAz3g8,1,audio,6.73,seconds,25,14,0.5s,zero padding
+-wny0OAz3g8_1,-wny0OAz3g8,1,text,141.0,characters,768,30,token_position,BERT padding vector
+-wny0OAz3g8_1,-wny0OAz3g8,1,vision,6.8,seconds,20,14,0.5s,zero padding
+-wny0OAz3g8_2,-wny0OAz3g8,2,audio,6.48,seconds,25,13,0.5s,zero padding
+-wny0OAz3g8_2,-wny0OAz3g8,2,text,137.0,characters,768,30,token_position,BERT padding vector
+-wny0OAz3g8_2,-wny0OAz3g8,2,vision,6.533,seconds,20,14,0.5s,zero padding
+-wny0OAz3g8_3,-wny0OAz3g8,3,audio,6.05,seconds,25,13,0.5s,zero padding
+-wny0OAz3g8_3,-wny0OAz3g8,3,text,117.0,characters,768,22,token_position,BERT padding vector
+-wny0OAz3g8_3,-wny0OAz3g8,3,vision,6.1,seconds,20,13,0.5s,zero padding
+-wny0OAz3g8_5,-wny0OAz3g8,5,audio,6.7,seconds,25,14,0.5s,zero padding
+-wny0OAz3g8_5,-wny0OAz3g8,5,text,125.0,characters,768,29,token_position,BERT padding vector
+-wny0OAz3g8_5,-wny0OAz3g8,5,vision,6.767,seconds,20,14,0.5s,zero padding
+-wny0OAz3g8_7,-wny0OAz3g8,7,audio,7.87,seconds,25,16,0.5s,zero padding
+-wny0OAz3g8_7,-wny0OAz3g8,7,text,157.0,characters,768,33,token_position,BERT padding vector
+-wny0OAz3g8_7,-wny0OAz3g8,7,vision,7.967,seconds,20,16,0.5s,zero padding
+-wny0OAz3g8_9,-wny0OAz3g8,9,audio,6.0,seconds,25,12,0.5s,zero padding
+-wny0OAz3g8_9,-wny0OAz3g8,9,text,118.0,characters,768,24,token_position,BERT padding vector
+-wny0OAz3g8_9,-wny0OAz3g8,9,vision,6.067,seconds,20,13,0.5s,zero padding
+-yRb-Jum7EQ_1,-yRb-Jum7EQ,1,audio,29.06,seconds,25,50,0.5s,zero padding
+-yRb-Jum7EQ_1,-yRb-Jum7EQ,1,text,326.0,characters,768,50,token_position,BERT padding vector
+-yRb-Jum7EQ_1,-yRb-Jum7EQ,1,vision,29.133,seconds,20,50,0.5s,zero padding
+-yRb-Jum7EQ_5,-yRb-Jum7EQ,5,audio,13.0,seconds,25,26,0.5s,zero padding
+-yRb-Jum7EQ_5,-yRb-Jum7EQ,5,text,156.0,characters,768,33,token_position,BERT padding vector
+-yRb-Jum7EQ_5,-yRb-Jum7EQ,5,vision,13.1,seconds,20,27,0.5s,zero padding
+-yRb-Jum7EQ_6,-yRb-Jum7EQ,6,audio,11.2,seconds,25,23,0.5s,zero padding
+-yRb-Jum7EQ_6,-yRb-Jum7EQ,6,text,116.0,characters,768,26,token_position,BERT padding vector
+-yRb-Jum7EQ_6,-yRb-Jum7EQ,6,vision,11.167,seconds,20,23,0.5s,zero padding
