@@ -1,0 +1,4 @@
+﻿modality,n_dims,kruskal_sig_dims,kruskal_expected_random,kruskal_sig_ratio,pearson_max_abs_r,pearson_dims_gt_0.2,pearson_dims_gt_0.3
+text,768,114,38.4,0.1484,0.3937,132,27
+audio,25,7,1.2,0.28,0.2982,2,0
+vision,20,3,1.0,0.15,0.4414,2,2
