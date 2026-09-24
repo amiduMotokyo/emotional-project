@@ -1,0 +1,56 @@
+project_root: "."
+
+paths:
+  video_root: "E:/E题/E题数据/附件1-数据集原始多模态样本/MOSEI数据集部分原始视频-100条"
+  audio_root: "E:/E题/E题数据/问题1/音频特征提取/音频文件"
+  label_file: "E:/E题/E题数据/label-100.xlsx"
+  bert_path: "E:/E题/bert-base-uncased"
+  openface_exe: "E:/E题/OpenFace_2.2.0_win_x64/FeatureExtraction.exe"
+  ffmpeg_exe: "D:/HitPaw/hitpaw/AI换脸/安装包/DeepFaceLive_NVIDIA/_internal/ffmpeg/ffmpeg.exe"
+  ffprobe_exe: "D:/HitPaw/hitpaw/AI换脸/安装包/DeepFaceLive_NVIDIA/_internal/ffmpeg/ffprobe.exe"
+  output_root: "outputs"
+  work_root: "work"
+
+audio:
+  sample_rate: 16000
+  frame_length_ms: 20
+  frame_shift_ms: 10
+  feature_set: "eGeMAPSv02"
+  feature_level: "LowLevelDescriptors"
+  feature_dim: 25
+
+visual:
+  feature_dim: 20
+  au_cols:
+    - "AU01_r"
+    - "AU02_r"
+    - "AU04_r"
+    - "AU05_r"
+    - "AU06_r"
+    - "AU07_r"
+    - "AU09_r"
+    - "AU10_r"
+    - "AU12_r"
+    - "AU14_r"
+    - "AU15_r"
+    - "AU17_r"
+    - "AU20_r"
+    - "AU23_r"
+    - "AU25_r"
+    - "AU26_r"
+    - "AU45_r"
+  pose_cols:
+    - "pose_Rx"
+    - "pose_Ry"
+    - "pose_Rz"
+
+text:
+  max_length: 50
+  feature_dim: 768
+
+alignment:
+  segment_len: 0.5
+  max_segments: 50
+
+export:
+  typical_sample_id: "-UuX1xuaiiE_0"
