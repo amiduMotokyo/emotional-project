@@ -18,9 +18,10 @@ def rebuild(source_dir: Path, target_dir: Path, encoder_path: Path):
     target_dir.mkdir(parents=True, exist_ok=True)
     session = ort.InferenceSession(str(encoder_path), providers=["CPUExecutionProvider"])
     paths = [source_dir / "train.npz", source_dir / "valid.npz",
+             source_dir / "test.npz",
              *sorted(source_dir.glob("q2_*.npz"))]
-    if len(paths) != 32:
-        raise ValueError(f"expected train, valid and 30 test caches; got {len(paths)}")
+    if len(paths) != 33:
+        raise ValueError(f"expected train, valid, Attachment-2 test, and 30 Attachment-3 caches; got {len(paths)}")
     for path in paths:
         data = load_npz(path)
         ids = data["token_ids"].astype(np.int64)

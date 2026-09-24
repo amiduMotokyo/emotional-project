@@ -60,7 +60,7 @@ def assemble_sample(text_bert: np.ndarray, text: np.ndarray, audio: np.ndarray,
 
 def prepare_cache(data_root: Path, text_model: Path, cache: Path, device: str,
                   onnx_model: Path | None = None) -> int:
-    """Encode aligned train/valid and Attachment 3; return test sample count."""
+    """Encode Attachment 2 train/valid/test and Attachment 3; return Attachment 3 count."""
     cache.mkdir(parents=True, exist_ok=True)
     source_path = data_root / "附件2-数据集特征文件" / "aligned_50.pkl"
     with source_path.open("rb") as handle:
@@ -71,7 +71,7 @@ def prepare_cache(data_root: Path, text_model: Path, cache: Path, device: str,
     else:
         from transformers import AutoModel
         encoder = AutoModel.from_pretrained(str(text_model), local_files_only=True).to(device)
-    for split_name in ("train", "valid"):
+    for split_name in ("train", "valid", "test"):
         split = source[split_name]
         encoder_batch_size = 1 if hasattr(encoder, "run") else 64
         text = encode_text(encoder, split["text_bert"], device,

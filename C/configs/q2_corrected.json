@@ -3,7 +3,11 @@
   "splits": {
     "train": 3395,
     "valid": 728,
+    "test": 727,
     "attachment3_inference_only": 30
+  },
+  "split_policy": {
+    "attachment2_test": "held-out evaluation only; excluded from training and model selection"
   },
   "text_encoder": {
     "model": "sentence-transformers/all-MiniLM-L6-v2",
