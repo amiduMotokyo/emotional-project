@@ -7,7 +7,8 @@ B维护 M1 数据接口、M4融合基线和M6解释实现。当前已接入第�
 - `configs/q2_fusion.json`：维度、标签映射和模型参数。
 - `scripts/prepare_q2_cache.py`：建立训练、验证与附件3缓存。
 - `scripts/infer_attachment3.py`：用压缩推理包生成附件3预测。
-- [数据接口说明](../docs/B/requirements/q2_data_interface.md)、[基线实验记录](../docs/B/experiments/q2_fusion_baseline.md)、[论文方法稿](../docs/B/paper/q2_fusion_model.md)。
+- `src/literature.py`、`scripts/run_literature_models.py`：LMF、MISA、MulT及MAG-MiniLM适配版的统一比较实现。
+- [数据接口说明](../docs/B/requirements/q2_data_interface.md)、[基线实验记录](../docs/B/experiments/q2_fusion_baseline.md)、[文献方法对比](../docs/B/experiments/q2_literature_comparison.md)、[论文方法稿](../docs/B/paper/q2_fusion_model.md)。
 
 预处理命令示例：
 
