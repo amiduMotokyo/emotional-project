@@ -89,14 +89,18 @@ def evaluate_model(model, loader, device: str, mode: str = "none", rate: float =
             "n": int(len(cls))}
 
 
-def evaluate_selection(model, loader, device: str) -> tuple[float, list[dict]]:
-    scores = [evaluate_model(model, loader, device, mode, rate, position)
-              for mode, rate, position in SELECTION_CASES]
+def evaluate_selection(model, loader, device: str, robust: bool) -> tuple[float, list[dict]]:
+    if not robust:
+        scores = [evaluate_model(model, loader, device)]
+    else:
+        scores = [evaluate_model(model, loader, device, mode, rate, position)
+                  for mode, rate, position in SELECTION_CASES]
     return selection_value(scores), scores
 
 
 def fit_model(name: str, seed: int, train_loader, valid_loader, counts: np.ndarray,
-              output: Path, device: str, epochs: int, patience: int, lr: float) -> dict:
+              output: Path, device: str, epochs: int, patience: int, lr: float,
+              robust: bool) -> dict:
     seed_all(seed)
     model = MODEL_BUILDERS[name]().to(device)
     optimizer = torch.optim.AdamW(model.parameters(), lr=lr, weight_decay=0.01)
@@ -111,7 +115,8 @@ def fit_model(name: str, seed: int, train_loader, valid_loader, counts: np.ndarr
         batch_losses = []
         for batch in train_loader:
             text, audio, vision, tm, am, vm, cls, score = batch
-            masks = sample_training_masks([tm, am, vm], probability=0.8)
+            masks = (sample_training_masks([tm, am, vm], probability=0.8)
+                     if robust else [tm, am, vm])
             values = [x.to(device, non_blocking=True) for x in
                       (text, audio, vision, *masks, cls, score)]
             text, audio, vision, tm, am, vm, cls, score = values
@@ -124,7 +129,7 @@ def fit_model(name: str, seed: int, train_loader, valid_loader, counts: np.ndarr
             torch.nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
             batch_losses.append(float(loss.detach()))
-        score, cases = evaluate_selection(model, valid_loader, device)
+        score, cases = evaluate_selection(model, valid_loader, device, robust)
         record = {"epoch": epoch, "train_loss": float(np.mean(batch_losses)),
                   "selection_score": score,
                   "selection_macro_f1": float(np.mean([x["macro_f1"] for x in cases])),
@@ -152,7 +157,8 @@ def fit_model(name: str, seed: int, train_loader, valid_loader, counts: np.ndarr
                 result = evaluate_model(model, valid_loader, device, modality, rate, position)
                 metrics["missing_grid"].append({"modality": modality, "rate": rate,
                                                  "position": position, **result})
-    return {"method": name, "seed": seed, "best_epoch": best_epoch,
+    return {"method": name, "seed": seed, "robust_missingness": robust,
+            "best_epoch": best_epoch,
             "best_selection_score": best_score, "epochs_run": len(history),
             "history": history, "metrics": metrics,
             "checkpoint": str(checkpoint)}
@@ -208,24 +214,26 @@ def run(args) -> None:
         for model_index, name in enumerate(MODEL_BUILDERS):
             run_number += 1
             seed_all(seed + model_index)
-            generator = torch.Generator().manual_seed(seed)
             train_loader = DataLoader(train_data, batch_size=args.batch_size, shuffle=True,
-                                      num_workers=0, pin_memory=device_is_cuda(args.device),
-                                      generator=generator)
+                                      num_workers=0, pin_memory=device_is_cuda(args.device))
             valid_loader = DataLoader(valid_data, batch_size=128, shuffle=False,
                                       num_workers=0, pin_memory=device_is_cuda(args.device))
             print(f"START {run_number}/{total}: {name}, seed={seed}", flush=True)
             run_records.append(fit_model(name, seed, train_loader, valid_loader, counts,
                                          args.output, args.device, args.epochs,
-                                         args.patience, args.lr))
+                                         args.patience, args.lr, args.robust))
             payload = {"data_version": "aligned_50.pkl / cached frozen MiniLM states",
                        "split_sizes": {"train": len(train_data), "valid": len(valid_data)},
                        "class_mapping": dict(enumerate(LABELS)),
                        "seeds": args.seeds, "robust_missingness_augmentation":
-                           "p=0.8; contiguous rate sampled from 0.1, 0.2, 0.3, 0.5; 1-3 random modalities",
+                           ("p=0.8; contiguous rate sampled from 0.1, 0.2, 0.3, 0.5; "
+                            "1-3 random modalities" if args.robust else "disabled"),
                        "checkpoint_selection":
-                           "mean(clean + text/audio/vision 30%-middle missing) macro-F1 - 0.15*MAE + 0.05*Pearson",
-                       "training": {"epochs_max": args.epochs, "patience": args.patience,
+                           ("mean(clean + text/audio/vision 30%-middle missing) macro-F1 "
+                            "- 0.15*MAE + 0.05*Pearson" if args.robust else
+                            "clean validation macro-F1 - 0.15*MAE + 0.05*Pearson"),
+                       "training": {"robust_missingness": args.robust,
+                                    "epochs_max": args.epochs, "patience": args.patience,
                                     "batch_size": args.batch_size, "learning_rate": args.lr,
                                     "weight_decay": 0.01, "optimizer": "AdamW",
                                     "task_loss": "class-weighted CE + 0.8 SmoothL1 intensity",
@@ -266,10 +274,12 @@ def main() -> None:
     parser.add_argument("--output", type=Path, required=True)
     parser.add_argument("--device", default="cuda" if torch.cuda.is_available() else "cpu")
     parser.add_argument("--seeds", nargs="+", type=int, default=[20260924, 20260925, 20260926])
-    parser.add_argument("--epochs", type=int, default=30)
-    parser.add_argument("--patience", type=int, default=5)
+    parser.add_argument("--epochs", type=int, default=35)
+    parser.add_argument("--patience", type=int, default=7)
     parser.add_argument("--batch-size", type=int, default=64)
     parser.add_argument("--lr", type=float, default=8e-4)
+    parser.add_argument("--robust", action=argparse.BooleanOptionalAction, default=True,
+                        help="use contiguous missingness augmentation; --no-robust selects clean-only training")
     args = parser.parse_args()
     if args.device.startswith("cuda") and not torch.cuda.is_available():
         raise RuntimeError("CUDA was requested but is unavailable")
