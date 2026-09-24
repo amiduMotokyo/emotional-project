@@ -28,7 +28,8 @@ def infer(data_root: Path, package: Path, output: Path, device: str):
                  "vision": (arrays["vision_mean"], arrays["vision_std"])}
     saved = torch.load(package / "model.pt", map_location=device, weights_only=False)
     architecture = saved["architecture"]
-    model = (TemporalFusion() if architecture == "temporal" else Fusion()).to(device)
+    kwargs = saved.get('model_kwargs', {})
+    model = (TemporalFusion(**kwargs) if architecture == "temporal" else Fusion(**kwargs)).to(device)
     model.load_state_dict(saved["state_dict"])
     model.eval()
     directory = data_root / "附件3-模态缺失特征样本" / "对齐版本"

@@ -1,0 +1,33 @@
+{
+  "pid": 14096,
+  "python": "C:\\Users\\ken\\miniconda3\\envs\\myenv\\python.exe",
+  "output": "E:\\emotional project\\C\\outputs\\q2_optimization_local_myenv_v1",
+  "completed": [
+    "preflight",
+    "pilot",
+    "hpo",
+    "features",
+    "final",
+    "evaluate",
+    "report_validation",
+    "test",
+    "report_test",
+    "attachment3"
+  ],
+  "status": "complete",
+  "stage": "complete",
+  "updated": "2026-09-24T22:56:30.029907+08:00",
+  "command": [
+    "C:\\Users\\ken\\miniconda3\\envs\\myenv\\python.exe",
+    "-u",
+    "E:\\emotional project\\C\\scripts\\infer_q2_corrected.py",
+    "--data-root",
+    "E:\\emotional project\\data",
+    "--package",
+    "E:\\emotional project\\C\\outputs\\q2_optimization_local_myenv_v1\\inference",
+    "--output",
+    "E:\\emotional project\\C\\outputs\\q2_optimization_local_myenv_v1\\attachment3_predictions.csv",
+    "--device",
+    "cuda"
+  ]
+}

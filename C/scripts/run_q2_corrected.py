@@ -6,6 +6,7 @@ import csv
 import json
 import random
 import sys
+import time
 from pathlib import Path
 
 import numpy as np
@@ -52,8 +53,8 @@ def loader_for_case(base: dict, case: Path | None, batch_size: int = 128):
     return DataLoader(ViewDataset(changed), batch_size=batch_size, shuffle=False)
 
 
-def model_for(name: str):
-    return TemporalFusion() if name == "temporal" else Fusion()
+def model_for(name: str, **kwargs):
+    return TemporalFusion(**kwargs) if name == "temporal" else Fusion(**kwargs)
 
 
 def selection_result(model, clean_loader, case_loaders, device: str) -> dict:
@@ -68,22 +69,50 @@ def selection_result(model, clean_loader, case_loaders, device: str) -> dict:
 
 def train_one(name: str, seed: int, train: dict, clean_loader,
               case_loaders, views: Path, output: Path, device: str,
-              epochs: int, patience: int) -> dict:
+              epochs: int, patience: int, *, hyperparameters=None,
+              model_kwargs=None, fixed_budget=False, resume: Path | None = None) -> dict:
     seed_all(seed)
-    model = model_for(name).to(device)
+    hyperparameters = dict(hyperparameters or {})
+    model_kwargs = dict(model_kwargs or {})
+    model = model_for(name, **model_kwargs).to(device)
     dataset = ViewDataset(train, None if name == "clean_gate" else views)
     loader = DataLoader(dataset, batch_size=64, shuffle=True, num_workers=0,
                         pin_memory=device.startswith("cuda"))
     counts = np.bincount(train["cls"], minlength=3)
     weights = torch.tensor(np.sqrt(counts.sum() / (3 * np.maximum(counts, 1))),
                            dtype=torch.float32, device=device)
-    optimizer = torch.optim.AdamW(model.parameters(), lr=8e-4, weight_decay=0.01)
+    optimizer = torch.optim.AdamW(model.parameters(),
+                                 lr=hyperparameters.get('learning_rate', 8e-4),
+                                 weight_decay=hyperparameters.get('weight_decay', 0.01))
     best = -1e9
     best_epoch = 0
     history = []
     checkpoint = output / "checkpoints" / f"{name}_{seed}.pt"
     checkpoint.parent.mkdir(parents=True, exist_ok=True)
-    for epoch in range(1, epochs + 1):
+    last_checkpoint = checkpoint.with_name(checkpoint.stem + '_last.pt')
+    start_epoch = 0
+    best_state = None
+    if resume is not None:
+        if not fixed_budget:
+            raise ValueError('resume requires fixed_budget')
+        saved = torch.load(resume, map_location='cpu', weights_only=False)
+        expected = (name, seed, hyperparameters, model_kwargs)
+        actual = (saved['architecture'], saved['seed'], saved['hyperparameters'], saved['model_kwargs'])
+        if actual != expected or saved['epoch'] >= epochs:
+            raise ValueError('resume configuration or target epoch mismatch')
+        model.load_state_dict(saved['state_dict'])
+        optimizer.load_state_dict(saved['optimizer'])
+        start_epoch, best, best_epoch = saved['epoch'], saved['best'], saved['best_epoch']
+        best_state, history = saved['best_state'], saved['history']
+        random.setstate(saved['python_rng'])
+        np.random.set_state(saved['numpy_rng'])
+        torch.set_rng_state(saved['torch_rng'])
+        if device.startswith('cuda'):
+            torch.cuda.set_rng_state_all(saved['cuda_rng'])
+    for epoch in range(start_epoch + 1, epochs + 1):
+        started = time.perf_counter()
+        if device.startswith('cuda'):
+            torch.cuda.reset_peak_memory_stats(device)
         dataset.epoch = epoch - 1
         model.train()
         losses = []
@@ -91,30 +120,55 @@ def train_one(name: str, seed: int, train: dict, clean_loader,
             optimizer.zero_grad(set_to_none=True)
             logits, predicted, _, cls, score = forward_batch(model, batch, device)
             loss = (nn.functional.cross_entropy(logits, cls, weight=weights) +
-                    0.8 * nn.functional.smooth_l1_loss(predicted, score))
+                    hyperparameters.get('lambda_reg', 0.8) *
+                    nn.functional.smooth_l1_loss(predicted, score))
             loss.backward()
             nn.utils.clip_grad_norm_(model.parameters(), 1.0)
             optimizer.step()
             losses.append(float(loss.detach().cpu()))
         selection = selection_result(model, clean_loader, case_loaders, device)
-        record = {"epoch": epoch, "train_loss": float(np.mean(losses)), **selection}
+        if not np.isfinite(selection['selection_score']) or not np.isfinite(losses).all():
+            raise FloatingPointError('non-finite candidate loss or validation score')
+        record = {"epoch": epoch, "train_loss": float(np.mean(losses)),
+                  "seconds": time.perf_counter() - started,
+                  "peak_cuda_bytes": torch.cuda.max_memory_allocated(device)
+                  if device.startswith('cuda') else None, **selection}
         history.append(record)
         print(name, seed, "epoch", epoch, "loss", round(record["train_loss"], 4),
               "clean_f1", round(selection["clean"]["macro_f1"], 4),
               "selection", round(selection["selection_score"], 4), flush=True)
         if selection["selection_score"] > best + 1e-4:
             best, best_epoch = selection["selection_score"], epoch
-            torch.save({"state_dict": model.state_dict(), "architecture": name,
+            best_state = {k: v.detach().cpu().clone() for k, v in model.state_dict().items()}
+            torch.save({"state_dict": best_state, "architecture": name,
                         "seed": seed, "epoch": epoch,
+                        "model_kwargs": model_kwargs, "hyperparameters": hyperparameters,
                         "protocol": "input_unk_before_int8_encoder_v1"}, checkpoint)
-        if epoch - best_epoch >= patience:
+        if fixed_budget:
+            torch.save({'state_dict': model.state_dict(), 'optimizer': optimizer.state_dict(),
+                        'architecture': name, 'seed': seed, 'epoch': epoch,
+                        'hyperparameters': hyperparameters, 'model_kwargs': model_kwargs,
+                        'best': best, 'best_epoch': best_epoch, 'best_state': best_state,
+                        'history': history, 'python_rng': random.getstate(),
+                        'numpy_rng': np.random.get_state(), 'torch_rng': torch.get_rng_state(),
+                        'cuda_rng': torch.cuda.get_rng_state_all() if device.startswith('cuda') else []},
+                       last_checkpoint)
+        if not fixed_budget and epoch - best_epoch >= patience:
             break
-    saved = torch.load(checkpoint, map_location=device, weights_only=False)
-    model.load_state_dict(saved["state_dict"])
+    terminal = selection
+    # Also supports resuming into a different output directory with no new best.
+    torch.save({'state_dict': best_state, 'architecture': name, 'seed': seed,
+                'epoch': best_epoch, 'model_kwargs': model_kwargs,
+                'hyperparameters': hyperparameters,
+                'protocol': 'input_unk_before_int8_encoder_v1'}, checkpoint)
+    model.load_state_dict(best_state)
     final = selection_result(model, clean_loader, case_loaders, device)
     return {"architecture": name, "seed": seed, "checkpoint": str(checkpoint),
             "best_epoch": best_epoch, "best_selection": float(best),
-            "final": final, "history": history}
+            "final": final, "terminal": terminal, "epochs_completed": epoch,
+            "last_checkpoint": str(last_checkpoint) if fixed_budget else None,
+            "model_kwargs": model_kwargs, "hyperparameters": hyperparameters,
+            "history": history}
 
 
 def prepare(args, train: dict, valid: dict) -> None:
@@ -149,7 +203,7 @@ def train(args, train_data: dict, valid_data: dict) -> list[dict]:
 
 def load_checkpoint(path: Path, device: str):
     state = torch.load(path, map_location=device, weights_only=False)
-    model = model_for(state["architecture"]).to(device)
+    model = model_for(state["architecture"], **state.get('model_kwargs', {})).to(device)
     model.load_state_dict(state["state_dict"])
     return model
 

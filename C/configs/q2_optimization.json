@@ -1,0 +1,19 @@
+{
+  "protocol": "C_DE_BPSO_corrected_v1",
+  "default_parameters": {"learning_rate": 0.0008, "weight_decay": 0.01, "dropout": 0.25, "lambda_reg": 0.8},
+  "search_seed": 11,
+  "train_seed": 17,
+  "mask_seed": 20260924,
+  "final_seeds": [20260924, 20260925, 20260926],
+  "search_population": 6,
+  "search_generations": 3,
+  "low_epochs": 6,
+  "full_epochs": 18,
+  "promote": 2,
+  "views": 8,
+  "feature_ratios": [0.5, 0.75],
+  "feature_population": 20,
+  "feature_updates": 30,
+  "max_clean_f1_drop": 0.02,
+  "max_clean_mae_increase": 0.05
+}

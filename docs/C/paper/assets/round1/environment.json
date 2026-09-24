@@ -1,0 +1,15 @@
+{
+  "python": "3.10.10 | packaged by Anaconda, Inc. | (main, Mar 21 2023, 18:39:17) [MSC v.1916 64 bit (AMD64)]",
+  "executable": "C:\\Users\\ken\\miniconda3\\envs\\myenv\\python.exe",
+  "platform": "Windows-10-10.0.26200-SP0",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "cuda": "12.8",
+  "packages": {
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.4",
+    "scikit-learn": "1.6.1",
+    "onnxruntime": "1.20.1",
+    "matplotlib": "3.10.1",
+    "typing_extensions": "4.16.0"
+  }
+}

@@ -1,0 +1,81 @@
+[
+  {
+    "file": "BOHB_ICML_2018.pdf",
+    "source_url": "https://proceedings.mlr.press/v80/falkner18a/falkner18a.pdf",
+    "retrieved_on": "2026-09-24",
+    "resolved_url": "https://proceedings.mlr.press/v80/falkner18a/falkner18a.pdf",
+    "status": "downloaded_and_parsed",
+    "bytes": 551850,
+    "pages": 10,
+    "sha256": "774cc0ce958873154145bbd87e8b1d99ee282adb4599a8fdf30df314a63c5fa2",
+    "first_page_excerpt": "BOHB: Robust and Efﬁcient Hyperparameter Optimization at Scale\nStefan Falkner 1 Aaron Klein 1 Frank Hutter 1\nAbstract\nModern deep learning methods are very sensitive\nto many hyperparameters, and, due to the long\ntraining times of state-of-the-art models, vanilla\nBayesian hyperparameter optimization is typi-\ncally computationally infeasible. On the other\nhand, bandit-based conﬁguration evaluation ap-\nproaches based on random search lack guidance\nand do not converge to the best conﬁgurations as\nqu",
+    "reading_status": "local_pdf_full_text_read_2026-09-24"
+  },
+  {
+    "file": "Hyperband_JMLR_2018.pdf",
+    "source_url": "https://www.jmlr.org/papers/volume18/16-558/16-558.pdf",
+    "retrieved_on": "2026-09-24",
+    "resolved_url": "https://www.jmlr.org/papers/volume18/16-558/16-558.pdf",
+    "status": "downloaded_and_parsed",
+    "bytes": 1579220,
+    "pages": 52,
+    "sha256": "09c14cb28ec214e63378c8c0e952cecc7edf12796dda0dbadc698d2a3587307b",
+    "first_page_excerpt": "Journal of Machine Learning Research 18 (2018) 1-52 Submitted 11/16; Revised 12/17; Published 4/18\nHyperband: A Novel Bandit-Based Approach to\nHyperparameter Optimization\nLisha Li lishal@cs.cmu.edu\nCarnegie Mellon University, Pittsburgh, PA 15213\nKevin Jamieson jamieson@cs.washington.edu\nUniversity of Washington, Seattle, WA 98195\nGiulia DeSalvo giuliad@google.com\nGoogle Research, New York, NY 10011\nAfshin Rostamizadeh rostami@google.com\nGoogle Research, New York, NY 10011\nAmeet Talwalkar talwal",
+    "reading_status": "local_pdf_full_text_read_2026-09-24"
+  },
+  {
+    "file": "Filter_MOPSO_2012_author_manuscript.pdf",
+    "source_url": "https://homepages.ecs.vuw.ac.nz/~xuebing/Papers/ConnectionScience.pdf",
+    "retrieved_on": "2026-09-24",
+    "resolved_url": "https://homepages.ecs.vuw.ac.nz/~xuebing/Papers/ConnectionScience.pdf",
+    "status": "downloaded_and_parsed",
+    "bytes": 646692,
+    "pages": 27,
+    "sha256": "88b2e4acd095b3f7960c39e1ec4c7d8b41a09475adb0ba44fe6fcdc125561824",
+    "first_page_excerpt": "March 19, 2015 9:23 Connection Science MOPSOforFilterFeatureSelection\nConnection Science\nVol. 00, No. 00, Month 200x, 1–23\nRESEARCH ARTICLE\nA Multi-Objective Particle Swarm Optimisation for Filter Based\nFeature Selection in Classiﬁcation Problems\n(Received 00 Month 200x; ﬁnal version received 00 Month 200x )\nFeature selection has the two main objectives of minimising the classiﬁcation error rate and\nthe number of features. Based on binary particle swarm optimisation (BPSO), we develop\ntwo novel ",
+    "reading_status": "local_pdf_full_text_read_2026-09-24"
+  },
+  {
+    "file": "BOPSO_Sentiment_Scientific_Reports_2025.pdf",
+    "source_url": "https://www.nature.com/articles/s41598-025-22894-3.pdf",
+    "retrieved_on": "2026-09-24",
+    "resolved_url": "https://www.nature.com/articles/s41598-025-22894-3.pdf",
+    "status": "download_failed",
+    "error": "Response is not PDF"
+  },
+  {
+    "file": "MOPSO_Feature_Selection_2013_author.pdf",
+    "source_url": "https://homepages.ecs.vuw.ac.nz/~xuebing/Papers/SMC-B.pdf",
+    "retrieved_on": "2026-09-24",
+    "resolved_url": "https://homepages.ecs.vuw.ac.nz/~xuebing/Papers/SMC-B.pdf",
+    "status": "downloaded_and_parsed",
+    "bytes": 1292723,
+    "pages": 16,
+    "sha256": "e90e41562f3bd2baecd2d6df4db7ba918f8e85f9f71f8ecbbc1b0e650b484e6c",
+    "first_page_excerpt": "This article has been accepted for inclusion in a future issue of this journal. Content is final as presented, with the exception of pagination.\nIEEE TRANSACTIONS ON CYBERNETICS 1\nParticle Swarm Optimization for Feature Selection in\nClassiﬁcation: A Multi-Objective Approach\nBing Xue, Member , IEEE, Mengjie Zhang, Senior Member , IEEE, and Will N. Browne\nAbstract—Classiﬁcation problems often have a large number\nof features in the data sets, but not all of them are useful for\nclassiﬁcation. Irrele",
+    "reading_status": "local_pdf_full_text_read_2026-09-24"
+  },
+  {
+    "file": "DEHB_IJCAI_2021.pdf",
+    "source_url": "https://www.ijcai.org/proceedings/2021/0296.pdf",
+    "retrieved_on": "2026-09-24",
+    "resolved_url": "https://www.ijcai.org/proceedings/2021/0296.pdf",
+    "status": "downloaded_and_parsed",
+    "bytes": 2843732,
+    "pages": 7,
+    "sha256": "48ff58a4bdc3d3ba1613472f0b984fa1f24c572e1da960366f63967c77f42234",
+    "first_page_excerpt": "DEHB: Evolutionary Hyberband for Scalable, Robust and Efﬁcient\nHyperparameter Optimization\nNoor Awad1 , Neeratyoy Mallik1 , Frank Hutter1;2\n1Department of Computer Science, University of Freiburg, Germany\n2Bosch Center for Artiﬁcial Intelligence, Renningen, Germany\nfawad, mallik, fhg@cs.uni-freiburg.de\nAbstract\nModern machine learning algorithms crucially rely\non several design decisions to achieve strong per-\nformance, making the problem of Hyperparame-\nter Optimization (HPO) more important tha",
+    "reading_status": "local_pdf_full_text_read_2026-09-24"
+  },
+  {
+    "file": "s41598-025-22894-3.pdf",
+    "source_url": "https://www.nature.com/articles/s41598-025-22894-3.pdf",
+    "observed_on": "2026-09-24",
+    "status": "existing_local_file_verified",
+    "provenance": "Found locally; acquisition method unverified. Prior failed request retained.",
+    "bytes": 3526243,
+    "pages": 19,
+    "sha256": "76dd1be1445fd8b40f0c1270262552490adaca4e3d003626cbf504e1ab0d4a02",
+    "reading_status": "local_pdf_full_text_read_2026-09-24"
+  }
+]

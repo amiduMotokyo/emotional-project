@@ -1,5 +1,11 @@
 # C的工作文档
 
+当前方向：智能优化算法驱动的参数优化与特征选择；[新方向文献目录](research/papers/intelligent_optimization/README.md)。旧连续缺失自适应采样设计已暂停，相关论文保留为背景。
+
+当前入口：[实验设计](research/2026-09-24_智能优化参数与特征选择实验设计.md) · [对接与运行说明](experiments/q2_optimization_integration.md) · [六篇文献阅读笔记](research/2026-09-24_智能优化文献阅读笔记.md)。第一轮固定预算DE调参、BPSO特征选择、六组重复训练与独立测试已完成；验证规则最终选择E0，尚未取得全面性能提升。
+
+论文临时稿：[Word](paper/第一轮智能优化实验论文草稿.docx) · [Markdown编辑源](paper/第一轮智能优化实验论文草稿.md)。已包含方法、六组结果与标准差、搜索图、讨论和局限；配图及小型来源文件归档于`paper/assets/round1/`。使用myenv运行`C/scripts/export_round1_paper.py`可从Markdown重新导出Word；默认保留正文编辑，不重新覆盖为生成模板。
+
 | 目录 | 内容 |
 |---|---|
 | requirements/ | 需求理解、修改建议、任务拆解与接口需求 |

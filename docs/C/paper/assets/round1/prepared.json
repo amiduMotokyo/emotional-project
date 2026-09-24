@@ -1,0 +1,64 @@
+{
+  "signature": {
+    "config": {
+      "protocol": "C_DE_BPSO_corrected_v1",
+      "default_parameters": {
+        "learning_rate": 0.0008,
+        "weight_decay": 0.01,
+        "dropout": 0.25,
+        "lambda_reg": 0.8
+      },
+      "search_seed": 11,
+      "train_seed": 17,
+      "mask_seed": 20260924,
+      "final_seeds": [
+        20260924,
+        20260925,
+        20260926
+      ],
+      "search_population": 6,
+      "search_generations": 3,
+      "low_epochs": 6,
+      "full_epochs": 18,
+      "promote": 2,
+      "views": 8,
+      "feature_ratios": [
+        0.5,
+        0.75
+      ],
+      "feature_population": 20,
+      "feature_updates": 30,
+      "max_clean_f1_drop": 0.02,
+      "max_clean_mae_increase": 0.05
+    },
+    "source": {
+      "aligned_pickle": "66e867aa74bc70a844e806e5571e371c9abb4a35f9e2887ce9b4d97ff2cb8fcd"
+    },
+    "encoder_sha256": "b941bf19f1f1283680f449fa6a7336bb5600bdcd5f84d10ddc5cd72218a0fd21",
+    "code": {
+      "B/src/data.py": "55e36bb4cfb803c99da701bf80da352f0552bde7f2d04da63c1254e91f64aa28",
+      "B/src/fusion.py": "404cbb6a5fc9e20fd0d0439e7c36a8fedb815eea8ea60fa32b9bc475960e71d2",
+      "C/src/missingness.py": "14f807ca77d928e74332d1f5212238d095a86ad8fc844ae2b9a57f84d1d8cf70",
+      "C/src/q2_protocol.py": "3d175e4dc88a4478a72bb2b605a4be23ee3ddebf3537e36686e65c62c5fbc7ba",
+      "C/src/intelligent_search.py": "6dd85e8e943f7fde404a97aa3062ca09c7f0f7da539d014b40a96e26f3b9f25f",
+      "C/scripts/run_q2_corrected.py": "a820ed564ea23b86f34093176bb9b8db4a865731d2475a8366bb051155775182",
+      "C/scripts/run_q2_optimization.py": "5b76d3088a130aa6e81a95ec17780018df0489f0c64f7efeb07bf0532c29607c"
+    }
+  },
+  "artifacts": {
+    "audio_vision_normalization.npz": "0f72865312301e7ebeb768d82163f25ee0fe047184dd9b13019db55825c34ff9",
+    "text_encoder_int8.onnx": "b941bf19f1f1283680f449fa6a7336bb5600bdcd5f84d10ddc5cd72218a0fd21",
+    "train.npz": "1f538885c117717c747edede13cd1d5b02cd6633ced6eec4c0c7dbca51fb18f1",
+    "valid.npz": "9829811c295232eb59b5ac28424d75e930b7267f82c5b52203a9435fbe14eafa",
+    "valid_cases\\audio_30_middle.npz": "220f580a861b4bd36ec3ec81c33ce0176dd53bdf742a2e0cc1b7dab79fc3aa41",
+    "valid_cases\\text_30_middle.npz": "a98897ea54ab0e556ae6125fb13fec983046caada1baa747160653fc8085dba4",
+    "valid_cases\\vision_30_middle.npz": "57310d32f9b8f4557cb7d3bad7ce8017f0826c2da0770c25677a3fed0527fb43",
+    "views\\train_masks.npy": "927ecdae667b50bc108f22ef8a505226191198f88325dadc293a7da051e5b661",
+    "views\\train_text.npy": "226736d1b367e1c1166dad934369cca84591b9a52fe440fc3cf946d80b923c64"
+  },
+  "versions": {
+    "python": "3.10.10 | packaged by Anaconda, Inc. | (main, Mar 21 2023, 18:39:17) [MSC v.1916 64 bit (AMD64)]",
+    "torch": "2.7.0+cu128",
+    "numpy": "1.26.4"
+  }
+}

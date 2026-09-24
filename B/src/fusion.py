@@ -19,8 +19,22 @@ class MaskedAttentionPool(nn.Module):
 
 class Fusion(nn.Module):
     """Return polarity logits, intensity in [-3, 3], and modality gate weights."""
-    def __init__(self, dim: int = 64):
+    def __init__(self, dim: int = 64, dropout: float = 0.25,
+                 audio_indices=None, vision_indices=None):
         super().__init__()
+        if not 0 <= dropout < 1:
+            raise ValueError('dropout must be in [0, 1)')
+        for name, width, indices in (("audio", 74, audio_indices),
+                                     ("vision", 35, vision_indices)):
+            mask = torch.ones(width)
+            if indices is not None:
+                if (not len(indices) or len(set(indices)) != len(indices) or
+                        any(not isinstance(i, int) or not 0 <= i < width for i in indices)):
+                    raise ValueError(f'invalid {name} channel indices')
+                mask.zero_()
+                mask[indices] = 1
+            # Metadata carries masks; old checkpoints still load strictly.
+            self.register_buffer(f'{name}_channels', mask, persistent=False)
         self.tproj = nn.Sequential(nn.Linear(384, dim), nn.LayerNorm(dim), nn.GELU())
         self.aproj = nn.Sequential(nn.Linear(74, dim), nn.LayerNorm(dim), nn.GELU())
         self.vproj = nn.Sequential(nn.Linear(35, dim), nn.LayerNorm(dim), nn.GELU())
@@ -28,12 +42,13 @@ class Fusion(nn.Module):
         self.gate = nn.Linear(dim * 3 + 3, 3)
         self.head = nn.Sequential(
             nn.Linear(dim * 4 + 3, 128), nn.LayerNorm(128), nn.GELU(),
-            nn.Dropout(0.25), nn.Linear(128, 64), nn.GELU(), nn.Linear(64, 4),
+            nn.Dropout(dropout), nn.Linear(128, 64), nn.GELU(), nn.Linear(64, 4),
         )
 
     def forward(self, text, audio, vision, text_mask, audio_mask, vision_mask):
         masks = [text_mask.bool(), audio_mask.bool(), vision_mask.bool()]
-        inputs = [text.float(), audio.float(), vision.float()]
+        inputs = [text.float(), audio.float() * self.audio_channels,
+                  vision.float() * self.vision_channels]
         projections = [self.tproj, self.aproj, self.vproj]
         pooled = [pool(projection(values), mask)
                   for projection, pool, values, mask in zip(projections, self.pools, inputs, masks)]
