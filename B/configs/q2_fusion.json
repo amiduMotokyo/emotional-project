@@ -1,0 +1,16 @@
+{
+  "data_version": "aligned_50.pkl",
+  "text_encoder": "sentence-transformers/all-MiniLM-L6-v2",
+  "text_output_dim": 384,
+  "audio_dim": 74,
+  "vision_dim": 35,
+  "projection_dim": 64,
+  "hidden_dims": [128, 64],
+  "dropout": 0.25,
+  "classification_labels": {
+    "0": "Negative",
+    "1": "Neutral",
+    "2": "Positive"
+  },
+  "intensity_range": [-3, 3]
+}

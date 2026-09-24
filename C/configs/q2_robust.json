@@ -1,0 +1,19 @@
+{
+  "seed": 20260925,
+  "batch_size": 64,
+  "max_epochs": 35,
+  "early_stopping_patience": 7,
+  "optimizer": "AdamW",
+  "learning_rate": 0.0008,
+  "weight_decay": 0.01,
+  "gradient_clip_norm": 1.0,
+  "classification_loss": "class-weighted cross entropy; sqrt(N/(3*N_class))",
+  "regression_loss": "SmoothL1",
+  "regression_loss_weight": 0.8,
+  "augmentation_probability": 0.8,
+  "training_missing_rates": [0.1, 0.2, 0.3, 0.5],
+  "training_missing_modalities_per_sample": [1, 2, 3],
+  "validation_rates": [0.1, 0.3, 0.5],
+  "validation_positions": ["start", "middle", "end"],
+  "model_selection": "mean macro-F1 - 0.15*mean MAE + 0.05*mean Pearson over clean and three 30%-middle-missing validation conditions"
+}
