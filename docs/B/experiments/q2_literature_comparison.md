@@ -66,3 +66,8 @@ python -u B/scripts/run_literature_models.py \
 - **MAG-MiniLM适配版**：用音视频特征生成有范数约束的偏移并注入冻结的MiniLM词元状态。没有端到端微调BERT/XLNet，因此不应称作完整MAG-BERT。[Rahman等，ACL 2020](https://aclanthology.org/2020.acl-main.214/)
 
 LMF、MISA和MAG返回的接口权重是各模态有效比例，不是学习得到的贡献度；跨模型比较只使用分类与回归指标。所有指标来自验证集，三种子数量有限，且验证集参与选模，不能视为独立测试成绩。首轮 `cache_qint8` 摸底结果仍留在 `B/outputs/q2_literature_models/`，不用于本报告的主结论。
+
+
+## 近期方法跟进
+
+随后完成了 DPDF-LQ、EBMC、CMAD 的赛题适配实验，并补充了无缺失增强对照。它们与本报告统一数据缓存、双任务目标、缺失评估及三种子设置；结果及“非作者原版逐项复现”的范围说明见[近期方法对比](q2_recent_methods.md)，文献甄选见[研究记录](../research/q2_recent_methods_selection.md)。
