@@ -1,0 +1,48 @@
+{
+  "data_version": "aligned_50.pkl",
+  "splits": {
+    "train": 3395,
+    "valid": 728,
+    "attachment3_inference_only": 30
+  },
+  "text_encoder": {
+    "model": "sentence-transformers/all-MiniLM-L6-v2",
+    "artifact": "text_encoder_int8.onnx",
+    "runtime": "onnxruntime CPU",
+    "inference_batch_size": 1,
+    "reason": "use identical per-sample ONNX execution for clean, corrupted, validation, and final inputs"
+  },
+  "missingness": {
+    "training_corruption_probability_per_sample": 0.8,
+    "precomputed_views_per_sample": 8,
+    "training_rates": [0.1, 0.2, 0.3, 0.5],
+    "training_modalities": [
+      ["text"], ["audio"], ["vision"],
+      ["text", "audio"], ["text", "vision"], ["audio", "vision"],
+      ["text", "audio", "vision"]
+    ],
+    "training_position": "random contiguous span in original sequence coordinates",
+    "text_corruption": "replace newly missing token IDs with [UNK] before MiniLM encoding; retain original attention mask",
+    "validation_single_modalities": ["text", "audio", "vision"],
+    "validation_rates": [0.1, 0.3, 0.5],
+    "validation_positions": ["start", "middle", "end"],
+    "validation_all_modality_subsets": true
+  },
+  "model_candidates": ["clean_gate", "robust_gate", "temporal"],
+  "training": {
+    "seeds": [20260924, 20260925, 20260926],
+    "batch_size": 64,
+    "max_epochs": 35,
+    "patience": 7,
+    "optimizer": "AdamW",
+    "learning_rate": 0.0008,
+    "weight_decay": 0.01,
+    "gradient_clip_norm": 1.0,
+    "classification_loss": "sqrt-frequency-weighted cross entropy",
+    "regression_loss": "SmoothL1",
+    "regression_loss_weight": 0.8
+  },
+  "selection": "average validation score over clean and text/audio/vision 30%-middle cases; score=MacroF1-0.15*MAE+0.05*Pearson",
+  "metrics": ["Accuracy", "Macro-F1", "per-class F1", "MAE", "Pearson"],
+  "output_decoding": "argmax polarity; neutral intensity forced to 0; positive and negative intensity signs follow predicted polarity"
+}

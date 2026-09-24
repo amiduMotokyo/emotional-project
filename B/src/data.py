@@ -73,7 +73,9 @@ def prepare_cache(data_root: Path, text_model: Path, cache: Path, device: str,
         encoder = AutoModel.from_pretrained(str(text_model), local_files_only=True).to(device)
     for split_name in ("train", "valid"):
         split = source[split_name]
-        text = encode_text(encoder, split["text_bert"], device)
+        encoder_batch_size = 1 if hasattr(encoder, "run") else 64
+        text = encode_text(encoder, split["text_bert"], device,
+                           batch_size=encoder_batch_size)
         result = assemble_sample(split["text_bert"], text, split["audio"], split["vision"],
                                  split["classification_labels"], split["regression_labels"])
         np.savez_compressed(cache / f"{split_name}.npz", **result)
@@ -84,7 +86,9 @@ def prepare_cache(data_root: Path, text_model: Path, cache: Path, device: str,
     for path in paths:
         with path.open("rb") as handle:
             item = pickle.load(handle)["test"]
-        text = encode_text(encoder, item["text_bert"], device)
+        encoder_batch_size = 1 if hasattr(encoder, "run") else 64
+        text = encode_text(encoder, item["text_bert"], device,
+                           batch_size=encoder_batch_size)
         result = assemble_sample(item["text_bert"], text, item["audio"], item["vision"])
         np.savez_compressed(cache / f"q2_{path.stem}.npz", **result)
     return len(paths)

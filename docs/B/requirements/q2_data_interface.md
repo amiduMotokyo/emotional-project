@@ -34,3 +34,9 @@ python B/scripts/prepare_q2_cache.py \
 ```
 
 预期得到 `train.npz`、`valid.npz` 和30个 `q2_*.npz`。环境依赖见 `C/outputs/submission/question2_submission.zip` 中的 `requirements.txt`。缓存属于可再生成的大文件，不提交到 Git。
+
+## 2026-09-24 输入一致性修订
+
+复核发现动态量化ONNX编码器对同一词元输入采用不同批次大小时，输出存在可测差异。附件3推理按单条样本调用，因此问题二修订流程对训练、验证、缺失视图和专项推理统一按单条样本编码。`B/scripts/reencode_q2_cache.py` 用随包ONNX模型重建缓存，避免复用与部署编码器或批次口径不同的文本向量。
+
+文本连续缺失在编码前将新增缺失位置的词元替换为 `[UNK]`，保留原始attention mask，并重新编码；音频和视觉使用独立观测掩码。附件2中原始有效序列位置从掩码确定，连续区间保留原位置索引，不以有效点数量压缩重编号。该修订由 `C/src/q2_protocol.py` 和 `C/src/missingness.py` 实现，正式实验结果见 [输入层缺失一致性实验](../../C/experiments/q2_input_consistent_experiments.md)。
