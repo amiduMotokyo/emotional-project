@@ -6,6 +6,16 @@
 
 ## 已接入实现与实验
 
+- 第五轮独立专家：`src/q2_experts.py`、`configs/q2_round5_experts.json`、`scripts/run_q2_round5.py`；[固定方案](../docs/C/experiments/第五轮独立专家与决策融合实验方案.md)。新增音视频专家，按视频分组折外训练决策融合器。`scripts/check_q2_round5.py`执行机制检查，`--audit`审计完成结果；`scripts/report_q2_round5.py`生成结果及小型归档。输出在`outputs/q2_round5_experts_v1/`，运行入口支持按完成标记断点恢复。
+- 第五轮[结果与限制](../docs/C/experiments/第五轮独立专家与决策融合实验结果.md)：21个新专家、378 epoch、3个门控及64条件复评完成，审计和恢复检查通过。获选学习门控的干净test准确率均值65.61%（基线65.25%），64条件平均63.42%（基线62.94%）；中性F1从0.3941降至0.3770。属于小幅准确率改善，非全面提升。未触发更换文本编码器分支，未改写提交模型。推理需同种子的第四轮`TextOnly`、第五轮`AudioVisualExpert`及`DecisionGate`：概率`[...,2,3]`、强度`[...,2]`、相对干净有效位置的可用率`[...,3]`→融合概率、强度、专家权重；专家顺序为文本、音视频。全部缺失返回均匀概率和强度0，门控权重不作因果贡献解释。
+
+- 第四轮结构对照：`src/q2_structural.py`、`configs/q2_round4_structure.json`、`scripts/run_q2_round4.py`；方案见[第四轮实验](../docs/C/experiments/第四轮结构优化实验方案.md)。`scripts/check_q2_round4.py`检查缺失掩码、概率分解、梯度与容量匹配；`--audit`核对完成产物。`scripts/report_q2_round4.py`归档逐种子及逐类指标。
+- 第四轮[结果](../docs/C/experiments/第四轮结构优化实验结果.md)：18模型和64条件复评完成，审计通过。容量对照Fusion(dim=91)获选，三种子独立模型的干净test均值65.25%，对同轮基线提升2.15个百分点；序列交互模型未胜出。候选权重在`outputs/q2_round4_structure_v1/models/wide_control_<seed>/best.pt`，使用`q2_structural.build(checkpoint['recipe']['architecture'])`后加载`state_dict`；也可直接用B的Fusion(dim=91)。未改写正式提交包。
+
+- 第三轮临时论文已归档：[Markdown](../docs/C/paper/第三轮准确率优化实验论文草稿.md) · [Word](../docs/C/paper/第三轮准确率优化实验论文草稿.docx)。`scripts/plot_q2_round3_paper.py`从审计产物绘制五图；`scripts/export_round3_paper.py`导出Word；`scripts/check_round3_paper.py`核对分页、图注、表格与公式。
+
+- 第三轮准确率优化：`scripts/run_q2_round3.py`、`configs/q2_round3_accuracy.json`，使用`scripts/resume_q2_round3.py`入口修复NumPy布尔值序列化后运行；见[第三轮方案](../docs/C/experiments/第三轮准确率优化实验.md)与[结果](../docs/C/experiments/第三轮准确率优化实验结果.md)。21模型、378 epoch已完成，未取得符合退化限制的新方法提升。`scripts/check_q2_round3.py --audit`审计完成产物，`scripts/report_q2_round3.py`生成种子波动、配对区间和结果归档。
+
 - `src/missingness.py`：训练与验证使用的连续局部缺失掩码。
 - `src/metrics.py`：Accuracy、Macro-F1、MAE和Pearson统一评估。
 - `src/training.py`：基线与鲁棒训练流程。
@@ -21,6 +31,9 @@
 
 ## 智能优化方向与归档
 
+- 第二轮完整集成实验：`scripts/run_q2_round2.py`串行执行准备、两库训练、预测缓存、R0—R7三折搜索、锁定和64场景复评；`scripts/check_q2_round2.py`做数值与预算检查，`scripts/report_q2_round2.py`归档结果。启动、恢复与数据边界见[第二轮指南](../docs/C/experiments/第二轮优化实验启动指南.md)。输出为`outputs/q2_round2_ensemble_v1/`，不覆盖第一轮产物。
+- 第二轮已完成并通过`scripts/audit_q2_round2.py`实际产物审计，见[完整结果](../docs/C/experiments/第二轮完整优化实验结果.md)。内部验证锁定R6，test的clean ACC下降且64条件平均S仍低于等权集成；结果保留正负两面，未改写正式提交包。主流程约16.8分钟，其中训练约5.5分钟。
+- `src/ensemble_search.py`：标签只供fit使用，predict只接收权重/偏置及`[M,S,N,3]`概率、`[M,S,N]`回归缓存；三搜索种子先各自预测再平均。`src/q2_group_metadata.py`只提取原始train/valid片段ID用于视频分组，不还原数值特征或标签数组。
 - `src/`：智能优化搜索、特征选择、缺失评估场景与统一评估实现。
 - `configs/`：缺失类型、位置、时长、随机种子和实验参数。
 - `scripts/`：训练、消融、评估与提交包生成入口。

@@ -1,0 +1,31 @@
+{
+  "source_sha256": {
+    "selection.json": "4415cda05cfc9db95ab1ecab9b34c7b7b4c0900e12f1db8d66e3838b046a1cc7",
+    "test_summary.json": "df1fef0a56a113127c979a65e3b1c1d6db4dcb40225d97df4f2a6f40d6c62d6e",
+    "models/baseline_20263001/history.json": "ca05aba4dc3c098e364ed0716da88984a1448b5b6b37d43ce2d364941c63da78",
+    "models/baseline_20263002/history.json": "b8701eae40dd6fc661639dafcb82c2c96fc61004614078f57b1dd85013b1b526",
+    "models/baseline_20263003/history.json": "2b5b88567efaf38b009601777de4f88f6c748e65171664b7535b8fc634afbf01",
+    "models/combined_20263001/history.json": "131d1c65e1e2e67de5a7fb8d2e8ab3022749de760ac62ac11384db176e41f353",
+    "models/combined_20263002/history.json": "32ec3e82bef147e3cd68ce15e7029f2997dcf65415315cc12e14afbea500c057",
+    "models/combined_20263003/history.json": "26e3e916aa00ba06b5c591b266e30885d485c116521951c28a5545d78224e588",
+    "models/factorized_20263001/history.json": "668060f49146075f5cee7d3397ef442dd14713cd44c87a91fadff93cfe62e0cd",
+    "models/factorized_20263002/history.json": "475297c1d25edce6a0cb675ce2c9c635fa143016533881d476c48ae3db925838",
+    "models/factorized_20263003/history.json": "dcbc2d2c4b1ed2641986da4cb8de1208f47677af89de80fe235697d7a4d8ec21",
+    "models/interaction_20263001/history.json": "fa366f0e307073e8e135098b2095e9b5ebf8e08027303a8175d4c185047237f8",
+    "models/interaction_20263002/history.json": "282a566b0f8a562bc4b2c33a7531b5fe4f5012033053df768ec81e96684c9fcc",
+    "models/interaction_20263003/history.json": "7f0389e7841d294f2e21a80a6ab2f9386a0465b2bda63e249a41b7e5280e16fc",
+    "models/text_only_20263001/history.json": "4635579ca2c49ed554f2901d3f3ee80f0eeb71f9e290acf48be22e998ba781bd",
+    "models/text_only_20263002/history.json": "afd0244f428c5994b18ba20297433f3f211207d03c3a889233008b2b2e17a3dd",
+    "models/text_only_20263003/history.json": "50f342b7b4664ca3e6cff0f894ce7a808e00cf6c0c863e0069c0b24833d37091",
+    "models/wide_control_20263001/history.json": "e2f346781110fd4e182e56067b2fc027e329294323f3491e2e532bdd5faeff91",
+    "models/wide_control_20263002/history.json": "0c084a3598826555ea22705692815c62224748bc2866070f079cf78a4f9590fa",
+    "models/wide_control_20263003/history.json": "c49b1dd033b48bd8dce6f8707775b57831f0bbc2c1913c98806281595c16a55c",
+    "test/clean.npz": "e469de6e90927a7ac3bd9ffc2b475b4ff598f5e1dd72c74f04acd761cbf209e8"
+  },
+  "plot_data_sha256": "89f9e878a555197c742cc3c35ba5f97ab541689ef20d5092cea7d831f1a46d7d",
+  "style_references": {
+    "A/problem2_training_v2/plot_weighted_results.py": "e9c9fa2c66ee0b02e8ad7c96968d2844847f9c1e26c68b693f7bd96337d16128",
+    "B/scripts/plot_q3.py": "9b82444e62b3a4b4e6ffce25e26668221c89314dc3b69666ec315c2842e2dba3",
+    "C/scripts/plot_q2_round3_paper.py": "5a750345c02f462e1acbfadc3c1e54b9d0ac106ccb974ebeabdacb91d6fd20e8"
+  }
+}

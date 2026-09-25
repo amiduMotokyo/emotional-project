@@ -1,0 +1,19 @@
+{
+  "seeds": [20262001, 20262002, 20262003],
+  "epochs": 18,
+  "batch_size": 64,
+  "text_batch_size": 32,
+  "fusion_lr": 0.0008,
+  "text_lr": 0.00002,
+  "weight_decay": 0.01,
+  "guard_f1": 0.01,
+  "guard_mae": 0.02,
+  "bias_grid": [-0.2, -0.15, -0.1, -0.05, 0, 0.05, 0.1, 0.15, 0.2],
+  "recipes": {
+    "baseline": {"weighted": true, "reg": 0.8, "missing": 0.8},
+    "plain_ce": {"weighted": false, "reg": 0.8, "missing": 0.8},
+    "low_reg": {"weighted": true, "reg": 0.3, "missing": 0.8},
+    "low_missing": {"weighted": true, "reg": 0.8, "missing": 0.4},
+    "combined": {"weighted": false, "reg": 0.3, "missing": 0.4}
+  }
+}

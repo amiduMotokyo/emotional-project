@@ -1,0 +1,25 @@
+{
+  "pages": 6,
+  "figures": 5,
+  "tables": 2,
+  "equations": 3,
+  "figure_pages": [
+    2,
+    3,
+    4,
+    5,
+    5
+  ],
+  "caption_pages": [
+    2,
+    3,
+    4,
+    5,
+    5
+  ],
+  "table_pages": [
+    3,
+    4
+  ],
+  "docx_sha256": "338d6b172e0268683f7c1bf9366d4debe94411ec3d7b0c85a5159dd8b4bb095c"
+}

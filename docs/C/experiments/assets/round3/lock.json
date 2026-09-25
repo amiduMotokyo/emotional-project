@@ -1,0 +1,16 @@
+{
+  "selected": "baseline_mean",
+  "models": [
+    "baseline_20262001",
+    "baseline_20262002",
+    "baseline_20262003"
+  ],
+  "bias": [
+    0.0,
+    0.0,
+    0.0
+  ],
+  "run_hash": "1cb3717b7665a9acd4b026a05ddd2d0b4a8f4263d151d7654f908ceda177ba12",
+  "selection_hash": "7aaa36ad28e641b1a61eb0ea9cf210469bfa7fa7b30b6d23b203aa01a52d059f",
+  "note": "Internal grouped validation; reused test is post-lock reassessment, not blind. Full precision candidate is not quantized deployment."
+}

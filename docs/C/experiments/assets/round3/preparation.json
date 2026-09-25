@@ -1,0 +1,8 @@
+{
+  "original_changed": 0.7879077896138482,
+  "thinned_changed": 0.39289280958721706,
+  "fit": 3004,
+  "stop": 391,
+  "valid": 728,
+  "convention": "Input-level UNK, same masks for int8 and full-precision"
+}

@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "states": 103,
+  "models": 18,
+  "epochs": 324,
+  "scenarios": 64,
+  "selected": "wide_control"
+}

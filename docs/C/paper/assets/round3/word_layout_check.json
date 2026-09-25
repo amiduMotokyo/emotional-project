@@ -1,0 +1,27 @@
+{
+  "pages": 6,
+  "figures": 5,
+  "tables": 2,
+  "equations": 3,
+  "figure_pages": [
+    3,
+    4,
+    4,
+    5,
+    5
+  ],
+  "caption_pages": [
+    3,
+    4,
+    4,
+    5,
+    5
+  ],
+  "table_pages": [
+    1,
+    3
+  ],
+  "docx_sha256": "90799bee022b5e9b28dc2b270d0fa570b337598e0551e93998396f195bc84491",
+  "visual_review": "All five source figures and all six initial preview pages inspected; updated table layout re-rendered and pages 1-3 inspected.",
+  "markdown_sha256": "c7742d8b464b14e7fdfb38996b6aa010cc373c6b9f939c491d82b3e109e490c3"
+}

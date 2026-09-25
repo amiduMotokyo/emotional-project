@@ -1,0 +1,18 @@
+{
+  "script_sha256": "6cdaf3a73b3a67ecd3b248ee01aab02dbda7696ee096ac56eaf31602ba357b26",
+  "matplotlib": "3.10.1",
+  "numpy": "1.26.4",
+  "plot_data_sha256": "415c974e68f2ff6b614b44f868707ac5fd6bc82be2f9736c73b50bdb7c74cd49",
+  "outputs": {
+    "fig1_oof_comparison.png": "1e314772e0675e077ebf2cc49850b087d3a9f70e9bde1856a24a493f60ff7bf6",
+    "fig1_oof_comparison.svg": "d66504b175188741259dd51a92b4db75d2b6438feb6c349ca3852673323f4c84",
+    "fig2_test_tradeoff.png": "212a62bdb9999bc10d451e81ec88c3f63fe52318ed351b33b8ae406088f1cb24",
+    "fig2_test_tradeoff.svg": "8ad873296264477d0c2c1dc5753d41a665d8add21193ad58a25bf9a06d0e59f0",
+    "fig3_missing_rates.png": "ec15deecc63350d6875655d38279bbaf5d7be61f9295dbfa00ad295d7071d3cd",
+    "fig3_missing_rates.svg": "3d772950a68619a1430d95be843e7b70b9b65b3f13112b7a92f9ae78b6bdc8c6",
+    "fig4_test_confusion.png": "6d11039a9b71dee6bda2ddefe91fb7f3763c75058f84409851282f25981b627d",
+    "fig4_test_confusion.svg": "1fb15f3781578972a495fd9042b36afd6b397dbc88949d63e903dd4bdb61a1de",
+    "fig5_ensemble_weights.png": "e752400b69eeb95075ba7a2802a1bb588b979e5869837767a1e40a6cde163bf3",
+    "fig5_ensemble_weights.svg": "1b7a102571b11d2c1481de974cbbb8809e70b0178ea64f8f92cd03d564081671"
+  }
+}

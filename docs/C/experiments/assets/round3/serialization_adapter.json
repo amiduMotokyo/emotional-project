@@ -1,0 +1,7 @@
+{
+  "source": "E:\\emotional project\\C\\scripts\\resume_q2_round3.py",
+  "sha256": "bdc81e89d36f6b604996bbaab259e73b5797a699bea910475746a19af519c171",
+  "original_manifest": "1cb3717b7665a9acd4b026a05ddd2d0b4a8f4263d151d7654f908ceda177ba12",
+  "change": "Convert numpy.bool_ guard return to Python bool, identical truth value; no numerical or training changes.",
+  "reason": "Initial select completed predictions but JSON serialization failed before lock or test."
+}

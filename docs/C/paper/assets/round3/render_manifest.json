@@ -1,0 +1,15 @@
+{
+  "script_sha256": "5a750345c02f462e1acbfadc3c1e54b9d0ac106ccb974ebeabdacb91d6fd20e8",
+  "files": {
+    "fig1_stop_ablation.png": "57dabfe5e44fc00bd0ce39df8ab40f01f74198d49b64699fa869df2a8c0d194b",
+    "fig1_stop_ablation.svg": "fcaa49e02e2c0ece169c75c5eae34c88933cc0afd0e97b911db5bf48b5316048",
+    "fig2_validation_tradeoff.png": "7117d7949152962584a4ae460fd28f49caeaee6a46bb24ea2c75a71d558574bc",
+    "fig2_validation_tradeoff.svg": "535ea39dde4fcfba151d407b64d0cd066ecc4ddb0efb79c24c9cedd3b2d4f9db",
+    "fig3_learning_curves.png": "38bda031e9dc5ead4ac05b204bc5a5b7b276bd37a606c562f8fde84cb594e7d0",
+    "fig3_learning_curves.svg": "3b4532763354eee1a8231ecb58ca41fc1d64d35e1a1a9e4e638da1b17b9f10b7",
+    "fig4_missing_rates.png": "63bec43ecfa1f603c524e984677ac89143c257450755b7e096478548346e6191",
+    "fig4_missing_rates.svg": "b1f61a1fb0eaa2a933109ed75b43427946ad1d488a0a5b4aeb691fdb671a58a0",
+    "fig5_test_confusion.png": "ba29ddf0cfd5e486bceed6429686ff1dc1922905103b326bb28dbb610d159e92",
+    "fig5_test_confusion.svg": "c0239c62eb4aabdf407607a5916d15925edac57590160c4194c380f47c7889ce"
+  }
+}

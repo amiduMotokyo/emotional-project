@@ -1,0 +1,11 @@
+{
+  "selected": "learned_gate",
+  "seeds": [
+    20263001,
+    20263002,
+    20263003
+  ],
+  "run_hash": "a65a87f9eb74cf35ef138c62925b6591d02a3d38dbae8a11246f3e999644c6eb",
+  "selection_hash": "c5a680e37a24e1db1da2a28a74e41ec3f1498d96aadcee5b55def9b5552180da",
+  "note": "Independent per-seed pipelines, not cross-seed ensemble; reused test only after lock."
+}

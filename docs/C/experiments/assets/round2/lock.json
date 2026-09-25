@@ -1,0 +1,110 @@
+{
+  "selected": "R6",
+  "decision": "round2_candidate",
+  "checks": {
+    "R1": {
+      "deltas": [
+        0.02817797660731103,
+        0.024220943421657648
+      ],
+      "mean_delta": 0.026199460014484338,
+      "clean_ok": [
+        true,
+        true
+      ],
+      "eligible": true,
+      "mean_score": 0.499602718681718,
+      "mean_nonzero_models": 1.0
+    },
+    "R2": {
+      "deltas": [
+        0.020545802970325378,
+        0.02938778676261511
+      ],
+      "mean_delta": 0.024966794866470243,
+      "clean_ok": [
+        true,
+        true
+      ],
+      "eligible": true,
+      "mean_score": 0.4983700535337039,
+      "mean_nonzero_models": 6.0
+    },
+    "R3": {
+      "deltas": [
+        0.01782740204968869,
+        0.04294599304002711
+      ],
+      "mean_delta": 0.0303866975448579,
+      "clean_ok": [
+        true,
+        true
+      ],
+      "eligible": true,
+      "mean_score": 0.5037899562120915,
+      "mean_nonzero_models": 4.166666666666666
+    },
+    "R4": {
+      "deltas": [
+        0.021257561766296562,
+        0.04103908210144003
+      ],
+      "mean_delta": 0.031148321933868295,
+      "clean_ok": [
+        true,
+        true
+      ],
+      "eligible": true,
+      "mean_score": 0.504551580601102,
+      "mean_nonzero_models": 5.166666666666666
+    },
+    "R5": {
+      "deltas": [
+        0.01956534773553842,
+        0.04195382576441131
+      ],
+      "mean_delta": 0.030759586749974865,
+      "clean_ok": [
+        true,
+        true
+      ],
+      "eligible": true,
+      "mean_score": 0.5041628454172085,
+      "mean_nonzero_models": 6.0
+    },
+    "R6": {
+      "deltas": [
+        0.020444056449205217,
+        0.04692576210254695
+      ],
+      "mean_delta": 0.033684909275876085,
+      "clean_ok": [
+        true,
+        true
+      ],
+      "eligible": true,
+      "mean_score": 0.5070881679431097,
+      "mean_nonzero_models": 5.5
+    },
+    "R7": {
+      "deltas": [
+        0.0205771883540401,
+        0.04845093893656527
+      ],
+      "mean_delta": 0.034514063645302684,
+      "clean_ok": [
+        true,
+        true
+      ],
+      "eligible": true,
+      "mean_score": 0.5079173223125364,
+      "mean_nonzero_models": 6.0
+    }
+  },
+  "run_hash": "7ca88f9623ca8d2a34f2c52dd89256c0c0f4a428cc392d50c4f8ede10adb026f",
+  "summary_hash": "2ef203f474c1d0fd372092042cd3a74956dcd0c38c5729bc764d0d52bc5f9d75",
+  "deployment_library": "A",
+  "locked_at": "2026-09-26 00:09:57",
+  "historical_fallback_hash": "3f8621e264c4ce4c74d500488755933404ca192077858defb83fa3aaec67140d",
+  "test_policy": "post_lock_reassessment_not_new_blind_test"
+}

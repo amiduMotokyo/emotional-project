@@ -1,0 +1,10 @@
+{
+  "code": {
+    "E:\\emotional project\\C\\scripts\\run_q2_round4.py": "56d622449757bc41325bcc6e69bfde2905cb87c2fcfbd6ced29b81ba3751d4c1",
+    "E:\\emotional project\\C\\src\\q2_structural.py": "576ce6169a663f44141ce89b80b855ba62dde7a24dd6c16dc4629fa581710809",
+    "E:\\emotional project\\C\\scripts\\check_q2_round4.py": "87b18b216a4ef947f25c6431aadbdb32607fd3df69a3c2286b218b12899aa08e",
+    "E:\\emotional project\\docs\\C\\experiments\\第四轮结构优化实验方案.md": "453141a8d71264d1c7a9a671f8040ce692b69481f3a4559e749ee254574d7381"
+  },
+  "base_manifest": "a89cc147f88e6547e438c724c9538cec7a3348958c5598b12473294d5e132368",
+  "note": "Reuse frozen engine in a separate process; OUT/CFG and training factory explicitly bound to round four. No old artifacts modified."
+}

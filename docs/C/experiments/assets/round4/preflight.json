@@ -1,0 +1,16 @@
+{
+  "passed": true,
+  "parameters": {
+    "baseline": 74963,
+    "text_only": 41925,
+    "wide_control": 102665,
+    "factorized": 74898,
+    "interaction": 102856,
+    "combined": 102791
+  },
+  "parameter_matching_relative_error": 0.0018569650773897495,
+  "permutation_delta": {
+    "baseline": 1.043081283569336e-07,
+    "interaction": 0.0006857067346572876
+  }
+}

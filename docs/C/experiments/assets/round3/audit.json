@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "states": 101,
+  "models": 21,
+  "epochs": 378,
+  "unchanged_encoder_tensors": 522,
+  "changed_top_layer_tensors": 96,
+  "validation_candidates": 18,
+  "test_scenarios": 64
+}

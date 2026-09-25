@@ -1,0 +1,12 @@
+{
+  "selected": "wide_control",
+  "seeds": [
+    20263001,
+    20263002,
+    20263003
+  ],
+  "run_hash": "535bee4d1a5e84300bd2230f4de5055e9f988f3bfb225d5e2b4b4d65a3b51b48",
+  "selection_hash": "4415cda05cfc9db95ab1ecab9b34c7b7b4c0900e12f1db8d66e3838b046a1cc7",
+  "implementation_hash": "535bee4d1a5e84300bd2230f4de5055e9f988f3bfb225d5e2b4b4d65a3b51b48",
+  "note": "No calibration or ensemble. Evaluate baseline and selected family for all three seeds, never select seed on test."
+}

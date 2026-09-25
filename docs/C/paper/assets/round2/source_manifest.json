@@ -1,0 +1,19 @@
+{
+  "run": "C\\outputs\\q2_round2_ensemble_v1",
+  "source_sha256": {
+    "crossfit_summary.json": "2ef203f474c1d0fd372092042cd3a74956dcd0c38c5729bc764d0d52bc5f9d75",
+    "bootstrap.json": "bf6e8bb38b135397dc4f80f4e206b097f835aa468ce9a9fe3dda8268c689ccfe",
+    "test_grid.json": "bcd2f8eeed872fde5a39865d6910ce4a4d3b838043b03e610fb9717eda1e867d",
+    "final_ensembles.json": "483c5ca5babaeeda91253f935bba0241d20885f47f5420920cc451764517bb7d",
+    "lock.json": "554c42e3f3a5f719b07867b878ee1e03a6a52339e274c983d7e9351574ff8698",
+    "evaluation/test/clean.npz": "df9c81e46a0af6c30c1f9322023f7e5739a36e2cbc060d83488da2706f6f6322"
+  },
+  "plot_data_sha256": "415c974e68f2ff6b614b44f868707ac5fd6bc82be2f9736c73b50bdb7c74cd49",
+  "style_references": {
+    "A/problem2_training_v2/plot_weighted_results.py": "e9c9fa2c66ee0b02e8ad7c96968d2844847f9c1e26c68b693f7bd96337d16128",
+    "B/scripts/plot_q3.py": "9b82444e62b3a4b4e6ffce25e26668221c89314dc3b69666ec315c2842e2dba3",
+    "docs/A/paper/problem1_section_5_2.md": "26d3fc500d98945a1f8a9f6fff137f7ad4516b2358a384916ba900fa6b332501",
+    "docs/B/paper/q3_explain_model.md": "4211c671bbbd9ddc8b90f282a9ba2180eb414e77629c02625d04b965d603c5c4"
+  },
+  "policy": "Read-only saved predictions; no retraining, refitting, new test inference or reselection."
+}

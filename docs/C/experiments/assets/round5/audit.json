@@ -1,0 +1,10 @@
+{
+  "passed": true,
+  "new_full_experts": 3,
+  "fold_experts": 18,
+  "new_expert_epochs": 378,
+  "gates": 3,
+  "gate_steps_each": 200,
+  "scenarios": 64,
+  "selected": "learned_gate"
+}

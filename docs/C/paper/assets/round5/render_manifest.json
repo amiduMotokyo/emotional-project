@@ -1,0 +1,15 @@
+{
+  "script_sha256": "af09d31e320918c72048bb4ee6a723eb38966ac54c432dd5c4dee4c007b48df6",
+  "files": {
+    "fig1_error_complementarity.png": "fd231138240511be4eea8830af006b723100f5fe76cece2c194cbdfef6c33b68",
+    "fig1_error_complementarity.svg": "5c88070cc6dcbada81535ff0ef26363fc59b5de3a74d0f20dd78265c0b808cb8",
+    "fig2_valid_candidates.png": "250828b66c9a87bf47eeeab9e1d80a9e07081ff884b47f7ed2694294bd4f1f09",
+    "fig2_valid_candidates.svg": "02e083b95349871a88911e50599eef6ea2ed727991a06dd210ca456f1f7052a3",
+    "fig3_gates_and_seeds.png": "d3ac939f47b86abe311657680f89dcc29cc4da323aa7e753413a7020c9ef6a1d",
+    "fig3_gates_and_seeds.svg": "ed7d9e3b299bf31db72e98048ae26af7f02646ac197f5c0d326ecfed897077af",
+    "fig4_missing_accuracy.png": "7891ee7b25a26abb0dce8f155657d9367296433619859a4955c9d92a0ecdfdaf",
+    "fig4_missing_accuracy.svg": "655fe45686d2536068fd022cd70f0c30977102308a3e23ee96077281f85c35e1",
+    "fig5_test_confusion.png": "899954624c3c29dcb3cab8b863ad6fbdedf0470995d744046b9e620b57f29d1d",
+    "fig5_test_confusion.svg": "5cac3d9be63640200d97af8410af9effcf80960f91885fc639ea4fe040ad14d7"
+  }
+}

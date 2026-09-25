@@ -1,0 +1,11 @@
+{
+  "seeds": [20263001,20263002,20263003],
+  "epochs": 18,
+  "batch_size": 64,
+  "fusion_lr": 0.0008,
+  "weight_decay": 0.01,
+  "guard_f1": 0.01,
+  "guard_mae": 0.02,
+  "families": ["baseline","text_only","wide_control","factorized","interaction","combined"],
+  "recipe": {"weighted":true,"reg":0.8,"missing":0.8}
+}

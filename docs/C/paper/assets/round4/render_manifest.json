@@ -1,0 +1,15 @@
+{
+  "script_sha256": "5ddda4746fa4e28de169a3f38508ce33a8a544829867f4d70ea865759b74d6e8",
+  "files": {
+    "fig1_valid_structures.png": "4db3e20a23dff2b46493ad380a2739feedb0e3062f7d05c835a27e55ab73d886",
+    "fig1_valid_structures.svg": "47257045bfea5b3a1c94fd01bf0e2e1721696fc98db7c4cee233afbdf668bfe7",
+    "fig2_seed_comparison.png": "0757ce0c683bd4eb1cd2e488a510d80fc78ad68f52d614f0c10b41ed4191429f",
+    "fig2_seed_comparison.svg": "b4ecae38c85894e308c823d8db3554d1c62f32cd11348b6fb62ea1a5b929e1fd",
+    "fig3_learning_curves.png": "73cf509e1dca9311dd5a31e28b8fb117117f994e6585abc02cce0fc781c95bf8",
+    "fig3_learning_curves.svg": "3cb2b41915588ed23c49cf0663af7d8e451d77332d6738cf8593b0c62b588276",
+    "fig4_missing_rates.png": "1b59d641739e881fce98efe6bcf879f038ebc07f91c2e37959cf4b167a5e36e0",
+    "fig4_missing_rates.svg": "f612cdb9319805c7e671800389105a755c546ece4fed80b8fd6a8e727317d578",
+    "fig5_test_confusion.png": "bf38418dd1f621a548d44bde2bbafbc1ab49e3352971ac7835576f3146ae86df",
+    "fig5_test_confusion.svg": "1d74db3821f3e18d8faac3435df5b3694cce1916b12640024214e79458ca98a0"
+  }
+}

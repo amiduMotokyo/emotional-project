@@ -1,0 +1,32 @@
+{
+  "pages": 6,
+  "figures": [
+    {
+      "figure": 1,
+      "page": 3,
+      "caption_same_page": true
+    },
+    {
+      "figure": 2,
+      "page": 4,
+      "caption_same_page": true
+    },
+    {
+      "figure": 3,
+      "page": 4,
+      "caption_same_page": true
+    },
+    {
+      "figure": 4,
+      "page": 5,
+      "caption_same_page": true
+    },
+    {
+      "figure": 5,
+      "page": 5,
+      "caption_same_page": true
+    }
+  ],
+  "tables": 2,
+  "native_math_objects": 9
+}

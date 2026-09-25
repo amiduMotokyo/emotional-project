@@ -1,0 +1,65 @@
+{
+  "schema": "experiment_design_only_v1",
+  "status": "designed_not_implemented_or_run",
+  "protocol": "C_round2_ensemble_input_consistent_v1",
+  "pre_run_amendment": "Before any base training or valid scoring: R7 uses zero bias for seven anchors and independent U(-0.15,0.15) bias for five random initial points (seed+100000), avoiding a constant DE coordinate population.",
+  "planned_output": "C/outputs/q2_round2_ensemble_v1",
+  "base": {
+    "architecture": "robust_gate",
+    "text_dimension": 384,
+    "base_fit_fraction": 0.9,
+    "split_seed": 20260925,
+    "split_policy": "group_aware_if_verified_ids_else_stratified_rows",
+    "normalization_fit_on": "base_fit_only",
+    "checkpoint_selection_on": "base_stop_only",
+    "epochs": 18,
+    "batch_size": 64,
+    "learning_rates": [0.0004, 0.0008, 0.0016],
+    "weight_decay": 0.01,
+    "dropout": 0.25,
+    "lambda_reg": 0.8,
+    "mask_seed": 20260924,
+    "library_seeds": {"A": [20261001, 20261002], "B": [20261003, 20261004]},
+    "deployment_library": "A"
+  },
+  "ensemble": {
+    "methods": ["fixed_default", "single_best", "uniform", "greedy", "random", "de", "regularized_de", "regularized_de_bias"],
+    "outer_folds": 3,
+    "fold_seed": 20260925,
+    "keep_scenarios_of_sample_together": true,
+    "shared_weights_for_heads": true,
+    "selection_scenarios": ["clean", "T_middle_0.3", "A_middle_0.3", "V_middle_0.3"],
+    "score": "mean_s(macro_f1 - 0.15 * mae + 0.05 * pearson)",
+    "regularization": {"coefficient": 0.01, "penalty": "(M * sum(w**2) - 1) / (M - 1)"},
+    "bias": {"space": "log_probability", "neutral_fixed": 0, "negative_positive_bounds": [-0.15, 0.15], "log_floor": 1e-8},
+    "search": {
+      "requests_per_run": 300,
+      "population": 12,
+      "generations": 24,
+      "F": 0.5,
+      "CR": 0.5,
+      "seeds": [11, 23, 37],
+      "seed_aggregation": "mean_predictions_not_best_seed",
+      "initialization": "uniform_plus_6_vertices_plus_5_normalized_iid_uniform",
+      "greedy_steps": 50,
+      "duplicate_requests_consume_budget": true
+    }
+  },
+  "selection": {
+    "reference": "R0_within_each_library",
+    "max_clean_f1_drop": 0.01,
+    "max_clean_mae_increase": 0.02,
+    "min_mean_delta_score": 0.005,
+    "min_each_library_delta_score": 0.0,
+    "tie_score_tolerance": 0.002,
+    "fallback": "retain_round1_locked_submission",
+    "test_policy": "post_lock_reassessment_not_new_blind_test"
+  },
+  "budget": {
+    "base_training_runs": 12,
+    "base_training_epochs": 216,
+    "crossfit_search_requests": 27000,
+    "final_refit_max_search_requests": 900,
+    "excluded_costs": ["text_encoding", "prediction_caching", "64_scenario_evaluation", "bootstrap", "packaging"]
+  }
+}

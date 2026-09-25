@@ -1,0 +1,161 @@
+[
+  {
+    "name": "EnsembleSelection_2004_author_extended",
+    "requested_url": "https://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml04.icdm06long.pdf",
+    "downloaded_at": "2026-09-25T15:01:34.820637+00:00",
+    "http_status": 200,
+    "resolved_url": "https://www.cs.cornell.edu/~caruana/ctp/ct.papers/caruana.icml04.icdm06long.pdf",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/EnsembleSelection_2004_author_extended.pdf",
+    "bytes": 752951,
+    "sha256": "b6396fa3557ebd4263f1bb294c76742f3f95987b02e883862a0c7933cbe232cb",
+    "pages": 21
+  },
+  {
+    "name": "QDO_ES_AutoML2023",
+    "requested_url": "https://proceedings.mlr.press/v224/purucker23b/purucker23b.pdf",
+    "downloaded_at": "2026-09-25T15:01:34.821636+00:00",
+    "http_status": 200,
+    "resolved_url": "https://proceedings.mlr.press/v224/purucker23b/purucker23b.pdf",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/QDO_ES_AutoML2023.pdf",
+    "bytes": 685804,
+    "sha256": "99bf381a2de7b888123dfcc27df2a1d976084639ad9928b730c0451325ddf880",
+    "pages": 34
+  },
+  {
+    "name": "RHO_JCGS2022",
+    "requested_url": "https://www.tandfonline.com/doi/pdf/10.1080/10618600.2021.1950004",
+    "downloaded_at": "2026-09-25T15:01:34.821636+00:00",
+    "http_status": 403,
+    "resolved_url": "https://www.tandfonline.com/doi/pdf/10.1080/10618600.2021.1950004",
+    "status": "failed",
+    "error": "403 Client Error: Forbidden for url: https://www.tandfonline.com/doi/pdf/10.1080/10618600.2021.1950004"
+  },
+  {
+    "name": "Hertel_Thesis2020_RHO_background",
+    "requested_url": "https://escholarship.org/content/qt74t2n9c9/qt74t2n9c9_noSplash_937a38bbbafe18d958e2c0ab0bdfb87c.pdf",
+    "downloaded_at": "2026-09-25T15:01:34.821636+00:00",
+    "http_status": 202,
+    "resolved_url": "https://escholarship.org/content/qt74t2n9c9/qt74t2n9c9_noSplash_937a38bbbafe18d958e2c0ab0bdfb87c.pdf",
+    "status": "failed",
+    "error": "not a PDF"
+  },
+  {
+    "name": "FastBO_CVPR2024_author",
+    "requested_url": "https://zeyiwen.github.io/papers/fastbo_cvpr24.pdf",
+    "downloaded_at": "2026-09-25T15:01:34.822636+00:00",
+    "http_status": 200,
+    "resolved_url": "https://zeyiwen.github.io/papers/fastbo_cvpr24.pdf",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/FastBO_CVPR2024_author.pdf",
+    "bytes": 2093755,
+    "sha256": "e96212a281118817a2124aece13a91674590c19f61b6a1c29d2575c30f3d952a",
+    "pages": 19
+  },
+  {
+    "name": "STG_ICML2020",
+    "requested_url": "https://proceedings.mlr.press/v119/yamada20a/yamada20a.pdf",
+    "downloaded_at": "2026-09-25T15:01:35.226368+00:00",
+    "http_status": 200,
+    "resolved_url": "https://proceedings.mlr.press/v119/yamada20a/yamada20a.pdf",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/STG_ICML2020.pdf",
+    "bytes": 3438455,
+    "sha256": "e6bbe085e17b4b2a864d5b852f3be19364ec652ac3b0d596c48c0ef2fc8f456a",
+    "pages": 12
+  },
+  {
+    "name": "SelectionBias_JMLR2010",
+    "requested_url": "https://jmlr.csail.mit.edu/papers/volume11/cawley10a/cawley10a.pdf",
+    "downloaded_at": "2026-09-25T15:01:35.272118+00:00",
+    "http_status": 200,
+    "resolved_url": "https://jmlr.csail.mit.edu/papers/volume11/cawley10a/cawley10a.pdf",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/SelectionBias_JMLR2010.pdf",
+    "bytes": 759286,
+    "sha256": "db01ac8fabef3064a0297bfcf64fb9791bf35c4d03be7a51f5862260adfca206",
+    "pages": 29
+  },
+  {
+    "name": "SAND_ICML2025",
+    "requested_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/pad25a/pad25a.pdf",
+    "downloaded_at": "2026-09-25T15:01:36.118210+00:00",
+    "http_status": 200,
+    "resolved_url": "https://raw.githubusercontent.com/mlresearch/v267/main/assets/pad25a/pad25a.pdf",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/SAND_ICML2025.pdf",
+    "bytes": 3203490,
+    "sha256": "f3400ac089bd1fea78e83709961cb4323652241307371b35e0541a47d878fad1",
+    "pages": 13
+  },
+  {
+    "name": "FrozenLayers_AutoML2025",
+    "requested_url": "https://raw.githubusercontent.com/mlresearch/v293/main/assets/carstensen25a/carstensen25a.pdf",
+    "downloaded_at": "2026-09-25T15:01:37.199523+00:00",
+    "http_status": 200,
+    "resolved_url": "https://raw.githubusercontent.com/mlresearch/v293/main/assets/carstensen25a/carstensen25a.pdf",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/FrozenLayers_AutoML2025.pdf",
+    "bytes": 2479696,
+    "sha256": "f29f32d286de24d7ebff8e2e1cc7f99e13903d33702b33e244c9f310846cf5e9",
+    "pages": 24
+  },
+  {
+    "name": "RegularizedNeuralEnsemblers_AutoML2025",
+    "requested_url": "https://raw.githubusercontent.com/mlresearch/v293/main/assets/arango25a/arango25a.pdf",
+    "downloaded_at": "2026-09-25T15:01:38.658855+00:00",
+    "http_status": 200,
+    "resolved_url": "https://raw.githubusercontent.com/mlresearch/v293/main/assets/arango25a/arango25a.pdf",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/RegularizedNeuralEnsemblers_AutoML2025.pdf",
+    "bytes": 1802486,
+    "sha256": "ce159e9e9e3472437dd489b10b87c590ec4b78d9c1e571654067b3ca41f2971a",
+    "pages": 33
+  },
+  {
+    "name": "BudgetMatchedHPO_arXiv2026",
+    "requested_url": "https://arxiv.org/pdf/2606.21641",
+    "downloaded_at": "2026-09-25T15:01:39.868227+00:00",
+    "http_status": 200,
+    "resolved_url": "https://arxiv.org/pdf/2606.21641",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/BudgetMatchedHPO_arXiv2026.pdf",
+    "bytes": 425855,
+    "sha256": "60f9eb61783e91d3386787dbfda7b8b83fc2d2417ea368096403dc797f60d74e",
+    "pages": 10
+  },
+  {
+    "name": "Overtuning_AutoML2025",
+    "requested_url": "https://raw.githubusercontent.com/mlresearch/v293/main/assets/schneider25a/schneider25a.pdf",
+    "http_status": 200,
+    "downloaded_at": "2026-09-25T15:02:19.635022+00:00",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/Overtuning_AutoML2025.pdf",
+    "pages": 43,
+    "bytes": 1253195,
+    "sha256": "dc6160bd233b327b4e165981a37e152342f2217051659aa1af2c5c6d1fab520a"
+  },
+  {
+    "name": "Hertel_Thesis2020_RHO_background",
+    "requested_url": "https://inspirehep.net/files/74854fd3cf6ddbff8acaef2c404d9253",
+    "http_status": 200,
+    "downloaded_at": "2026-09-25T15:02:20.347148+00:00",
+    "status": "downloaded",
+    "file": "docs/C/research/papers/optimization_followup/Hertel_Thesis2020_RHO_background.pdf",
+    "pages": 161,
+    "bytes": 4543894,
+    "sha256": "a3fcd1a6ad193f62baf674933d1806ac8bb69c4562ee14209734b2ee1f277ecd"
+  },
+  {
+    "status": "downloaded",
+    "pages": 9,
+    "bytes": 159329,
+    "sha256": "489ba45576e8b13572184452469c2f175f3c1fbed92b75ff9eb37cccc4fd3848",
+    "name": "EnsembleSelection_2004_corrected",
+    "requested_url": "https://www.cs.cornell.edu/~alexn/papers/shotgun.icml04.revised.rev2.pdf",
+    "file": "docs/C/research/papers/optimization_followup/EnsembleSelection_2004_corrected.pdf",
+    "downloaded_at": "2026-09-25T15:13:55.048459+00:00",
+    "http_status": 200
+  }
+]

@@ -1,0 +1,12 @@
+{
+  "passed": true,
+  "unique_artifacts_checked": 345,
+  "training_runs": 12,
+  "training_epochs": 216,
+  "search_runs": 90,
+  "search_requests": 27000,
+  "grouping": "video_disjoint_within_train_and_valid_folds",
+  "saved_oof_predictions": "reconstructed_from_saved_solutions_equal_at_1e-12",
+  "selection": "recomputed_matches_lock",
+  "evaluation": "64_conditions_each_valid_test"
+}

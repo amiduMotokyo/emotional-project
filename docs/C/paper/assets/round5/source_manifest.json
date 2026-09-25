@@ -1,0 +1,17 @@
+{
+  "source_sha256": {
+    "diagnosis.json": "3c27281047cfad44e51e0e18f413b9bfcd621a9075c64857abda88be51474b6e",
+    "selection.json": "c5a680e37a24e1db1da2a28a74e41ec3f1498d96aadcee5b55def9b5552180da",
+    "test_summary.json": "be26da8dc95a223b4a1ecdab5641ad334a765d527b1eb9164b92c113ee1de678",
+    "valid_predictions/20263001.npz": "c29241978724da1cc8eed0c1419a2ac67ac0c6c4ce7549584cbcae1c99bc6d1d",
+    "valid_predictions/20263002.npz": "d264943e3f96a0e445ac728a0b0ef5be662afc5b740fa6fac1e60f08f4a8625f",
+    "valid_predictions/20263003.npz": "b6cf49d253a3bd3afd630072585963fe2e3ac0c6c3854a8e317912aac3efe2b1",
+    "test/clean.npz": "afbfb10dd57493b0520142d9ca2080883f3bc02f647147f9a905be86b295e14b"
+  },
+  "plot_data_sha256": "17462f663a2c779b0dbcf807faadac9b7285f678469f2a5f94b5df2201eef15c",
+  "style_references": {
+    "A/problem2_training_v2/plot_weighted_results.py": "e9c9fa2c66ee0b02e8ad7c96968d2844847f9c1e26c68b693f7bd96337d16128",
+    "B/scripts/plot_q3.py": "9b82444e62b3a4b4e6ffce25e26668221c89314dc3b69666ec315c2842e2dba3",
+    "C/scripts/plot_q2_round4_paper.py": "5ddda4746fa4e28de169a3f38508ce33a8a544829867f4d70ea865759b74d6e8"
+  }
+}

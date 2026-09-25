@@ -1,0 +1,10 @@
+{
+  "seeds": [20263001,20263002,20263003],
+  "epochs":18,"batch_size":64,"fusion_lr":0.0008,"weight_decay":0.01,
+  "recipe":{"weighted":true,"reg":0.8,"missing":0.8},
+  "guard_f1":0.01,"guard_mae":0.02,
+  "folds":3,"fold_seed":20265000,
+  "rescue_mean_min":0.05,"rescue_seed_min":0.03,"rescue_seed_count":2,
+  "gate_steps":200,"gate_lr":0.01,"gate_weight_decay":0.01,
+  "gate_panel_weights":[0.5,0.03125,0.03125,0.03125,0.03125,0.03125,0.03125,0.03125,0.03125,0.125,0.125]
+}
