@@ -1,0 +1,2 @@
+﻿samples,exact_match_rate,within_1_rate,mean_valid_mask_iou,aggregate_valid_mask_iou,min_valid_mask_iou,audio_rule_ok_rate,vision_rule_ok_rate,mapping_length_agreement_rate,contiguous_valid_rate
+100,0.81,1.0,0.9866578812198007,0.9881472239550843,0.8888888888888888,1.0,0.95,1.0,1.0

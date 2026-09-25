@@ -1,0 +1,2 @@
+﻿samples,mean_word_match_rate,mean_token_timestamp_coverage,samples_token_coverage_ge_80pct,timestamp_valid_rate_micro,mean_text_audio_mask_iou,mean_text_vision_mask_iou,mean_three_modality_mask_iou
+100,0.890317557876785,0.8889694624757308,84,1.0,0.7752481988170516,0.7640104672288944,0.7640104672288944
