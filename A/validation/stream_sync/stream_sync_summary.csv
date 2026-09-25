@@ -1,0 +1,2 @@
+﻿samples,max_abs_start_offset_sec,mean_abs_start_offset_sec,max_abs_duration_delta_sec,audio_rule_ok_rate,vision_rule_ok_rate
+100,0.0,0.0,0.0009399999999999409,0.86,0.85
