@@ -1,0 +1,4 @@
+﻿modality,records,padding_ok_rate,valid_nan,valid_inf,max_padded_abs,padding_rule
+audio,100,1.0,0,0,0.0,zero_padding
+text,100,1.0,0,0,2.3319625854492188,attention_mask
+vision,100,1.0,0,0,0.0,zero_padding
