@@ -1,0 +1,56 @@
+{
+  "protocol": "weighted five-model ensemble; weights and bias tuned on valid; test untouched",
+  "model_paths": [
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed43\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed44\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed45\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed46\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed47\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed48\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed49\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed50\\models\\best_model.pt",
+    "C:\\Users\\30741\\Documents\\Codex\\2026-09-24\\wo\\outputs\\problem2_training_v2\\seed51\\models\\best_model.pt"
+  ],
+  "ensemble_weights": [
+    0.021156714297763113,
+    0.021074432335786052,
+    0.002114515807848457,
+    0.004091653425483168,
+    0.039228906241255884,
+    0.6074701162222685,
+    0.24305814749100985,
+    0.007012075970130694,
+    0.00935643922281392,
+    0.045436998985640215
+  ],
+  "class_bias": [
+    -0.2641803738546423,
+    0.2511058299758423,
+    0.0
+  ],
+  "validation": {
+    "accuracy": 0.6634615384615384,
+    "macro_f1": 0.6480583282347114,
+    "mae": 0.5449767298461686,
+    "pearson": 0.6851325170917779,
+    "per_class_f1": [
+      0.6826666666666666,
+      0.5245098039215687,
+      0.736998514115899
+    ],
+    "n": 728
+  },
+  "test": {
+    "accuracy": 0.6643741403026134,
+    "macro_f1": 0.6282350012496699,
+    "mae": 0.6158975478910257,
+    "pearson": 0.6856334254845116,
+    "per_class_f1": [
+      0.6752577319587629,
+      0.4476744186046512,
+      0.7617728531855956
+    ],
+    "n": 727
+  }
+}

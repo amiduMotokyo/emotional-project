@@ -1,0 +1,11 @@
+{
+  "bias_negative_neutral_positive": [
+    0.02500009536743164,
+    -0.22499996423721313,
+    0.0
+  ],
+  "validation_selection_metrics": {
+    "accuracy": 0.6510989010989011,
+    "macro_f1": 0.6181035134260281
+  }
+}
