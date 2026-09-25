@@ -1,0 +1,2 @@
+﻿label_samples,unique_label_ids,video_files,audio_files,visual_files,text_files,final_ids,missing_video,missing_audio,missing_visual,missing_text,missing_final_id,bad_audio_shape,bad_visual_shape,bad_text_shape,extra_final_ids
+100,100,100,100,100,100,100,0,0,0,0,0,0,0,0,0
