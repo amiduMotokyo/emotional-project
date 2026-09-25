@@ -166,3 +166,5 @@ python scripts/verify_outputs.py
 - 默认文本特征按 BERT token 位置组织；另保留基于 Whisper 词级时间戳的 0.5 秒时间片加权聚合分支。
 - 时间片内不存在带时间戳的词时，时间对齐文本特征填 0，掩码填 0，不改变原始 token 位置特征。
 - openSMILE 对无法估计的共振峰参数使用 `-201` 哨兵值，原始特征中保留。
+
+问题三证据定位接口：`src/evidence_locator.py` 将B输出的对齐局部位置映射到原文字符区间或附件4未对齐音视频特征帧，并估算原视频时间；无法精确匹配则返回状态。B通过 `B/src/attachment4.py` 调用，详情见 [问题三接口](../docs/B/requirements/q3_explanation_interface.md)。

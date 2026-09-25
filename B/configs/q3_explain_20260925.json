@@ -1,0 +1,51 @@
+{
+  "task": "Problem 3: polarity, intensity and faithful input-deletion explanations",
+  "data": {
+    "training": "Attachment 2 train only",
+    "selection_and_evaluation": "Attachment 2 valid; labels used for checkpoint selection and class-bias calibration, never backpropagated",
+    "final_prediction": "Attachment 4 aligned 20 samples; unaligned files and original videos used only for evidence localization",
+    "external_sentiment_data": false
+  },
+  "checkpoint": {
+    "server_package": "/mnt/disk/data/inainai/mosei_e_20260924/q2_minilm_deploy_candidate_calibrated_20260925",
+    "encoder": "sentence-transformers/all-MiniLM-L6-v2, top two layers fine-tuned, dynamic int8 ONNX",
+    "architecture": "B.src.fusion.Fusion",
+    "seed": 20260925,
+    "epoch": 3,
+    "class_bias_negative_neutral_positive": [0.2, 0.0, 0.0],
+    "encoder_inference_batch_size": 1
+  },
+  "input": {
+    "aligned_steps": 50,
+    "text_encoder_output_dim": 384,
+    "audio_dim": 74,
+    "vision_dim": 35,
+    "text_deleted_token_id": 100,
+    "audio_visual_deleted_feature": 0,
+    "deleted_valid_mask": false,
+    "audio_vision_standardization": "training-split scaler in package; only observed frames standardized, clipped to [-5,5]"
+  },
+  "explanation": {
+    "target": "original predicted class biased logit, fixed for every deletion",
+    "global": "delete all observed positions of one modality and re-run whole predictor",
+    "share": "absolute global logit drop divided by sum of absolute drops",
+    "main": "largest positive logit drop; if none, largest absolute effect with fallback flag",
+    "local": "single aligned-position deletion; exhaustive joint deletion windows of 1 to 3 valid positions",
+    "interpretation": "model input sensitivity; not causal attribution"
+  },
+  "media_localization": {
+    "text": "exact tokenizer character offsets after token-ID identity check",
+    "audio": "aligned-to-unaligned exact feature vector matching; nominal 20 Hz",
+    "vision": "aligned-to-unaligned exact feature vector matching; nominal 15 Hz; original video nominal 30 fps",
+    "time_check": "compare estimated interval to ffprobe media stream duration",
+    "unavailable": "explicit status, no fabricated timestamp or keyframe"
+  },
+  "runtime_versions": {
+    "torch": "2.7.0+cu126",
+    "numpy": "2.2.5",
+    "transformers": "4.51.3",
+    "scikit_learn": "1.6.1",
+    "onnxruntime": "1.20.1",
+    "ffmpeg": "4.3"
+  }
+}

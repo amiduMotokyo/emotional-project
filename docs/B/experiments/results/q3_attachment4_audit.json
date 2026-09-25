@@ -1,0 +1,2403 @@
+{
+  "n_aligned": 20,
+  "n_videos": 20,
+  "all_id_match": true,
+  "all_transcripts_match": true,
+  "all_token_ids_match": true,
+  "rows": [
+    {
+      "sample_id": "01",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 9.0,
+      "streams": {
+        "video": {
+          "duration_seconds": 9.0,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 8.981995,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 179,
+      "vision_length": 135,
+      "audio_frames_per_second": 19.88888888888889,
+      "vision_frames_per_second": 15.0,
+      "audio_nominal_20hz_gap_seconds": 0.03199500000000022,
+      "vision_nominal_15hz_gap_seconds": 0.0,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 22,
+        "declared_unaligned_length": 179,
+        "actual_nonzero_unaligned_count": 179,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          177,
+          178
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 22,
+        "declared_unaligned_length": 135,
+        "actual_nonzero_unaligned_count": 135,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          133,
+          134
+        ]
+      }
+    },
+    {
+      "sample_id": "02",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 3.7,
+      "streams": {
+        "video": {
+          "duration_seconds": 3.492969,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 3.329002,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 66,
+      "vision_length": 50,
+      "audio_frames_per_second": 17.83783783783784,
+      "vision_frames_per_second": 13.513513513513512,
+      "audio_nominal_20hz_gap_seconds": 0.029002000000000194,
+      "vision_nominal_15hz_gap_seconds": 0.1596356666666665,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 19,
+        "declared_unaligned_length": 66,
+        "actual_nonzero_unaligned_count": 66,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          52,
+          53,
+          54,
+          55,
+          56,
+          57,
+          58,
+          58,
+          58,
+          59,
+          60,
+          61,
+          62,
+          63,
+          64,
+          64,
+          64,
+          65,
+          65
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 19,
+        "declared_unaligned_length": 50,
+        "actual_nonzero_unaligned_count": 50,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42,
+          42,
+          42,
+          43,
+          44,
+          45,
+          46,
+          47,
+          48,
+          48,
+          48,
+          49,
+          49
+        ]
+      }
+    },
+    {
+      "sample_id": "03",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 16.0,
+      "streams": {
+        "video": {
+          "duration_seconds": 9.663997,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 9.582993,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 191,
+      "vision_length": 144,
+      "audio_frames_per_second": 11.9375,
+      "vision_frames_per_second": 9.0,
+      "audio_nominal_20hz_gap_seconds": 0.032992999999999384,
+      "vision_nominal_15hz_gap_seconds": 0.06399700000000053,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 33,
+        "declared_unaligned_length": 191,
+        "actual_nonzero_unaligned_count": 191,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          166,
+          166,
+          166,
+          167,
+          168,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          177,
+          178,
+          179,
+          179,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          190
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 33,
+        "declared_unaligned_length": 144,
+        "actual_nonzero_unaligned_count": 144,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          119,
+          119,
+          119,
+          120,
+          121,
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          130,
+          131,
+          132,
+          132,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          143
+        ]
+      }
+    },
+    {
+      "sample_id": "04",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 9.3,
+      "streams": {
+        "video": {
+          "duration_seconds": 6.99401,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 6.847007,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 137,
+      "vision_length": 103,
+      "audio_frames_per_second": 14.731182795698924,
+      "vision_frames_per_second": 11.0752688172043,
+      "audio_nominal_20hz_gap_seconds": 0.0029930000000000234,
+      "vision_nominal_15hz_gap_seconds": 0.12734333333333403,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 26,
+        "declared_unaligned_length": 137,
+        "actual_nonzero_unaligned_count": 137,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          117,
+          118,
+          119,
+          120,
+          121,
+          122,
+          123,
+          124,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          132,
+          133,
+          133,
+          134,
+          134,
+          134,
+          135,
+          136,
+          136
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 26,
+        "declared_unaligned_length": 103,
+        "actual_nonzero_unaligned_count": 103,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          83,
+          84,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          90,
+          91,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          98,
+          99,
+          99,
+          100,
+          100,
+          100,
+          101,
+          102,
+          102
+        ]
+      }
+    },
+    {
+      "sample_id": "05",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 6.167,
+      "streams": {
+        "video": {
+          "duration_seconds": 6.1,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 6.013991,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 120,
+      "vision_length": 90,
+      "audio_frames_per_second": 19.458407653640343,
+      "vision_frames_per_second": 14.593805740230259,
+      "audio_nominal_20hz_gap_seconds": 0.013990999999999865,
+      "vision_nominal_15hz_gap_seconds": 0.09999999999999964,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 15,
+        "declared_unaligned_length": 120,
+        "actual_nonzero_unaligned_count": 120,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          109,
+          109,
+          110,
+          111,
+          112,
+          113,
+          113,
+          114,
+          115,
+          115,
+          116,
+          117,
+          118,
+          119,
+          119
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 15,
+        "declared_unaligned_length": 90,
+        "actual_nonzero_unaligned_count": 90,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          79,
+          79,
+          80,
+          81,
+          82,
+          83,
+          83,
+          84,
+          85,
+          85,
+          86,
+          87,
+          88,
+          89,
+          89
+        ]
+      }
+    },
+    {
+      "sample_id": "06",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 9.8,
+      "streams": {
+        "video": {
+          "duration_seconds": 8.305013,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 8.158005,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 163,
+      "vision_length": 123,
+      "audio_frames_per_second": 16.632653061224488,
+      "vision_frames_per_second": 12.551020408163264,
+      "audio_nominal_20hz_gap_seconds": 0.00800499999999893,
+      "vision_nominal_15hz_gap_seconds": 0.10501300000000136,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 35,
+        "declared_unaligned_length": 163,
+        "actual_nonzero_unaligned_count": 163,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          132,
+          133,
+          133,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          162
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 35,
+        "declared_unaligned_length": 123,
+        "actual_nonzero_unaligned_count": 123,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          92,
+          93,
+          93,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          117,
+          118,
+          119,
+          120,
+          121,
+          122
+        ]
+      }
+    },
+    {
+      "sample_id": "07",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 24.134,
+      "streams": {
+        "video": {
+          "duration_seconds": 21.348,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 21.266009,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 425,
+      "vision_length": 319,
+      "audio_frames_per_second": 17.61001077318306,
+      "vision_frames_per_second": 13.217866909753875,
+      "audio_nominal_20hz_gap_seconds": 0.016009000000000384,
+      "vision_nominal_15hz_gap_seconds": 0.08133333333333326,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 48,
+        "declared_unaligned_length": 425,
+        "actual_nonzero_unaligned_count": 425,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          375,
+          376,
+          376,
+          376,
+          376,
+          377,
+          378,
+          379,
+          380,
+          380,
+          380,
+          381,
+          382,
+          383,
+          384,
+          385,
+          386,
+          386,
+          387,
+          388,
+          388,
+          389,
+          390,
+          391,
+          392,
+          393,
+          394,
+          395,
+          395,
+          396,
+          397,
+          398,
+          399,
+          400,
+          400,
+          401,
+          402,
+          403,
+          404,
+          404,
+          404,
+          405,
+          405,
+          406,
+          407,
+          408,
+          409,
+          410
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 48,
+        "declared_unaligned_length": 319,
+        "actual_nonzero_unaligned_count": 319,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          269,
+          270,
+          270,
+          270,
+          270,
+          271,
+          272,
+          273,
+          274,
+          274,
+          274,
+          275,
+          276,
+          277,
+          278,
+          279,
+          280,
+          280,
+          281,
+          282,
+          282,
+          283,
+          284,
+          285,
+          286,
+          287,
+          288,
+          289,
+          289,
+          290,
+          291,
+          292,
+          293,
+          294,
+          294,
+          295,
+          296,
+          297,
+          298,
+          298,
+          298,
+          299,
+          299,
+          300,
+          301,
+          302,
+          303,
+          304
+        ]
+      }
+    },
+    {
+      "sample_id": "08",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 8.067,
+      "streams": {
+        "video": {
+          "duration_seconds": 5.086003,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 4.908005,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 98,
+      "vision_length": 74,
+      "audio_frames_per_second": 12.148258336432379,
+      "vision_frames_per_second": 9.17317466220404,
+      "audio_nominal_20hz_gap_seconds": 0.008004999999999818,
+      "vision_nominal_15hz_gap_seconds": 0.15266966666666626,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 11,
+        "declared_unaligned_length": 98,
+        "actual_nonzero_unaligned_count": 98,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          88,
+          89,
+          90,
+          91,
+          92,
+          92,
+          93,
+          94,
+          95,
+          96,
+          97
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 11,
+        "declared_unaligned_length": 74,
+        "actual_nonzero_unaligned_count": 74,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          64,
+          65,
+          66,
+          67,
+          68,
+          68,
+          69,
+          70,
+          71,
+          72,
+          73
+        ]
+      }
+    },
+    {
+      "sample_id": "09",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 11.3,
+      "streams": {
+        "video": {
+          "duration_seconds": 5.041992,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 4.964,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 99,
+      "vision_length": 75,
+      "audio_frames_per_second": 8.761061946902654,
+      "vision_frames_per_second": 6.63716814159292,
+      "audio_nominal_20hz_gap_seconds": 0.014000000000000234,
+      "vision_nominal_15hz_gap_seconds": 0.041991999999999585,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 18,
+        "declared_unaligned_length": 99,
+        "actual_nonzero_unaligned_count": 99,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          85,
+          85,
+          85,
+          85,
+          86,
+          87,
+          88,
+          89,
+          90,
+          91,
+          92,
+          93,
+          93,
+          94,
+          95,
+          96,
+          97,
+          98
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 18,
+        "declared_unaligned_length": 75,
+        "actual_nonzero_unaligned_count": 75,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          61,
+          61,
+          61,
+          61,
+          62,
+          63,
+          64,
+          65,
+          66,
+          67,
+          68,
+          69,
+          69,
+          70,
+          71,
+          72,
+          73,
+          74
+        ]
+      }
+    },
+    {
+      "sample_id": "10",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 10.934,
+      "streams": {
+        "video": {
+          "duration_seconds": 9.939974,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 9.775011,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 195,
+      "vision_length": 147,
+      "audio_frames_per_second": 17.834278397658682,
+      "vision_frames_per_second": 13.444302176696544,
+      "audio_nominal_20hz_gap_seconds": 0.02501099999999923,
+      "vision_nominal_15hz_gap_seconds": 0.1399739999999987,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 30,
+        "declared_unaligned_length": 195,
+        "actual_nonzero_unaligned_count": 195,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          170,
+          170,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          182,
+          182,
+          183,
+          184,
+          185,
+          185,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 30,
+        "declared_unaligned_length": 147,
+        "actual_nonzero_unaligned_count": 147,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          122,
+          122,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          132,
+          133,
+          134,
+          134,
+          135,
+          136,
+          137,
+          137,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146
+        ]
+      }
+    },
+    {
+      "sample_id": "11",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 11.424,
+      "streams": {
+        "video": {
+          "duration_seconds": 5.803971,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 5.759,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 114,
+      "vision_length": 86,
+      "audio_frames_per_second": 9.978991596638656,
+      "vision_frames_per_second": 7.528011204481793,
+      "audio_nominal_20hz_gap_seconds": 0.05900000000000016,
+      "vision_nominal_15hz_gap_seconds": 0.07063766666666638,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 14,
+        "declared_unaligned_length": 114,
+        "actual_nonzero_unaligned_count": 114,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109,
+          110,
+          111,
+          112,
+          113
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 14,
+        "declared_unaligned_length": 86,
+        "actual_nonzero_unaligned_count": 86,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          72,
+          73,
+          74,
+          75,
+          76,
+          77,
+          78,
+          79,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85
+        ]
+      }
+    },
+    {
+      "sample_id": "12",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 20.367,
+      "streams": {
+        "video": {
+          "duration_seconds": 13.013997,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 12.875011,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 257,
+      "vision_length": 193,
+      "audio_frames_per_second": 12.618451416507094,
+      "vision_frames_per_second": 9.476113320567585,
+      "audio_nominal_20hz_gap_seconds": 0.025011000000001005,
+      "vision_nominal_15hz_gap_seconds": 0.14733033333333267,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 42,
+        "declared_unaligned_length": 257,
+        "actual_nonzero_unaligned_count": 257,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          222,
+          223,
+          223,
+          224,
+          225,
+          226,
+          227,
+          228,
+          229,
+          229,
+          230,
+          231,
+          232,
+          233,
+          234,
+          235,
+          236,
+          237,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          250,
+          250,
+          250,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          256
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 42,
+        "declared_unaligned_length": 193,
+        "actual_nonzero_unaligned_count": 193,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          158,
+          159,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          173,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          186,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          192
+        ]
+      }
+    },
+    {
+      "sample_id": "13",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 8.68,
+      "streams": {
+        "video": {
+          "duration_seconds": 8.666667,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 8.679002,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 173,
+      "vision_length": 1,
+      "audio_frames_per_second": 19.93087557603687,
+      "vision_frames_per_second": 0.1152073732718894,
+      "audio_nominal_20hz_gap_seconds": 0.029002000000000194,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 30,
+        "declared_unaligned_length": 173,
+        "actual_nonzero_unaligned_count": 173,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          146,
+          147,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          155,
+          156,
+          157,
+          158,
+          158,
+          159,
+          160,
+          161,
+          162,
+          163,
+          164,
+          165,
+          166,
+          167,
+          168,
+          169,
+          170,
+          171,
+          172,
+          172
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 0,
+        "median_relative_distance": null,
+        "ordered_nearest_fraction": null,
+        "declared_unaligned_length": 1,
+        "actual_nonzero_unaligned_count": 17
+      }
+    },
+    {
+      "sample_id": "14",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 13.9,
+      "streams": {
+        "video": {
+          "duration_seconds": 10.350977,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 10.227007,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 204,
+      "vision_length": 153,
+      "audio_frames_per_second": 14.676258992805755,
+      "vision_frames_per_second": 11.007194244604316,
+      "audio_nominal_20hz_gap_seconds": 0.027007000000001113,
+      "vision_nominal_15hz_gap_seconds": 0.15097700000000103,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 35,
+        "declared_unaligned_length": 204,
+        "actual_nonzero_unaligned_count": 204,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          180,
+          181,
+          182,
+          183,
+          183,
+          183,
+          184,
+          185,
+          185,
+          186,
+          187,
+          187,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          197,
+          198,
+          198,
+          198,
+          198,
+          199,
+          200,
+          201,
+          201,
+          201,
+          202,
+          203,
+          203
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 35,
+        "declared_unaligned_length": 153,
+        "actual_nonzero_unaligned_count": 153,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          129,
+          130,
+          131,
+          132,
+          132,
+          132,
+          133,
+          134,
+          134,
+          135,
+          136,
+          136,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          147,
+          147,
+          147,
+          147,
+          148,
+          149,
+          150,
+          150,
+          150,
+          151,
+          152,
+          152
+        ]
+      }
+    },
+    {
+      "sample_id": "15",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 7.334,
+      "streams": {
+        "video": {
+          "duration_seconds": 7.333333,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 7.298005,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 145,
+      "vision_length": 110,
+      "audio_frames_per_second": 19.770929915462233,
+      "vision_frames_per_second": 14.998636487592037,
+      "audio_nominal_20hz_gap_seconds": 0.04800499999999985,
+      "vision_nominal_15hz_gap_seconds": 3.33333333379926e-07,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 21,
+        "declared_unaligned_length": 145,
+        "actual_nonzero_unaligned_count": 145,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          128,
+          128,
+          129,
+          130,
+          131,
+          131,
+          132,
+          133,
+          134,
+          134,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 21,
+        "declared_unaligned_length": 110,
+        "actual_nonzero_unaligned_count": 110,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          93,
+          93,
+          94,
+          95,
+          96,
+          96,
+          97,
+          98,
+          99,
+          99,
+          99,
+          100,
+          101,
+          102,
+          103,
+          104,
+          105,
+          106,
+          107,
+          108,
+          109
+        ]
+      }
+    },
+    {
+      "sample_id": "16",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 5.573,
+      "streams": {
+        "video": {
+          "duration_seconds": 3.113997,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 3.042993,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 60,
+      "vision_length": 1,
+      "audio_frames_per_second": 10.766194150367845,
+      "vision_frames_per_second": 0.1794365691727974,
+      "audio_nominal_20hz_gap_seconds": 0.04299300000000006,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 11,
+        "declared_unaligned_length": 60,
+        "actual_nonzero_unaligned_count": 60,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          52,
+          52,
+          52,
+          53,
+          54,
+          54,
+          55,
+          56,
+          57,
+          58,
+          59
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 11,
+        "declared_unaligned_length": 1,
+        "actual_nonzero_unaligned_count": 40,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          36,
+          36,
+          36,
+          37,
+          38,
+          38,
+          39,
+          40,
+          41,
+          42,
+          43
+        ]
+      }
+    },
+    {
+      "sample_id": "17",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 14.0,
+      "streams": {
+        "video": {
+          "duration_seconds": 9.666992,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 9.562993,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 191,
+      "vision_length": 143,
+      "audio_frames_per_second": 13.642857142857142,
+      "vision_frames_per_second": 10.214285714285714,
+      "audio_nominal_20hz_gap_seconds": 0.01299299999999981,
+      "vision_nominal_15hz_gap_seconds": 0.13365866666666726,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 24,
+        "declared_unaligned_length": 191,
+        "actual_nonzero_unaligned_count": 191,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          169,
+          170,
+          171,
+          172,
+          173,
+          174,
+          175,
+          176,
+          177,
+          178,
+          178,
+          179,
+          180,
+          181,
+          182,
+          183,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          190
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 24,
+        "declared_unaligned_length": 143,
+        "actual_nonzero_unaligned_count": 143,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          121,
+          122,
+          123,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          142
+        ]
+      }
+    },
+    {
+      "sample_id": "18",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 22.967,
+      "streams": {
+        "video": {
+          "duration_seconds": 18.808008,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 18.636009,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 372,
+      "vision_length": 280,
+      "audio_frames_per_second": 16.197152436103977,
+      "vision_frames_per_second": 12.1914050594331,
+      "audio_nominal_20hz_gap_seconds": 0.03600899999999996,
+      "vision_nominal_15hz_gap_seconds": 0.1413413333333331,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 48,
+        "declared_unaligned_length": 372,
+        "actual_nonzero_unaligned_count": 372,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          326,
+          326,
+          327,
+          328,
+          329,
+          330,
+          331,
+          332,
+          333,
+          334,
+          335,
+          336,
+          337,
+          338,
+          339,
+          340,
+          340,
+          340,
+          341,
+          342,
+          342,
+          342,
+          343,
+          343,
+          343,
+          344,
+          345,
+          346,
+          347,
+          348,
+          349,
+          350,
+          351,
+          352,
+          353,
+          354,
+          355,
+          356,
+          357,
+          358,
+          359,
+          360,
+          361,
+          362,
+          363,
+          364,
+          364,
+          364
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 48,
+        "declared_unaligned_length": 280,
+        "actual_nonzero_unaligned_count": 280,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          234,
+          234,
+          235,
+          236,
+          237,
+          238,
+          239,
+          240,
+          241,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          248,
+          248,
+          249,
+          250,
+          250,
+          250,
+          251,
+          251,
+          251,
+          252,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          270,
+          271,
+          272,
+          272,
+          272
+        ]
+      }
+    },
+    {
+      "sample_id": "19",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 18.734,
+      "streams": {
+        "video": {
+          "duration_seconds": 13.683,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 13.610998,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 272,
+      "vision_length": 204,
+      "audio_frames_per_second": 14.519056261343012,
+      "vision_frames_per_second": 10.889292196007258,
+      "audio_nominal_20hz_gap_seconds": 0.01099800000000073,
+      "vision_nominal_15hz_gap_seconds": 0.08300000000000018,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 39,
+        "declared_unaligned_length": 272,
+        "actual_nonzero_unaligned_count": 272,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          239,
+          240,
+          241,
+          242,
+          242,
+          243,
+          244,
+          245,
+          246,
+          247,
+          248,
+          249,
+          249,
+          250,
+          251,
+          252,
+          253,
+          253,
+          254,
+          255,
+          256,
+          257,
+          258,
+          259,
+          260,
+          261,
+          262,
+          263,
+          264,
+          264,
+          264,
+          265,
+          266,
+          267,
+          268,
+          269,
+          269,
+          270,
+          271
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 39,
+        "declared_unaligned_length": 204,
+        "actual_nonzero_unaligned_count": 204,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          171,
+          172,
+          173,
+          174,
+          174,
+          175,
+          176,
+          177,
+          178,
+          179,
+          180,
+          181,
+          181,
+          182,
+          183,
+          184,
+          185,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          196,
+          196,
+          197,
+          198,
+          199,
+          200,
+          201,
+          201,
+          202,
+          203
+        ]
+      }
+    },
+    {
+      "sample_id": "20",
+      "id_matches_file": true,
+      "same_transcript_both_versions": true,
+      "token_ids_match_raw_text": true,
+      "aligned_shapes": {
+        "text_bert": [
+          3,
+          50
+        ],
+        "audio": [
+          50,
+          74
+        ],
+        "vision": [
+          50,
+          35
+        ]
+      },
+      "unaligned_shapes": {
+        "audio": [
+          500,
+          74
+        ],
+        "vision": [
+          500,
+          35
+        ]
+      },
+      "duration_seconds": 18.767,
+      "streams": {
+        "video": {
+          "duration_seconds": 10.952995,
+          "frame_rate": "30/1"
+        },
+        "audio": {
+          "duration_seconds": 10.81,
+          "frame_rate": "0/0"
+        }
+      },
+      "audio_length": 216,
+      "vision_length": 162,
+      "audio_frames_per_second": 11.509564661373687,
+      "vision_frames_per_second": 8.632173496030266,
+      "audio_nominal_20hz_gap_seconds": 0.009999999999999787,
+      "vision_nominal_15hz_gap_seconds": 0.15299499999999888,
+      "audio_nearest_frame_diagnostic": {
+        "n_aligned": 43,
+        "declared_unaligned_length": 216,
+        "actual_nonzero_unaligned_count": 216,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          182,
+          183,
+          184,
+          184,
+          185,
+          186,
+          187,
+          188,
+          189,
+          190,
+          191,
+          192,
+          193,
+          194,
+          195,
+          196,
+          196,
+          197,
+          198,
+          198,
+          198,
+          199,
+          200,
+          201,
+          202,
+          203,
+          204,
+          205,
+          206,
+          207,
+          208,
+          208,
+          208,
+          208,
+          208,
+          209,
+          210,
+          211,
+          212,
+          213,
+          214,
+          215,
+          215
+        ]
+      },
+      "vision_nearest_frame_diagnostic": {
+        "n_aligned": 43,
+        "declared_unaligned_length": 162,
+        "actual_nonzero_unaligned_count": 162,
+        "median_relative_distance": 0.0,
+        "ordered_nearest_fraction": 1.0,
+        "nearest_indices": [
+          128,
+          129,
+          130,
+          130,
+          131,
+          132,
+          133,
+          134,
+          135,
+          136,
+          137,
+          138,
+          139,
+          140,
+          141,
+          142,
+          142,
+          143,
+          144,
+          144,
+          144,
+          145,
+          146,
+          147,
+          148,
+          149,
+          150,
+          151,
+          152,
+          153,
+          154,
+          154,
+          154,
+          154,
+          154,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          161
+        ]
+      }
+    }
+  ]
+}
