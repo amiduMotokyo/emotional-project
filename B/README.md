@@ -53,3 +53,7 @@ python B/scripts/prepare_q2_cache.py \
   --results /mnt/disk/data/inainai/mosei_e_20260924/q3_explanations_20260925 \
   --output /mnt/disk/data/inainai/mosei_e_20260924/q3_explanations_20260925/plots
 ```
+
+## 解释约束训练对照
+
+已从当前问题三所用的Fusion checkpoint继续训练一个带解释约束的版本：训练目标增加“门控分布与真值类整模态删除效应分布的KL差异”。选中实验版为 `λ=1`、seed 20260925、第1轮；验证集ACC保持0.63736，门控与遮挡作用的top1一致率从0.89148升至0.90934，L1差异从0.56179降至0.52759。Macro-F1/MAE略差且高置信错误增多，故它作为论文对照，不覆盖原默认预测。方法、12轮多权重/多种子结果和局限见[实验记录](../docs/B/experiments/q3_explanation_constraint_20260925.md)；[训练脚本](scripts/train_q3_explanation.py)、[重编码脚本](scripts/reencode_q3_train_valid.py)、[参数配置](configs/q3_explanation_training_20260925.json)、[选中Fusion权重](checkpoints/q3_gate_aligned_lambda1_seed20260925.pt)、[实验版全量结果](../docs/B/experiments/results/q3_explanation_training/)均已保存。完整推理包位于服务器 `/mnt/disk/data/inainai/mosei_e_20260924/q3_explanation_training_20260925/lambda100/`。

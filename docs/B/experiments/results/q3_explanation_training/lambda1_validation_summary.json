@@ -1,0 +1,87 @@
+{
+  "n": 728,
+  "accuracy": 0.6373626373626373,
+  "correct": 464,
+  "macro_f1": 0.5998240198052287,
+  "mae": 0.5978975883024774,
+  "pearson": 0.645965876306294,
+  "confusion_matrix_true_by_pred": [
+    [
+      148,
+      20,
+      38
+    ],
+    [
+      37,
+      63,
+      84
+    ],
+    [
+      43,
+      42,
+      253
+    ]
+  ],
+  "class_metrics": {
+    "Negative": {
+      "precision": 0.6491228070175439,
+      "recall": 0.7184466019417476,
+      "f1": 0.6820276497695853,
+      "support": 206
+    },
+    "Neutral": {
+      "precision": 0.504,
+      "recall": 0.3423913043478261,
+      "f1": 0.4077669902912621,
+      "support": 184
+    },
+    "Positive": {
+      "precision": 0.6746666666666666,
+      "recall": 0.7485207100591716,
+      "f1": 0.7096774193548387,
+      "support": 338
+    }
+  },
+  "main_modality_counts": {
+    "all": {
+      "text": 662,
+      "vision": 51,
+      "audio": 15
+    },
+    "correct": {
+      "text": 433,
+      "vision": 28,
+      "audio": 3
+    },
+    "incorrect": {
+      "text": 229,
+      "audio": 12,
+      "vision": 23
+    }
+  },
+  "neutral_to_positive_errors": 84,
+  "negative_to_positive_errors": 38,
+  "high_confidence_errors_over_0_7": 61,
+  "short_text_le_5": {
+    "n": 15,
+    "accuracy": 0.8
+  },
+  "longer_text": {
+    "n": 713,
+    "accuracy": 0.6339410939691444
+  },
+  "vision_unavailable": {
+    "n": 15,
+    "accuracy": 0.6
+  },
+  "mean_abs_effect_share": {
+    "text": 0.7211863104395605,
+    "audio": 0.12043810027472526,
+    "vision": 0.1583755989010989
+  },
+  "mean_gate": {
+    "text": 0.7076218804945055,
+    "audio": 0.13416221978021978,
+    "vision": 0.15821591346153846
+  }
+}
