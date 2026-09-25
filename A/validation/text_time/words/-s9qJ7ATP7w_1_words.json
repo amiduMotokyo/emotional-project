@@ -1,0 +1,80 @@
+[
+  {
+    "word": "The",
+    "start": 0.0,
+    "end": 0.62,
+    "probability": 0.5215
+  },
+  {
+    "word": "hardest",
+    "start": 0.62,
+    "end": 1.64,
+    "probability": 0.9594
+  },
+  {
+    "word": "thing",
+    "start": 1.64,
+    "end": 1.86,
+    "probability": 0.9974
+  },
+  {
+    "word": "in",
+    "start": 1.86,
+    "end": 1.98,
+    "probability": 0.827
+  },
+  {
+    "word": "life",
+    "start": 1.98,
+    "end": 2.1,
+    "probability": 0.9956
+  },
+  {
+    "word": "to",
+    "start": 2.1,
+    "end": 2.28,
+    "probability": 0.9895
+  },
+  {
+    "word": "learn",
+    "start": 2.28,
+    "end": 2.5,
+    "probability": 0.9963
+  },
+  {
+    "word": "is",
+    "start": 2.5,
+    "end": 3.16,
+    "probability": 0.9574
+  },
+  {
+    "word": "to",
+    "start": 3.16,
+    "end": 3.32,
+    "probability": 0.9984
+  },
+  {
+    "word": "lose.",
+    "start": 3.32,
+    "end": 3.56,
+    "probability": 0.9852
+  },
+  {
+    "word": "Winning",
+    "start": 3.82,
+    "end": 4.02,
+    "probability": 0.9054
+  },
+  {
+    "word": "is",
+    "start": 4.02,
+    "end": 4.16,
+    "probability": 0.5066
+  },
+  {
+    "word": "easy.",
+    "start": 4.16,
+    "end": 4.4,
+    "probability": 0.9971
+  }
+]

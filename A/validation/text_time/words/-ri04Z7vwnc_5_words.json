@@ -1,0 +1,86 @@
+[
+  {
+    "word": "and",
+    "start": 0.0,
+    "end": 0.3,
+    "probability": 0.5123
+  },
+  {
+    "word": "a",
+    "start": 0.3,
+    "end": 0.54,
+    "probability": 0.8579
+  },
+  {
+    "word": "lot",
+    "start": 0.54,
+    "end": 0.72,
+    "probability": 0.9992
+  },
+  {
+    "word": "of",
+    "start": 0.72,
+    "end": 0.84,
+    "probability": 0.9978
+  },
+  {
+    "word": "people",
+    "start": 0.84,
+    "end": 1.06,
+    "probability": 0.9964
+  },
+  {
+    "word": "who",
+    "start": 1.06,
+    "end": 1.22,
+    "probability": 0.9292
+  },
+  {
+    "word": "are",
+    "start": 1.22,
+    "end": 1.28,
+    "probability": 0.9654
+  },
+  {
+    "word": "working,",
+    "start": 1.28,
+    "end": 1.64,
+    "probability": 0.9937
+  },
+  {
+    "word": "you",
+    "start": 2.36,
+    "end": 2.36,
+    "probability": 0.8192
+  },
+  {
+    "word": "know,",
+    "start": 2.36,
+    "end": 2.44,
+    "probability": 0.9985
+  },
+  {
+    "word": "money",
+    "start": 2.46,
+    "end": 2.64,
+    "probability": 0.9834
+  },
+  {
+    "word": "is",
+    "start": 2.64,
+    "end": 2.86,
+    "probability": 0.9855
+  },
+  {
+    "word": "very",
+    "start": 2.86,
+    "end": 3.02,
+    "probability": 0.9939
+  },
+  {
+    "word": "important.",
+    "start": 3.02,
+    "end": 3.24,
+    "probability": 0.9875
+  }
+]

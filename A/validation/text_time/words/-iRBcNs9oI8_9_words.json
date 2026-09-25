@@ -1,0 +1,20 @@
+[
+  {
+    "word": "of",
+    "start": 0.0,
+    "end": 0.36,
+    "probability": 0.8174
+  },
+  {
+    "word": "Power",
+    "start": 0.36,
+    "end": 1.66,
+    "probability": 0.4135
+  },
+  {
+    "word": "Pose.",
+    "start": 1.66,
+    "end": 2.38,
+    "probability": 0.7809
+  }
+]

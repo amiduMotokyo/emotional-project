@@ -1,0 +1,104 @@
+[
+  {
+    "word": "business",
+    "start": 0.0,
+    "end": 0.34,
+    "probability": 0.3487
+  },
+  {
+    "word": "and",
+    "start": 0.34,
+    "end": 0.56,
+    "probability": 0.4111
+  },
+  {
+    "word": "I",
+    "start": 0.56,
+    "end": 0.68,
+    "probability": 0.8951
+  },
+  {
+    "word": "said",
+    "start": 0.68,
+    "end": 0.86,
+    "probability": 0.9922
+  },
+  {
+    "word": "oh",
+    "start": 0.86,
+    "end": 1.04,
+    "probability": 0.5021
+  },
+  {
+    "word": "make",
+    "start": 1.04,
+    "end": 1.24,
+    "probability": 0.8131
+  },
+  {
+    "word": "a",
+    "start": 1.24,
+    "end": 1.36,
+    "probability": 0.9954
+  },
+  {
+    "word": "profit",
+    "start": 1.36,
+    "end": 1.76,
+    "probability": 0.9791
+  },
+  {
+    "word": "and",
+    "start": 1.76,
+    "end": 1.96,
+    "probability": 0.8829
+  },
+  {
+    "word": "all",
+    "start": 1.96,
+    "end": 2.04,
+    "probability": 0.9964
+  },
+  {
+    "word": "these",
+    "start": 2.04,
+    "end": 2.16,
+    "probability": 0.9939
+  },
+  {
+    "word": "other",
+    "start": 2.16,
+    "end": 2.32,
+    "probability": 0.9992
+  },
+  {
+    "word": "things",
+    "start": 2.32,
+    "end": 2.6,
+    "probability": 0.9961
+  },
+  {
+    "word": "and",
+    "start": 2.6,
+    "end": 2.76,
+    "probability": 0.4729
+  },
+  {
+    "word": "he",
+    "start": 2.76,
+    "end": 2.82,
+    "probability": 0.458
+  },
+  {
+    "word": "said",
+    "start": 2.82,
+    "end": 2.94,
+    "probability": 0.9818
+  },
+  {
+    "word": "no.",
+    "start": 2.94,
+    "end": 3.12,
+    "probability": 0.9038
+  }
+]

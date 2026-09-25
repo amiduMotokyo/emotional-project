@@ -1,0 +1,134 @@
+[
+  {
+    "word": "is",
+    "start": 0.0,
+    "end": 0.32,
+    "probability": 0.071
+  },
+  {
+    "word": "not",
+    "start": 0.32,
+    "end": 0.46,
+    "probability": 0.984
+  },
+  {
+    "word": "overdeveloped",
+    "start": 0.46,
+    "end": 1.08,
+    "probability": 0.9489
+  },
+  {
+    "word": "and",
+    "start": 1.08,
+    "end": 1.16,
+    "probability": 0.3614
+  },
+  {
+    "word": "then",
+    "start": 1.16,
+    "end": 1.26,
+    "probability": 0.9211
+  },
+  {
+    "word": "from",
+    "start": 1.26,
+    "end": 1.44,
+    "probability": 0.9835
+  },
+  {
+    "word": "a",
+    "start": 1.44,
+    "end": 1.58,
+    "probability": 0.9958
+  },
+  {
+    "word": "brand",
+    "start": 1.58,
+    "end": 1.92,
+    "probability": 0.9907
+  },
+  {
+    "word": "point",
+    "start": 1.92,
+    "end": 2.24,
+    "probability": 0.9484
+  },
+  {
+    "word": "of",
+    "start": 2.24,
+    "end": 2.4,
+    "probability": 0.9838
+  },
+  {
+    "word": "view",
+    "start": 2.4,
+    "end": 2.58,
+    "probability": 0.995
+  },
+  {
+    "word": "we",
+    "start": 2.58,
+    "end": 2.74,
+    "probability": 0.6549
+  },
+  {
+    "word": "need",
+    "start": 2.74,
+    "end": 2.96,
+    "probability": 0.9952
+  },
+  {
+    "word": "to",
+    "start": 2.96,
+    "end": 3.14,
+    "probability": 0.9975
+  },
+  {
+    "word": "make",
+    "start": 3.14,
+    "end": 3.28,
+    "probability": 0.9965
+  },
+  {
+    "word": "sure",
+    "start": 3.28,
+    "end": 3.5,
+    "probability": 0.9975
+  },
+  {
+    "word": "that",
+    "start": 3.5,
+    "end": 3.64,
+    "probability": 0.9339
+  },
+  {
+    "word": "we're",
+    "start": 3.64,
+    "end": 3.84,
+    "probability": 0.9792
+  },
+  {
+    "word": "driving",
+    "start": 3.84,
+    "end": 4.14,
+    "probability": 0.9974
+  },
+  {
+    "word": "the",
+    "start": 4.14,
+    "end": 4.3,
+    "probability": 0.9472
+  },
+  {
+    "word": "relevant",
+    "start": 4.3,
+    "end": 4.62,
+    "probability": 0.9853
+  },
+  {
+    "word": "insight",
+    "start": 4.62,
+    "end": 5.2,
+    "probability": 0.2785
+  }
+]

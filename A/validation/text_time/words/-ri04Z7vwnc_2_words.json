@@ -1,0 +1,20 @@
+[
+  {
+    "word": "Hi,",
+    "start": 3.62,
+    "end": 4.38,
+    "probability": 0.8216
+  },
+  {
+    "word": "I'm",
+    "start": 4.76,
+    "end": 5.02,
+    "probability": 0.8739
+  },
+  {
+    "word": "Ajanta.",
+    "start": 5.02,
+    "end": 5.4,
+    "probability": 0.6197
+  }
+]

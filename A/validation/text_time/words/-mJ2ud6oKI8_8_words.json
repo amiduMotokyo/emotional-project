@@ -1,0 +1,92 @@
+[
+  {
+    "word": "We",
+    "start": 0.52,
+    "end": 0.88,
+    "probability": 0.5348
+  },
+  {
+    "word": "want",
+    "start": 0.88,
+    "end": 1.02,
+    "probability": 0.8378
+  },
+  {
+    "word": "to",
+    "start": 1.02,
+    "end": 1.12,
+    "probability": 0.9882
+  },
+  {
+    "word": "evaluate",
+    "start": 1.12,
+    "end": 1.48,
+    "probability": 0.9979
+  },
+  {
+    "word": "them,",
+    "start": 1.48,
+    "end": 1.82,
+    "probability": 0.9832
+  },
+  {
+    "word": "you",
+    "start": 2.02,
+    "end": 2.04,
+    "probability": 0.5468
+  },
+  {
+    "word": "know,",
+    "start": 2.04,
+    "end": 2.12,
+    "probability": 0.9949
+  },
+  {
+    "word": "give",
+    "start": 2.18,
+    "end": 2.26,
+    "probability": 0.9324
+  },
+  {
+    "word": "them",
+    "start": 2.26,
+    "end": 2.38,
+    "probability": 0.9698
+  },
+  {
+    "word": "a",
+    "start": 2.38,
+    "end": 2.48,
+    "probability": 0.9789
+  },
+  {
+    "word": "full",
+    "start": 2.48,
+    "end": 2.72,
+    "probability": 0.915
+  },
+  {
+    "word": "thorough",
+    "start": 2.72,
+    "end": 3.12,
+    "probability": 0.9356
+  },
+  {
+    "word": "evaluation",
+    "start": 3.12,
+    "end": 3.6,
+    "probability": 0.9949
+  },
+  {
+    "word": "to",
+    "start": 3.6,
+    "end": 3.96,
+    "probability": 0.8495
+  },
+  {
+    "word": "find.",
+    "start": 3.96,
+    "end": 4.14,
+    "probability": 0.9753
+  }
+]

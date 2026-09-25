@@ -1,0 +1,74 @@
+[
+  {
+    "word": "to",
+    "start": 0.0,
+    "end": 0.6,
+    "probability": 0.6231
+  },
+  {
+    "word": "follow",
+    "start": 0.6,
+    "end": 0.92,
+    "probability": 0.9778
+  },
+  {
+    "word": "just",
+    "start": 0.92,
+    "end": 1.2,
+    "probability": 0.9759
+  },
+  {
+    "word": "one",
+    "start": 1.2,
+    "end": 1.68,
+    "probability": 0.9873
+  },
+  {
+    "word": "vision.",
+    "start": 1.68,
+    "end": 2.14,
+    "probability": 0.5418
+  },
+  {
+    "word": "I've",
+    "start": 3.06,
+    "end": 3.94,
+    "probability": 0.7468
+  },
+  {
+    "word": "never",
+    "start": 3.94,
+    "end": 4.06,
+    "probability": 0.8675
+  },
+  {
+    "word": "wondered",
+    "start": 4.06,
+    "end": 4.5,
+    "probability": 0.9973
+  },
+  {
+    "word": "how",
+    "start": 4.5,
+    "end": 4.82,
+    "probability": 0.9935
+  },
+  {
+    "word": "a",
+    "start": 4.82,
+    "end": 5.76,
+    "probability": 0.906
+  },
+  {
+    "word": "single",
+    "start": 5.76,
+    "end": 6.12,
+    "probability": 0.9643
+  },
+  {
+    "word": "person",
+    "start": 6.12,
+    "end": 6.3,
+    "probability": 0.4085
+  }
+]

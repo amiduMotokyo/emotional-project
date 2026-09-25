@@ -1,0 +1,128 @@
+[
+  {
+    "word": "and",
+    "start": 0.0,
+    "end": 0.48,
+    "probability": 0.2766
+  },
+  {
+    "word": "we",
+    "start": 0.48,
+    "end": 0.64,
+    "probability": 0.0489
+  },
+  {
+    "word": "need",
+    "start": 0.64,
+    "end": 0.84,
+    "probability": 0.042
+  },
+  {
+    "word": "to",
+    "start": 0.84,
+    "end": 1.24,
+    "probability": 0.7399
+  },
+  {
+    "word": "start,",
+    "start": 1.24,
+    "end": 1.32,
+    "probability": 0.0054
+  },
+  {
+    "word": "I'm",
+    "start": 1.36,
+    "end": 2.4,
+    "probability": 0.0961
+  },
+  {
+    "word": "Israel,",
+    "start": 2.4,
+    "end": 2.72,
+    "probability": 0.5687
+  },
+  {
+    "word": "and",
+    "start": 3.58,
+    "end": 3.62,
+    "probability": 0.0612
+  },
+  {
+    "word": "I",
+    "start": 3.62,
+    "end": 3.84,
+    "probability": 0.4344
+  },
+  {
+    "word": "honor",
+    "start": 3.84,
+    "end": 4.04,
+    "probability": 0.0003
+  },
+  {
+    "word": "what",
+    "start": 4.04,
+    "end": 4.82,
+    "probability": 0.0008
+  },
+  {
+    "word": "God",
+    "start": 4.82,
+    "end": 5.86,
+    "probability": 0.0833
+  },
+  {
+    "word": "has",
+    "start": 5.86,
+    "end": 6.92,
+    "probability": 0.199
+  },
+  {
+    "word": "organ",
+    "start": 6.92,
+    "end": 6.92,
+    "probability": 0.0
+  },
+  {
+    "word": "Honestly,",
+    "start": 6.92,
+    "end": 6.92,
+    "probability": 0.0001
+  },
+  {
+    "word": "I",
+    "start": 8.56,
+    "end": 9.24,
+    "probability": 0.7286
+  },
+  {
+    "word": "want",
+    "start": 9.24,
+    "end": 9.92,
+    "probability": 0.0416
+  },
+  {
+    "word": "to",
+    "start": 9.92,
+    "end": 10.16,
+    "probability": 0.6916
+  },
+  {
+    "word": "give",
+    "start": 10.16,
+    "end": 10.2,
+    "probability": 0.0175
+  },
+  {
+    "word": "to",
+    "start": 10.2,
+    "end": 11.12,
+    "probability": 0.0473
+  },
+  {
+    "word": "them",
+    "start": 11.12,
+    "end": 11.12,
+    "probability": 0.0416
+  }
+]

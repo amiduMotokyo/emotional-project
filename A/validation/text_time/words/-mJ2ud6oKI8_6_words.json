@@ -1,0 +1,50 @@
+[
+  {
+    "word": "that",
+    "start": 0.0,
+    "end": 0.12,
+    "probability": 0.8119
+  },
+  {
+    "word": "we",
+    "start": 0.12,
+    "end": 0.4,
+    "probability": 0.9936
+  },
+  {
+    "word": "all",
+    "start": 0.4,
+    "end": 0.66,
+    "probability": 0.9968
+  },
+  {
+    "word": "want",
+    "start": 0.66,
+    "end": 0.92,
+    "probability": 0.8506
+  },
+  {
+    "word": "to",
+    "start": 0.92,
+    "end": 1.04,
+    "probability": 0.9241
+  },
+  {
+    "word": "approach",
+    "start": 1.04,
+    "end": 1.4,
+    "probability": 0.9949
+  },
+  {
+    "word": "really",
+    "start": 1.4,
+    "end": 1.92,
+    "probability": 0.6934
+  },
+  {
+    "word": "any...",
+    "start": 1.92,
+    "end": 2.2,
+    "probability": 0.4315
+  }
+]

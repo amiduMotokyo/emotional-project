@@ -1,0 +1,92 @@
+[
+  {
+    "word": "We're",
+    "start": 0.0,
+    "end": 0.7,
+    "probability": 0.6892
+  },
+  {
+    "word": "updating",
+    "start": 0.7,
+    "end": 1.1,
+    "probability": 0.9976
+  },
+  {
+    "word": "it",
+    "start": 1.1,
+    "end": 1.3,
+    "probability": 0.966
+  },
+  {
+    "word": "all",
+    "start": 1.3,
+    "end": 1.48,
+    "probability": 0.9965
+  },
+  {
+    "word": "the",
+    "start": 1.48,
+    "end": 1.66,
+    "probability": 0.9598
+  },
+  {
+    "word": "time",
+    "start": 1.66,
+    "end": 1.96,
+    "probability": 0.9991
+  },
+  {
+    "word": "and",
+    "start": 1.96,
+    "end": 2.54,
+    "probability": 0.832
+  },
+  {
+    "word": "looking",
+    "start": 2.54,
+    "end": 2.84,
+    "probability": 0.994
+  },
+  {
+    "word": "forward",
+    "start": 2.84,
+    "end": 3.18,
+    "probability": 0.9987
+  },
+  {
+    "word": "to",
+    "start": 3.18,
+    "end": 3.44,
+    "probability": 0.995
+  },
+  {
+    "word": "your",
+    "start": 3.44,
+    "end": 3.64,
+    "probability": 0.9939
+  },
+  {
+    "word": "comments",
+    "start": 3.64,
+    "end": 4.1,
+    "probability": 0.9964
+  },
+  {
+    "word": "on",
+    "start": 4.1,
+    "end": 4.5,
+    "probability": 0.9948
+  },
+  {
+    "word": "our",
+    "start": 4.5,
+    "end": 4.66,
+    "probability": 0.9977
+  },
+  {
+    "word": "videos.",
+    "start": 4.66,
+    "end": 5.04,
+    "probability": 0.9937
+  }
+]

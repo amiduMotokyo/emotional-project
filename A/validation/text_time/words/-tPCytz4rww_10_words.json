@@ -1,0 +1,86 @@
+[
+  {
+    "word": "footage",
+    "start": 0.0,
+    "end": 0.26,
+    "probability": 0.296
+  },
+  {
+    "word": "say",
+    "start": 0.26,
+    "end": 0.7,
+    "probability": 0.6543
+  },
+  {
+    "word": "20%.",
+    "start": 0.7,
+    "end": 1.32,
+    "probability": 0.6423
+  },
+  {
+    "word": "So",
+    "start": 1.32,
+    "end": 1.68,
+    "probability": 0.9222
+  },
+  {
+    "word": "if",
+    "start": 1.68,
+    "end": 2.0,
+    "probability": 0.8945
+  },
+  {
+    "word": "you've",
+    "start": 2.0,
+    "end": 2.22,
+    "probability": 0.9607
+  },
+  {
+    "word": "got",
+    "start": 2.22,
+    "end": 2.3,
+    "probability": 0.9922
+  },
+  {
+    "word": "a",
+    "start": 2.3,
+    "end": 2.38,
+    "probability": 0.6152
+  },
+  {
+    "word": "thousand",
+    "start": 2.38,
+    "end": 2.7,
+    "probability": 0.7742
+  },
+  {
+    "word": "square",
+    "start": 2.7,
+    "end": 2.96,
+    "probability": 0.9805
+  },
+  {
+    "word": "foot",
+    "start": 2.96,
+    "end": 3.28,
+    "probability": 0.9637
+  },
+  {
+    "word": "condo",
+    "start": 3.28,
+    "end": 4.16,
+    "probability": 0.8617
+  },
+  {
+    "word": "make",
+    "start": 4.16,
+    "end": 4.5,
+    "probability": 0.3236
+  },
+  {
+    "word": "sure",
+    "start": 4.5,
+    "end": 4.64,
+    "probability": 0.9755
+  }
+]

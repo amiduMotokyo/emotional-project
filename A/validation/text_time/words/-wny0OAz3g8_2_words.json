@@ -1,0 +1,164 @@
+[
+  {
+    "word": "service",
+    "start": 0.0,
+    "end": 0.24,
+    "probability": 0.5074
+  },
+  {
+    "word": "work.",
+    "start": 0.24,
+    "end": 0.46,
+    "probability": 0.8832
+  },
+  {
+    "word": "And",
+    "start": 0.54,
+    "end": 0.6,
+    "probability": 0.9626
+  },
+  {
+    "word": "because",
+    "start": 0.6,
+    "end": 0.88,
+    "probability": 0.9494
+  },
+  {
+    "word": "they",
+    "start": 0.88,
+    "end": 1.08,
+    "probability": 0.9928
+  },
+  {
+    "word": "couldn't",
+    "start": 1.08,
+    "end": 1.32,
+    "probability": 0.9879
+  },
+  {
+    "word": "get",
+    "start": 1.32,
+    "end": 1.42,
+    "probability": 0.9944
+  },
+  {
+    "word": "these",
+    "start": 1.42,
+    "end": 1.58,
+    "probability": 0.9847
+  },
+  {
+    "word": "jobs,",
+    "start": 1.58,
+    "end": 1.88,
+    "probability": 0.9924
+  },
+  {
+    "word": "black",
+    "start": 2.26,
+    "end": 2.34,
+    "probability": 0.8418
+  },
+  {
+    "word": "communities",
+    "start": 2.34,
+    "end": 2.7,
+    "probability": 0.9841
+  },
+  {
+    "word": "had",
+    "start": 2.7,
+    "end": 2.88,
+    "probability": 0.987
+  },
+  {
+    "word": "more",
+    "start": 2.88,
+    "end": 3.08,
+    "probability": 0.9977
+  },
+  {
+    "word": "men",
+    "start": 3.08,
+    "end": 3.26,
+    "probability": 0.9891
+  },
+  {
+    "word": "out",
+    "start": 3.26,
+    "end": 3.38,
+    "probability": 0.9929
+  },
+  {
+    "word": "of",
+    "start": 3.38,
+    "end": 3.46,
+    "probability": 0.9817
+  },
+  {
+    "word": "work,",
+    "start": 3.46,
+    "end": 3.68,
+    "probability": 0.9982
+  },
+  {
+    "word": "higher",
+    "start": 3.98,
+    "end": 4.12,
+    "probability": 0.9889
+  },
+  {
+    "word": "rates",
+    "start": 4.12,
+    "end": 4.34,
+    "probability": 0.9684
+  },
+  {
+    "word": "of",
+    "start": 4.34,
+    "end": 4.44,
+    "probability": 0.9979
+  },
+  {
+    "word": "poverty,",
+    "start": 4.44,
+    "end": 4.76,
+    "probability": 0.9991
+  },
+  {
+    "word": "and",
+    "start": 4.96,
+    "end": 5.02,
+    "probability": 0.9928
+  },
+  {
+    "word": "more",
+    "start": 5.02,
+    "end": 5.18,
+    "probability": 0.9982
+  },
+  {
+    "word": "criminal",
+    "start": 5.18,
+    "end": 5.46,
+    "probability": 0.9966
+  },
+  {
+    "word": "behavior.",
+    "start": 5.46,
+    "end": 5.92,
+    "probability": 0.9645
+  },
+  {
+    "word": "Which",
+    "start": 6.04,
+    "end": 6.18,
+    "probability": 0.8189
+  },
+  {
+    "word": "then",
+    "start": 6.18,
+    "end": 6.36,
+    "probability": 0.6175
+  }
+]

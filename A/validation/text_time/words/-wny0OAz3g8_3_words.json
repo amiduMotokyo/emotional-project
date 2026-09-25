@@ -1,0 +1,128 @@
+[
+  {
+    "word": "behavior,",
+    "start": 0.0,
+    "end": 0.42,
+    "probability": 0.3678
+  },
+  {
+    "word": "which",
+    "start": 0.56,
+    "end": 0.66,
+    "probability": 0.9728
+  },
+  {
+    "word": "then",
+    "start": 0.66,
+    "end": 0.86,
+    "probability": 0.9618
+  },
+  {
+    "word": "allowed",
+    "start": 0.86,
+    "end": 1.06,
+    "probability": 0.9941
+  },
+  {
+    "word": "the",
+    "start": 1.06,
+    "end": 1.24,
+    "probability": 0.9772
+  },
+  {
+    "word": "white",
+    "start": 1.24,
+    "end": 1.4,
+    "probability": 0.7205
+  },
+  {
+    "word": "workers",
+    "start": 1.4,
+    "end": 1.68,
+    "probability": 0.9919
+  },
+  {
+    "word": "and",
+    "start": 1.68,
+    "end": 1.86,
+    "probability": 0.9378
+  },
+  {
+    "word": "unions",
+    "start": 1.86,
+    "end": 2.08,
+    "probability": 0.9838
+  },
+  {
+    "word": "to",
+    "start": 2.08,
+    "end": 2.32,
+    "probability": 0.9971
+  },
+  {
+    "word": "justify",
+    "start": 2.32,
+    "end": 2.74,
+    "probability": 0.9918
+  },
+  {
+    "word": "their",
+    "start": 2.74,
+    "end": 2.94,
+    "probability": 0.9938
+  },
+  {
+    "word": "decision",
+    "start": 2.94,
+    "end": 3.22,
+    "probability": 0.9623
+  },
+  {
+    "word": "to",
+    "start": 3.22,
+    "end": 3.44,
+    "probability": 0.9731
+  },
+  {
+    "word": "not",
+    "start": 3.44,
+    "end": 3.62,
+    "probability": 0.988
+  },
+  {
+    "word": "allow",
+    "start": 3.62,
+    "end": 3.88,
+    "probability": 0.8935
+  },
+  {
+    "word": "black",
+    "start": 3.88,
+    "end": 4.16,
+    "probability": 0.9469
+  },
+  {
+    "word": "workers",
+    "start": 4.16,
+    "end": 4.56,
+    "probability": 0.9901
+  },
+  {
+    "word": "into",
+    "start": 4.56,
+    "end": 4.92,
+    "probability": 0.9181
+  },
+  {
+    "word": "their",
+    "start": 4.92,
+    "end": 5.14,
+    "probability": 0.9888
+  },
+  {
+    "word": "union.",
+    "start": 5.14,
+    "end": 5.5,
+    "probability": 0.9659
+  }
+]

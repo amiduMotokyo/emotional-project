@@ -1,0 +1,134 @@
+[
+  {
+    "word": "So,",
+    "start": 0.4,
+    "end": 0.76,
+    "probability": 0.8853
+  },
+  {
+    "word": "if",
+    "start": 1.02,
+    "end": 1.2,
+    "probability": 0.9946
+  },
+  {
+    "word": "you",
+    "start": 1.2,
+    "end": 1.28,
+    "probability": 0.9979
+  },
+  {
+    "word": "have",
+    "start": 1.28,
+    "end": 1.42,
+    "probability": 0.9876
+  },
+  {
+    "word": "a",
+    "start": 1.42,
+    "end": 1.54,
+    "probability": 0.9849
+  },
+  {
+    "word": "loved",
+    "start": 1.54,
+    "end": 1.7,
+    "probability": 0.9914
+  },
+  {
+    "word": "one",
+    "start": 1.7,
+    "end": 1.94,
+    "probability": 0.9952
+  },
+  {
+    "word": "who",
+    "start": 1.94,
+    "end": 2.12,
+    "probability": 0.9659
+  },
+  {
+    "word": "is",
+    "start": 2.12,
+    "end": 2.26,
+    "probability": 0.7393
+  },
+  {
+    "word": "depressed,",
+    "start": 2.26,
+    "end": 2.68,
+    "probability": 0.9962
+  },
+  {
+    "word": "those",
+    "start": 3.22,
+    "end": 3.4,
+    "probability": 0.9903
+  },
+  {
+    "word": "are",
+    "start": 3.4,
+    "end": 3.52,
+    "probability": 0.993
+  },
+  {
+    "word": "some",
+    "start": 3.52,
+    "end": 3.7,
+    "probability": 0.9868
+  },
+  {
+    "word": "of",
+    "start": 3.7,
+    "end": 3.82,
+    "probability": 0.9893
+  },
+  {
+    "word": "the",
+    "start": 3.82,
+    "end": 3.92,
+    "probability": 0.9934
+  },
+  {
+    "word": "things",
+    "start": 3.92,
+    "end": 4.14,
+    "probability": 0.9967
+  },
+  {
+    "word": "that",
+    "start": 4.14,
+    "end": 4.32,
+    "probability": 0.8304
+  },
+  {
+    "word": "you",
+    "start": 4.32,
+    "end": 4.48,
+    "probability": 0.9958
+  },
+  {
+    "word": "should",
+    "start": 4.48,
+    "end": 4.64,
+    "probability": 0.9954
+  },
+  {
+    "word": "think",
+    "start": 4.64,
+    "end": 4.82,
+    "probability": 0.9913
+  },
+  {
+    "word": "about",
+    "start": 4.82,
+    "end": 5.06,
+    "probability": 0.997
+  },
+  {
+    "word": "doing.",
+    "start": 5.06,
+    "end": 5.4,
+    "probability": 0.9966
+  }
+]

@@ -1,0 +1,188 @@
+[
+  {
+    "word": "forces.",
+    "start": 0.0,
+    "end": 0.4,
+    "probability": 0.9369
+  },
+  {
+    "word": "Ome",
+    "start": 0.56,
+    "end": 0.68,
+    "probability": 0.4302
+  },
+  {
+    "word": "and",
+    "start": 0.68,
+    "end": 0.8,
+    "probability": 0.2238
+  },
+  {
+    "word": "Winett",
+    "start": 0.8,
+    "end": 1.02,
+    "probability": 0.3181
+  },
+  {
+    "word": "argued",
+    "start": 1.02,
+    "end": 1.24,
+    "probability": 0.6782
+  },
+  {
+    "word": "that",
+    "start": 1.24,
+    "end": 1.44,
+    "probability": 0.9587
+  },
+  {
+    "word": "the",
+    "start": 1.44,
+    "end": 1.52,
+    "probability": 0.982
+  },
+  {
+    "word": "concept",
+    "start": 1.52,
+    "end": 1.82,
+    "probability": 0.9922
+  },
+  {
+    "word": "of",
+    "start": 1.82,
+    "end": 1.98,
+    "probability": 0.9955
+  },
+  {
+    "word": "race",
+    "start": 1.98,
+    "end": 2.18,
+    "probability": 0.9902
+  },
+  {
+    "word": "came",
+    "start": 2.18,
+    "end": 2.42,
+    "probability": 0.9749
+  },
+  {
+    "word": "about",
+    "start": 2.42,
+    "end": 2.62,
+    "probability": 0.9873
+  },
+  {
+    "word": "as",
+    "start": 2.62,
+    "end": 2.78,
+    "probability": 0.9925
+  },
+  {
+    "word": "a",
+    "start": 2.78,
+    "end": 2.86,
+    "probability": 0.9948
+  },
+  {
+    "word": "tool",
+    "start": 2.86,
+    "end": 3.08,
+    "probability": 0.9934
+  },
+  {
+    "word": "to",
+    "start": 3.08,
+    "end": 3.26,
+    "probability": 0.9939
+  },
+  {
+    "word": "justify",
+    "start": 3.26,
+    "end": 3.68,
+    "probability": 0.993
+  },
+  {
+    "word": "and",
+    "start": 3.68,
+    "end": 3.92,
+    "probability": 0.9747
+  },
+  {
+    "word": "maintain",
+    "start": 3.92,
+    "end": 4.3,
+    "probability": 0.9965
+  },
+  {
+    "word": "the",
+    "start": 4.3,
+    "end": 4.58,
+    "probability": 0.8993
+  },
+  {
+    "word": "economic",
+    "start": 4.58,
+    "end": 4.96,
+    "probability": 0.9972
+  },
+  {
+    "word": "and",
+    "start": 4.96,
+    "end": 5.18,
+    "probability": 0.9913
+  },
+  {
+    "word": "political",
+    "start": 5.18,
+    "end": 5.48,
+    "probability": 0.9989
+  },
+  {
+    "word": "power",
+    "start": 5.48,
+    "end": 5.9,
+    "probability": 0.9986
+  },
+  {
+    "word": "held",
+    "start": 5.9,
+    "end": 6.18,
+    "probability": 0.9737
+  },
+  {
+    "word": "by",
+    "start": 6.18,
+    "end": 6.34,
+    "probability": 0.9979
+  },
+  {
+    "word": "those",
+    "start": 6.34,
+    "end": 6.5,
+    "probability": 0.9204
+  },
+  {
+    "word": "of",
+    "start": 6.5,
+    "end": 6.64,
+    "probability": 0.987
+  },
+  {
+    "word": "European",
+    "start": 6.64,
+    "end": 6.96,
+    "probability": 0.9344
+  },
+  {
+    "word": "descent.",
+    "start": 6.96,
+    "end": 7.34,
+    "probability": 0.8973
+  },
+  {
+    "word": "Another",
+    "start": 7.52,
+    "end": 7.72,
+    "probability": 0.6852
+  }
+]

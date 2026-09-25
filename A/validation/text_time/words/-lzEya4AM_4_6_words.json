@@ -1,0 +1,254 @@
+[
+  {
+    "word": "If",
+    "start": 0.0,
+    "end": 0.66,
+    "probability": 0.7733
+  },
+  {
+    "word": "the",
+    "start": 0.66,
+    "end": 0.8,
+    "probability": 0.9886
+  },
+  {
+    "word": "product",
+    "start": 0.8,
+    "end": 1.16,
+    "probability": 0.9968
+  },
+  {
+    "word": "or",
+    "start": 1.16,
+    "end": 1.62,
+    "probability": 0.8058
+  },
+  {
+    "word": "poison",
+    "start": 1.62,
+    "end": 2.02,
+    "probability": 0.7444
+  },
+  {
+    "word": "is",
+    "start": 2.02,
+    "end": 2.22,
+    "probability": 0.9492
+  },
+  {
+    "word": "some",
+    "start": 2.22,
+    "end": 2.4,
+    "probability": 0.9854
+  },
+  {
+    "word": "type",
+    "start": 2.4,
+    "end": 2.6,
+    "probability": 0.9686
+  },
+  {
+    "word": "of",
+    "start": 2.6,
+    "end": 2.84,
+    "probability": 0.995
+  },
+  {
+    "word": "petroleum",
+    "start": 2.84,
+    "end": 3.2,
+    "probability": 0.9893
+  },
+  {
+    "word": "product",
+    "start": 3.2,
+    "end": 3.7,
+    "probability": 0.9888
+  },
+  {
+    "word": "or",
+    "start": 3.7,
+    "end": 4.26,
+    "probability": 0.8705
+  },
+  {
+    "word": "corrosive",
+    "start": 4.26,
+    "end": 4.78,
+    "probability": 0.9957
+  },
+  {
+    "word": "product,",
+    "start": 4.78,
+    "end": 5.2,
+    "probability": 0.992
+  },
+  {
+    "word": "you",
+    "start": 5.32,
+    "end": 5.9,
+    "probability": 0.9932
+  },
+  {
+    "word": "would",
+    "start": 5.9,
+    "end": 6.04,
+    "probability": 0.992
+  },
+  {
+    "word": "not",
+    "start": 6.04,
+    "end": 6.22,
+    "probability": 0.9988
+  },
+  {
+    "word": "attempt",
+    "start": 6.22,
+    "end": 6.8,
+    "probability": 0.9979
+  },
+  {
+    "word": "to",
+    "start": 6.8,
+    "end": 7.28,
+    "probability": 0.9973
+  },
+  {
+    "word": "induce",
+    "start": 7.28,
+    "end": 7.84,
+    "probability": 0.9863
+  },
+  {
+    "word": "vomiting",
+    "start": 7.84,
+    "end": 8.24,
+    "probability": 0.9919
+  },
+  {
+    "word": "and",
+    "start": 8.24,
+    "end": 8.68,
+    "probability": 0.8996
+  },
+  {
+    "word": "nausea.",
+    "start": 8.68,
+    "end": 9.24,
+    "probability": 0.9958
+  },
+  {
+    "word": "As",
+    "start": 9.46,
+    "end": 9.7,
+    "probability": 0.9752
+  },
+  {
+    "word": "the",
+    "start": 9.7,
+    "end": 9.86,
+    "probability": 0.579
+  },
+  {
+    "word": "product",
+    "start": 9.86,
+    "end": 10.22,
+    "probability": 0.9965
+  },
+  {
+    "word": "burned",
+    "start": 10.22,
+    "end": 10.56,
+    "probability": 0.9589
+  },
+  {
+    "word": "on",
+    "start": 10.56,
+    "end": 10.78,
+    "probability": 0.984
+  },
+  {
+    "word": "the",
+    "start": 10.78,
+    "end": 10.92,
+    "probability": 0.9979
+  },
+  {
+    "word": "way",
+    "start": 10.92,
+    "end": 11.06,
+    "probability": 0.9954
+  },
+  {
+    "word": "down,",
+    "start": 11.06,
+    "end": 11.38,
+    "probability": 0.9985
+  },
+  {
+    "word": "it",
+    "start": 11.68,
+    "end": 11.84,
+    "probability": 0.9967
+  },
+  {
+    "word": "could",
+    "start": 11.84,
+    "end": 11.96,
+    "probability": 0.9898
+  },
+  {
+    "word": "cause",
+    "start": 11.96,
+    "end": 12.24,
+    "probability": 0.9986
+  },
+  {
+    "word": "damage",
+    "start": 12.24,
+    "end": 12.6,
+    "probability": 0.994
+  },
+  {
+    "word": "and",
+    "start": 12.6,
+    "end": 12.82,
+    "probability": 0.7982
+  },
+  {
+    "word": "burning",
+    "start": 12.82,
+    "end": 13.12,
+    "probability": 0.9928
+  },
+  {
+    "word": "on",
+    "start": 13.12,
+    "end": 13.5,
+    "probability": 0.9832
+  },
+  {
+    "word": "the",
+    "start": 13.5,
+    "end": 13.6,
+    "probability": 0.9977
+  },
+  {
+    "word": "way",
+    "start": 13.6,
+    "end": 13.74,
+    "probability": 0.9998
+  },
+  {
+    "word": "back",
+    "start": 13.74,
+    "end": 13.92,
+    "probability": 0.9974
+  },
+  {
+    "word": "up.",
+    "start": 13.92,
+    "end": 14.18,
+    "probability": 0.9982
+  }
+]

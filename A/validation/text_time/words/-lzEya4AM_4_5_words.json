@@ -1,0 +1,110 @@
+[
+  {
+    "word": "If",
+    "start": 0.0,
+    "end": 0.6,
+    "probability": 0.6
+  },
+  {
+    "word": "it",
+    "start": 0.6,
+    "end": 0.7,
+    "probability": 0.9789
+  },
+  {
+    "word": "falls",
+    "start": 0.7,
+    "end": 0.96,
+    "probability": 0.9936
+  },
+  {
+    "word": "into",
+    "start": 0.96,
+    "end": 1.18,
+    "probability": 0.8383
+  },
+  {
+    "word": "any",
+    "start": 1.18,
+    "end": 1.7,
+    "probability": 0.9684
+  },
+  {
+    "word": "of",
+    "start": 1.7,
+    "end": 1.86,
+    "probability": 0.9968
+  },
+  {
+    "word": "those",
+    "start": 1.86,
+    "end": 2.02,
+    "probability": 0.9944
+  },
+  {
+    "word": "three",
+    "start": 2.02,
+    "end": 2.26,
+    "probability": 0.9711
+  },
+  {
+    "word": "categories,",
+    "start": 2.26,
+    "end": 2.76,
+    "probability": 0.998
+  },
+  {
+    "word": "inducing",
+    "start": 3.32,
+    "end": 4.26,
+    "probability": 0.9954
+  },
+  {
+    "word": "nausea",
+    "start": 4.26,
+    "end": 5.46,
+    "probability": 0.6728
+  },
+  {
+    "word": "and",
+    "start": 5.46,
+    "end": 5.54,
+    "probability": 0.983
+  },
+  {
+    "word": "vomiting",
+    "start": 5.54,
+    "end": 5.86,
+    "probability": 0.9974
+  },
+  {
+    "word": "would",
+    "start": 5.86,
+    "end": 6.34,
+    "probability": 0.8816
+  },
+  {
+    "word": "be",
+    "start": 6.34,
+    "end": 6.46,
+    "probability": 0.9985
+  },
+  {
+    "word": "your",
+    "start": 6.46,
+    "end": 6.58,
+    "probability": 0.9953
+  },
+  {
+    "word": "next",
+    "start": 6.58,
+    "end": 6.82,
+    "probability": 0.9981
+  },
+  {
+    "word": "step.",
+    "start": 6.82,
+    "end": 7.02,
+    "probability": 0.995
+  }
+]

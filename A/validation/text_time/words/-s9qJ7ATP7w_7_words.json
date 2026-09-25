@@ -1,0 +1,188 @@
+[
+  {
+    "word": "I",
+    "start": 0.0,
+    "end": 0.6,
+    "probability": 0.5701
+  },
+  {
+    "word": "used",
+    "start": 0.6,
+    "end": 0.74,
+    "probability": 0.9787
+  },
+  {
+    "word": "to",
+    "start": 0.74,
+    "end": 0.86,
+    "probability": 0.9981
+  },
+  {
+    "word": "work",
+    "start": 0.86,
+    "end": 0.96,
+    "probability": 0.9966
+  },
+  {
+    "word": "for",
+    "start": 0.96,
+    "end": 1.14,
+    "probability": 0.9889
+  },
+  {
+    "word": "Warren",
+    "start": 1.14,
+    "end": 1.36,
+    "probability": 0.9755
+  },
+  {
+    "word": "Avis,",
+    "start": 1.36,
+    "end": 1.66,
+    "probability": 0.7874
+  },
+  {
+    "word": "the",
+    "start": 1.92,
+    "end": 2.0,
+    "probability": 0.9147
+  },
+  {
+    "word": "guy",
+    "start": 2.0,
+    "end": 2.12,
+    "probability": 0.808
+  },
+  {
+    "word": "who's",
+    "start": 2.12,
+    "end": 2.32,
+    "probability": 0.6503
+  },
+  {
+    "word": "third",
+    "start": 2.32,
+    "end": 2.42,
+    "probability": 0.114
+  },
+  {
+    "word": "-day",
+    "start": 2.42,
+    "end": 2.58,
+    "probability": 0.4156
+  },
+  {
+    "word": "of",
+    "start": 2.58,
+    "end": 2.66,
+    "probability": 0.5756
+  },
+  {
+    "word": "this",
+    "start": 2.66,
+    "end": 2.76,
+    "probability": 0.668
+  },
+  {
+    "word": "Renekar,",
+    "start": 2.76,
+    "end": 3.16,
+    "probability": 0.4254
+  },
+  {
+    "word": "and",
+    "start": 3.22,
+    "end": 3.28,
+    "probability": 0.9495
+  },
+  {
+    "word": "he",
+    "start": 3.28,
+    "end": 3.38,
+    "probability": 0.997
+  },
+  {
+    "word": "sets",
+    "start": 3.38,
+    "end": 3.52,
+    "probability": 0.8812
+  },
+  {
+    "word": "me",
+    "start": 3.52,
+    "end": 3.74,
+    "probability": 0.9969
+  },
+  {
+    "word": "one",
+    "start": 3.74,
+    "end": 3.96,
+    "probability": 0.961
+  },
+  {
+    "word": "day,",
+    "start": 3.96,
+    "end": 4.16,
+    "probability": 0.9927
+  },
+  {
+    "word": "Robert,",
+    "start": 4.78,
+    "end": 4.96,
+    "probability": 0.1419
+  },
+  {
+    "word": "what's",
+    "start": 5.2,
+    "end": 5.34,
+    "probability": 0.9329
+  },
+  {
+    "word": "the",
+    "start": 5.34,
+    "end": 5.44,
+    "probability": 0.9971
+  },
+  {
+    "word": "purpose",
+    "start": 5.44,
+    "end": 5.72,
+    "probability": 0.998
+  },
+  {
+    "word": "of",
+    "start": 5.72,
+    "end": 5.9,
+    "probability": 0.9984
+  },
+  {
+    "word": "business?",
+    "start": 5.9,
+    "end": 6.18,
+    "probability": 0.954
+  },
+  {
+    "word": "And",
+    "start": 6.34,
+    "end": 6.42,
+    "probability": 0.858
+  },
+  {
+    "word": "I",
+    "start": 6.42,
+    "end": 6.52,
+    "probability": 0.9896
+  },
+  {
+    "word": "said,",
+    "start": 6.52,
+    "end": 6.7,
+    "probability": 0.9954
+  },
+  {
+    "word": "oh,",
+    "start": 6.8,
+    "end": 6.8,
+    "probability": 0.4919
+  }
+]

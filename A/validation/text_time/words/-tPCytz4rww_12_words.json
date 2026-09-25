@@ -1,0 +1,158 @@
+[
+  {
+    "word": "square",
+    "start": 0.0,
+    "end": 0.18,
+    "probability": 0.8778
+  },
+  {
+    "word": "feet",
+    "start": 0.18,
+    "end": 0.4,
+    "probability": 0.9967
+  },
+  {
+    "word": "no",
+    "start": 0.4,
+    "end": 0.62,
+    "probability": 0.4898
+  },
+  {
+    "word": "less",
+    "start": 0.62,
+    "end": 0.84,
+    "probability": 0.999
+  },
+  {
+    "word": "than",
+    "start": 0.84,
+    "end": 1.08,
+    "probability": 0.9618
+  },
+  {
+    "word": "800",
+    "start": 1.08,
+    "end": 1.54,
+    "probability": 0.9326
+  },
+  {
+    "word": "square",
+    "start": 1.54,
+    "end": 1.9,
+    "probability": 0.9947
+  },
+  {
+    "word": "feet.",
+    "start": 1.9,
+    "end": 2.2,
+    "probability": 0.9992
+  },
+  {
+    "word": "It's",
+    "start": 2.64,
+    "end": 2.7,
+    "probability": 0.6286
+  },
+  {
+    "word": "going",
+    "start": 2.7,
+    "end": 2.74,
+    "probability": 0.8388
+  },
+  {
+    "word": "to",
+    "start": 2.74,
+    "end": 2.78,
+    "probability": 0.9962
+  },
+  {
+    "word": "be",
+    "start": 2.78,
+    "end": 2.86,
+    "probability": 0.9981
+  },
+  {
+    "word": "similar",
+    "start": 2.86,
+    "end": 3.24,
+    "probability": 0.9778
+  },
+  {
+    "word": "with",
+    "start": 3.24,
+    "end": 5.72,
+    "probability": 0.5292
+  },
+  {
+    "word": "bedrooms",
+    "start": 5.72,
+    "end": 6.14,
+    "probability": 0.954
+  },
+  {
+    "word": "and",
+    "start": 6.14,
+    "end": 6.34,
+    "probability": 0.9784
+  },
+  {
+    "word": "bathrooms",
+    "start": 6.34,
+    "end": 6.7,
+    "probability": 0.9913
+  },
+  {
+    "word": "as",
+    "start": 6.7,
+    "end": 7.0,
+    "probability": 0.9449
+  },
+  {
+    "word": "well",
+    "start": 7.0,
+    "end": 7.22,
+    "probability": 0.9984
+  },
+  {
+    "word": "and",
+    "start": 7.22,
+    "end": 8.04,
+    "probability": 0.5382
+  },
+  {
+    "word": "hopefully",
+    "start": 8.04,
+    "end": 8.66,
+    "probability": 0.9577
+  },
+  {
+    "word": "the",
+    "start": 8.66,
+    "end": 8.92,
+    "probability": 0.9761
+  },
+  {
+    "word": "complexes",
+    "start": 8.92,
+    "end": 9.78,
+    "probability": 0.6197
+  },
+  {
+    "word": "have",
+    "start": 9.78,
+    "end": 10.0,
+    "probability": 0.8288
+  },
+  {
+    "word": "similar",
+    "start": 10.0,
+    "end": 10.44,
+    "probability": 0.9873
+  },
+  {
+    "word": "amenities.",
+    "start": 10.44,
+    "end": 10.96,
+    "probability": 0.9828
+  }
+]

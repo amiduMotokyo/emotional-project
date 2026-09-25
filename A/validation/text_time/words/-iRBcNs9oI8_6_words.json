@@ -1,0 +1,56 @@
+[
+  {
+    "word": "help",
+    "start": 0.0,
+    "end": 0.16,
+    "probability": 0.5405
+  },
+  {
+    "word": "you",
+    "start": 0.16,
+    "end": 0.3,
+    "probability": 0.9822
+  },
+  {
+    "word": "if",
+    "start": 0.3,
+    "end": 0.54,
+    "probability": 0.9391
+  },
+  {
+    "word": "you",
+    "start": 0.54,
+    "end": 0.62,
+    "probability": 0.9979
+  },
+  {
+    "word": "have",
+    "start": 0.62,
+    "end": 0.74,
+    "probability": 0.9938
+  },
+  {
+    "word": "an",
+    "start": 0.74,
+    "end": 0.88,
+    "probability": 0.9902
+  },
+  {
+    "word": "English",
+    "start": 0.88,
+    "end": 1.16,
+    "probability": 0.9397
+  },
+  {
+    "word": "job",
+    "start": 1.16,
+    "end": 1.66,
+    "probability": 0.9222
+  },
+  {
+    "word": "interview.",
+    "start": 1.66,
+    "end": 2.4,
+    "probability": 0.9979
+  }
+]

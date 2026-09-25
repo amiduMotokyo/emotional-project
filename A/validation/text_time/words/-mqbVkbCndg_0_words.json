@@ -1,0 +1,86 @@
+[
+  {
+    "word": "How",
+    "start": 0.0,
+    "end": 0.32,
+    "probability": 0.7381
+  },
+  {
+    "word": "at",
+    "start": 0.32,
+    "end": 0.92,
+    "probability": 0.5111
+  },
+  {
+    "word": "a",
+    "start": 0.92,
+    "end": 1.0,
+    "probability": 0.9954
+  },
+  {
+    "word": "particular",
+    "start": 1.0,
+    "end": 1.46,
+    "probability": 0.9952
+  },
+  {
+    "word": "moment",
+    "start": 1.46,
+    "end": 1.9,
+    "probability": 0.999
+  },
+  {
+    "word": "in",
+    "start": 1.9,
+    "end": 2.14,
+    "probability": 0.9896
+  },
+  {
+    "word": "time,",
+    "start": 2.14,
+    "end": 2.44,
+    "probability": 0.9981
+  },
+  {
+    "word": "our",
+    "start": 2.68,
+    "end": 2.86,
+    "probability": 0.4189
+  },
+  {
+    "word": "moment",
+    "start": 2.86,
+    "end": 3.3,
+    "probability": 0.8887
+  },
+  {
+    "word": "in",
+    "start": 3.3,
+    "end": 3.56,
+    "probability": 0.9862
+  },
+  {
+    "word": "time,",
+    "start": 3.56,
+    "end": 4.02,
+    "probability": 0.9993
+  },
+  {
+    "word": "are",
+    "start": 4.5,
+    "end": 4.58,
+    "probability": 0.9955
+  },
+  {
+    "word": "they",
+    "start": 4.58,
+    "end": 4.86,
+    "probability": 0.9937
+  },
+  {
+    "word": "limited?",
+    "start": 4.86,
+    "end": 5.74,
+    "probability": 0.9848
+  }
+]

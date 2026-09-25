@@ -1,0 +1,86 @@
+[
+  {
+    "word": "is",
+    "start": 0.0,
+    "end": 0.5,
+    "probability": 0.597
+  },
+  {
+    "word": "going",
+    "start": 0.5,
+    "end": 0.66,
+    "probability": 0.9908
+  },
+  {
+    "word": "to",
+    "start": 0.66,
+    "end": 0.82,
+    "probability": 0.9993
+  },
+  {
+    "word": "help",
+    "start": 0.82,
+    "end": 1.02,
+    "probability": 0.9985
+  },
+  {
+    "word": "you",
+    "start": 1.02,
+    "end": 1.32,
+    "probability": 0.9977
+  },
+  {
+    "word": "on",
+    "start": 1.32,
+    "end": 2.0,
+    "probability": 0.9871
+  },
+  {
+    "word": "your",
+    "start": 2.0,
+    "end": 2.18,
+    "probability": 0.9986
+  },
+  {
+    "word": "tests",
+    "start": 2.18,
+    "end": 2.62,
+    "probability": 0.8429
+  },
+  {
+    "word": "such",
+    "start": 2.62,
+    "end": 3.52,
+    "probability": 0.6658
+  },
+  {
+    "word": "as",
+    "start": 3.52,
+    "end": 3.68,
+    "probability": 0.9977
+  },
+  {
+    "word": "TOEFL,",
+    "start": 3.68,
+    "end": 4.1,
+    "probability": 0.7518
+  },
+  {
+    "word": "IELTS",
+    "start": 4.34,
+    "end": 4.76,
+    "probability": 0.7989
+  },
+  {
+    "word": "or",
+    "start": 4.76,
+    "end": 4.94,
+    "probability": 0.5603
+  },
+  {
+    "word": "University.",
+    "start": 4.94,
+    "end": 5.3,
+    "probability": 0.4278
+  }
+]

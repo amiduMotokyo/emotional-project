@@ -1,0 +1,128 @@
+[
+  {
+    "word": "themselves.",
+    "start": 0.0,
+    "end": 0.26,
+    "probability": 0.539
+  },
+  {
+    "word": "This",
+    "start": 0.58,
+    "end": 0.66,
+    "probability": 0.9608
+  },
+  {
+    "word": "is",
+    "start": 0.66,
+    "end": 0.82,
+    "probability": 0.9927
+  },
+  {
+    "word": "what's",
+    "start": 0.82,
+    "end": 1.04,
+    "probability": 0.9308
+  },
+  {
+    "word": "now",
+    "start": 1.04,
+    "end": 1.18,
+    "probability": 0.9957
+  },
+  {
+    "word": "known",
+    "start": 1.18,
+    "end": 1.46,
+    "probability": 0.9911
+  },
+  {
+    "word": "as",
+    "start": 1.46,
+    "end": 1.64,
+    "probability": 0.9929
+  },
+  {
+    "word": "racial",
+    "start": 1.64,
+    "end": 1.9,
+    "probability": 0.4272
+  },
+  {
+    "word": "formation",
+    "start": 1.9,
+    "end": 2.24,
+    "probability": 0.957
+  },
+  {
+    "word": "theory.",
+    "start": 2.24,
+    "end": 2.74,
+    "probability": 0.9949
+  },
+  {
+    "word": "A",
+    "start": 3.04,
+    "end": 3.12,
+    "probability": 0.9872
+  },
+  {
+    "word": "theory",
+    "start": 3.12,
+    "end": 3.32,
+    "probability": 0.9922
+  },
+  {
+    "word": "formalized",
+    "start": 3.32,
+    "end": 3.86,
+    "probability": 0.9208
+  },
+  {
+    "word": "by",
+    "start": 3.86,
+    "end": 4.0,
+    "probability": 0.9981
+  },
+  {
+    "word": "modern",
+    "start": 4.0,
+    "end": 4.24,
+    "probability": 0.9738
+  },
+  {
+    "word": "sociologist",
+    "start": 4.24,
+    "end": 4.8,
+    "probability": 0.8281
+  },
+  {
+    "word": "Michael",
+    "start": 4.8,
+    "end": 5.1,
+    "probability": 0.9762
+  },
+  {
+    "word": "Omi",
+    "start": 5.1,
+    "end": 5.44,
+    "probability": 0.5239
+  },
+  {
+    "word": "and",
+    "start": 5.44,
+    "end": 5.62,
+    "probability": 0.9185
+  },
+  {
+    "word": "Howard",
+    "start": 5.62,
+    "end": 5.84,
+    "probability": 0.99
+  },
+  {
+    "word": "Winnand.",
+    "start": 5.84,
+    "end": 6.14,
+    "probability": 0.4503
+  }
+]

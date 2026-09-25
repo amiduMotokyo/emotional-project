@@ -1,0 +1,128 @@
+[
+  {
+    "word": "We",
+    "start": 0.0,
+    "end": 0.4,
+    "probability": 0.1836
+  },
+  {
+    "word": "have,",
+    "start": 0.4,
+    "end": 0.72,
+    "probability": 0.9876
+  },
+  {
+    "word": "I",
+    "start": 0.88,
+    "end": 1.26,
+    "probability": 0.978
+  },
+  {
+    "word": "have",
+    "start": 1.26,
+    "end": 1.42,
+    "probability": 0.9899
+  },
+  {
+    "word": "been",
+    "start": 1.42,
+    "end": 1.6,
+    "probability": 0.9973
+  },
+  {
+    "word": "beat",
+    "start": 1.6,
+    "end": 1.9,
+    "probability": 0.9901
+  },
+  {
+    "word": "up",
+    "start": 1.9,
+    "end": 2.4,
+    "probability": 0.963
+  },
+  {
+    "word": "and",
+    "start": 2.4,
+    "end": 2.64,
+    "probability": 0.8747
+  },
+  {
+    "word": "put",
+    "start": 2.64,
+    "end": 2.94,
+    "probability": 0.9922
+  },
+  {
+    "word": "down",
+    "start": 2.94,
+    "end": 3.52,
+    "probability": 0.9962
+  },
+  {
+    "word": "and",
+    "start": 3.52,
+    "end": 3.96,
+    "probability": 0.7481
+  },
+  {
+    "word": "everything",
+    "start": 3.96,
+    "end": 5.12,
+    "probability": 0.8677
+  },
+  {
+    "word": "that",
+    "start": 5.12,
+    "end": 5.36,
+    "probability": 0.9961
+  },
+  {
+    "word": "can",
+    "start": 5.36,
+    "end": 5.5,
+    "probability": 0.9957
+  },
+  {
+    "word": "go",
+    "start": 5.5,
+    "end": 5.7,
+    "probability": 0.9974
+  },
+  {
+    "word": "wrong",
+    "start": 5.7,
+    "end": 6.2,
+    "probability": 0.9977
+  },
+  {
+    "word": "has",
+    "start": 6.2,
+    "end": 6.78,
+    "probability": 0.9789
+  },
+  {
+    "word": "gone",
+    "start": 6.78,
+    "end": 6.98,
+    "probability": 0.9908
+  },
+  {
+    "word": "wrong",
+    "start": 6.98,
+    "end": 7.28,
+    "probability": 0.9991
+  },
+  {
+    "word": "for",
+    "start": 7.28,
+    "end": 7.58,
+    "probability": 0.9944
+  },
+  {
+    "word": "me.",
+    "start": 7.58,
+    "end": 7.82,
+    "probability": 0.9992
+  }
+]

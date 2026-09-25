@@ -1,0 +1,146 @@
+[
+  {
+    "word": "They",
+    "start": 0.0,
+    "end": 0.14,
+    "probability": 0.2792
+  },
+  {
+    "word": "have",
+    "start": 0.14,
+    "end": 0.24,
+    "probability": 0.8333
+  },
+  {
+    "word": "doubt,",
+    "start": 0.24,
+    "end": 0.48,
+    "probability": 0.565
+  },
+  {
+    "word": "they",
+    "start": 0.78,
+    "end": 0.8,
+    "probability": 0.9886
+  },
+  {
+    "word": "have",
+    "start": 0.8,
+    "end": 0.92,
+    "probability": 0.9771
+  },
+  {
+    "word": "fear.",
+    "start": 0.92,
+    "end": 1.28,
+    "probability": 0.9981
+  },
+  {
+    "word": "They",
+    "start": 1.76,
+    "end": 1.8,
+    "probability": 0.9808
+  },
+  {
+    "word": "lose",
+    "start": 1.8,
+    "end": 2.02,
+    "probability": 0.898
+  },
+  {
+    "word": "in",
+    "start": 2.02,
+    "end": 2.22,
+    "probability": 0.901
+  },
+  {
+    "word": "a",
+    "start": 2.22,
+    "end": 2.3,
+    "probability": 0.9584
+  },
+  {
+    "word": "Ferrari",
+    "start": 2.3,
+    "end": 2.6,
+    "probability": 0.9545
+  },
+  {
+    "word": "race",
+    "start": 2.6,
+    "end": 3.02,
+    "probability": 0.9909
+  },
+  {
+    "word": "or",
+    "start": 3.02,
+    "end": 3.2,
+    "probability": 0.6527
+  },
+  {
+    "word": "they",
+    "start": 3.2,
+    "end": 3.32,
+    "probability": 0.8772
+  },
+  {
+    "word": "lose",
+    "start": 3.32,
+    "end": 3.56,
+    "probability": 0.9878
+  },
+  {
+    "word": "in",
+    "start": 3.56,
+    "end": 3.88,
+    "probability": 0.9472
+  },
+  {
+    "word": "a",
+    "start": 3.88,
+    "end": 4.1,
+    "probability": 0.6438
+  },
+  {
+    "word": "race",
+    "start": 4.1,
+    "end": 4.68,
+    "probability": 0.9932
+  },
+  {
+    "word": "and",
+    "start": 4.68,
+    "end": 5.26,
+    "probability": 0.5255
+  },
+  {
+    "word": "then",
+    "start": 5.26,
+    "end": 5.36,
+    "probability": 0.9435
+  },
+  {
+    "word": "they",
+    "start": 5.36,
+    "end": 5.52,
+    "probability": 0.9873
+  },
+  {
+    "word": "just",
+    "start": 5.52,
+    "end": 5.7,
+    "probability": 0.9917
+  },
+  {
+    "word": "give",
+    "start": 5.7,
+    "end": 5.88,
+    "probability": 0.9887
+  },
+  {
+    "word": "up.",
+    "start": 5.88,
+    "end": 6.12,
+    "probability": 0.9988
+  }
+]

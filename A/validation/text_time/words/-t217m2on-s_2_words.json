@@ -1,0 +1,74 @@
+[
+  {
+    "word": "But",
+    "start": 0.0,
+    "end": 0.68,
+    "probability": 0.4294
+  },
+  {
+    "word": "a",
+    "start": 0.68,
+    "end": 1.38,
+    "probability": 0.8523
+  },
+  {
+    "word": "good",
+    "start": 1.38,
+    "end": 1.54,
+    "probability": 0.9949
+  },
+  {
+    "word": "thing",
+    "start": 1.54,
+    "end": 1.74,
+    "probability": 0.9963
+  },
+  {
+    "word": "to",
+    "start": 1.74,
+    "end": 1.8,
+    "probability": 0.483
+  },
+  {
+    "word": "do",
+    "start": 1.8,
+    "end": 1.94,
+    "probability": 0.9949
+  },
+  {
+    "word": "is",
+    "start": 1.94,
+    "end": 2.08,
+    "probability": 0.9593
+  },
+  {
+    "word": "yawning,",
+    "start": 2.08,
+    "end": 2.48,
+    "probability": 0.8217
+  },
+  {
+    "word": "chewing",
+    "start": 3.12,
+    "end": 3.82,
+    "probability": 0.9764
+  },
+  {
+    "word": "gum",
+    "start": 3.82,
+    "end": 4.16,
+    "probability": 0.9896
+  },
+  {
+    "word": "is",
+    "start": 4.16,
+    "end": 4.4,
+    "probability": 0.9717
+  },
+  {
+    "word": "effective.",
+    "start": 4.4,
+    "end": 4.88,
+    "probability": 0.9896
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Secondly,",
+    "start": 0.0,
+    "end": 0.82,
+    "probability": 0.9084
+  },
+  {
+    "word": "another",
+    "start": 1.2,
+    "end": 1.56,
+    "probability": 0.9924
+  },
+  {
+    "word": "goal",
+    "start": 1.56,
+    "end": 1.86,
+    "probability": 0.9906
+  },
+  {
+    "word": "of",
+    "start": 1.86,
+    "end": 2.06,
+    "probability": 0.9933
+  },
+  {
+    "word": "exhibiting",
+    "start": 2.06,
+    "end": 2.52,
+    "probability": 0.9913
+  },
+  {
+    "word": "is",
+    "start": 2.52,
+    "end": 2.76,
+    "probability": 0.9867
+  },
+  {
+    "word": "building",
+    "start": 2.76,
+    "end": 3.18,
+    "probability": 0.9757
+  },
+  {
+    "word": "your",
+    "start": 3.18,
+    "end": 3.42,
+    "probability": 0.9909
+  },
+  {
+    "word": "company",
+    "start": 3.42,
+    "end": 3.8,
+    "probability": 0.9905
+  },
+  {
+    "word": "image.",
+    "start": 3.8,
+    "end": 4.26,
+    "probability": 0.9969
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "word": "First,",
+    "start": 0.0,
+    "end": 0.74,
+    "probability": 0.9153
+  },
+  {
+    "word": "exhibiting",
+    "start": 0.98,
+    "end": 1.5,
+    "probability": 0.974
+  },
+  {
+    "word": "is",
+    "start": 1.5,
+    "end": 1.7,
+    "probability": 0.9821
+  },
+  {
+    "word": "a",
+    "start": 1.7,
+    "end": 1.82,
+    "probability": 0.997
+  },
+  {
+    "word": "wonderful",
+    "start": 1.82,
+    "end": 2.24,
+    "probability": 0.9972
+  },
+  {
+    "word": "opportunity",
+    "start": 2.24,
+    "end": 3.06,
+    "probability": 0.9989
+  },
+  {
+    "word": "to",
+    "start": 3.06,
+    "end": 3.38,
+    "probability": 0.9936
+  },
+  {
+    "word": "network",
+    "start": 3.38,
+    "end": 3.78,
+    "probability": 0.9962
+  },
+  {
+    "word": "with",
+    "start": 3.78,
+    "end": 4.08,
+    "probability": 0.9991
+  },
+  {
+    "word": "other",
+    "start": 4.08,
+    "end": 4.42,
+    "probability": 0.9897
+  },
+  {
+    "word": "legal",
+    "start": 4.42,
+    "end": 4.82,
+    "probability": 0.9931
+  },
+  {
+    "word": "vendors.",
+    "start": 4.82,
+    "end": 5.26,
+    "probability": 0.9639
+  }
+]

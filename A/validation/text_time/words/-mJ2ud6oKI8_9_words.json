@@ -1,0 +1,110 @@
+[
+  {
+    "word": "to",
+    "start": 0.0,
+    "end": 0.4,
+    "probability": 0.4685
+  },
+  {
+    "word": "find",
+    "start": 0.4,
+    "end": 0.66,
+    "probability": 0.9755
+  },
+  {
+    "word": "out",
+    "start": 0.66,
+    "end": 0.9,
+    "probability": 0.9912
+  },
+  {
+    "word": "because",
+    "start": 0.9,
+    "end": 1.22,
+    "probability": 0.6663
+  },
+  {
+    "word": "you",
+    "start": 1.22,
+    "end": 1.42,
+    "probability": 0.9943
+  },
+  {
+    "word": "might",
+    "start": 1.42,
+    "end": 1.56,
+    "probability": 0.9917
+  },
+  {
+    "word": "have",
+    "start": 1.56,
+    "end": 1.78,
+    "probability": 0.9959
+  },
+  {
+    "word": "hip",
+    "start": 1.78,
+    "end": 1.92,
+    "probability": 0.7598
+  },
+  {
+    "word": "osteoarthritis,",
+    "start": 1.92,
+    "end": 2.62,
+    "probability": 0.7092
+  },
+  {
+    "word": "but",
+    "start": 2.94,
+    "end": 3.02,
+    "probability": 0.9828
+  },
+  {
+    "word": "you",
+    "start": 3.02,
+    "end": 3.24,
+    "probability": 0.7472
+  },
+  {
+    "word": "could",
+    "start": 3.24,
+    "end": 3.38,
+    "probability": 0.7346
+  },
+  {
+    "word": "also",
+    "start": 3.38,
+    "end": 3.6,
+    "probability": 0.9943
+  },
+  {
+    "word": "have",
+    "start": 3.6,
+    "end": 3.86,
+    "probability": 0.9965
+  },
+  {
+    "word": "other",
+    "start": 3.86,
+    "end": 4.36,
+    "probability": 0.9963
+  },
+  {
+    "word": "dysfunctions",
+    "start": 6.08,
+    "end": 6.52,
+    "probability": 0.8288
+  },
+  {
+    "word": "around",
+    "start": 6.52,
+    "end": 6.74,
+    "probability": 0.9888
+  },
+  {
+    "word": "your",
+    "start": 6.74,
+    "end": 6.88,
+    "probability": 0.931
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "word": "And",
+    "start": 0.76,
+    "end": 1.36,
+    "probability": 0.3169
+  },
+  {
+    "word": "the",
+    "start": 1.36,
+    "end": 1.52,
+    "probability": 0.6349
+  },
+  {
+    "word": "secret",
+    "start": 1.52,
+    "end": 1.88,
+    "probability": 0.9025
+  },
+  {
+    "word": "will",
+    "start": 1.88,
+    "end": 2.48,
+    "probability": 0.9801
+  },
+  {
+    "word": "also",
+    "start": 2.48,
+    "end": 2.82,
+    "probability": 0.9929
+  },
+  {
+    "word": "help",
+    "start": 2.82,
+    "end": 3.04,
+    "probability": 0.9981
+  },
+  {
+    "word": "you",
+    "start": 3.04,
+    "end": 3.3,
+    "probability": 0.9854
+  },
+  {
+    "word": "if",
+    "start": 3.3,
+    "end": 3.68,
+    "probability": 0.8565
+  },
+  {
+    "word": "you",
+    "start": 3.68,
+    "end": 3.82,
+    "probability": 0.9883
+  },
+  {
+    "word": "ever",
+    "start": 3.82,
+    "end": 3.98,
+    "probability": 0.7517
+  }
+]

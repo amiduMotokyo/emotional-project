@@ -1,0 +1,134 @@
+[
+  {
+    "word": "ever",
+    "start": 0.0,
+    "end": 0.24,
+    "probability": 0.6153
+  },
+  {
+    "word": "decide",
+    "start": 0.24,
+    "end": 0.56,
+    "probability": 0.9313
+  },
+  {
+    "word": "to",
+    "start": 0.56,
+    "end": 1.04,
+    "probability": 0.9953
+  },
+  {
+    "word": "ask",
+    "start": 1.04,
+    "end": 1.36,
+    "probability": 0.9926
+  },
+  {
+    "word": "out",
+    "start": 1.36,
+    "end": 1.64,
+    "probability": 0.9817
+  },
+  {
+    "word": "that",
+    "start": 1.64,
+    "end": 2.0,
+    "probability": 0.9869
+  },
+  {
+    "word": "special",
+    "start": 2.0,
+    "end": 2.38,
+    "probability": 0.9844
+  },
+  {
+    "word": "someone.",
+    "start": 2.38,
+    "end": 2.76,
+    "probability": 0.9428
+  },
+  {
+    "word": "So",
+    "start": 3.64,
+    "end": 4.06,
+    "probability": 0.9421
+  },
+  {
+    "word": "what",
+    "start": 4.06,
+    "end": 4.2,
+    "probability": 0.8821
+  },
+  {
+    "word": "is",
+    "start": 4.2,
+    "end": 4.32,
+    "probability": 0.9955
+  },
+  {
+    "word": "the",
+    "start": 4.32,
+    "end": 4.44,
+    "probability": 0.8218
+  },
+  {
+    "word": "secret",
+    "start": 4.44,
+    "end": 4.74,
+    "probability": 0.9945
+  },
+  {
+    "word": "I'm",
+    "start": 4.74,
+    "end": 5.0,
+    "probability": 0.9661
+  },
+  {
+    "word": "telling",
+    "start": 5.0,
+    "end": 5.24,
+    "probability": 0.9963
+  },
+  {
+    "word": "you",
+    "start": 5.24,
+    "end": 5.48,
+    "probability": 0.9974
+  },
+  {
+    "word": "about?",
+    "start": 5.48,
+    "end": 5.76,
+    "probability": 0.9957
+  },
+  {
+    "word": "Well,",
+    "start": 6.44,
+    "end": 6.64,
+    "probability": 0.9735
+  },
+  {
+    "word": "it",
+    "start": 7.0,
+    "end": 7.24,
+    "probability": 0.9875
+  },
+  {
+    "word": "is",
+    "start": 7.24,
+    "end": 7.44,
+    "probability": 0.9944
+  },
+  {
+    "word": "the",
+    "start": 7.44,
+    "end": 7.6,
+    "probability": 0.9699
+  },
+  {
+    "word": "secret...",
+    "start": 7.6,
+    "end": 8.0,
+    "probability": 0.6117
+  }
+]

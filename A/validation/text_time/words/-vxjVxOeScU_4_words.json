@@ -1,0 +1,140 @@
+[
+  {
+    "word": "you're",
+    "start": 0.0,
+    "end": 0.66,
+    "probability": 0.5917
+  },
+  {
+    "word": "going",
+    "start": 0.66,
+    "end": 0.7,
+    "probability": 0.5499
+  },
+  {
+    "word": "to",
+    "start": 0.7,
+    "end": 0.76,
+    "probability": 0.997
+  },
+  {
+    "word": "talk",
+    "start": 0.76,
+    "end": 0.98,
+    "probability": 0.9963
+  },
+  {
+    "word": "about",
+    "start": 0.98,
+    "end": 1.42,
+    "probability": 0.9986
+  },
+  {
+    "word": "their",
+    "start": 1.42,
+    "end": 1.98,
+    "probability": 0.9784
+  },
+  {
+    "word": "life,",
+    "start": 1.98,
+    "end": 2.52,
+    "probability": 0.9947
+  },
+  {
+    "word": "their",
+    "start": 2.52,
+    "end": 3.08,
+    "probability": 0.9959
+  },
+  {
+    "word": "marriage,",
+    "start": 3.08,
+    "end": 3.64,
+    "probability": 0.9979
+  },
+  {
+    "word": "and",
+    "start": 3.98,
+    "end": 4.78,
+    "probability": 0.9849
+  },
+  {
+    "word": "usually",
+    "start": 4.78,
+    "end": 5.28,
+    "probability": 0.9862
+  },
+  {
+    "word": "how",
+    "start": 5.28,
+    "end": 5.72,
+    "probability": 0.9051
+  },
+  {
+    "word": "amazing",
+    "start": 5.72,
+    "end": 6.24,
+    "probability": 0.9969
+  },
+  {
+    "word": "it",
+    "start": 6.24,
+    "end": 6.52,
+    "probability": 0.9974
+  },
+  {
+    "word": "is",
+    "start": 6.52,
+    "end": 6.74,
+    "probability": 0.998
+  },
+  {
+    "word": "that",
+    "start": 6.74,
+    "end": 6.92,
+    "probability": 0.9722
+  },
+  {
+    "word": "they've",
+    "start": 6.92,
+    "end": 7.14,
+    "probability": 0.9771
+  },
+  {
+    "word": "stayed",
+    "start": 7.14,
+    "end": 7.34,
+    "probability": 0.9952
+  },
+  {
+    "word": "together",
+    "start": 7.34,
+    "end": 7.84,
+    "probability": 0.9971
+  },
+  {
+    "word": "this",
+    "start": 7.84,
+    "end": 8.1,
+    "probability": 0.9925
+  },
+  {
+    "word": "long.",
+    "start": 8.1,
+    "end": 8.44,
+    "probability": 0.9963
+  },
+  {
+    "word": "Weighing",
+    "start": 8.58,
+    "end": 8.76,
+    "probability": 0.1942
+  },
+  {
+    "word": "in.",
+    "start": 8.76,
+    "end": 9.0,
+    "probability": 0.9815
+  }
+]

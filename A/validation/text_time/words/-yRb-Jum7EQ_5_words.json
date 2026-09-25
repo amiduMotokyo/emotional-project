@@ -1,0 +1,164 @@
+[
+  {
+    "word": "Eshotan",
+    "start": 0.0,
+    "end": 1.54,
+    "probability": 0.0023
+  },
+  {
+    "word": "speaks",
+    "start": 1.54,
+    "end": 1.64,
+    "probability": 0.0011
+  },
+  {
+    "word": "in",
+    "start": 1.64,
+    "end": 1.64,
+    "probability": 0.1485
+  },
+  {
+    "word": "AF",
+    "start": 1.64,
+    "end": 2.74,
+    "probability": 0.0
+  },
+  {
+    "word": "mejor",
+    "start": 2.74,
+    "end": 2.74,
+    "probability": 0.0
+  },
+  {
+    "word": "and",
+    "start": 2.74,
+    "end": 2.74,
+    "probability": 0.0276
+  },
+  {
+    "word": "contributed",
+    "start": 2.74,
+    "end": 2.76,
+    "probability": 0.0
+  },
+  {
+    "word": "deeply",
+    "start": 2.76,
+    "end": 2.76,
+    "probability": 0.0011
+  },
+  {
+    "word": "during",
+    "start": 2.76,
+    "end": 2.76,
+    "probability": 0.001
+  },
+  {
+    "word": "the",
+    "start": 2.76,
+    "end": 4.14,
+    "probability": 0.5029
+  },
+  {
+    "word": "long,",
+    "start": 4.14,
+    "end": 5.42,
+    "probability": 0.0142
+  },
+  {
+    "word": "but",
+    "start": 5.7,
+    "end": 6.26,
+    "probability": 0.0051
+  },
+  {
+    "word": "we",
+    "start": 6.26,
+    "end": 6.3,
+    "probability": 0.0033
+  },
+  {
+    "word": "hear",
+    "start": 6.3,
+    "end": 6.58,
+    "probability": 0.0018
+  },
+  {
+    "word": "a",
+    "start": 6.58,
+    "end": 7.06,
+    "probability": 0.1463
+  },
+  {
+    "word": "voice",
+    "start": 7.06,
+    "end": 7.06,
+    "probability": 0.0318
+  },
+  {
+    "word": "and",
+    "start": 7.06,
+    "end": 7.48,
+    "probability": 0.0454
+  },
+  {
+    "word": "the",
+    "start": 7.48,
+    "end": 7.62,
+    "probability": 0.1469
+  },
+  {
+    "word": "whole",
+    "start": 7.62,
+    "end": 8.1,
+    "probability": 0.005
+  },
+  {
+    "word": "city",
+    "start": 8.1,
+    "end": 8.9,
+    "probability": 0.03
+  },
+  {
+    "word": "cursed",
+    "start": 8.9,
+    "end": 9.08,
+    "probability": 0.0
+  },
+  {
+    "word": "are",
+    "start": 9.08,
+    "end": 9.48,
+    "probability": 0.0002
+  },
+  {
+    "word": "chúngished",
+    "start": 9.48,
+    "end": 10.34,
+    "probability": 0.0312
+  },
+  {
+    "word": "and",
+    "start": 10.34,
+    "end": 10.68,
+    "probability": 0.132
+  },
+  {
+    "word": "joyful",
+    "start": 10.68,
+    "end": 10.68,
+    "probability": 0.0001
+  },
+  {
+    "word": "and",
+    "start": 10.68,
+    "end": 10.86,
+    "probability": 0.1045
+  },
+  {
+    "word": "warm.",
+    "start": 10.86,
+    "end": 11.56,
+    "probability": 0.0004
+  }
+]

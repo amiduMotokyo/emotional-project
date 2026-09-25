@@ -1,0 +1,122 @@
+[
+  {
+    "word": "with",
+    "start": 0.0,
+    "end": 0.2,
+    "probability": 0.6308
+  },
+  {
+    "word": "us.",
+    "start": 0.2,
+    "end": 0.42,
+    "probability": 0.9955
+  },
+  {
+    "word": "We",
+    "start": 0.46,
+    "end": 0.58,
+    "probability": 0.96
+  },
+  {
+    "word": "always",
+    "start": 0.58,
+    "end": 0.8,
+    "probability": 0.9891
+  },
+  {
+    "word": "love",
+    "start": 0.8,
+    "end": 1.08,
+    "probability": 0.9805
+  },
+  {
+    "word": "to",
+    "start": 1.08,
+    "end": 1.26,
+    "probability": 0.9964
+  },
+  {
+    "word": "hear",
+    "start": 1.26,
+    "end": 1.38,
+    "probability": 0.9921
+  },
+  {
+    "word": "what",
+    "start": 1.38,
+    "end": 1.52,
+    "probability": 0.9967
+  },
+  {
+    "word": "you",
+    "start": 1.52,
+    "end": 1.64,
+    "probability": 0.9976
+  },
+  {
+    "word": "have",
+    "start": 1.64,
+    "end": 1.76,
+    "probability": 0.9352
+  },
+  {
+    "word": "to",
+    "start": 1.76,
+    "end": 1.88,
+    "probability": 0.9869
+  },
+  {
+    "word": "say",
+    "start": 1.88,
+    "end": 2.14,
+    "probability": 0.9984
+  },
+  {
+    "word": "and",
+    "start": 2.14,
+    "end": 2.64,
+    "probability": 0.738
+  },
+  {
+    "word": "like",
+    "start": 2.64,
+    "end": 2.84,
+    "probability": 0.9564
+  },
+  {
+    "word": "and",
+    "start": 2.84,
+    "end": 2.98,
+    "probability": 0.9828
+  },
+  {
+    "word": "share",
+    "start": 2.98,
+    "end": 3.12,
+    "probability": 0.9497
+  },
+  {
+    "word": "this",
+    "start": 3.12,
+    "end": 3.3,
+    "probability": 0.9722
+  },
+  {
+    "word": "video",
+    "start": 3.3,
+    "end": 3.48,
+    "probability": 0.9949
+  },
+  {
+    "word": "as",
+    "start": 3.48,
+    "end": 3.72,
+    "probability": 0.9842
+  },
+  {
+    "word": "well.",
+    "start": 3.72,
+    "end": 3.96,
+    "probability": 0.9957
+  }
+]

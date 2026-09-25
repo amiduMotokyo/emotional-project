@@ -1,0 +1,158 @@
+[
+  {
+    "word": "to",
+    "start": 0.0,
+    "end": 0.14,
+    "probability": 0.7826
+  },
+  {
+    "word": "join.",
+    "start": 0.14,
+    "end": 0.4,
+    "probability": 0.9922
+  },
+  {
+    "word": "And",
+    "start": 0.54,
+    "end": 0.6,
+    "probability": 0.9622
+  },
+  {
+    "word": "because",
+    "start": 0.6,
+    "end": 0.86,
+    "probability": 0.9733
+  },
+  {
+    "word": "they",
+    "start": 0.86,
+    "end": 1.06,
+    "probability": 0.9972
+  },
+  {
+    "word": "couldn't",
+    "start": 1.06,
+    "end": 1.32,
+    "probability": 0.9806
+  },
+  {
+    "word": "join",
+    "start": 1.32,
+    "end": 1.5,
+    "probability": 0.9958
+  },
+  {
+    "word": "unions,",
+    "start": 1.5,
+    "end": 1.88,
+    "probability": 0.9667
+  },
+  {
+    "word": "many",
+    "start": 2.16,
+    "end": 2.28,
+    "probability": 0.9896
+  },
+  {
+    "word": "black",
+    "start": 2.28,
+    "end": 2.5,
+    "probability": 0.6702
+  },
+  {
+    "word": "workers",
+    "start": 2.5,
+    "end": 2.8,
+    "probability": 0.9478
+  },
+  {
+    "word": "couldn't",
+    "start": 2.8,
+    "end": 3.2,
+    "probability": 0.9953
+  },
+  {
+    "word": "get",
+    "start": 3.2,
+    "end": 3.3,
+    "probability": 0.9886
+  },
+  {
+    "word": "manufacturing",
+    "start": 3.3,
+    "end": 3.7,
+    "probability": 0.9891
+  },
+  {
+    "word": "or",
+    "start": 3.7,
+    "end": 4.1,
+    "probability": 0.991
+  },
+  {
+    "word": "trade",
+    "start": 4.1,
+    "end": 4.3,
+    "probability": 0.9603
+  },
+  {
+    "word": "work,",
+    "start": 4.3,
+    "end": 4.54,
+    "probability": 0.8843
+  },
+  {
+    "word": "which",
+    "start": 4.64,
+    "end": 4.78,
+    "probability": 0.9946
+  },
+  {
+    "word": "paid",
+    "start": 4.78,
+    "end": 5.0,
+    "probability": 0.9693
+  },
+  {
+    "word": "much",
+    "start": 5.0,
+    "end": 5.24,
+    "probability": 0.9873
+  },
+  {
+    "word": "better",
+    "start": 5.24,
+    "end": 5.54,
+    "probability": 0.9975
+  },
+  {
+    "word": "than",
+    "start": 5.54,
+    "end": 5.7,
+    "probability": 0.9754
+  },
+  {
+    "word": "service",
+    "start": 5.7,
+    "end": 5.98,
+    "probability": 0.9818
+  },
+  {
+    "word": "work.",
+    "start": 5.98,
+    "end": 6.2,
+    "probability": 0.9845
+  },
+  {
+    "word": "And",
+    "start": 6.28,
+    "end": 6.36,
+    "probability": 0.975
+  },
+  {
+    "word": "because...",
+    "start": 6.36,
+    "end": 6.74,
+    "probability": 0.6736
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "word": "for",
+    "start": 0.0,
+    "end": 0.14,
+    "probability": 0.6143
+  },
+  {
+    "word": "me,",
+    "start": 0.14,
+    "end": 0.36,
+    "probability": 0.9902
+  },
+  {
+    "word": "but",
+    "start": 0.58,
+    "end": 0.68,
+    "probability": 0.9896
+  },
+  {
+    "word": "I",
+    "start": 0.68,
+    "end": 0.98,
+    "probability": 0.9182
+  },
+  {
+    "word": "just",
+    "start": 0.98,
+    "end": 1.38,
+    "probability": 0.7957
+  },
+  {
+    "word": "keep",
+    "start": 1.38,
+    "end": 1.56,
+    "probability": 0.6585
+  },
+  {
+    "word": "going.",
+    "start": 1.56,
+    "end": 1.78,
+    "probability": 0.9836
+  }
+]

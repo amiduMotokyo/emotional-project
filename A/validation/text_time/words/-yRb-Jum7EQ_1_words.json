@@ -1,0 +1,56 @@
+[
+  {
+    "word": "American",
+    "start": 0.0,
+    "end": 0.94,
+    "probability": 0.0003
+  },
+  {
+    "word": "difficulties.",
+    "start": 0.94,
+    "end": 0.94,
+    "probability": 0.0001
+  },
+  {
+    "word": "She",
+    "start": 1.58,
+    "end": 2.12,
+    "probability": 0.0054
+  },
+  {
+    "word": "locationN",
+    "start": 2.12,
+    "end": 4.6,
+    "probability": 0.0
+  },
+  {
+    "word": "Tehrarist",
+    "start": 27.42,
+    "end": 28.82,
+    "probability": 0.0791
+  },
+  {
+    "word": "Do",
+    "start": 28.82,
+    "end": 29.06,
+    "probability": 0.0014
+  },
+  {
+    "word": "you",
+    "start": 29.06,
+    "end": 29.06,
+    "probability": 0.7576
+  },
+  {
+    "word": "have",
+    "start": 29.06,
+    "end": 29.08,
+    "probability": 0.1285
+  },
+  {
+    "word": "prayer?",
+    "start": 29.08,
+    "end": 29.08,
+    "probability": 0.0001
+  }
+]

@@ -1,0 +1,104 @@
+[
+  {
+    "word": "Make",
+    "start": 0.0,
+    "end": 0.58,
+    "probability": 0.2839
+  },
+  {
+    "word": "sure",
+    "start": 0.58,
+    "end": 0.82,
+    "probability": 0.9983
+  },
+  {
+    "word": "that",
+    "start": 0.82,
+    "end": 0.98,
+    "probability": 0.9099
+  },
+  {
+    "word": "you're",
+    "start": 0.98,
+    "end": 1.18,
+    "probability": 0.9277
+  },
+  {
+    "word": "using",
+    "start": 1.18,
+    "end": 1.42,
+    "probability": 0.9981
+  },
+  {
+    "word": "comps",
+    "start": 1.42,
+    "end": 1.92,
+    "probability": 0.83
+  },
+  {
+    "word": "that",
+    "start": 1.92,
+    "end": 2.02,
+    "probability": 0.9838
+  },
+  {
+    "word": "are",
+    "start": 2.02,
+    "end": 2.12,
+    "probability": 0.9687
+  },
+  {
+    "word": "no",
+    "start": 2.12,
+    "end": 2.28,
+    "probability": 0.9908
+  },
+  {
+    "word": "larger",
+    "start": 2.28,
+    "end": 2.72,
+    "probability": 0.9888
+  },
+  {
+    "word": "than",
+    "start": 2.72,
+    "end": 3.82,
+    "probability": 0.6647
+  },
+  {
+    "word": "1200",
+    "start": 3.82,
+    "end": 4.28,
+    "probability": 0.7467
+  },
+  {
+    "word": "square",
+    "start": 4.28,
+    "end": 4.56,
+    "probability": 0.904
+  },
+  {
+    "word": "feet,",
+    "start": 4.56,
+    "end": 4.78,
+    "probability": 0.9973
+  },
+  {
+    "word": "no",
+    "start": 4.9,
+    "end": 5.0,
+    "probability": 0.9792
+  },
+  {
+    "word": "less",
+    "start": 5.0,
+    "end": 5.2,
+    "probability": 0.9943
+  },
+  {
+    "word": "than...",
+    "start": 5.2,
+    "end": 5.34,
+    "probability": 0.3814
+  }
+]

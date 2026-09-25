@@ -1,0 +1,146 @@
+[
+  {
+    "word": "Wilson.",
+    "start": 0.0,
+    "end": 0.36,
+    "probability": 0.8654
+  },
+  {
+    "word": "He",
+    "start": 0.52,
+    "end": 0.6,
+    "probability": 0.9533
+  },
+  {
+    "word": "explores",
+    "start": 0.6,
+    "end": 0.92,
+    "probability": 0.9766
+  },
+  {
+    "word": "why",
+    "start": 0.92,
+    "end": 1.1,
+    "probability": 0.9872
+  },
+  {
+    "word": "black",
+    "start": 1.1,
+    "end": 1.3,
+    "probability": 0.7223
+  },
+  {
+    "word": "and",
+    "start": 1.3,
+    "end": 1.44,
+    "probability": 0.9698
+  },
+  {
+    "word": "white",
+    "start": 1.44,
+    "end": 1.56,
+    "probability": 0.9978
+  },
+  {
+    "word": "Americans",
+    "start": 1.56,
+    "end": 1.92,
+    "probability": 0.9812
+  },
+  {
+    "word": "tend",
+    "start": 1.92,
+    "end": 2.2,
+    "probability": 0.9977
+  },
+  {
+    "word": "to",
+    "start": 2.2,
+    "end": 2.36,
+    "probability": 0.9987
+  },
+  {
+    "word": "have",
+    "start": 2.36,
+    "end": 2.48,
+    "probability": 0.999
+  },
+  {
+    "word": "such",
+    "start": 2.48,
+    "end": 2.7,
+    "probability": 0.9888
+  },
+  {
+    "word": "different",
+    "start": 2.7,
+    "end": 3.04,
+    "probability": 0.9898
+  },
+  {
+    "word": "outcomes",
+    "start": 3.04,
+    "end": 3.48,
+    "probability": 0.9935
+  },
+  {
+    "word": "in",
+    "start": 3.48,
+    "end": 3.76,
+    "probability": 0.9364
+  },
+  {
+    "word": "terms",
+    "start": 3.76,
+    "end": 3.88,
+    "probability": 0.9979
+  },
+  {
+    "word": "of",
+    "start": 3.88,
+    "end": 4.04,
+    "probability": 0.9989
+  },
+  {
+    "word": "income,",
+    "start": 4.04,
+    "end": 4.36,
+    "probability": 0.9948
+  },
+  {
+    "word": "education,",
+    "start": 4.56,
+    "end": 5.0,
+    "probability": 0.9987
+  },
+  {
+    "word": "and",
+    "start": 5.2,
+    "end": 5.24,
+    "probability": 0.994
+  },
+  {
+    "word": "more.",
+    "start": 5.24,
+    "end": 5.44,
+    "probability": 0.997
+  },
+  {
+    "word": "And",
+    "start": 5.58,
+    "end": 5.7,
+    "probability": 0.9151
+  },
+  {
+    "word": "he",
+    "start": 5.7,
+    "end": 5.86,
+    "probability": 0.9673
+  },
+  {
+    "word": "argues...",
+    "start": 5.86,
+    "end": 6.02,
+    "probability": 0.2072
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "word": "Trade",
+    "start": 0.0,
+    "end": 0.44,
+    "probability": 0.6994
+  },
+  {
+    "word": "labor",
+    "start": 0.44,
+    "end": 0.66,
+    "probability": 0.638
+  },
+  {
+    "word": "unions",
+    "start": 0.66,
+    "end": 0.98,
+    "probability": 0.993
+  },
+  {
+    "word": "didn't",
+    "start": 0.98,
+    "end": 1.38,
+    "probability": 0.9856
+  },
+  {
+    "word": "allow",
+    "start": 1.38,
+    "end": 1.6,
+    "probability": 0.9958
+  },
+  {
+    "word": "black",
+    "start": 1.6,
+    "end": 1.92,
+    "probability": 0.8042
+  },
+  {
+    "word": "workers",
+    "start": 1.92,
+    "end": 2.22,
+    "probability": 0.9758
+  },
+  {
+    "word": "to",
+    "start": 2.22,
+    "end": 2.4,
+    "probability": 0.9969
+  },
+  {
+    "word": "join",
+    "start": 2.4,
+    "end": 2.66,
+    "probability": 0.9966
+  },
+  {
+    "word": "and",
+    "start": 2.66,
+    "end": 2.86,
+    "probability": 0.371
+  },
+  {
+    "word": "because",
+    "start": 2.86,
+    "end": 3.08,
+    "probability": 0.9752
+  },
+  {
+    "word": "they",
+    "start": 3.08,
+    "end": 3.24,
+    "probability": 0.5855
+  }
+]

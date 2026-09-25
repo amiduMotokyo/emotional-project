@@ -1,0 +1,98 @@
+[
+  {
+    "word": "the",
+    "start": 0.0,
+    "end": 0.18,
+    "probability": 0.5645
+  },
+  {
+    "word": "majority",
+    "start": 0.18,
+    "end": 0.7,
+    "probability": 0.9962
+  },
+  {
+    "word": "of",
+    "start": 0.7,
+    "end": 1.02,
+    "probability": 0.9982
+  },
+  {
+    "word": "an",
+    "start": 1.02,
+    "end": 1.16,
+    "probability": 0.9264
+  },
+  {
+    "word": "entire",
+    "start": 1.16,
+    "end": 1.82,
+    "probability": 0.9961
+  },
+  {
+    "word": "nation",
+    "start": 1.82,
+    "end": 2.38,
+    "probability": 0.992
+  },
+  {
+    "word": "to",
+    "start": 2.38,
+    "end": 3.6,
+    "probability": 0.8939
+  },
+  {
+    "word": "believe",
+    "start": 3.6,
+    "end": 4.0,
+    "probability": 0.995
+  },
+  {
+    "word": "and",
+    "start": 4.0,
+    "end": 4.26,
+    "probability": 0.959
+  },
+  {
+    "word": "trust",
+    "start": 4.26,
+    "end": 4.72,
+    "probability": 0.9974
+  },
+  {
+    "word": "his",
+    "start": 4.72,
+    "end": 5.06,
+    "probability": 0.4293
+  },
+  {
+    "word": "or",
+    "start": 5.06,
+    "end": 5.24,
+    "probability": 0.9739
+  },
+  {
+    "word": "her",
+    "start": 5.24,
+    "end": 5.42,
+    "probability": 0.9971
+  },
+  {
+    "word": "words.",
+    "start": 5.42,
+    "end": 5.88,
+    "probability": 0.9827
+  },
+  {
+    "word": "Isn't",
+    "start": 6.4,
+    "end": 7.06,
+    "probability": 0.9695
+  },
+  {
+    "word": "that?",
+    "start": 7.06,
+    "end": 7.2,
+    "probability": 0.9749
+  }
+]

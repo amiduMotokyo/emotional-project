@@ -1,0 +1,80 @@
+[
+  {
+    "word": "keep",
+    "start": 0.0,
+    "end": 0.12,
+    "probability": 0.3682
+  },
+  {
+    "word": "going.",
+    "start": 0.12,
+    "end": 0.4,
+    "probability": 0.9918
+  },
+  {
+    "word": "I",
+    "start": 0.58,
+    "end": 0.66,
+    "probability": 0.9573
+  },
+  {
+    "word": "have",
+    "start": 0.66,
+    "end": 0.8,
+    "probability": 0.9888
+  },
+  {
+    "word": "lost",
+    "start": 0.8,
+    "end": 1.08,
+    "probability": 0.9956
+  },
+  {
+    "word": "that",
+    "start": 1.08,
+    "end": 1.38,
+    "probability": 0.447
+  },
+  {
+    "word": "everything",
+    "start": 1.38,
+    "end": 1.98,
+    "probability": 0.974
+  },
+  {
+    "word": "you",
+    "start": 1.98,
+    "end": 2.22,
+    "probability": 0.9887
+  },
+  {
+    "word": "can",
+    "start": 2.22,
+    "end": 2.38,
+    "probability": 0.9973
+  },
+  {
+    "word": "imagine.",
+    "start": 2.38,
+    "end": 2.78,
+    "probability": 0.9962
+  },
+  {
+    "word": "Seriously,",
+    "start": 3.0,
+    "end": 3.28,
+    "probability": 0.9383
+  },
+  {
+    "word": "we",
+    "start": 3.54,
+    "end": 3.66,
+    "probability": 0.9909
+  },
+  {
+    "word": "have...",
+    "start": 3.66,
+    "end": 4.22,
+    "probability": 0.7263
+  }
+]
