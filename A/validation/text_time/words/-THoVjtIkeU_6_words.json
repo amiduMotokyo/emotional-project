@@ -1,0 +1,176 @@
+[
+  {
+    "word": "You",
+    "start": 0.0,
+    "end": 0.56,
+    "probability": 0.3265
+  },
+  {
+    "word": "know,",
+    "start": 0.56,
+    "end": 0.66,
+    "probability": 0.9914
+  },
+  {
+    "word": "I",
+    "start": 0.78,
+    "end": 0.82,
+    "probability": 0.9898
+  },
+  {
+    "word": "think",
+    "start": 0.82,
+    "end": 1.04,
+    "probability": 0.9987
+  },
+  {
+    "word": "that",
+    "start": 1.04,
+    "end": 1.32,
+    "probability": 0.9753
+  },
+  {
+    "word": "listening",
+    "start": 1.32,
+    "end": 1.7,
+    "probability": 0.9903
+  },
+  {
+    "word": "to",
+    "start": 1.7,
+    "end": 2.0,
+    "probability": 0.9993
+  },
+  {
+    "word": "young",
+    "start": 2.0,
+    "end": 2.16,
+    "probability": 0.9962
+  },
+  {
+    "word": "people,",
+    "start": 2.16,
+    "end": 2.54,
+    "probability": 0.9993
+  },
+  {
+    "word": "taking",
+    "start": 2.7,
+    "end": 2.9,
+    "probability": 0.9913
+  },
+  {
+    "word": "in",
+    "start": 2.9,
+    "end": 3.12,
+    "probability": 0.9838
+  },
+  {
+    "word": "what",
+    "start": 3.12,
+    "end": 3.32,
+    "probability": 0.9939
+  },
+  {
+    "word": "they",
+    "start": 3.32,
+    "end": 3.5,
+    "probability": 0.9986
+  },
+  {
+    "word": "have",
+    "start": 3.5,
+    "end": 3.66,
+    "probability": 0.9985
+  },
+  {
+    "word": "to",
+    "start": 3.66,
+    "end": 3.84,
+    "probability": 0.9985
+  },
+  {
+    "word": "say,",
+    "start": 3.84,
+    "end": 4.14,
+    "probability": 0.999
+  },
+  {
+    "word": "because",
+    "start": 4.16,
+    "end": 4.4,
+    "probability": 0.9797
+  },
+  {
+    "word": "what",
+    "start": 4.4,
+    "end": 4.94,
+    "probability": 0.971
+  },
+  {
+    "word": "we've",
+    "start": 4.94,
+    "end": 5.18,
+    "probability": 0.9825
+  },
+  {
+    "word": "seen",
+    "start": 5.18,
+    "end": 5.38,
+    "probability": 0.9892
+  },
+  {
+    "word": "all",
+    "start": 5.38,
+    "end": 5.64,
+    "probability": 0.9952
+  },
+  {
+    "word": "around",
+    "start": 5.64,
+    "end": 5.86,
+    "probability": 0.9963
+  },
+  {
+    "word": "the",
+    "start": 5.86,
+    "end": 6.02,
+    "probability": 0.9982
+  },
+  {
+    "word": "world",
+    "start": 6.02,
+    "end": 6.3,
+    "probability": 0.999
+  },
+  {
+    "word": "is",
+    "start": 6.3,
+    "end": 6.54,
+    "probability": 0.7383
+  },
+  {
+    "word": "the",
+    "start": 6.54,
+    "end": 6.66,
+    "probability": 0.9959
+  },
+  {
+    "word": "power",
+    "start": 6.66,
+    "end": 7.0,
+    "probability": 0.9803
+  },
+  {
+    "word": "of",
+    "start": 7.0,
+    "end": 7.2,
+    "probability": 0.9988
+  },
+  {
+    "word": "youth.",
+    "start": 7.2,
+    "end": 7.42,
+    "probability": 0.9982
+  }
+]

@@ -1,0 +1,170 @@
+[
+  {
+    "word": "Kentucky's",
+    "start": 0.0,
+    "end": 0.94,
+    "probability": 0.9469
+  },
+  {
+    "word": "participation",
+    "start": 0.94,
+    "end": 1.7,
+    "probability": 0.9857
+  },
+  {
+    "word": "at",
+    "start": 1.7,
+    "end": 1.94,
+    "probability": 0.9727
+  },
+  {
+    "word": "the",
+    "start": 1.94,
+    "end": 2.12,
+    "probability": 0.9883
+  },
+  {
+    "word": "annual",
+    "start": 2.12,
+    "end": 2.56,
+    "probability": 0.6196
+  },
+  {
+    "word": "Bio",
+    "start": 2.56,
+    "end": 2.9,
+    "probability": 0.3924
+  },
+  {
+    "word": "International",
+    "start": 2.9,
+    "end": 3.4,
+    "probability": 0.5501
+  },
+  {
+    "word": "Convention",
+    "start": 3.4,
+    "end": 4.24,
+    "probability": 0.8963
+  },
+  {
+    "word": "is",
+    "start": 4.24,
+    "end": 4.86,
+    "probability": 0.9689
+  },
+  {
+    "word": "the",
+    "start": 4.86,
+    "end": 5.1,
+    "probability": 0.997
+  },
+  {
+    "word": "primary",
+    "start": 5.1,
+    "end": 5.52,
+    "probability": 0.9985
+  },
+  {
+    "word": "means",
+    "start": 5.52,
+    "end": 6.14,
+    "probability": 0.9976
+  },
+  {
+    "word": "by",
+    "start": 6.14,
+    "end": 6.36,
+    "probability": 0.9933
+  },
+  {
+    "word": "which",
+    "start": 6.36,
+    "end": 6.6,
+    "probability": 0.999
+  },
+  {
+    "word": "our",
+    "start": 6.6,
+    "end": 7.08,
+    "probability": 0.992
+  },
+  {
+    "word": "high",
+    "start": 7.08,
+    "end": 7.36,
+    "probability": 0.8181
+  },
+  {
+    "word": "tech",
+    "start": 7.36,
+    "end": 7.6,
+    "probability": 0.6534
+  },
+  {
+    "word": "companies",
+    "start": 7.6,
+    "end": 8.08,
+    "probability": 0.9923
+  },
+  {
+    "word": "and",
+    "start": 8.08,
+    "end": 8.34,
+    "probability": 0.9945
+  },
+  {
+    "word": "institutions",
+    "start": 8.34,
+    "end": 8.96,
+    "probability": 0.9974
+  },
+  {
+    "word": "can",
+    "start": 8.96,
+    "end": 9.5,
+    "probability": 0.9963
+  },
+  {
+    "word": "reach",
+    "start": 9.5,
+    "end": 9.74,
+    "probability": 0.999
+  },
+  {
+    "word": "out",
+    "start": 9.74,
+    "end": 10.1,
+    "probability": 0.9976
+  },
+  {
+    "word": "to",
+    "start": 10.1,
+    "end": 10.36,
+    "probability": 0.9974
+  },
+  {
+    "word": "the",
+    "start": 10.36,
+    "end": 10.48,
+    "probability": 0.998
+  },
+  {
+    "word": "global",
+    "start": 10.48,
+    "end": 10.84,
+    "probability": 0.7871
+  },
+  {
+    "word": "scientific",
+    "start": 10.84,
+    "end": 11.3,
+    "probability": 0.9827
+  },
+  {
+    "word": "community.",
+    "start": 11.3,
+    "end": 12.02,
+    "probability": 0.9985
+  }
+]

@@ -1,0 +1,110 @@
+[
+  {
+    "word": "Noncompliance",
+    "start": 0.84,
+    "end": 1.52,
+    "probability": 0.78
+  },
+  {
+    "word": "can",
+    "start": 1.52,
+    "end": 1.82,
+    "probability": 0.9823
+  },
+  {
+    "word": "resolve",
+    "start": 1.82,
+    "end": 2.38,
+    "probability": 0.9108
+  },
+  {
+    "word": "in",
+    "start": 2.38,
+    "end": 2.72,
+    "probability": 0.443
+  },
+  {
+    "word": "legal",
+    "start": 2.72,
+    "end": 3.02,
+    "probability": 0.978
+  },
+  {
+    "word": "liability",
+    "start": 3.02,
+    "end": 3.48,
+    "probability": 0.998
+  },
+  {
+    "word": "to",
+    "start": 3.48,
+    "end": 4.12,
+    "probability": 0.99
+  },
+  {
+    "word": "you",
+    "start": 4.12,
+    "end": 4.58,
+    "probability": 0.9889
+  },
+  {
+    "word": "and",
+    "start": 4.58,
+    "end": 5.08,
+    "probability": 0.8992
+  },
+  {
+    "word": "to",
+    "start": 5.08,
+    "end": 5.34,
+    "probability": 0.9601
+  },
+  {
+    "word": "the",
+    "start": 5.34,
+    "end": 5.48,
+    "probability": 0.9798
+  },
+  {
+    "word": "school",
+    "start": 5.48,
+    "end": 5.68,
+    "probability": 0.9536
+  },
+  {
+    "word": "district",
+    "start": 5.68,
+    "end": 6.04,
+    "probability": 0.9105
+  },
+  {
+    "word": "in",
+    "start": 6.04,
+    "end": 6.28,
+    "probability": 0.7282
+  },
+  {
+    "word": "which",
+    "start": 6.28,
+    "end": 6.38,
+    "probability": 0.9531
+  },
+  {
+    "word": "you",
+    "start": 6.38,
+    "end": 6.6,
+    "probability": 0.6598
+  },
+  {
+    "word": "are",
+    "start": 6.6,
+    "end": 6.72,
+    "probability": 0.9441
+  },
+  {
+    "word": "employed.",
+    "start": 6.72,
+    "end": 7.12,
+    "probability": 0.9977
+  }
+]

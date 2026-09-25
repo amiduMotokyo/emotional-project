@@ -1,0 +1,134 @@
+[
+  {
+    "word": "Okay,",
+    "start": 0.92,
+    "end": 1.4,
+    "probability": 0.4968
+  },
+  {
+    "word": "I",
+    "start": 1.6,
+    "end": 1.6,
+    "probability": 0.9945
+  },
+  {
+    "word": "mentioned",
+    "start": 1.6,
+    "end": 1.88,
+    "probability": 0.9598
+  },
+  {
+    "word": "a",
+    "start": 1.88,
+    "end": 2.14,
+    "probability": 0.6826
+  },
+  {
+    "word": "word",
+    "start": 2.14,
+    "end": 2.36,
+    "probability": 0.9955
+  },
+  {
+    "word": "in",
+    "start": 2.36,
+    "end": 2.72,
+    "probability": 0.9871
+  },
+  {
+    "word": "the",
+    "start": 2.72,
+    "end": 2.86,
+    "probability": 0.9928
+  },
+  {
+    "word": "last",
+    "start": 2.86,
+    "end": 3.24,
+    "probability": 0.999
+  },
+  {
+    "word": "clip",
+    "start": 3.24,
+    "end": 3.54,
+    "probability": 0.9955
+  },
+  {
+    "word": "called",
+    "start": 3.54,
+    "end": 4.0,
+    "probability": 0.984
+  },
+  {
+    "word": "monotone",
+    "start": 4.0,
+    "end": 4.94,
+    "probability": 0.7395
+  },
+  {
+    "word": "and",
+    "start": 4.94,
+    "end": 5.52,
+    "probability": 0.4697
+  },
+  {
+    "word": "I",
+    "start": 5.52,
+    "end": 5.62,
+    "probability": 0.9963
+  },
+  {
+    "word": "want",
+    "start": 5.62,
+    "end": 5.74,
+    "probability": 0.8972
+  },
+  {
+    "word": "to",
+    "start": 5.74,
+    "end": 5.84,
+    "probability": 0.9991
+  },
+  {
+    "word": "talk",
+    "start": 5.84,
+    "end": 6.04,
+    "probability": 0.9968
+  },
+  {
+    "word": "about",
+    "start": 6.04,
+    "end": 6.36,
+    "probability": 0.9989
+  },
+  {
+    "word": "that",
+    "start": 6.36,
+    "end": 6.6,
+    "probability": 0.996
+  },
+  {
+    "word": "briefly.",
+    "start": 6.6,
+    "end": 7.12,
+    "probability": 0.9913
+  },
+  {
+    "word": "What",
+    "start": 7.3,
+    "end": 7.4,
+    "probability": 0.8697
+  },
+  {
+    "word": "you",
+    "start": 7.4,
+    "end": 7.58,
+    "probability": 0.9325
+  },
+  {
+    "word": "-",
+    "start": 7.58,
+    "end": 7.7,
+    "probability": 0.1673
+  }
+]

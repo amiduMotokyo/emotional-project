@@ -1,0 +1,218 @@
+[
+  {
+    "word": "For",
+    "start": 0.0,
+    "end": 0.58,
+    "probability": 0.6046
+  },
+  {
+    "word": "the",
+    "start": 0.58,
+    "end": 0.74,
+    "probability": 0.9935
+  },
+  {
+    "word": "10th",
+    "start": 0.74,
+    "end": 1.08,
+    "probability": 0.9429
+  },
+  {
+    "word": "straight",
+    "start": 1.08,
+    "end": 1.32,
+    "probability": 0.8828
+  },
+  {
+    "word": "year,",
+    "start": 1.32,
+    "end": 1.72,
+    "probability": 0.9648
+  },
+  {
+    "word": "some",
+    "start": 2.14,
+    "end": 2.42,
+    "probability": 0.9293
+  },
+  {
+    "word": "of",
+    "start": 2.42,
+    "end": 2.72,
+    "probability": 0.9965
+  },
+  {
+    "word": "Kentucky's",
+    "start": 2.72,
+    "end": 3.28,
+    "probability": 0.9911
+  },
+  {
+    "word": "best",
+    "start": 3.28,
+    "end": 3.62,
+    "probability": 0.9903
+  },
+  {
+    "word": "and",
+    "start": 3.62,
+    "end": 3.96,
+    "probability": 0.9768
+  },
+  {
+    "word": "most",
+    "start": 3.96,
+    "end": 4.26,
+    "probability": 0.9984
+  },
+  {
+    "word": "innovative",
+    "start": 4.26,
+    "end": 4.72,
+    "probability": 0.8887
+  },
+  {
+    "word": "biotech",
+    "start": 4.72,
+    "end": 5.5,
+    "probability": 0.9344
+  },
+  {
+    "word": "companies",
+    "start": 5.5,
+    "end": 5.9,
+    "probability": 0.9881
+  },
+  {
+    "word": "and",
+    "start": 5.9,
+    "end": 6.12,
+    "probability": 0.9918
+  },
+  {
+    "word": "technologies",
+    "start": 6.12,
+    "end": 6.82,
+    "probability": 0.9884
+  },
+  {
+    "word": "were",
+    "start": 6.82,
+    "end": 7.42,
+    "probability": 0.9821
+  },
+  {
+    "word": "on",
+    "start": 7.42,
+    "end": 7.74,
+    "probability": 0.9977
+  },
+  {
+    "word": "display",
+    "start": 7.74,
+    "end": 8.3,
+    "probability": 0.9992
+  },
+  {
+    "word": "at",
+    "start": 8.3,
+    "end": 8.7,
+    "probability": 0.9921
+  },
+  {
+    "word": "the",
+    "start": 8.7,
+    "end": 8.88,
+    "probability": 0.9908
+  },
+  {
+    "word": "annual",
+    "start": 8.88,
+    "end": 9.36,
+    "probability": 0.6922
+  },
+  {
+    "word": "bio",
+    "start": 9.36,
+    "end": 9.8,
+    "probability": 0.2754
+  },
+  {
+    "word": "-international",
+    "start": 9.8,
+    "end": 10.72,
+    "probability": 0.8903
+  },
+  {
+    "word": "convention,",
+    "start": 10.72,
+    "end": 11.24,
+    "probability": 0.9762
+  },
+  {
+    "word": "which",
+    "start": 11.74,
+    "end": 12.04,
+    "probability": 0.9964
+  },
+  {
+    "word": "I",
+    "start": 12.04,
+    "end": 12.34,
+    "probability": 0.9602
+  },
+  {
+    "word": "and",
+    "start": 12.34,
+    "end": 12.66,
+    "probability": 0.9772
+  },
+  {
+    "word": "other",
+    "start": 12.66,
+    "end": 12.9,
+    "probability": 0.9979
+  },
+  {
+    "word": "state",
+    "start": 12.9,
+    "end": 13.16,
+    "probability": 0.9045
+  },
+  {
+    "word": "officials",
+    "start": 13.16,
+    "end": 13.58,
+    "probability": 0.9943
+  },
+  {
+    "word": "attended",
+    "start": 13.58,
+    "end": 14.02,
+    "probability": 0.9732
+  },
+  {
+    "word": "this",
+    "start": 14.02,
+    "end": 14.34,
+    "probability": 0.9957
+  },
+  {
+    "word": "week",
+    "start": 14.34,
+    "end": 14.56,
+    "probability": 0.996
+  },
+  {
+    "word": "in",
+    "start": 14.56,
+    "end": 14.9,
+    "probability": 0.9836
+  },
+  {
+    "word": "Chicago.",
+    "start": 14.9,
+    "end": 15.26,
+    "probability": 0.9985
+  }
+]

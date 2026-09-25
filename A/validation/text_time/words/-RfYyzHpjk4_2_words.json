@@ -1,0 +1,164 @@
+[
+  {
+    "word": "You",
+    "start": 0.32,
+    "end": 0.58,
+    "probability": 0.4204
+  },
+  {
+    "word": "can",
+    "start": 0.58,
+    "end": 0.7,
+    "probability": 0.9836
+  },
+  {
+    "word": "make",
+    "start": 0.7,
+    "end": 0.84,
+    "probability": 0.9946
+  },
+  {
+    "word": "a",
+    "start": 0.84,
+    "end": 0.96,
+    "probability": 0.8652
+  },
+  {
+    "word": "confidence",
+    "start": 0.96,
+    "end": 1.28,
+    "probability": 0.4741
+  },
+  {
+    "word": "call",
+    "start": 1.28,
+    "end": 1.5,
+    "probability": 0.9749
+  },
+  {
+    "word": "but",
+    "start": 1.5,
+    "end": 1.64,
+    "probability": 0.537
+  },
+  {
+    "word": "it",
+    "start": 1.64,
+    "end": 1.74,
+    "probability": 0.9277
+  },
+  {
+    "word": "takes",
+    "start": 1.74,
+    "end": 1.86,
+    "probability": 0.9109
+  },
+  {
+    "word": "quite",
+    "start": 1.86,
+    "end": 2.16,
+    "probability": 0.9667
+  },
+  {
+    "word": "a",
+    "start": 2.16,
+    "end": 2.28,
+    "probability": 0.9903
+  },
+  {
+    "word": "bit",
+    "start": 2.28,
+    "end": 2.4,
+    "probability": 0.9941
+  },
+  {
+    "word": "of",
+    "start": 2.4,
+    "end": 2.5,
+    "probability": 0.9933
+  },
+  {
+    "word": "planning.",
+    "start": 2.5,
+    "end": 2.78,
+    "probability": 0.9349
+  },
+  {
+    "word": "Well",
+    "start": 2.8,
+    "end": 2.92,
+    "probability": 0.4575
+  },
+  {
+    "word": "not",
+    "start": 2.92,
+    "end": 3.04,
+    "probability": 0.6298
+  },
+  {
+    "word": "a",
+    "start": 3.04,
+    "end": 3.14,
+    "probability": 0.9781
+  },
+  {
+    "word": "lot",
+    "start": 3.14,
+    "end": 3.26,
+    "probability": 0.9971
+  },
+  {
+    "word": "of",
+    "start": 3.26,
+    "end": 3.4,
+    "probability": 0.9891
+  },
+  {
+    "word": "planning.",
+    "start": 3.4,
+    "end": 3.7,
+    "probability": 0.9889
+  },
+  {
+    "word": "It's",
+    "start": 3.82,
+    "end": 3.9,
+    "probability": 0.9786
+  },
+  {
+    "word": "pretty",
+    "start": 3.9,
+    "end": 4.12,
+    "probability": 0.9937
+  },
+  {
+    "word": "easy",
+    "start": 4.12,
+    "end": 4.42,
+    "probability": 0.9965
+  },
+  {
+    "word": "to",
+    "start": 4.42,
+    "end": 4.58,
+    "probability": 0.9954
+  },
+  {
+    "word": "do.",
+    "start": 4.58,
+    "end": 4.78,
+    "probability": 0.9986
+  },
+  {
+    "word": "What",
+    "start": 5.1,
+    "end": 5.3,
+    "probability": 0.5145
+  },
+  {
+    "word": "else?",
+    "start": 5.3,
+    "end": 5.36,
+    "probability": 0.227
+  }
+]

@@ -1,0 +1,56 @@
+[
+  {
+    "word": "I've",
+    "start": 0.0,
+    "end": 0.5,
+    "probability": 0.682
+  },
+  {
+    "word": "seen",
+    "start": 0.5,
+    "end": 0.7,
+    "probability": 0.9566
+  },
+  {
+    "word": "this",
+    "start": 0.7,
+    "end": 0.88,
+    "probability": 0.9892
+  },
+  {
+    "word": "in",
+    "start": 0.88,
+    "end": 1.08,
+    "probability": 0.9951
+  },
+  {
+    "word": "US",
+    "start": 1.08,
+    "end": 1.38,
+    "probability": 0.5012
+  },
+  {
+    "word": "or",
+    "start": 1.38,
+    "end": 1.88,
+    "probability": 0.8082
+  },
+  {
+    "word": "in",
+    "start": 1.88,
+    "end": 2.0,
+    "probability": 0.9221
+  },
+  {
+    "word": "the",
+    "start": 2.0,
+    "end": 2.12,
+    "probability": 0.9614
+  },
+  {
+    "word": "US.",
+    "start": 2.12,
+    "end": 2.4,
+    "probability": 0.9468
+  }
+]

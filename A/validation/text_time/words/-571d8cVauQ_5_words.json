@@ -1,0 +1,290 @@
+[
+  {
+    "word": "us.",
+    "start": 0.0,
+    "end": 0.2,
+    "probability": 0.6071
+  },
+  {
+    "word": "So",
+    "start": 0.62,
+    "end": 0.66,
+    "probability": 0.9102
+  },
+  {
+    "word": "very",
+    "start": 0.66,
+    "end": 0.9,
+    "probability": 0.7381
+  },
+  {
+    "word": "important",
+    "start": 0.9,
+    "end": 1.3,
+    "probability": 0.9978
+  },
+  {
+    "word": "to",
+    "start": 1.3,
+    "end": 1.48,
+    "probability": 0.9804
+  },
+  {
+    "word": "go",
+    "start": 1.48,
+    "end": 1.74,
+    "probability": 0.9963
+  },
+  {
+    "word": "out",
+    "start": 1.74,
+    "end": 2.02,
+    "probability": 0.9939
+  },
+  {
+    "word": "to",
+    "start": 2.02,
+    "end": 2.56,
+    "probability": 0.9391
+  },
+  {
+    "word": "the",
+    "start": 2.56,
+    "end": 2.72,
+    "probability": 0.9991
+  },
+  {
+    "word": "locations,",
+    "start": 2.72,
+    "end": 3.26,
+    "probability": 0.9789
+  },
+  {
+    "word": "walk",
+    "start": 3.68,
+    "end": 3.94,
+    "probability": 0.9737
+  },
+  {
+    "word": "around,",
+    "start": 3.94,
+    "end": 4.38,
+    "probability": 0.9959
+  },
+  {
+    "word": "talk",
+    "start": 4.62,
+    "end": 4.88,
+    "probability": 0.9953
+  },
+  {
+    "word": "with",
+    "start": 4.88,
+    "end": 5.08,
+    "probability": 0.9917
+  },
+  {
+    "word": "the",
+    "start": 5.08,
+    "end": 5.2,
+    "probability": 0.9781
+  },
+  {
+    "word": "owners",
+    "start": 5.2,
+    "end": 5.46,
+    "probability": 0.9834
+  },
+  {
+    "word": "if",
+    "start": 5.46,
+    "end": 5.72,
+    "probability": 0.8559
+  },
+  {
+    "word": "you",
+    "start": 5.72,
+    "end": 5.82,
+    "probability": 0.997
+  },
+  {
+    "word": "can,",
+    "start": 5.82,
+    "end": 6.1,
+    "probability": 0.9989
+  },
+  {
+    "word": "tell",
+    "start": 6.36,
+    "end": 6.6,
+    "probability": 0.9969
+  },
+  {
+    "word": "them",
+    "start": 6.6,
+    "end": 6.76,
+    "probability": 0.9994
+  },
+  {
+    "word": "what",
+    "start": 6.76,
+    "end": 6.94,
+    "probability": 0.9985
+  },
+  {
+    "word": "you're",
+    "start": 6.94,
+    "end": 7.1,
+    "probability": 0.9834
+  },
+  {
+    "word": "doing,",
+    "start": 7.1,
+    "end": 7.34,
+    "probability": 0.9993
+  },
+  {
+    "word": "build",
+    "start": 7.72,
+    "end": 7.8,
+    "probability": 0.862
+  },
+  {
+    "word": "a",
+    "start": 7.8,
+    "end": 8.02,
+    "probability": 0.9952
+  },
+  {
+    "word": "little",
+    "start": 8.02,
+    "end": 8.18,
+    "probability": 0.9961
+  },
+  {
+    "word": "excitement,",
+    "start": 8.18,
+    "end": 8.66,
+    "probability": 0.9878
+  },
+  {
+    "word": "put",
+    "start": 9.12,
+    "end": 9.52,
+    "probability": 0.9973
+  },
+  {
+    "word": "a",
+    "start": 9.52,
+    "end": 9.62,
+    "probability": 0.9671
+  },
+  {
+    "word": "little",
+    "start": 9.62,
+    "end": 9.76,
+    "probability": 0.9973
+  },
+  {
+    "word": "glitz",
+    "start": 9.76,
+    "end": 10.12,
+    "probability": 0.9215
+  },
+  {
+    "word": "on",
+    "start": 10.12,
+    "end": 10.3,
+    "probability": 0.9967
+  },
+  {
+    "word": "there,",
+    "start": 10.3,
+    "end": 10.54,
+    "probability": 0.9958
+  },
+  {
+    "word": "and",
+    "start": 11.06,
+    "end": 11.32,
+    "probability": 0.9932
+  },
+  {
+    "word": "let",
+    "start": 11.32,
+    "end": 11.64,
+    "probability": 0.9943
+  },
+  {
+    "word": "everybody",
+    "start": 11.64,
+    "end": 11.92,
+    "probability": 0.9931
+  },
+  {
+    "word": "know",
+    "start": 11.92,
+    "end": 12.22,
+    "probability": 0.9992
+  },
+  {
+    "word": "this",
+    "start": 12.22,
+    "end": 12.84,
+    "probability": 0.4993
+  },
+  {
+    "word": "is",
+    "start": 12.84,
+    "end": 13.02,
+    "probability": 0.9937
+  },
+  {
+    "word": "a",
+    "start": 13.02,
+    "end": 13.2,
+    "probability": 0.9964
+  },
+  {
+    "word": "very",
+    "start": 13.2,
+    "end": 13.52,
+    "probability": 0.9935
+  },
+  {
+    "word": "valuable",
+    "start": 13.52,
+    "end": 14.0,
+    "probability": 0.9973
+  },
+  {
+    "word": "spot.",
+    "start": 14.0,
+    "end": 14.44,
+    "probability": 0.9981
+  },
+  {
+    "word": "This",
+    "start": 14.62,
+    "end": 14.74,
+    "probability": 0.9843
+  },
+  {
+    "word": "is",
+    "start": 14.74,
+    "end": 14.94,
+    "probability": 0.9933
+  },
+  {
+    "word": "going",
+    "start": 14.94,
+    "end": 15.08,
+    "probability": 0.5981
+  },
+  {
+    "word": "to...",
+    "start": 15.08,
+    "end": 15.08,
+    "probability": 0.5098
+  }
+]

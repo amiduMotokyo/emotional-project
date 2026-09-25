@@ -1,0 +1,146 @@
+[
+  {
+    "word": "like",
+    "start": 0.0,
+    "end": 0.08,
+    "probability": 0.2806
+  },
+  {
+    "word": "we",
+    "start": 0.08,
+    "end": 0.9,
+    "probability": 0.8059
+  },
+  {
+    "word": "have",
+    "start": 0.9,
+    "end": 1.02,
+    "probability": 0.9975
+  },
+  {
+    "word": "many",
+    "start": 1.02,
+    "end": 1.26,
+    "probability": 0.9834
+  },
+  {
+    "word": "new",
+    "start": 1.26,
+    "end": 1.8,
+    "probability": 0.9745
+  },
+  {
+    "word": "opportunities",
+    "start": 1.8,
+    "end": 2.36,
+    "probability": 0.992
+  },
+  {
+    "word": "through",
+    "start": 2.36,
+    "end": 2.7,
+    "probability": 0.9603
+  },
+  {
+    "word": "the",
+    "start": 2.7,
+    "end": 3.46,
+    "probability": 0.9832
+  },
+  {
+    "word": "way",
+    "start": 3.46,
+    "end": 3.58,
+    "probability": 0.9941
+  },
+  {
+    "word": "things",
+    "start": 3.58,
+    "end": 3.82,
+    "probability": 0.9906
+  },
+  {
+    "word": "have",
+    "start": 3.82,
+    "end": 3.96,
+    "probability": 0.9417
+  },
+  {
+    "word": "changed",
+    "start": 3.96,
+    "end": 4.2,
+    "probability": 0.9392
+  },
+  {
+    "word": "to",
+    "start": 4.2,
+    "end": 4.4,
+    "probability": 0.2936
+  },
+  {
+    "word": "the",
+    "start": 4.4,
+    "end": 4.52,
+    "probability": 0.9882
+  },
+  {
+    "word": "years.",
+    "start": 4.52,
+    "end": 4.88,
+    "probability": 0.9938
+  },
+  {
+    "word": "Looking",
+    "start": 5.36,
+    "end": 5.8,
+    "probability": 0.4499
+  },
+  {
+    "word": "for",
+    "start": 5.8,
+    "end": 5.98,
+    "probability": 0.9987
+  },
+  {
+    "word": "new",
+    "start": 5.98,
+    "end": 6.16,
+    "probability": 0.9131
+  },
+  {
+    "word": "niche",
+    "start": 6.16,
+    "end": 6.5,
+    "probability": 0.9315
+  },
+  {
+    "word": "high",
+    "start": 6.5,
+    "end": 6.8,
+    "probability": 0.7303
+  },
+  {
+    "word": "-end",
+    "start": 6.8,
+    "end": 7.0,
+    "probability": 0.8231
+  },
+  {
+    "word": "value",
+    "start": 7.0,
+    "end": 7.34,
+    "probability": 0.9686
+  },
+  {
+    "word": "-editor",
+    "start": 7.34,
+    "end": 7.58,
+    "probability": 0.3444
+  },
+  {
+    "word": "products.",
+    "start": 7.58,
+    "end": 7.94,
+    "probability": 0.9911
+  }
+]

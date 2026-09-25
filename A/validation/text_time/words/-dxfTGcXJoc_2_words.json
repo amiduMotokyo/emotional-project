@@ -1,0 +1,212 @@
+[
+  {
+    "word": "An",
+    "start": 0.0,
+    "end": 0.6,
+    "probability": 0.8928
+  },
+  {
+    "word": "estimated",
+    "start": 0.6,
+    "end": 1.1,
+    "probability": 0.9983
+  },
+  {
+    "word": "20",
+    "start": 1.1,
+    "end": 1.7,
+    "probability": 0.8515
+  },
+  {
+    "word": ",000",
+    "start": 1.7,
+    "end": 2.2,
+    "probability": 0.9797
+  },
+  {
+    "word": "biotech",
+    "start": 2.2,
+    "end": 2.94,
+    "probability": 0.9332
+  },
+  {
+    "word": "scientists,",
+    "start": 2.94,
+    "end": 3.46,
+    "probability": 0.601
+  },
+  {
+    "word": "executives,",
+    "start": 4.06,
+    "end": 4.34,
+    "probability": 0.9125
+  },
+  {
+    "word": "and",
+    "start": 4.74,
+    "end": 4.84,
+    "probability": 0.9933
+  },
+  {
+    "word": "industry",
+    "start": 4.84,
+    "end": 5.38,
+    "probability": 0.9984
+  },
+  {
+    "word": "experts",
+    "start": 5.38,
+    "end": 5.94,
+    "probability": 0.9988
+  },
+  {
+    "word": "from",
+    "start": 5.94,
+    "end": 6.5,
+    "probability": 0.5884
+  },
+  {
+    "word": "more",
+    "start": 6.5,
+    "end": 6.74,
+    "probability": 0.9894
+  },
+  {
+    "word": "than",
+    "start": 6.74,
+    "end": 6.88,
+    "probability": 0.9992
+  },
+  {
+    "word": "50",
+    "start": 6.88,
+    "end": 7.2,
+    "probability": 0.8677
+  },
+  {
+    "word": "nations",
+    "start": 7.2,
+    "end": 7.74,
+    "probability": 0.9948
+  },
+  {
+    "word": "were",
+    "start": 7.74,
+    "end": 8.16,
+    "probability": 0.9538
+  },
+  {
+    "word": "at",
+    "start": 8.16,
+    "end": 8.42,
+    "probability": 0.9979
+  },
+  {
+    "word": "the",
+    "start": 8.42,
+    "end": 8.62,
+    "probability": 0.9962
+  },
+  {
+    "word": "Bio",
+    "start": 8.62,
+    "end": 8.88,
+    "probability": 0.3221
+  },
+  {
+    "word": "-conference",
+    "start": 8.88,
+    "end": 9.42,
+    "probability": 0.5373
+  },
+  {
+    "word": "to",
+    "start": 9.42,
+    "end": 9.68,
+    "probability": 0.9924
+  },
+  {
+    "word": "learn",
+    "start": 9.68,
+    "end": 10.0,
+    "probability": 0.9975
+  },
+  {
+    "word": "about",
+    "start": 10.0,
+    "end": 10.34,
+    "probability": 0.9973
+  },
+  {
+    "word": "the",
+    "start": 10.34,
+    "end": 10.52,
+    "probability": 0.9972
+  },
+  {
+    "word": "latest",
+    "start": 10.52,
+    "end": 10.82,
+    "probability": 0.999
+  },
+  {
+    "word": "scientific",
+    "start": 10.82,
+    "end": 11.36,
+    "probability": 0.9961
+  },
+  {
+    "word": "advances",
+    "start": 11.36,
+    "end": 12.0,
+    "probability": 0.9978
+  },
+  {
+    "word": "and",
+    "start": 12.0,
+    "end": 12.62,
+    "probability": 0.7117
+  },
+  {
+    "word": "to",
+    "start": 12.62,
+    "end": 12.74,
+    "probability": 0.9943
+  },
+  {
+    "word": "exchange",
+    "start": 12.74,
+    "end": 13.18,
+    "probability": 0.9973
+  },
+  {
+    "word": "ideas",
+    "start": 13.18,
+    "end": 13.78,
+    "probability": 0.9985
+  },
+  {
+    "word": "and",
+    "start": 13.78,
+    "end": 14.24,
+    "probability": 0.9902
+  },
+  {
+    "word": "establish",
+    "start": 14.24,
+    "end": 14.68,
+    "probability": 0.993
+  },
+  {
+    "word": "business",
+    "start": 14.68,
+    "end": 15.1,
+    "probability": 0.9987
+  },
+  {
+    "word": "relationships.",
+    "start": 15.1,
+    "end": 15.8,
+    "probability": 0.9921
+  }
+]

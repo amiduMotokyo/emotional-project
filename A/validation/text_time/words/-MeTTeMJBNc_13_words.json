@@ -1,0 +1,92 @@
+[
+  {
+    "word": "it",
+    "start": 0.0,
+    "end": 0.2,
+    "probability": 0.2226
+  },
+  {
+    "word": "is,",
+    "start": 0.2,
+    "end": 0.52,
+    "probability": 0.9279
+  },
+  {
+    "word": "just",
+    "start": 0.92,
+    "end": 1.2,
+    "probability": 0.8103
+  },
+  {
+    "word": "needs",
+    "start": 1.2,
+    "end": 1.54,
+    "probability": 0.9502
+  },
+  {
+    "word": "to",
+    "start": 1.54,
+    "end": 1.78,
+    "probability": 0.994
+  },
+  {
+    "word": "be",
+    "start": 1.78,
+    "end": 1.92,
+    "probability": 0.9944
+  },
+  {
+    "word": "a",
+    "start": 1.92,
+    "end": 2.04,
+    "probability": 0.9903
+  },
+  {
+    "word": "simple",
+    "start": 2.04,
+    "end": 2.5,
+    "probability": 0.9886
+  },
+  {
+    "word": "statement",
+    "start": 2.5,
+    "end": 3.08,
+    "probability": 0.9983
+  },
+  {
+    "word": "and",
+    "start": 3.08,
+    "end": 3.66,
+    "probability": 0.7544
+  },
+  {
+    "word": "then",
+    "start": 3.66,
+    "end": 3.78,
+    "probability": 0.9513
+  },
+  {
+    "word": "you",
+    "start": 3.78,
+    "end": 3.88,
+    "probability": 0.9856
+  },
+  {
+    "word": "present",
+    "start": 3.88,
+    "end": 4.22,
+    "probability": 0.9895
+  },
+  {
+    "word": "the",
+    "start": 4.22,
+    "end": 4.48,
+    "probability": 0.994
+  },
+  {
+    "word": "gift.",
+    "start": 4.48,
+    "end": 4.8,
+    "probability": 0.9892
+  }
+]

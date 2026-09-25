@@ -1,0 +1,128 @@
+[
+  {
+    "word": "It's",
+    "start": 0.0,
+    "end": 0.76,
+    "probability": 0.7776
+  },
+  {
+    "word": "perceived",
+    "start": 0.76,
+    "end": 1.28,
+    "probability": 0.9797
+  },
+  {
+    "word": "that",
+    "start": 1.28,
+    "end": 1.64,
+    "probability": 0.9539
+  },
+  {
+    "word": "you've",
+    "start": 1.64,
+    "end": 1.86,
+    "probability": 0.9691
+  },
+  {
+    "word": "actually",
+    "start": 1.86,
+    "end": 2.1,
+    "probability": 0.9539
+  },
+  {
+    "word": "learned",
+    "start": 2.1,
+    "end": 3.94,
+    "probability": 0.7363
+  },
+  {
+    "word": "something",
+    "start": 3.94,
+    "end": 4.62,
+    "probability": 0.9917
+  },
+  {
+    "word": "over",
+    "start": 4.62,
+    "end": 5.56,
+    "probability": 0.9182
+  },
+  {
+    "word": "the",
+    "start": 5.56,
+    "end": 5.68,
+    "probability": 0.9813
+  },
+  {
+    "word": "course",
+    "start": 5.68,
+    "end": 5.84,
+    "probability": 0.998
+  },
+  {
+    "word": "of",
+    "start": 5.84,
+    "end": 6.04,
+    "probability": 0.9981
+  },
+  {
+    "word": "your",
+    "start": 6.04,
+    "end": 6.12,
+    "probability": 0.9859
+  },
+  {
+    "word": "career",
+    "start": 6.12,
+    "end": 6.4,
+    "probability": 0.9996
+  },
+  {
+    "word": "and",
+    "start": 6.4,
+    "end": 6.54,
+    "probability": 0.7621
+  },
+  {
+    "word": "that",
+    "start": 6.54,
+    "end": 6.64,
+    "probability": 0.9018
+  },
+  {
+    "word": "you",
+    "start": 6.64,
+    "end": 6.78,
+    "probability": 0.996
+  },
+  {
+    "word": "won't",
+    "start": 6.78,
+    "end": 7.04,
+    "probability": 0.9853
+  },
+  {
+    "word": "make",
+    "start": 7.04,
+    "end": 7.42,
+    "probability": 0.9936
+  },
+  {
+    "word": "the",
+    "start": 7.42,
+    "end": 7.6,
+    "probability": 0.9672
+  },
+  {
+    "word": "mistake",
+    "start": 7.6,
+    "end": 7.82,
+    "probability": 0.9632
+  },
+  {
+    "word": "twice.",
+    "start": 7.82,
+    "end": 8.34,
+    "probability": 0.996
+  }
+]

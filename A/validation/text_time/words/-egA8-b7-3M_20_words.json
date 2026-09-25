@@ -1,0 +1,122 @@
+[
+  {
+    "word": "Now",
+    "start": 0.0,
+    "end": 0.72,
+    "probability": 0.844
+  },
+  {
+    "word": "you've",
+    "start": 0.72,
+    "end": 0.94,
+    "probability": 0.8479
+  },
+  {
+    "word": "got",
+    "start": 0.94,
+    "end": 1.06,
+    "probability": 0.9832
+  },
+  {
+    "word": "a",
+    "start": 1.06,
+    "end": 1.24,
+    "probability": 0.9767
+  },
+  {
+    "word": "face",
+    "start": 1.24,
+    "end": 1.5,
+    "probability": 0.9903
+  },
+  {
+    "word": "that",
+    "start": 1.5,
+    "end": 1.74,
+    "probability": 0.9415
+  },
+  {
+    "word": "you",
+    "start": 1.74,
+    "end": 1.88,
+    "probability": 0.9811
+  },
+  {
+    "word": "can",
+    "start": 1.88,
+    "end": 2.06,
+    "probability": 0.9592
+  },
+  {
+    "word": "connect",
+    "start": 2.06,
+    "end": 2.38,
+    "probability": 0.9972
+  },
+  {
+    "word": "with",
+    "start": 2.38,
+    "end": 2.66,
+    "probability": 0.9939
+  },
+  {
+    "word": "a",
+    "start": 2.66,
+    "end": 2.82,
+    "probability": 0.9707
+  },
+  {
+    "word": "voice",
+    "start": 2.82,
+    "end": 3.14,
+    "probability": 0.9866
+  },
+  {
+    "word": "and",
+    "start": 3.14,
+    "end": 4.02,
+    "probability": 0.532
+  },
+  {
+    "word": "that",
+    "start": 4.02,
+    "end": 4.22,
+    "probability": 0.9951
+  },
+  {
+    "word": "makes",
+    "start": 4.22,
+    "end": 4.4,
+    "probability": 0.9913
+  },
+  {
+    "word": "you",
+    "start": 4.4,
+    "end": 4.62,
+    "probability": 0.9958
+  },
+  {
+    "word": "closer",
+    "start": 4.62,
+    "end": 5.04,
+    "probability": 0.9934
+  },
+  {
+    "word": "to",
+    "start": 5.04,
+    "end": 5.28,
+    "probability": 0.9989
+  },
+  {
+    "word": "that",
+    "start": 5.28,
+    "end": 5.48,
+    "probability": 0.9917
+  },
+  {
+    "word": "client.",
+    "start": 5.48,
+    "end": 5.88,
+    "probability": 0.9902
+  }
+]

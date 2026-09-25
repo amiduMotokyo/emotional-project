@@ -1,0 +1,56 @@
+[
+  {
+    "word": "my",
+    "start": 0.0,
+    "end": 0.64,
+    "probability": 0.3822
+  },
+  {
+    "word": "goal",
+    "start": 0.64,
+    "end": 0.84,
+    "probability": 0.8808
+  },
+  {
+    "word": "is",
+    "start": 0.84,
+    "end": 1.28,
+    "probability": 0.9911
+  },
+  {
+    "word": "to",
+    "start": 1.28,
+    "end": 1.58,
+    "probability": 0.993
+  },
+  {
+    "word": "become",
+    "start": 1.58,
+    "end": 1.94,
+    "probability": 0.9962
+  },
+  {
+    "word": "a",
+    "start": 1.94,
+    "end": 2.64,
+    "probability": 0.9851
+  },
+  {
+    "word": "human",
+    "start": 2.64,
+    "end": 2.84,
+    "probability": 0.974
+  },
+  {
+    "word": "rights",
+    "start": 2.84,
+    "end": 3.12,
+    "probability": 0.9758
+  },
+  {
+    "word": "lawyer.",
+    "start": 3.12,
+    "end": 3.48,
+    "probability": 0.9968
+  }
+]

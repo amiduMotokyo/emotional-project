@@ -1,0 +1,278 @@
+[
+  {
+    "word": "The",
+    "start": 0.0,
+    "end": 0.58,
+    "probability": 0.7689
+  },
+  {
+    "word": "perfect",
+    "start": 0.58,
+    "end": 0.88,
+    "probability": 0.9947
+  },
+  {
+    "word": "sole",
+    "start": 0.88,
+    "end": 1.2,
+    "probability": 0.433
+  },
+  {
+    "word": "made",
+    "start": 1.2,
+    "end": 1.44,
+    "probability": 0.6075
+  },
+  {
+    "word": "to",
+    "start": 1.44,
+    "end": 1.7,
+    "probability": 0.9927
+  },
+  {
+    "word": "a",
+    "start": 1.7,
+    "end": 1.8,
+    "probability": 0.6416
+  },
+  {
+    "word": "clear",
+    "start": 1.8,
+    "end": 2.0,
+    "probability": 0.6867
+  },
+  {
+    "word": "sign",
+    "start": 2.0,
+    "end": 2.32,
+    "probability": 0.6998
+  },
+  {
+    "word": "it,",
+    "start": 2.32,
+    "end": 2.56,
+    "probability": 0.4466
+  },
+  {
+    "word": "spot",
+    "start": 2.92,
+    "end": 3.34,
+    "probability": 0.807
+  },
+  {
+    "word": "therapy",
+    "start": 3.34,
+    "end": 3.88,
+    "probability": 0.9748
+  },
+  {
+    "word": "brush.",
+    "start": 3.88,
+    "end": 4.4,
+    "probability": 0.9905
+  },
+  {
+    "word": "This",
+    "start": 4.96,
+    "end": 5.08,
+    "probability": 0.9745
+  },
+  {
+    "word": "gentle,",
+    "start": 5.08,
+    "end": 5.5,
+    "probability": 0.9935
+  },
+  {
+    "word": "pH",
+    "start": 5.8,
+    "end": 5.96,
+    "probability": 0.9562
+  },
+  {
+    "word": "-balanced",
+    "start": 5.96,
+    "end": 6.42,
+    "probability": 0.7152
+  },
+  {
+    "word": "and",
+    "start": 6.42,
+    "end": 6.8,
+    "probability": 0.7355
+  },
+  {
+    "word": "hydrating",
+    "start": 6.8,
+    "end": 7.4,
+    "probability": 0.9938
+  },
+  {
+    "word": "exfoliant",
+    "start": 7.4,
+    "end": 8.32,
+    "probability": 0.9329
+  },
+  {
+    "word": "contains",
+    "start": 8.32,
+    "end": 9.02,
+    "probability": 0.9489
+  },
+  {
+    "word": "a",
+    "start": 9.02,
+    "end": 9.46,
+    "probability": 0.2525
+  },
+  {
+    "word": "hoba",
+    "start": 9.46,
+    "end": 9.88,
+    "probability": 0.3764
+  },
+  {
+    "word": "and",
+    "start": 9.88,
+    "end": 10.34,
+    "probability": 0.9296
+  },
+  {
+    "word": "a",
+    "start": 10.34,
+    "end": 10.6,
+    "probability": 0.9539
+  },
+  {
+    "word": "kai",
+    "start": 10.6,
+    "end": 10.82,
+    "probability": 0.4566
+  },
+  {
+    "word": "fruit",
+    "start": 10.82,
+    "end": 11.26,
+    "probability": 0.9296
+  },
+  {
+    "word": "oils,",
+    "start": 11.26,
+    "end": 11.64,
+    "probability": 0.6524
+  },
+  {
+    "word": "with",
+    "start": 12.14,
+    "end": 12.58,
+    "probability": 0.9304
+  },
+  {
+    "word": "bamboo",
+    "start": 12.58,
+    "end": 13.02,
+    "probability": 0.9485
+  },
+  {
+    "word": "and",
+    "start": 13.02,
+    "end": 13.64,
+    "probability": 0.9773
+  },
+  {
+    "word": "prickly",
+    "start": 13.64,
+    "end": 14.06,
+    "probability": 0.9773
+  },
+  {
+    "word": "bare",
+    "start": 14.06,
+    "end": 14.34,
+    "probability": 0.7041
+  },
+  {
+    "word": "extracts.",
+    "start": 14.34,
+    "end": 15.4,
+    "probability": 0.964
+  },
+  {
+    "word": "These",
+    "start": 15.58,
+    "end": 15.82,
+    "probability": 0.9757
+  },
+  {
+    "word": "deliver",
+    "start": 15.82,
+    "end": 16.22,
+    "probability": 0.7416
+  },
+  {
+    "word": "intense",
+    "start": 16.22,
+    "end": 16.74,
+    "probability": 0.9975
+  },
+  {
+    "word": "healing,",
+    "start": 16.74,
+    "end": 17.3,
+    "probability": 0.9947
+  },
+  {
+    "word": "while",
+    "start": 17.72,
+    "end": 17.96,
+    "probability": 0.9806
+  },
+  {
+    "word": "smooth",
+    "start": 17.96,
+    "end": 18.32,
+    "probability": 0.9935
+  },
+  {
+    "word": "granules",
+    "start": 18.32,
+    "end": 18.82,
+    "probability": 0.9733
+  },
+  {
+    "word": "buff",
+    "start": 18.82,
+    "end": 19.2,
+    "probability": 0.7489
+  },
+  {
+    "word": "away",
+    "start": 19.2,
+    "end": 19.54,
+    "probability": 0.9905
+  },
+  {
+    "word": "dead",
+    "start": 19.54,
+    "end": 20.28,
+    "probability": 0.8171
+  },
+  {
+    "word": "dry",
+    "start": 20.28,
+    "end": 20.94,
+    "probability": 0.4857
+  },
+  {
+    "word": "skin",
+    "start": 20.94,
+    "end": 21.38,
+    "probability": 0.9975
+  },
+  {
+    "word": "cells.",
+    "start": 21.38,
+    "end": 21.72,
+    "probability": 0.9872
+  }
+]

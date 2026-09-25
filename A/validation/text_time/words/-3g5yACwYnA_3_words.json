@@ -1,0 +1,206 @@
+[
+  {
+    "word": "We're",
+    "start": 0.0,
+    "end": 0.9,
+    "probability": 0.5663
+  },
+  {
+    "word": "a",
+    "start": 0.9,
+    "end": 1.3,
+    "probability": 0.9914
+  },
+  {
+    "word": "huge",
+    "start": 1.3,
+    "end": 1.8,
+    "probability": 0.9924
+  },
+  {
+    "word": "user",
+    "start": 1.8,
+    "end": 2.84,
+    "probability": 0.9757
+  },
+  {
+    "word": "of",
+    "start": 2.84,
+    "end": 3.08,
+    "probability": 0.9909
+  },
+  {
+    "word": "Adhesives",
+    "start": 3.08,
+    "end": 3.48,
+    "probability": 0.5548
+  },
+  {
+    "word": "for",
+    "start": 3.48,
+    "end": 4.32,
+    "probability": 0.9287
+  },
+  {
+    "word": "our",
+    "start": 4.32,
+    "end": 4.64,
+    "probability": 0.9942
+  },
+  {
+    "word": "operation",
+    "start": 4.64,
+    "end": 5.12,
+    "probability": 0.9507
+  },
+  {
+    "word": "called",
+    "start": 5.12,
+    "end": 5.76,
+    "probability": 0.8699
+  },
+  {
+    "word": "flocking",
+    "start": 5.76,
+    "end": 6.18,
+    "probability": 0.78
+  },
+  {
+    "word": "and",
+    "start": 6.18,
+    "end": 6.78,
+    "probability": 0.4656
+  },
+  {
+    "word": "we",
+    "start": 6.78,
+    "end": 7.1,
+    "probability": 0.9802
+  },
+  {
+    "word": "don't",
+    "start": 7.1,
+    "end": 7.22,
+    "probability": 0.9964
+  },
+  {
+    "word": "have",
+    "start": 7.22,
+    "end": 7.36,
+    "probability": 0.9963
+  },
+  {
+    "word": "the",
+    "start": 7.36,
+    "end": 7.42,
+    "probability": 0.9509
+  },
+  {
+    "word": "technical",
+    "start": 7.42,
+    "end": 7.84,
+    "probability": 0.9574
+  },
+  {
+    "word": "inside",
+    "start": 7.84,
+    "end": 8.48,
+    "probability": 0.5502
+  },
+  {
+    "word": "and",
+    "start": 8.48,
+    "end": 8.76,
+    "probability": 0.2034
+  },
+  {
+    "word": "from",
+    "start": 8.76,
+    "end": 8.88,
+    "probability": 0.6793
+  },
+  {
+    "word": "compounding",
+    "start": 8.88,
+    "end": 10.0,
+    "probability": 0.9526
+  },
+  {
+    "word": "or",
+    "start": 10.0,
+    "end": 10.22,
+    "probability": 0.8693
+  },
+  {
+    "word": "the",
+    "start": 10.22,
+    "end": 10.4,
+    "probability": 0.9825
+  },
+  {
+    "word": "technical",
+    "start": 10.4,
+    "end": 10.72,
+    "probability": 0.9932
+  },
+  {
+    "word": "expertise",
+    "start": 10.72,
+    "end": 11.1,
+    "probability": 0.9981
+  },
+  {
+    "word": "to",
+    "start": 11.1,
+    "end": 11.38,
+    "probability": 0.9667
+  },
+  {
+    "word": "do",
+    "start": 11.38,
+    "end": 11.48,
+    "probability": 0.9746
+  },
+  {
+    "word": "these",
+    "start": 11.48,
+    "end": 11.7,
+    "probability": 0.9871
+  },
+  {
+    "word": "types",
+    "start": 11.7,
+    "end": 11.92,
+    "probability": 0.9637
+  },
+  {
+    "word": "of",
+    "start": 11.92,
+    "end": 12.02,
+    "probability": 0.9962
+  },
+  {
+    "word": "things.",
+    "start": 12.02,
+    "end": 12.28,
+    "probability": 0.9971
+  },
+  {
+    "word": "So,",
+    "start": 13.04,
+    "end": 13.08,
+    "probability": 0.9278
+  },
+  {
+    "word": "key",
+    "start": 13.5,
+    "end": 13.98,
+    "probability": 0.3378
+  },
+  {
+    "word": "brings...",
+    "start": 13.98,
+    "end": 14.3,
+    "probability": 0.5459
+  }
+]

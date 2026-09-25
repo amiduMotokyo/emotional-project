@@ -1,0 +1,134 @@
+[
+  {
+    "word": "I",
+    "start": 0.0,
+    "end": 0.62,
+    "probability": 0.9113
+  },
+  {
+    "word": "ended",
+    "start": 0.62,
+    "end": 0.76,
+    "probability": 0.9547
+  },
+  {
+    "word": "up",
+    "start": 0.76,
+    "end": 0.92,
+    "probability": 0.9975
+  },
+  {
+    "word": "going",
+    "start": 0.92,
+    "end": 1.06,
+    "probability": 0.9882
+  },
+  {
+    "word": "to",
+    "start": 1.06,
+    "end": 1.22,
+    "probability": 0.995
+  },
+  {
+    "word": "work",
+    "start": 1.22,
+    "end": 1.4,
+    "probability": 0.9992
+  },
+  {
+    "word": "for",
+    "start": 1.4,
+    "end": 1.72,
+    "probability": 0.9398
+  },
+  {
+    "word": "the",
+    "start": 1.72,
+    "end": 1.92,
+    "probability": 0.9859
+  },
+  {
+    "word": "US",
+    "start": 1.92,
+    "end": 2.1,
+    "probability": 0.5034
+  },
+  {
+    "word": "government",
+    "start": 2.1,
+    "end": 2.56,
+    "probability": 0.7246
+  },
+  {
+    "word": "as",
+    "start": 2.56,
+    "end": 2.88,
+    "probability": 0.9442
+  },
+  {
+    "word": "an",
+    "start": 2.88,
+    "end": 3.04,
+    "probability": 0.9508
+  },
+  {
+    "word": "intelligence",
+    "start": 3.04,
+    "end": 3.36,
+    "probability": 0.9703
+  },
+  {
+    "word": "analyst,",
+    "start": 3.36,
+    "end": 3.98,
+    "probability": 0.9834
+  },
+  {
+    "word": "specializing",
+    "start": 4.22,
+    "end": 5.56,
+    "probability": 0.9676
+  },
+  {
+    "word": "in",
+    "start": 5.56,
+    "end": 5.84,
+    "probability": 0.9987
+  },
+  {
+    "word": "war",
+    "start": 5.84,
+    "end": 6.02,
+    "probability": 0.9652
+  },
+  {
+    "word": "crimes",
+    "start": 6.02,
+    "end": 6.3,
+    "probability": 0.9956
+  },
+  {
+    "word": "and",
+    "start": 6.3,
+    "end": 6.46,
+    "probability": 0.9213
+  },
+  {
+    "word": "human",
+    "start": 6.46,
+    "end": 6.62,
+    "probability": 0.9965
+  },
+  {
+    "word": "rights",
+    "start": 6.62,
+    "end": 6.88,
+    "probability": 0.9991
+  },
+  {
+    "word": "issues.",
+    "start": 6.88,
+    "end": 7.18,
+    "probability": 0.9988
+  }
+]

@@ -1,0 +1,206 @@
+[
+  {
+    "word": "and",
+    "start": 0.0,
+    "end": 0.56,
+    "probability": 0.5541
+  },
+  {
+    "word": "all",
+    "start": 0.56,
+    "end": 0.78,
+    "probability": 0.9954
+  },
+  {
+    "word": "of",
+    "start": 0.78,
+    "end": 0.92,
+    "probability": 0.999
+  },
+  {
+    "word": "them",
+    "start": 0.92,
+    "end": 1.04,
+    "probability": 0.996
+  },
+  {
+    "word": "are",
+    "start": 1.04,
+    "end": 1.24,
+    "probability": 0.987
+  },
+  {
+    "word": "really",
+    "start": 1.24,
+    "end": 1.58,
+    "probability": 0.991
+  },
+  {
+    "word": "being",
+    "start": 1.58,
+    "end": 1.82,
+    "probability": 0.7471
+  },
+  {
+    "word": "able",
+    "start": 1.82,
+    "end": 2.66,
+    "probability": 0.9927
+  },
+  {
+    "word": "to",
+    "start": 2.66,
+    "end": 2.86,
+    "probability": 0.999
+  },
+  {
+    "word": "explore",
+    "start": 2.86,
+    "end": 3.42,
+    "probability": 0.9988
+  },
+  {
+    "word": "these",
+    "start": 3.42,
+    "end": 4.16,
+    "probability": 0.9926
+  },
+  {
+    "word": "different",
+    "start": 4.16,
+    "end": 4.76,
+    "probability": 0.9972
+  },
+  {
+    "word": "areas",
+    "start": 4.76,
+    "end": 5.1,
+    "probability": 0.998
+  },
+  {
+    "word": "in",
+    "start": 5.1,
+    "end": 5.62,
+    "probability": 0.9301
+  },
+  {
+    "word": "depth",
+    "start": 5.62,
+    "end": 6.2,
+    "probability": 0.8994
+  },
+  {
+    "word": "in",
+    "start": 6.2,
+    "end": 6.6,
+    "probability": 0.8719
+  },
+  {
+    "word": "a",
+    "start": 6.6,
+    "end": 6.7,
+    "probability": 0.9976
+  },
+  {
+    "word": "way",
+    "start": 6.7,
+    "end": 6.86,
+    "probability": 0.9997
+  },
+  {
+    "word": "that",
+    "start": 6.86,
+    "end": 7.12,
+    "probability": 0.9912
+  },
+  {
+    "word": "really",
+    "start": 7.12,
+    "end": 7.46,
+    "probability": 0.9828
+  },
+  {
+    "word": "wasn't",
+    "start": 7.46,
+    "end": 7.78,
+    "probability": 0.99
+  },
+  {
+    "word": "available",
+    "start": 7.78,
+    "end": 8.12,
+    "probability": 0.9984
+  },
+  {
+    "word": "before",
+    "start": 8.12,
+    "end": 8.58,
+    "probability": 0.9907
+  },
+  {
+    "word": "the",
+    "start": 8.58,
+    "end": 8.78,
+    "probability": 0.995
+  },
+  {
+    "word": "center",
+    "start": 8.78,
+    "end": 9.08,
+    "probability": 0.8079
+  },
+  {
+    "word": "was",
+    "start": 9.08,
+    "end": 9.32,
+    "probability": 0.9949
+  },
+  {
+    "word": "here.",
+    "start": 9.32,
+    "end": 9.62,
+    "probability": 0.997
+  },
+  {
+    "word": "The",
+    "start": 9.9,
+    "end": 9.98,
+    "probability": 0.8926
+  },
+  {
+    "word": "work",
+    "start": 9.98,
+    "end": 10.14,
+    "probability": 0.9436
+  },
+  {
+    "word": "that",
+    "start": 10.14,
+    "end": 10.24,
+    "probability": 0.8936
+  },
+  {
+    "word": "I'm",
+    "start": 10.24,
+    "end": 10.24,
+    "probability": 0.1905
+  },
+  {
+    "word": "doing",
+    "start": 10.24,
+    "end": 10.24,
+    "probability": 0.3171
+  },
+  {
+    "word": "here",
+    "start": 10.24,
+    "end": 10.24,
+    "probability": 0.1852
+  },
+  {
+    "word": "is",
+    "start": 10.24,
+    "end": 10.24,
+    "probability": 0.2941
+  }
+]

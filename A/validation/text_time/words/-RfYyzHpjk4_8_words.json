@@ -1,0 +1,104 @@
+[
+  {
+    "word": "It's",
+    "start": 0.0,
+    "end": 0.58,
+    "probability": 0.6479
+  },
+  {
+    "word": "pretty,",
+    "start": 0.58,
+    "end": 0.92,
+    "probability": 0.9662
+  },
+  {
+    "word": "pretty",
+    "start": 0.96,
+    "end": 1.14,
+    "probability": 0.994
+  },
+  {
+    "word": "easy",
+    "start": 1.14,
+    "end": 1.5,
+    "probability": 0.9839
+  },
+  {
+    "word": "to",
+    "start": 1.5,
+    "end": 1.64,
+    "probability": 0.9959
+  },
+  {
+    "word": "do,",
+    "start": 1.64,
+    "end": 1.8,
+    "probability": 0.998
+  },
+  {
+    "word": "but",
+    "start": 1.96,
+    "end": 2.0,
+    "probability": 0.9956
+  },
+  {
+    "word": "you've",
+    "start": 2.0,
+    "end": 2.18,
+    "probability": 0.9504
+  },
+  {
+    "word": "got",
+    "start": 2.18,
+    "end": 2.28,
+    "probability": 0.8102
+  },
+  {
+    "word": "to",
+    "start": 2.28,
+    "end": 2.38,
+    "probability": 0.9952
+  },
+  {
+    "word": "set",
+    "start": 2.38,
+    "end": 2.58,
+    "probability": 0.9926
+  },
+  {
+    "word": "up",
+    "start": 2.58,
+    "end": 2.72,
+    "probability": 0.729
+  },
+  {
+    "word": "those",
+    "start": 2.72,
+    "end": 2.98,
+    "probability": 0.9867
+  },
+  {
+    "word": "numbers",
+    "start": 2.98,
+    "end": 3.22,
+    "probability": 0.9919
+  },
+  {
+    "word": "ahead",
+    "start": 3.22,
+    "end": 3.5,
+    "probability": 0.9958
+  },
+  {
+    "word": "of",
+    "start": 3.5,
+    "end": 3.62,
+    "probability": 0.9975
+  },
+  {
+    "word": "time.",
+    "start": 3.62,
+    "end": 3.88,
+    "probability": 0.9981
+  }
+]

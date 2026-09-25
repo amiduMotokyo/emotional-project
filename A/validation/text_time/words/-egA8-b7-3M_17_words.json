@@ -1,0 +1,98 @@
+[
+  {
+    "word": "As",
+    "start": 0.0,
+    "end": 0.68,
+    "probability": 0.6519
+  },
+  {
+    "word": "you",
+    "start": 0.68,
+    "end": 0.86,
+    "probability": 0.9974
+  },
+  {
+    "word": "have",
+    "start": 0.86,
+    "end": 1.04,
+    "probability": 0.9906
+  },
+  {
+    "word": "more",
+    "start": 1.04,
+    "end": 1.3,
+    "probability": 0.9944
+  },
+  {
+    "word": "experience,",
+    "start": 1.3,
+    "end": 1.94,
+    "probability": 0.9965
+  },
+  {
+    "word": "you",
+    "start": 2.44,
+    "end": 3.3,
+    "probability": 0.9849
+  },
+  {
+    "word": "have",
+    "start": 3.3,
+    "end": 3.44,
+    "probability": 0.7953
+  },
+  {
+    "word": "more",
+    "start": 3.44,
+    "end": 3.7,
+    "probability": 0.9972
+  },
+  {
+    "word": "time",
+    "start": 3.7,
+    "end": 4.02,
+    "probability": 0.8606
+  },
+  {
+    "word": "succeeding,",
+    "start": 4.02,
+    "end": 4.64,
+    "probability": 0.3809
+  },
+  {
+    "word": "you",
+    "start": 5.12,
+    "end": 5.34,
+    "probability": 0.9874
+  },
+  {
+    "word": "get",
+    "start": 5.34,
+    "end": 5.48,
+    "probability": 0.9912
+  },
+  {
+    "word": "to",
+    "start": 5.48,
+    "end": 5.64,
+    "probability": 0.9994
+  },
+  {
+    "word": "know",
+    "start": 5.64,
+    "end": 5.8,
+    "probability": 0.9971
+  },
+  {
+    "word": "more",
+    "start": 5.8,
+    "end": 6.06,
+    "probability": 0.9975
+  },
+  {
+    "word": "people.",
+    "start": 6.06,
+    "end": 6.44,
+    "probability": 0.9989
+  }
+]

@@ -1,0 +1,44 @@
+[
+  {
+    "word": "and",
+    "start": 0.0,
+    "end": 0.62,
+    "probability": 0.4655
+  },
+  {
+    "word": "in",
+    "start": 0.62,
+    "end": 0.7,
+    "probability": 0.8839
+  },
+  {
+    "word": "part",
+    "start": 0.7,
+    "end": 1.12,
+    "probability": 0.9871
+  },
+  {
+    "word": "Al",
+    "start": 1.12,
+    "end": 1.6,
+    "probability": 0.4595
+  },
+  {
+    "word": "Shanker",
+    "start": 1.6,
+    "end": 2.16,
+    "probability": 0.601
+  },
+  {
+    "word": "did",
+    "start": 2.16,
+    "end": 2.38,
+    "probability": 0.9954
+  },
+  {
+    "word": "too.",
+    "start": 2.38,
+    "end": 2.7,
+    "probability": 0.4747
+  }
+]

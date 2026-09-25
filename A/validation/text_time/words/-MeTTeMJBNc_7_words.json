@@ -1,0 +1,188 @@
+[
+  {
+    "word": "Maybe",
+    "start": 0.0,
+    "end": 0.72,
+    "probability": 0.2764
+  },
+  {
+    "word": "you",
+    "start": 0.72,
+    "end": 0.9,
+    "probability": 0.9794
+  },
+  {
+    "word": "could",
+    "start": 0.9,
+    "end": 1.1,
+    "probability": 0.9775
+  },
+  {
+    "word": "find",
+    "start": 1.1,
+    "end": 1.74,
+    "probability": 0.9925
+  },
+  {
+    "word": "a",
+    "start": 1.74,
+    "end": 1.98,
+    "probability": 0.9964
+  },
+  {
+    "word": "picture",
+    "start": 1.98,
+    "end": 2.34,
+    "probability": 0.9983
+  },
+  {
+    "word": "of",
+    "start": 2.34,
+    "end": 2.52,
+    "probability": 0.9711
+  },
+  {
+    "word": "the",
+    "start": 2.52,
+    "end": 2.64,
+    "probability": 0.9902
+  },
+  {
+    "word": "couple",
+    "start": 2.64,
+    "end": 2.96,
+    "probability": 0.9911
+  },
+  {
+    "word": "from",
+    "start": 2.96,
+    "end": 3.32,
+    "probability": 0.984
+  },
+  {
+    "word": "their",
+    "start": 3.32,
+    "end": 3.82,
+    "probability": 0.9841
+  },
+  {
+    "word": "wedding",
+    "start": 3.82,
+    "end": 4.24,
+    "probability": 0.996
+  },
+  {
+    "word": "or",
+    "start": 4.24,
+    "end": 4.7,
+    "probability": 0.8146
+  },
+  {
+    "word": "sometime",
+    "start": 4.7,
+    "end": 5.18,
+    "probability": 0.8269
+  },
+  {
+    "word": "in",
+    "start": 5.18,
+    "end": 5.42,
+    "probability": 0.9959
+  },
+  {
+    "word": "their",
+    "start": 5.42,
+    "end": 5.58,
+    "probability": 0.9973
+  },
+  {
+    "word": "life",
+    "start": 5.58,
+    "end": 6.0,
+    "probability": 0.9282
+  },
+  {
+    "word": "or",
+    "start": 6.0,
+    "end": 6.2,
+    "probability": 0.4616
+  },
+  {
+    "word": "maybe",
+    "start": 6.2,
+    "end": 6.42,
+    "probability": 0.9926
+  },
+  {
+    "word": "even",
+    "start": 6.42,
+    "end": 6.7,
+    "probability": 0.992
+  },
+  {
+    "word": "a",
+    "start": 6.7,
+    "end": 6.82,
+    "probability": 0.9898
+  },
+  {
+    "word": "current",
+    "start": 6.82,
+    "end": 7.18,
+    "probability": 0.993
+  },
+  {
+    "word": "picture",
+    "start": 7.18,
+    "end": 7.74,
+    "probability": 0.9988
+  },
+  {
+    "word": "and",
+    "start": 7.74,
+    "end": 8.26,
+    "probability": 0.9346
+  },
+  {
+    "word": "have",
+    "start": 8.26,
+    "end": 8.4,
+    "probability": 0.9805
+  },
+  {
+    "word": "it",
+    "start": 8.4,
+    "end": 8.54,
+    "probability": 0.9817
+  },
+  {
+    "word": "put",
+    "start": 8.54,
+    "end": 8.68,
+    "probability": 0.9958
+  },
+  {
+    "word": "in",
+    "start": 8.68,
+    "end": 8.84,
+    "probability": 0.9881
+  },
+  {
+    "word": "a",
+    "start": 8.84,
+    "end": 8.9,
+    "probability": 0.9751
+  },
+  {
+    "word": "beautiful",
+    "start": 8.9,
+    "end": 9.24,
+    "probability": 0.9984
+  },
+  {
+    "word": "frame.",
+    "start": 9.24,
+    "end": 9.66,
+    "probability": 0.991
+  }
+]

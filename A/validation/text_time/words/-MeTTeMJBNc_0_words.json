@@ -1,0 +1,128 @@
+[
+  {
+    "word": "Okay,",
+    "start": 0.0,
+    "end": 1.16,
+    "probability": 0.6204
+  },
+  {
+    "word": "what",
+    "start": 1.36,
+    "end": 1.48,
+    "probability": 0.9805
+  },
+  {
+    "word": "happens",
+    "start": 1.48,
+    "end": 1.96,
+    "probability": 0.9968
+  },
+  {
+    "word": "at",
+    "start": 1.96,
+    "end": 2.22,
+    "probability": 0.9913
+  },
+  {
+    "word": "this",
+    "start": 2.22,
+    "end": 2.52,
+    "probability": 0.9983
+  },
+  {
+    "word": "point",
+    "start": 2.52,
+    "end": 2.84,
+    "probability": 0.9976
+  },
+  {
+    "word": "after",
+    "start": 2.84,
+    "end": 3.36,
+    "probability": 0.8194
+  },
+  {
+    "word": "we've",
+    "start": 3.36,
+    "end": 3.68,
+    "probability": 0.9468
+  },
+  {
+    "word": "taken",
+    "start": 3.68,
+    "end": 3.94,
+    "probability": 0.9958
+  },
+  {
+    "word": "this",
+    "start": 3.94,
+    "end": 4.26,
+    "probability": 0.9932
+  },
+  {
+    "word": "brief",
+    "start": 4.26,
+    "end": 4.66,
+    "probability": 0.9906
+  },
+  {
+    "word": "walk",
+    "start": 4.66,
+    "end": 5.06,
+    "probability": 0.9877
+  },
+  {
+    "word": "down",
+    "start": 5.06,
+    "end": 5.42,
+    "probability": 0.6519
+  },
+  {
+    "word": "memory",
+    "start": 5.42,
+    "end": 5.82,
+    "probability": 0.9903
+  },
+  {
+    "word": "lane",
+    "start": 5.82,
+    "end": 6.24,
+    "probability": 0.9571
+  },
+  {
+    "word": "is",
+    "start": 6.24,
+    "end": 6.88,
+    "probability": 0.8391
+  },
+  {
+    "word": "the",
+    "start": 6.88,
+    "end": 7.04,
+    "probability": 0.9971
+  },
+  {
+    "word": "presentation",
+    "start": 7.04,
+    "end": 7.6,
+    "probability": 0.995
+  },
+  {
+    "word": "of",
+    "start": 7.6,
+    "end": 8.0,
+    "probability": 0.9976
+  },
+  {
+    "word": "the",
+    "start": 8.0,
+    "end": 8.18,
+    "probability": 0.9927
+  },
+  {
+    "word": "gift?",
+    "start": 8.18,
+    "end": 8.42,
+    "probability": 0.9929
+  }
+]

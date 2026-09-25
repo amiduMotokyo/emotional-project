@@ -1,0 +1,104 @@
+[
+  {
+    "word": "So",
+    "start": 0.0,
+    "end": 0.7,
+    "probability": 0.684
+  },
+  {
+    "word": "get",
+    "start": 0.7,
+    "end": 1.4,
+    "probability": 0.6231
+  },
+  {
+    "word": "your",
+    "start": 1.4,
+    "end": 1.6,
+    "probability": 0.9969
+  },
+  {
+    "word": "friends",
+    "start": 1.6,
+    "end": 1.78,
+    "probability": 0.9796
+  },
+  {
+    "word": "lined",
+    "start": 1.78,
+    "end": 2.04,
+    "probability": 0.9813
+  },
+  {
+    "word": "up,",
+    "start": 2.04,
+    "end": 2.3,
+    "probability": 0.9964
+  },
+  {
+    "word": "get",
+    "start": 2.38,
+    "end": 2.48,
+    "probability": 0.9883
+  },
+  {
+    "word": "your",
+    "start": 2.48,
+    "end": 2.66,
+    "probability": 0.9694
+  },
+  {
+    "word": "business",
+    "start": 2.66,
+    "end": 2.86,
+    "probability": 0.9916
+  },
+  {
+    "word": "colleagues",
+    "start": 2.86,
+    "end": 3.12,
+    "probability": 0.9408
+  },
+  {
+    "word": "lined",
+    "start": 3.12,
+    "end": 3.46,
+    "probability": 0.9965
+  },
+  {
+    "word": "up",
+    "start": 3.46,
+    "end": 3.72,
+    "probability": 0.9981
+  },
+  {
+    "word": "and",
+    "start": 3.72,
+    "end": 3.84,
+    "probability": 0.6256
+  },
+  {
+    "word": "have",
+    "start": 3.84,
+    "end": 3.96,
+    "probability": 0.9981
+  },
+  {
+    "word": "a",
+    "start": 3.96,
+    "end": 4.08,
+    "probability": 0.9957
+  },
+  {
+    "word": "good",
+    "start": 4.08,
+    "end": 4.2,
+    "probability": 0.998
+  },
+  {
+    "word": "time.",
+    "start": 4.2,
+    "end": 4.52,
+    "probability": 0.9966
+  }
+]

@@ -1,0 +1,152 @@
+[
+  {
+    "word": "You",
+    "start": 0.0,
+    "end": 0.22,
+    "probability": 0.2423
+  },
+  {
+    "word": "can",
+    "start": 0.22,
+    "end": 0.3,
+    "probability": 0.7199
+  },
+  {
+    "word": "say,",
+    "start": 0.3,
+    "end": 0.56,
+    "probability": 0.7443
+  },
+  {
+    "word": "hey,",
+    "start": 0.7,
+    "end": 0.96,
+    "probability": 0.1874
+  },
+  {
+    "word": "you",
+    "start": 1.46,
+    "end": 1.58,
+    "probability": 0.7528
+  },
+  {
+    "word": "know",
+    "start": 1.58,
+    "end": 1.64,
+    "probability": 0.9939
+  },
+  {
+    "word": "what?",
+    "start": 1.64,
+    "end": 1.72,
+    "probability": 0.9755
+  },
+  {
+    "word": "I",
+    "start": 1.9,
+    "end": 1.98,
+    "probability": 0.9872
+  },
+  {
+    "word": "really",
+    "start": 1.98,
+    "end": 2.24,
+    "probability": 0.9929
+  },
+  {
+    "word": "like",
+    "start": 2.24,
+    "end": 2.6,
+    "probability": 0.9895
+  },
+  {
+    "word": "baby's",
+    "start": 2.6,
+    "end": 3.42,
+    "probability": 0.6226
+  },
+  {
+    "word": "kid.",
+    "start": 3.42,
+    "end": 3.58,
+    "probability": 0.5396
+  },
+  {
+    "word": "They're",
+    "start": 3.76,
+    "end": 3.82,
+    "probability": 0.9509
+  },
+  {
+    "word": "so",
+    "start": 3.82,
+    "end": 4.02,
+    "probability": 0.9959
+  },
+  {
+    "word": "soft.",
+    "start": 4.02,
+    "end": 4.54,
+    "probability": 0.9926
+  },
+  {
+    "word": "They",
+    "start": 4.72,
+    "end": 4.72,
+    "probability": 0.9926
+  },
+  {
+    "word": "don't",
+    "start": 4.72,
+    "end": 4.94,
+    "probability": 0.9988
+  },
+  {
+    "word": "have",
+    "start": 4.94,
+    "end": 5.16,
+    "probability": 0.9965
+  },
+  {
+    "word": "any",
+    "start": 5.16,
+    "end": 5.42,
+    "probability": 0.9827
+  },
+  {
+    "word": "hair",
+    "start": 5.42,
+    "end": 5.68,
+    "probability": 0.9993
+  },
+  {
+    "word": "on",
+    "start": 5.68,
+    "end": 5.8,
+    "probability": 0.9881
+  },
+  {
+    "word": "their",
+    "start": 5.8,
+    "end": 5.94,
+    "probability": 0.7194
+  },
+  {
+    "word": "face.",
+    "start": 5.94,
+    "end": 6.18,
+    "probability": 0.9962
+  },
+  {
+    "word": "It's",
+    "start": 6.32,
+    "end": 6.5,
+    "probability": 0.9868
+  },
+  {
+    "word": "so...",
+    "start": 6.5,
+    "end": 6.72,
+    "probability": 0.6341
+  }
+]

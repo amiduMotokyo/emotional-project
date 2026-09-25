@@ -1,0 +1,56 @@
+[
+  {
+    "word": "It's",
+    "start": 0.0,
+    "end": 0.16,
+    "probability": 0.8087
+  },
+  {
+    "word": "amazing",
+    "start": 0.16,
+    "end": 0.64,
+    "probability": 0.9898
+  },
+  {
+    "word": "to",
+    "start": 0.64,
+    "end": 0.96,
+    "probability": 0.9925
+  },
+  {
+    "word": "see",
+    "start": 0.96,
+    "end": 1.22,
+    "probability": 0.9994
+  },
+  {
+    "word": "their",
+    "start": 1.22,
+    "end": 1.46,
+    "probability": 0.993
+  },
+  {
+    "word": "enthusiasm",
+    "start": 1.46,
+    "end": 2.18,
+    "probability": 0.9959
+  },
+  {
+    "word": "and",
+    "start": 2.18,
+    "end": 2.36,
+    "probability": 0.94
+  },
+  {
+    "word": "their",
+    "start": 2.36,
+    "end": 2.5,
+    "probability": 0.9371
+  },
+  {
+    "word": "passion.",
+    "start": 2.5,
+    "end": 2.92,
+    "probability": 0.9953
+  }
+]

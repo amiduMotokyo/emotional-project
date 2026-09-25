@@ -1,0 +1,68 @@
+[
+  {
+    "word": "Third,",
+    "start": 0.0,
+    "end": 0.66,
+    "probability": 0.9518
+  },
+  {
+    "word": "another",
+    "start": 0.9,
+    "end": 1.2,
+    "probability": 0.9893
+  },
+  {
+    "word": "big",
+    "start": 1.2,
+    "end": 1.48,
+    "probability": 0.9773
+  },
+  {
+    "word": "benefit",
+    "start": 1.48,
+    "end": 1.88,
+    "probability": 0.999
+  },
+  {
+    "word": "of",
+    "start": 1.88,
+    "end": 2.1,
+    "probability": 0.9975
+  },
+  {
+    "word": "exhibiting",
+    "start": 2.1,
+    "end": 2.62,
+    "probability": 0.9916
+  },
+  {
+    "word": "is",
+    "start": 2.62,
+    "end": 2.84,
+    "probability": 0.9907
+  },
+  {
+    "word": "connecting",
+    "start": 2.84,
+    "end": 3.26,
+    "probability": 0.9857
+  },
+  {
+    "word": "with",
+    "start": 3.26,
+    "end": 3.62,
+    "probability": 0.9983
+  },
+  {
+    "word": "existing",
+    "start": 3.62,
+    "end": 4.16,
+    "probability": 0.9886
+  },
+  {
+    "word": "clients.",
+    "start": 4.16,
+    "end": 4.64,
+    "probability": 0.9989
+  }
+]

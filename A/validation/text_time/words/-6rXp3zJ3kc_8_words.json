@@ -1,0 +1,212 @@
+[
+  {
+    "word": "aware",
+    "start": 0.0,
+    "end": 0.26,
+    "probability": 0.7603
+  },
+  {
+    "word": "of",
+    "start": 0.26,
+    "end": 0.46,
+    "probability": 0.9705
+  },
+  {
+    "word": "many",
+    "start": 0.46,
+    "end": 0.64,
+    "probability": 0.5131
+  },
+  {
+    "word": "people",
+    "start": 0.64,
+    "end": 0.96,
+    "probability": 0.9833
+  },
+  {
+    "word": "are",
+    "start": 0.96,
+    "end": 1.12,
+    "probability": 0.9217
+  },
+  {
+    "word": "not",
+    "start": 1.12,
+    "end": 1.38,
+    "probability": 0.9952
+  },
+  {
+    "word": "until",
+    "start": 1.38,
+    "end": 1.82,
+    "probability": 0.9579
+  },
+  {
+    "word": "they",
+    "start": 1.82,
+    "end": 1.96,
+    "probability": 0.9673
+  },
+  {
+    "word": "get",
+    "start": 1.96,
+    "end": 2.12,
+    "probability": 0.9971
+  },
+  {
+    "word": "to",
+    "start": 2.12,
+    "end": 2.34,
+    "probability": 0.9918
+  },
+  {
+    "word": "be",
+    "start": 2.34,
+    "end": 2.52,
+    "probability": 0.9811
+  },
+  {
+    "word": "older",
+    "start": 2.52,
+    "end": 3.44,
+    "probability": 0.3787
+  },
+  {
+    "word": "age",
+    "start": 3.44,
+    "end": 3.94,
+    "probability": 0.9444
+  },
+  {
+    "word": "and",
+    "start": 3.94,
+    "end": 4.08,
+    "probability": 0.677
+  },
+  {
+    "word": "they",
+    "start": 4.08,
+    "end": 4.22,
+    "probability": 0.9318
+  },
+  {
+    "word": "realize",
+    "start": 4.22,
+    "end": 4.6,
+    "probability": 0.9296
+  },
+  {
+    "word": "that",
+    "start": 4.6,
+    "end": 4.96,
+    "probability": 0.975
+  },
+  {
+    "word": "gosh,",
+    "start": 4.96,
+    "end": 5.28,
+    "probability": 0.8089
+  },
+  {
+    "word": "they've",
+    "start": 5.76,
+    "end": 5.96,
+    "probability": 0.9664
+  },
+  {
+    "word": "wasted",
+    "start": 5.96,
+    "end": 6.24,
+    "probability": 0.9557
+  },
+  {
+    "word": "a",
+    "start": 6.24,
+    "end": 6.4,
+    "probability": 0.9949
+  },
+  {
+    "word": "lot",
+    "start": 6.4,
+    "end": 6.52,
+    "probability": 0.9989
+  },
+  {
+    "word": "of",
+    "start": 6.52,
+    "end": 6.64,
+    "probability": 0.9974
+  },
+  {
+    "word": "time",
+    "start": 6.64,
+    "end": 7.02,
+    "probability": 0.9973
+  },
+  {
+    "word": "and",
+    "start": 7.02,
+    "end": 7.2,
+    "probability": 0.9705
+  },
+  {
+    "word": "money",
+    "start": 7.2,
+    "end": 7.56,
+    "probability": 0.9969
+  },
+  {
+    "word": "in",
+    "start": 7.56,
+    "end": 8.7,
+    "probability": 0.9307
+  },
+  {
+    "word": "placing",
+    "start": 8.7,
+    "end": 9.52,
+    "probability": 0.9729
+  },
+  {
+    "word": "vets",
+    "start": 9.52,
+    "end": 9.92,
+    "probability": 0.7837
+  },
+  {
+    "word": "on",
+    "start": 9.92,
+    "end": 10.06,
+    "probability": 0.9968
+  },
+  {
+    "word": "stock",
+    "start": 10.06,
+    "end": 10.36,
+    "probability": 0.973
+  },
+  {
+    "word": "that's",
+    "start": 10.36,
+    "end": 10.76,
+    "probability": 0.9323
+  },
+  {
+    "word": "ultimately",
+    "start": 10.76,
+    "end": 11.26,
+    "probability": 0.9971
+  },
+  {
+    "word": "lost",
+    "start": 11.26,
+    "end": 11.64,
+    "probability": 0.996
+  },
+  {
+    "word": "value.",
+    "start": 11.64,
+    "end": 12.16,
+    "probability": 0.9949
+  }
+]

@@ -1,0 +1,230 @@
+[
+  {
+    "word": "whatever",
+    "start": 1.28,
+    "end": 1.8,
+    "probability": 0.3338
+  },
+  {
+    "word": "we",
+    "start": 1.8,
+    "end": 2.08,
+    "probability": 0.9805
+  },
+  {
+    "word": "turn",
+    "start": 2.08,
+    "end": 2.24,
+    "probability": 0.9846
+  },
+  {
+    "word": "our",
+    "start": 2.24,
+    "end": 2.42,
+    "probability": 0.9902
+  },
+  {
+    "word": "attention",
+    "start": 2.42,
+    "end": 2.66,
+    "probability": 0.9988
+  },
+  {
+    "word": "to",
+    "start": 2.66,
+    "end": 3.06,
+    "probability": 0.9953
+  },
+  {
+    "word": "is",
+    "start": 3.06,
+    "end": 3.3,
+    "probability": 0.9447
+  },
+  {
+    "word": "what",
+    "start": 3.3,
+    "end": 3.44,
+    "probability": 0.9965
+  },
+  {
+    "word": "grows.",
+    "start": 3.44,
+    "end": 3.7,
+    "probability": 0.9945
+  },
+  {
+    "word": "And",
+    "start": 4.38,
+    "end": 4.44,
+    "probability": 0.877
+  },
+  {
+    "word": "so",
+    "start": 4.44,
+    "end": 4.64,
+    "probability": 0.989
+  },
+  {
+    "word": "if",
+    "start": 4.64,
+    "end": 4.8,
+    "probability": 0.805
+  },
+  {
+    "word": "we",
+    "start": 4.8,
+    "end": 4.96,
+    "probability": 0.9982
+  },
+  {
+    "word": "believe",
+    "start": 4.96,
+    "end": 5.32,
+    "probability": 0.9979
+  },
+  {
+    "word": "that",
+    "start": 5.32,
+    "end": 5.72,
+    "probability": 0.9898
+  },
+  {
+    "word": "anything",
+    "start": 5.72,
+    "end": 6.02,
+    "probability": 0.9981
+  },
+  {
+    "word": "is",
+    "start": 6.02,
+    "end": 6.22,
+    "probability": 0.9932
+  },
+  {
+    "word": "possible,",
+    "start": 6.22,
+    "end": 6.66,
+    "probability": 0.9993
+  },
+  {
+    "word": "if",
+    "start": 6.66,
+    "end": 6.84,
+    "probability": 0.9876
+  },
+  {
+    "word": "we",
+    "start": 6.84,
+    "end": 7.06,
+    "probability": 0.9982
+  },
+  {
+    "word": "believe",
+    "start": 7.06,
+    "end": 7.9,
+    "probability": 0.9966
+  },
+  {
+    "word": "that",
+    "start": 7.9,
+    "end": 8.7,
+    "probability": 0.9893
+  },
+  {
+    "word": "social",
+    "start": 8.7,
+    "end": 9.6,
+    "probability": 0.9522
+  },
+  {
+    "word": "justice",
+    "start": 9.6,
+    "end": 10.02,
+    "probability": 0.9997
+  },
+  {
+    "word": "can",
+    "start": 10.02,
+    "end": 10.28,
+    "probability": 0.9961
+  },
+  {
+    "word": "be",
+    "start": 10.28,
+    "end": 10.5,
+    "probability": 0.9986
+  },
+  {
+    "word": "achieved,",
+    "start": 10.5,
+    "end": 10.88,
+    "probability": 0.9994
+  },
+  {
+    "word": "and",
+    "start": 10.88,
+    "end": 11.04,
+    "probability": 0.984
+  },
+  {
+    "word": "if",
+    "start": 11.04,
+    "end": 11.16,
+    "probability": 0.9976
+  },
+  {
+    "word": "we",
+    "start": 11.16,
+    "end": 11.24,
+    "probability": 0.9991
+  },
+  {
+    "word": "believe",
+    "start": 11.24,
+    "end": 11.62,
+    "probability": 0.9975
+  },
+  {
+    "word": "in",
+    "start": 11.62,
+    "end": 11.98,
+    "probability": 0.9964
+  },
+  {
+    "word": "youth",
+    "start": 11.98,
+    "end": 12.42,
+    "probability": 0.9952
+  },
+  {
+    "word": "they",
+    "start": 12.42,
+    "end": 13.2,
+    "probability": 0.243
+  },
+  {
+    "word": "will",
+    "start": 13.2,
+    "end": 13.3,
+    "probability": 0.9876
+  },
+  {
+    "word": "believe",
+    "start": 13.3,
+    "end": 13.52,
+    "probability": 0.9907
+  },
+  {
+    "word": "in",
+    "start": 13.52,
+    "end": 13.66,
+    "probability": 0.9958
+  },
+  {
+    "word": "themselves.",
+    "start": 13.66,
+    "end": 13.96,
+    "probability": 0.999
+  }
+]

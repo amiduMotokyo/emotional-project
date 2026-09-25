@@ -1,0 +1,110 @@
+[
+  {
+    "word": "In",
+    "start": 0.0,
+    "end": 0.86,
+    "probability": 0.434
+  },
+  {
+    "word": "the",
+    "start": 0.86,
+    "end": 0.98,
+    "probability": 0.9811
+  },
+  {
+    "word": "United",
+    "start": 0.98,
+    "end": 1.16,
+    "probability": 0.9789
+  },
+  {
+    "word": "States,",
+    "start": 1.16,
+    "end": 1.52,
+    "probability": 0.9976
+  },
+  {
+    "word": "we",
+    "start": 1.54,
+    "end": 1.76,
+    "probability": 0.9958
+  },
+  {
+    "word": "don't",
+    "start": 1.76,
+    "end": 2.12,
+    "probability": 0.9879
+  },
+  {
+    "word": "punish",
+    "start": 2.12,
+    "end": 2.44,
+    "probability": 0.9921
+  },
+  {
+    "word": "failure",
+    "start": 2.44,
+    "end": 3.0,
+    "probability": 0.9849
+  },
+  {
+    "word": "to",
+    "start": 3.0,
+    "end": 3.6,
+    "probability": 0.5825
+  },
+  {
+    "word": "the",
+    "start": 3.6,
+    "end": 3.74,
+    "probability": 0.9959
+  },
+  {
+    "word": "degree",
+    "start": 3.74,
+    "end": 4.08,
+    "probability": 0.9874
+  },
+  {
+    "word": "to",
+    "start": 4.08,
+    "end": 4.32,
+    "probability": 0.9322
+  },
+  {
+    "word": "which",
+    "start": 4.32,
+    "end": 4.68,
+    "probability": 0.9987
+  },
+  {
+    "word": "failure",
+    "start": 4.68,
+    "end": 5.18,
+    "probability": 0.9906
+  },
+  {
+    "word": "is",
+    "start": 5.18,
+    "end": 5.4,
+    "probability": 0.9856
+  },
+  {
+    "word": "punished",
+    "start": 5.4,
+    "end": 5.86,
+    "probability": 0.9907
+  },
+  {
+    "word": "in",
+    "start": 5.86,
+    "end": 6.34,
+    "probability": 0.9879
+  },
+  {
+    "word": "Europe.",
+    "start": 6.34,
+    "end": 6.76,
+    "probability": 0.9951
+  }
+]

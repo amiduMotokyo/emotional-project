@@ -1,0 +1,134 @@
+[
+  {
+    "word": "It",
+    "start": 0.0,
+    "end": 0.62,
+    "probability": 0.7614
+  },
+  {
+    "word": "becomes",
+    "start": 0.62,
+    "end": 0.96,
+    "probability": 0.9813
+  },
+  {
+    "word": "easier",
+    "start": 0.96,
+    "end": 1.74,
+    "probability": 0.9869
+  },
+  {
+    "word": "at",
+    "start": 1.74,
+    "end": 2.04,
+    "probability": 0.9722
+  },
+  {
+    "word": "each",
+    "start": 2.04,
+    "end": 2.32,
+    "probability": 0.9963
+  },
+  {
+    "word": "one",
+    "start": 2.32,
+    "end": 2.54,
+    "probability": 0.9715
+  },
+  {
+    "word": "of",
+    "start": 2.54,
+    "end": 2.66,
+    "probability": 0.9956
+  },
+  {
+    "word": "these",
+    "start": 2.66,
+    "end": 2.86,
+    "probability": 0.9911
+  },
+  {
+    "word": "conferences",
+    "start": 2.86,
+    "end": 3.46,
+    "probability": 0.9977
+  },
+  {
+    "word": "to",
+    "start": 3.46,
+    "end": 4.18,
+    "probability": 0.8531
+  },
+  {
+    "word": "connect",
+    "start": 4.18,
+    "end": 4.5,
+    "probability": 0.9973
+  },
+  {
+    "word": "with",
+    "start": 4.5,
+    "end": 4.76,
+    "probability": 0.9877
+  },
+  {
+    "word": "people",
+    "start": 4.76,
+    "end": 5.12,
+    "probability": 0.9983
+  },
+  {
+    "word": "that",
+    "start": 5.12,
+    "end": 5.32,
+    "probability": 0.9269
+  },
+  {
+    "word": "you've",
+    "start": 5.32,
+    "end": 5.62,
+    "probability": 0.9667
+  },
+  {
+    "word": "met",
+    "start": 5.62,
+    "end": 5.82,
+    "probability": 0.9993
+  },
+  {
+    "word": "or",
+    "start": 5.82,
+    "end": 6.48,
+    "probability": 0.7672
+  },
+  {
+    "word": "that",
+    "start": 6.48,
+    "end": 6.66,
+    "probability": 0.9697
+  },
+  {
+    "word": "you're",
+    "start": 6.66,
+    "end": 6.82,
+    "probability": 0.981
+  },
+  {
+    "word": "doing",
+    "start": 6.82,
+    "end": 7.06,
+    "probability": 0.9981
+  },
+  {
+    "word": "business",
+    "start": 7.06,
+    "end": 7.4,
+    "probability": 0.9506
+  },
+  {
+    "word": "with.",
+    "start": 7.4,
+    "end": 7.74,
+    "probability": 0.2766
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "word": "that's",
+    "start": 0.0,
+    "end": 0.5,
+    "probability": 0.6453
+  },
+  {
+    "word": "a",
+    "start": 0.5,
+    "end": 0.6,
+    "probability": 0.6225
+  },
+  {
+    "word": "more",
+    "start": 0.6,
+    "end": 1.12,
+    "probability": 0.9663
+  },
+  {
+    "word": "decent",
+    "start": 1.12,
+    "end": 1.68,
+    "probability": 0.9784
+  },
+  {
+    "word": "and",
+    "start": 1.68,
+    "end": 2.18,
+    "probability": 0.9073
+  },
+  {
+    "word": "more",
+    "start": 2.18,
+    "end": 2.3,
+    "probability": 0.9338
+  },
+  {
+    "word": "polite",
+    "start": 2.3,
+    "end": 2.66,
+    "probability": 0.9949
+  },
+  {
+    "word": "way",
+    "start": 2.66,
+    "end": 3.04,
+    "probability": 0.9928
+  },
+  {
+    "word": "to",
+    "start": 3.04,
+    "end": 3.26,
+    "probability": 0.9933
+  },
+  {
+    "word": "call",
+    "start": 3.26,
+    "end": 3.54,
+    "probability": 0.9971
+  },
+  {
+    "word": "a",
+    "start": 3.54,
+    "end": 4.04,
+    "probability": 0.9872
+  },
+  {
+    "word": "lady.",
+    "start": 4.04,
+    "end": 4.32,
+    "probability": 0.9815
+  }
+]

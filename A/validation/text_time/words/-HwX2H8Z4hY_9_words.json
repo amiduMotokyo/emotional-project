@@ -1,0 +1,152 @@
+[
+  {
+    "word": "It",
+    "start": 0.0,
+    "end": 0.6,
+    "probability": 0.3972
+  },
+  {
+    "word": "is",
+    "start": 0.6,
+    "end": 0.74,
+    "probability": 0.9602
+  },
+  {
+    "word": "a",
+    "start": 0.74,
+    "end": 0.86,
+    "probability": 0.9139
+  },
+  {
+    "word": "word",
+    "start": 0.86,
+    "end": 1.14,
+    "probability": 0.9648
+  },
+  {
+    "word": "with",
+    "start": 1.14,
+    "end": 1.36,
+    "probability": 0.8257
+  },
+  {
+    "word": "which",
+    "start": 1.36,
+    "end": 1.58,
+    "probability": 0.9835
+  },
+  {
+    "word": "the",
+    "start": 1.58,
+    "end": 1.74,
+    "probability": 0.9624
+  },
+  {
+    "word": "administrator",
+    "start": 1.74,
+    "end": 2.24,
+    "probability": 0.8348
+  },
+  {
+    "word": "uses",
+    "start": 2.24,
+    "end": 4.14,
+    "probability": 0.1582
+  },
+  {
+    "word": "when",
+    "start": 4.14,
+    "end": 4.4,
+    "probability": 0.7366
+  },
+  {
+    "word": "he",
+    "start": 4.4,
+    "end": 4.5,
+    "probability": 0.8247
+  },
+  {
+    "word": "turns",
+    "start": 4.5,
+    "end": 4.72,
+    "probability": 0.9827
+  },
+  {
+    "word": "around",
+    "start": 4.72,
+    "end": 5.02,
+    "probability": 0.3016
+  },
+  {
+    "word": "anything",
+    "start": 5.02,
+    "end": 5.4,
+    "probability": 0.7366
+  },
+  {
+    "word": "which",
+    "start": 5.4,
+    "end": 5.64,
+    "probability": 0.7949
+  },
+  {
+    "word": "he",
+    "start": 5.64,
+    "end": 5.74,
+    "probability": 0.9795
+  },
+  {
+    "word": "doesn't",
+    "start": 5.74,
+    "end": 6.0,
+    "probability": 0.9943
+  },
+  {
+    "word": "like",
+    "start": 6.0,
+    "end": 6.16,
+    "probability": 0.9939
+  },
+  {
+    "word": "the",
+    "start": 6.16,
+    "end": 6.36,
+    "probability": 0.5715
+  },
+  {
+    "word": "picture",
+    "start": 6.36,
+    "end": 6.68,
+    "probability": 0.3694
+  },
+  {
+    "word": "is",
+    "start": 6.68,
+    "end": 6.88,
+    "probability": 0.6626
+  },
+  {
+    "word": "doing",
+    "start": 6.88,
+    "end": 7.08,
+    "probability": 0.5254
+  },
+  {
+    "word": "He",
+    "start": 7.08,
+    "end": 7.24,
+    "probability": 0.0363
+  },
+  {
+    "word": "says",
+    "start": 7.24,
+    "end": 7.36,
+    "probability": 0.9655
+  },
+  {
+    "word": "you",
+    "start": 7.36,
+    "end": 7.56,
+    "probability": 0.8163
+  }
+]

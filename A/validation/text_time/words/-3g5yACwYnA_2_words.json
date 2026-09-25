@@ -1,0 +1,104 @@
+[
+  {
+    "word": "operations.",
+    "start": 0.0,
+    "end": 0.46,
+    "probability": 0.0262
+  },
+  {
+    "word": "Keep",
+    "start": 1.66,
+    "end": 2.42,
+    "probability": 0.8514
+  },
+  {
+    "word": "all",
+    "start": 2.42,
+    "end": 3.18,
+    "probability": 0.3821
+  },
+  {
+    "word": "of",
+    "start": 3.18,
+    "end": 3.3,
+    "probability": 0.2663
+  },
+  {
+    "word": "our",
+    "start": 3.3,
+    "end": 3.4,
+    "probability": 0.4559
+  },
+  {
+    "word": "brains",
+    "start": 3.4,
+    "end": 3.52,
+    "probability": 0.0247
+  },
+  {
+    "word": "a",
+    "start": 3.52,
+    "end": 3.68,
+    "probability": 0.4882
+  },
+  {
+    "word": "technical",
+    "start": 3.68,
+    "end": 4.06,
+    "probability": 0.9482
+  },
+  {
+    "word": "aspect",
+    "start": 4.06,
+    "end": 4.56,
+    "probability": 0.9791
+  },
+  {
+    "word": "to",
+    "start": 4.56,
+    "end": 4.88,
+    "probability": 0.7681
+  },
+  {
+    "word": "our",
+    "start": 4.88,
+    "end": 5.88,
+    "probability": 0.971
+  },
+  {
+    "word": "operation",
+    "start": 5.88,
+    "end": 6.34,
+    "probability": 0.8931
+  },
+  {
+    "word": "that",
+    "start": 6.34,
+    "end": 6.6,
+    "probability": 0.869
+  },
+  {
+    "word": "we",
+    "start": 6.6,
+    "end": 6.76,
+    "probability": 0.9975
+  },
+  {
+    "word": "don't",
+    "start": 6.76,
+    "end": 7.0,
+    "probability": 0.9911
+  },
+  {
+    "word": "have",
+    "start": 7.0,
+    "end": 7.16,
+    "probability": 0.9892
+  },
+  {
+    "word": "internally.",
+    "start": 7.16,
+    "end": 7.64,
+    "probability": 0.9915
+  }
+]

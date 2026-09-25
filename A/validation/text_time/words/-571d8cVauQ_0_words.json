@@ -1,0 +1,74 @@
+[
+  {
+    "word": "This",
+    "start": 0.6,
+    "end": 1.16,
+    "probability": 0.7816
+  },
+  {
+    "word": "is",
+    "start": 1.16,
+    "end": 1.3,
+    "probability": 0.9882
+  },
+  {
+    "word": "Rhett",
+    "start": 1.3,
+    "end": 1.54,
+    "probability": 0.6259
+  },
+  {
+    "word": "Ryger,",
+    "start": 1.54,
+    "end": 1.84,
+    "probability": 0.7215
+  },
+  {
+    "word": "White",
+    "start": 2.0,
+    "end": 2.1,
+    "probability": 0.5387
+  },
+  {
+    "word": "Caspian",
+    "start": 2.1,
+    "end": 2.54,
+    "probability": 0.7541
+  },
+  {
+    "word": "Studios",
+    "start": 2.54,
+    "end": 2.9,
+    "probability": 0.8722
+  },
+  {
+    "word": "on",
+    "start": 2.9,
+    "end": 3.18,
+    "probability": 0.6227
+  },
+  {
+    "word": "behalf",
+    "start": 3.18,
+    "end": 3.42,
+    "probability": 0.9973
+  },
+  {
+    "word": "of",
+    "start": 3.42,
+    "end": 3.64,
+    "probability": 0.9959
+  },
+  {
+    "word": "Expert",
+    "start": 3.64,
+    "end": 3.92,
+    "probability": 0.3561
+  },
+  {
+    "word": "Village.",
+    "start": 3.92,
+    "end": 4.3,
+    "probability": 0.962
+  }
+]

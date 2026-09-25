@@ -1,0 +1,122 @@
+[
+  {
+    "word": "reading",
+    "start": 0.0,
+    "end": 0.3,
+    "probability": 0.5254
+  },
+  {
+    "word": "it",
+    "start": 0.3,
+    "end": 0.44,
+    "probability": 0.9851
+  },
+  {
+    "word": "because",
+    "start": 0.44,
+    "end": 0.72,
+    "probability": 0.5508
+  },
+  {
+    "word": "if",
+    "start": 0.72,
+    "end": 0.96,
+    "probability": 0.9731
+  },
+  {
+    "word": "they",
+    "start": 0.96,
+    "end": 1.14,
+    "probability": 0.9922
+  },
+  {
+    "word": "are",
+    "start": 1.14,
+    "end": 1.28,
+    "probability": 0.9579
+  },
+  {
+    "word": "not",
+    "start": 1.28,
+    "end": 1.56,
+    "probability": 0.996
+  },
+  {
+    "word": "in",
+    "start": 1.56,
+    "end": 2.26,
+    "probability": 0.9075
+  },
+  {
+    "word": "any",
+    "start": 2.26,
+    "end": 2.54,
+    "probability": 0.9856
+  },
+  {
+    "word": "way",
+    "start": 2.54,
+    "end": 2.76,
+    "probability": 0.9954
+  },
+  {
+    "word": "held",
+    "start": 2.76,
+    "end": 3.04,
+    "probability": 0.8254
+  },
+  {
+    "word": "accountable",
+    "start": 3.04,
+    "end": 3.7,
+    "probability": 0.9992
+  },
+  {
+    "word": "for",
+    "start": 3.7,
+    "end": 4.1,
+    "probability": 0.9972
+  },
+  {
+    "word": "reading",
+    "start": 4.1,
+    "end": 4.48,
+    "probability": 0.9946
+  },
+  {
+    "word": "the",
+    "start": 4.48,
+    "end": 4.66,
+    "probability": 0.9867
+  },
+  {
+    "word": "material,",
+    "start": 4.66,
+    "end": 5.22,
+    "probability": 0.9914
+  },
+  {
+    "word": "they",
+    "start": 5.54,
+    "end": 6.08,
+    "probability": 0.9923
+  },
+  {
+    "word": "won't",
+    "start": 6.08,
+    "end": 6.38,
+    "probability": 0.9944
+  },
+  {
+    "word": "do",
+    "start": 6.38,
+    "end": 6.5,
+    "probability": 0.9988
+  },
+  {
+    "word": "it.",
+    "start": 6.5,
+    "end": 6.66,
+    "probability": 0.9983
+  }
+]

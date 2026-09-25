@@ -1,0 +1,134 @@
+[
+  {
+    "word": "In",
+    "start": 0.0,
+    "end": 0.2,
+    "probability": 0.7985
+  },
+  {
+    "word": "2008,",
+    "start": 0.2,
+    "end": 1.2,
+    "probability": 0.9464
+  },
+  {
+    "word": "there",
+    "start": 2.56,
+    "end": 2.98,
+    "probability": 0.9705
+  },
+  {
+    "word": "were",
+    "start": 2.98,
+    "end": 3.1,
+    "probability": 0.9355
+  },
+  {
+    "word": "very",
+    "start": 3.1,
+    "end": 3.48,
+    "probability": 0.9673
+  },
+  {
+    "word": "serious",
+    "start": 3.48,
+    "end": 4.02,
+    "probability": 0.9972
+  },
+  {
+    "word": "tribal",
+    "start": 4.02,
+    "end": 4.52,
+    "probability": 0.9838
+  },
+  {
+    "word": "warfare",
+    "start": 4.52,
+    "end": 5.08,
+    "probability": 0.9957
+  },
+  {
+    "word": "in",
+    "start": 5.08,
+    "end": 5.56,
+    "probability": 0.8778
+  },
+  {
+    "word": "Kenya,",
+    "start": 5.56,
+    "end": 6.22,
+    "probability": 0.9898
+  },
+  {
+    "word": "and",
+    "start": 6.98,
+    "end": 7.14,
+    "probability": 0.939
+  },
+  {
+    "word": "even",
+    "start": 7.14,
+    "end": 7.86,
+    "probability": 0.9563
+  },
+  {
+    "word": "as",
+    "start": 7.86,
+    "end": 8.1,
+    "probability": 0.8862
+  },
+  {
+    "word": "the",
+    "start": 8.1,
+    "end": 8.22,
+    "probability": 0.9096
+  },
+  {
+    "word": "F",
+    "start": 8.22,
+    "end": 8.6,
+    "probability": 0.1061
+  },
+  {
+    "word": "following",
+    "start": 8.6,
+    "end": 9.28,
+    "probability": 0.7517
+  },
+  {
+    "word": "a",
+    "start": 9.28,
+    "end": 9.44,
+    "probability": 0.9005
+  },
+  {
+    "word": "disputed",
+    "start": 9.44,
+    "end": 9.92,
+    "probability": 0.983
+  },
+  {
+    "word": "election,",
+    "start": 9.92,
+    "end": 10.36,
+    "probability": 0.8765
+  },
+  {
+    "word": "I",
+    "start": 10.6,
+    "end": 10.62,
+    "probability": 0.4845
+  },
+  {
+    "word": "needed",
+    "start": 10.62,
+    "end": 10.76,
+    "probability": 0.5431
+  },
+  {
+    "word": "to...",
+    "start": 10.76,
+    "end": 10.86,
+    "probability": 0.2798
+  }
+]

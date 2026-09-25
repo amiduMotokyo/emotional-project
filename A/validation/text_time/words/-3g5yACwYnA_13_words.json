@@ -1,0 +1,110 @@
+[
+  {
+    "word": "that",
+    "start": 0.0,
+    "end": 0.2,
+    "probability": 0.7898
+  },
+  {
+    "word": "we",
+    "start": 0.2,
+    "end": 0.38,
+    "probability": 0.9892
+  },
+  {
+    "word": "do,",
+    "start": 0.38,
+    "end": 0.6,
+    "probability": 0.9878
+  },
+  {
+    "word": "they've",
+    "start": 1.1,
+    "end": 1.6,
+    "probability": 0.8937
+  },
+  {
+    "word": "been",
+    "start": 1.6,
+    "end": 1.68,
+    "probability": 0.9875
+  },
+  {
+    "word": "able",
+    "start": 1.68,
+    "end": 1.88,
+    "probability": 0.9983
+  },
+  {
+    "word": "to",
+    "start": 1.88,
+    "end": 2.04,
+    "probability": 0.9974
+  },
+  {
+    "word": "find",
+    "start": 2.04,
+    "end": 2.32,
+    "probability": 0.9954
+  },
+  {
+    "word": "solutions",
+    "start": 2.32,
+    "end": 2.8,
+    "probability": 0.9949
+  },
+  {
+    "word": "or",
+    "start": 2.8,
+    "end": 3.1,
+    "probability": 0.4809
+  },
+  {
+    "word": "at",
+    "start": 3.1,
+    "end": 3.34,
+    "probability": 0.9499
+  },
+  {
+    "word": "least",
+    "start": 3.34,
+    "end": 3.34,
+    "probability": 0.9961
+  },
+  {
+    "word": "bring",
+    "start": 3.34,
+    "end": 3.64,
+    "probability": 0.9961
+  },
+  {
+    "word": "some",
+    "start": 3.64,
+    "end": 3.96,
+    "probability": 0.9918
+  },
+  {
+    "word": "answers",
+    "start": 3.96,
+    "end": 4.2,
+    "probability": 0.719
+  },
+  {
+    "word": "to",
+    "start": 4.2,
+    "end": 4.46,
+    "probability": 0.9937
+  },
+  {
+    "word": "the",
+    "start": 4.46,
+    "end": 4.54,
+    "probability": 0.9946
+  },
+  {
+    "word": "table.",
+    "start": 4.54,
+    "end": 4.82,
+    "probability": 0.9975
+  }
+]

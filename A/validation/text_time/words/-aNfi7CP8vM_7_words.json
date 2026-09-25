@@ -1,0 +1,110 @@
+[
+  {
+    "word": "Maybe",
+    "start": 0.0,
+    "end": 0.68,
+    "probability": 0.5999
+  },
+  {
+    "word": "they",
+    "start": 0.68,
+    "end": 0.86,
+    "probability": 0.9675
+  },
+  {
+    "word": "have",
+    "start": 0.86,
+    "end": 1.86,
+    "probability": 0.9729
+  },
+  {
+    "word": "no",
+    "start": 1.86,
+    "end": 2.02,
+    "probability": 0.8435
+  },
+  {
+    "word": "political",
+    "start": 2.02,
+    "end": 2.5,
+    "probability": 0.9771
+  },
+  {
+    "word": "party",
+    "start": 2.5,
+    "end": 2.9,
+    "probability": 0.9776
+  },
+  {
+    "word": "affiliation,",
+    "start": 2.9,
+    "end": 3.84,
+    "probability": 0.9889
+  },
+  {
+    "word": "they're",
+    "start": 4.06,
+    "end": 4.42,
+    "probability": 0.8514
+  },
+  {
+    "word": "not",
+    "start": 4.42,
+    "end": 4.56,
+    "probability": 0.9888
+  },
+  {
+    "word": "interested",
+    "start": 4.56,
+    "end": 5.1,
+    "probability": 0.9924
+  },
+  {
+    "word": "in",
+    "start": 5.1,
+    "end": 5.3,
+    "probability": 0.9981
+  },
+  {
+    "word": "politics,",
+    "start": 5.3,
+    "end": 5.76,
+    "probability": 0.9956
+  },
+  {
+    "word": "they",
+    "start": 6.02,
+    "end": 6.1,
+    "probability": 0.9648
+  },
+  {
+    "word": "could",
+    "start": 6.1,
+    "end": 6.26,
+    "probability": 0.9082
+  },
+  {
+    "word": "care",
+    "start": 6.26,
+    "end": 6.46,
+    "probability": 0.9929
+  },
+  {
+    "word": "less",
+    "start": 6.46,
+    "end": 6.72,
+    "probability": 0.9976
+  },
+  {
+    "word": "about",
+    "start": 6.72,
+    "end": 7.06,
+    "probability": 0.9978
+  },
+  {
+    "word": "politics.",
+    "start": 7.06,
+    "end": 7.64,
+    "probability": 0.997
+  }
+]

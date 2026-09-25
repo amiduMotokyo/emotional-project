@@ -1,0 +1,266 @@
+[
+  {
+    "word": "This",
+    "start": 0.0,
+    "end": 0.68,
+    "probability": 0.6911
+  },
+  {
+    "word": "is",
+    "start": 0.68,
+    "end": 0.82,
+    "probability": 0.995
+  },
+  {
+    "word": "Governor",
+    "start": 0.82,
+    "end": 1.12,
+    "probability": 0.9097
+  },
+  {
+    "word": "Steve",
+    "start": 1.12,
+    "end": 1.52,
+    "probability": 0.9927
+  },
+  {
+    "word": "Beshear,",
+    "start": 1.52,
+    "end": 2.04,
+    "probability": 0.8161
+  },
+  {
+    "word": "about",
+    "start": 2.54,
+    "end": 2.76,
+    "probability": 0.582
+  },
+  {
+    "word": "Kentucky.",
+    "start": 2.76,
+    "end": 3.32,
+    "probability": 0.9903
+  },
+  {
+    "word": "Our",
+    "start": 4.0,
+    "end": 4.5,
+    "probability": 0.991
+  },
+  {
+    "word": "state",
+    "start": 4.5,
+    "end": 4.8,
+    "probability": 0.9075
+  },
+  {
+    "word": "is",
+    "start": 4.8,
+    "end": 5.06,
+    "probability": 0.9945
+  },
+  {
+    "word": "home",
+    "start": 5.06,
+    "end": 5.36,
+    "probability": 0.9928
+  },
+  {
+    "word": "to",
+    "start": 5.36,
+    "end": 5.6,
+    "probability": 0.9984
+  },
+  {
+    "word": "more",
+    "start": 5.6,
+    "end": 5.82,
+    "probability": 0.9979
+  },
+  {
+    "word": "than",
+    "start": 5.82,
+    "end": 6.04,
+    "probability": 0.9976
+  },
+  {
+    "word": "1500",
+    "start": 6.04,
+    "end": 6.86,
+    "probability": 0.4652
+  },
+  {
+    "word": "bioscience",
+    "start": 6.86,
+    "end": 7.94,
+    "probability": 0.757
+  },
+  {
+    "word": "and",
+    "start": 7.94,
+    "end": 8.34,
+    "probability": 0.9737
+  },
+  {
+    "word": "life",
+    "start": 8.34,
+    "end": 8.6,
+    "probability": 0.8964
+  },
+  {
+    "word": "science",
+    "start": 8.6,
+    "end": 8.92,
+    "probability": 0.9169
+  },
+  {
+    "word": "companies",
+    "start": 8.92,
+    "end": 9.42,
+    "probability": 0.9973
+  },
+  {
+    "word": "and",
+    "start": 9.42,
+    "end": 10.12,
+    "probability": 0.6756
+  },
+  {
+    "word": "more",
+    "start": 10.12,
+    "end": 10.34,
+    "probability": 0.995
+  },
+  {
+    "word": "than",
+    "start": 10.34,
+    "end": 10.5,
+    "probability": 0.9987
+  },
+  {
+    "word": "a",
+    "start": 10.5,
+    "end": 10.62,
+    "probability": 0.408
+  },
+  {
+    "word": "hundred",
+    "start": 10.62,
+    "end": 10.94,
+    "probability": 0.9148
+  },
+  {
+    "word": "thousand",
+    "start": 10.94,
+    "end": 11.42,
+    "probability": 0.9922
+  },
+  {
+    "word": "people",
+    "start": 11.42,
+    "end": 11.8,
+    "probability": 0.9955
+  },
+  {
+    "word": "who",
+    "start": 11.8,
+    "end": 12.16,
+    "probability": 0.9913
+  },
+  {
+    "word": "work",
+    "start": 12.16,
+    "end": 12.38,
+    "probability": 0.9673
+  },
+  {
+    "word": "for",
+    "start": 12.38,
+    "end": 12.54,
+    "probability": 0.9977
+  },
+  {
+    "word": "these",
+    "start": 12.54,
+    "end": 12.76,
+    "probability": 0.9928
+  },
+  {
+    "word": "firms.",
+    "start": 12.76,
+    "end": 13.2,
+    "probability": 0.9922
+  },
+  {
+    "word": "In",
+    "start": 13.86,
+    "end": 13.98,
+    "probability": 0.9676
+  },
+  {
+    "word": "areas",
+    "start": 13.98,
+    "end": 14.38,
+    "probability": 0.9978
+  },
+  {
+    "word": "from",
+    "start": 14.38,
+    "end": 14.92,
+    "probability": 0.9875
+  },
+  {
+    "word": "Nutra",
+    "start": 14.92,
+    "end": 15.44,
+    "probability": 0.4036
+  },
+  {
+    "word": "genomics",
+    "start": 15.44,
+    "end": 15.96,
+    "probability": 0.6664
+  },
+  {
+    "word": "and",
+    "start": 15.96,
+    "end": 16.34,
+    "probability": 0.984
+  },
+  {
+    "word": "pharmaceuticals,",
+    "start": 16.34,
+    "end": 17.38,
+    "probability": 0.982
+  },
+  {
+    "word": "to",
+    "start": 17.68,
+    "end": 17.72,
+    "probability": 0.865
+  },
+  {
+    "word": "nanotechnology",
+    "start": 17.72,
+    "end": 18.58,
+    "probability": 0.8819
+  },
+  {
+    "word": "and",
+    "start": 18.58,
+    "end": 18.86,
+    "probability": 0.9529
+  },
+  {
+    "word": "medical",
+    "start": 18.86,
+    "end": 19.12,
+    "probability": 0.9986
+  },
+  {
+    "word": "devices.",
+    "start": 19.12,
+    "end": 19.66,
+    "probability": 0.9978
+  }
+]

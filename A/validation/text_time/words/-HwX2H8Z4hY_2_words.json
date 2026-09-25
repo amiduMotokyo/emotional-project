@@ -1,0 +1,32 @@
+[
+  {
+    "word": "mediocrity.",
+    "start": 0.0,
+    "end": 0.86,
+    "probability": 0.7097
+  },
+  {
+    "word": "Look",
+    "start": 2.0,
+    "end": 2.8,
+    "probability": 0.9346
+  },
+  {
+    "word": "at",
+    "start": 2.8,
+    "end": 2.92,
+    "probability": 0.9978
+  },
+  {
+    "word": "the",
+    "start": 2.92,
+    "end": 3.02,
+    "probability": 0.9963
+  },
+  {
+    "word": "record.",
+    "start": 3.02,
+    "end": 3.28,
+    "probability": 0.987
+  }
+]

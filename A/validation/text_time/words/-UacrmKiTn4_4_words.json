@@ -1,0 +1,86 @@
+[
+  {
+    "word": "just",
+    "start": 0.0,
+    "end": 0.62,
+    "probability": 0.1961
+  },
+  {
+    "word": "given",
+    "start": 0.62,
+    "end": 0.9,
+    "probability": 0.895
+  },
+  {
+    "word": "to",
+    "start": 0.9,
+    "end": 1.1,
+    "probability": 0.9902
+  },
+  {
+    "word": "their",
+    "start": 1.1,
+    "end": 1.24,
+    "probability": 0.9955
+  },
+  {
+    "word": "own",
+    "start": 1.24,
+    "end": 1.46,
+    "probability": 0.9842
+  },
+  {
+    "word": "devices",
+    "start": 1.46,
+    "end": 1.98,
+    "probability": 0.9918
+  },
+  {
+    "word": "they",
+    "start": 1.98,
+    "end": 2.28,
+    "probability": 0.3156
+  },
+  {
+    "word": "are",
+    "start": 2.28,
+    "end": 2.42,
+    "probability": 0.9711
+  },
+  {
+    "word": "not",
+    "start": 2.42,
+    "end": 2.62,
+    "probability": 0.9936
+  },
+  {
+    "word": "going",
+    "start": 2.62,
+    "end": 2.94,
+    "probability": 0.9957
+  },
+  {
+    "word": "to",
+    "start": 2.94,
+    "end": 3.14,
+    "probability": 0.9984
+  },
+  {
+    "word": "read",
+    "start": 3.14,
+    "end": 3.32,
+    "probability": 0.9971
+  },
+  {
+    "word": "the",
+    "start": 3.32,
+    "end": 3.5,
+    "probability": 0.9929
+  },
+  {
+    "word": "textbook.",
+    "start": 3.5,
+    "end": 3.94,
+    "probability": 0.9309
+  }
+]

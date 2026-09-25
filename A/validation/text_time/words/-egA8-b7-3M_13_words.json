@@ -1,0 +1,68 @@
+[
+  {
+    "word": "What",
+    "start": 0.0,
+    "end": 0.64,
+    "probability": 0.7822
+  },
+  {
+    "word": "are",
+    "start": 0.64,
+    "end": 0.74,
+    "probability": 0.9765
+  },
+  {
+    "word": "you",
+    "start": 0.74,
+    "end": 0.82,
+    "probability": 0.9957
+  },
+  {
+    "word": "doing",
+    "start": 0.82,
+    "end": 1.08,
+    "probability": 0.9973
+  },
+  {
+    "word": "that's",
+    "start": 1.08,
+    "end": 1.36,
+    "probability": 0.9234
+  },
+  {
+    "word": "different?",
+    "start": 1.36,
+    "end": 1.68,
+    "probability": 0.9974
+  },
+  {
+    "word": "They",
+    "start": 2.22,
+    "end": 2.42,
+    "probability": 0.9654
+  },
+  {
+    "word": "always",
+    "start": 2.42,
+    "end": 2.68,
+    "probability": 0.9945
+  },
+  {
+    "word": "want",
+    "start": 2.68,
+    "end": 2.94,
+    "probability": 0.8914
+  },
+  {
+    "word": "an",
+    "start": 2.94,
+    "end": 3.12,
+    "probability": 0.8499
+  },
+  {
+    "word": "answer.",
+    "start": 3.12,
+    "end": 3.42,
+    "probability": 0.997
+  }
+]

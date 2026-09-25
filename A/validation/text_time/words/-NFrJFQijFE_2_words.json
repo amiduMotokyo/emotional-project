@@ -1,0 +1,62 @@
+[
+  {
+    "word": "Hawks",
+    "start": 3.46,
+    "end": 3.96,
+    "probability": 0.7069
+  },
+  {
+    "word": "sense",
+    "start": 3.96,
+    "end": 4.24,
+    "probability": 0.8713
+  },
+  {
+    "word": "of",
+    "start": 4.24,
+    "end": 4.44,
+    "probability": 0.9726
+  },
+  {
+    "word": "hearing",
+    "start": 4.44,
+    "end": 4.66,
+    "probability": 0.556
+  },
+  {
+    "word": "is",
+    "start": 4.66,
+    "end": 4.96,
+    "probability": 0.9543
+  },
+  {
+    "word": "excellent",
+    "start": 4.96,
+    "end": 5.46,
+    "probability": 0.9736
+  },
+  {
+    "word": "and",
+    "start": 5.46,
+    "end": 6.14,
+    "probability": 0.4326
+  },
+  {
+    "word": "their",
+    "start": 6.14,
+    "end": 6.32,
+    "probability": 0.9641
+  },
+  {
+    "word": "eyes",
+    "start": 6.32,
+    "end": 6.52,
+    "probability": 0.6222
+  },
+  {
+    "word": "are...",
+    "start": 6.52,
+    "end": 6.66,
+    "probability": 0.2602
+  }
+]
