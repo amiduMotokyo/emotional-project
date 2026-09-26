@@ -1,0 +1,40 @@
+name: Restore problem 2 v4 archive
+
+on:
+  push:
+    paths:
+      - A/problem2_training_v4.zip.part001
+      - A/problem2_training_v4.zip.part002
+      - .github/workflows/restore-problem2-v4.yml
+
+permissions:
+  contents: write
+
+concurrency:
+  group: restore-problem2-v4
+  cancel-in-progress: false
+
+jobs:
+  restore:
+    if: github.ref == 'refs/heads/main'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Restore archive and remove transport files
+        shell: bash
+        run: |
+          set -euo pipefail
+          cat A/problem2_training_v4.zip.part001 A/problem2_training_v4.zip.part002 > A/problem2_training_v4.zip
+          sha256sum A/problem2_training_v4.zip
+          test "$(sha256sum A/problem2_training_v4.zip | awk '{print $1}')" = "e2e359428a2e2184061e7849d10c5448d0b5797b5fe207919db408fd3898774b"
+          rm A/problem2_training_v4.zip.part001
+          rm A/problem2_training_v4.zip.part002
+          rm .github/workflows/restore-problem2-v4.yml
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add -A
+          git commit -m "Archive strict problem 2 v4 results"
+          git push
