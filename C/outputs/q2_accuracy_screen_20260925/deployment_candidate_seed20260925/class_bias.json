@@ -1,0 +1,14 @@
+{
+  "class_bias": [
+    0.2,
+    0.0,
+    0.0
+  ],
+  "classes": [
+    "Negative",
+    "Neutral",
+    "Positive"
+  ],
+  "basis": "5-fold stratified nested selection shared across three seeds",
+  "source": "Attachment-2 validation only; applied to log class probabilities"
+}

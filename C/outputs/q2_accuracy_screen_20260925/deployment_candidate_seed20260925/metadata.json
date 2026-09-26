@@ -1,0 +1,15 @@
+{
+  "model": "all-MiniLM-L6-v2 fine-tuned on Attachment-2 train, top two layers",
+  "fusion": "B.src.fusion.Fusion",
+  "seed": 20260925,
+  "epoch": 3,
+  "encoder_file_bytes": 22875509,
+  "payload_file_bytes_excluding_metadata": 23185472,
+  "class_bias": [
+    0.2,
+    0.0,
+    0.0
+  ],
+  "external_sentiment_data_used": false,
+  "package_file_bytes_including_metadata": 23185853
+}

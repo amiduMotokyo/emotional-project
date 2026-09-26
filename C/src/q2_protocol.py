@@ -45,7 +45,8 @@ def _encode_with_masks(session, data: dict, masks: np.ndarray) -> np.ndarray:
     return encode_text(session, bert, "cpu", batch_size=1)
 
 
-def prepare_views(data: dict, session, directory: Path, views: int, seed: int) -> None:
+def prepare_views(data: dict, session, directory: Path, views: int, seed: int,
+                  corruption_probability: float = 0.8) -> None:
     """Cache several independently sampled views; each preserves physical indices."""
     directory.mkdir(parents=True, exist_ok=True)
     shape = (views, len(data["cls"]), 50, 384)
@@ -56,7 +57,7 @@ def prepare_views(data: dict, session, directory: Path, views: int, seed: int) -
     original = base_masks(data)
     for view in range(views):
         rng = random.Random(seed + 104729 * view)
-        masks = sample_training_masks(original, probability=0.8, rng=rng)
+        masks = sample_training_masks(original, probability=corruption_probability, rng=rng)
         stacked = np.stack([item.numpy() for item in masks], axis=1)
         masks_out[view] = stacked
         text[view] = _encode_with_masks(session, data, stacked)
@@ -90,18 +91,43 @@ def read_case(path: Path) -> tuple[np.ndarray, np.ndarray]:
 
 
 class ViewDataset(Dataset):
-    def __init__(self, base: dict, view_dir: Path | None = None):
+    def __init__(self, base: dict, view_dir: Path | None = None,
+                 corruption_probability: float = 0.8,
+                 cached_corruption_probability: float = 0.8,
+                 seed: int = 20260924):
         self.base = base
         self.support = support_mask(base)
-        self.epoch = 0
         self.text = None if view_dir is None else np.load(view_dir / "train_text.npy", mmap_mode="r")
         self.masks = None if view_dir is None else np.load(view_dir / "train_masks.npy", mmap_mode="r")
+        if not 0.0 <= corruption_probability <= cached_corruption_probability <= 1.0:
+            raise ValueError("training corruption must be between zero and cached corruption")
+        self.corruption_probability = corruption_probability
+        self.cached_corruption_probability = cached_corruption_probability
+        self.seed = seed
+        self._epoch = -1
+        self.epoch = 0
+
+    @property
+    def epoch(self) -> int:
+        return self._epoch
+
+    @epoch.setter
+    def epoch(self, value: int) -> None:
+        self._epoch = int(value)
+        if self.text is None:
+            self.use_corrupt = np.zeros(len(self.base["cls"]), dtype=bool)
+        elif self.corruption_probability == self.cached_corruption_probability:
+            self.use_corrupt = np.ones(len(self.base["cls"]), dtype=bool)
+        else:
+            fraction = self.corruption_probability / self.cached_corruption_probability
+            rng = np.random.default_rng(self.seed + self._epoch)
+            self.use_corrupt = rng.random(len(self.base["cls"])) < fraction
 
     def __len__(self) -> int:
         return len(self.base["cls"])
 
     def __getitem__(self, index: int):
-        if self.text is None:
+        if self.text is None or not self.use_corrupt[index]:
             text = self.base["text"][index]
             masks = np.stack([self.base[name][index]
                               for name in ("tmask", "amask", "vmask")])
@@ -116,7 +142,17 @@ class ViewDataset(Dataset):
                 *[torch.from_numpy(masks[i].copy()) for i in range(3)],
                 torch.from_numpy(self.support[index].copy()),
                 torch.tensor(int(self.base["cls"][index])),
-                torch.tensor(float(self.base["score"][index]), dtype=torch.float32))
+            torch.tensor(float(self.base["score"][index]), dtype=torch.float32))
+
+    def realized_corruption_rate(self) -> float:
+        if self.text is None or not self.use_corrupt.any():
+            return 0.0
+        selected = np.flatnonzero(self.use_corrupt)
+        views = (selected * 7 + self.epoch) % len(self.text)
+        original = np.stack([self.base[name][selected]
+                             for name in ("tmask", "amask", "vmask")], axis=1)
+        changed = np.any(original & ~self.masks[views, selected], axis=(1, 2))
+        return float(changed.sum() / len(self.base["cls"]))
 
 
 def forward_batch(model, batch, device: str):
@@ -136,7 +172,7 @@ def coherent_score(classes: np.ndarray, scores: np.ndarray) -> np.ndarray:
 
 
 def evaluate_loader(model, loader, device: str, coherent: bool = False,
-                    include_rows: bool = False) -> dict:
+                    include_rows: bool = False, class_bias=None) -> dict:
     model.eval()
     probs, outputs, labels, actual = [], [], [], []
     with torch.inference_mode():
@@ -150,7 +186,13 @@ def evaluate_loader(model, loader, device: str, coherent: bool = False,
     raw = np.concatenate(outputs)
     labels = np.concatenate(labels)
     actual = np.concatenate(actual)
-    predictions = probs.argmax(axis=1)
+    if class_bias is None:
+        predictions = probs.argmax(axis=1)
+    else:
+        bias = np.asarray(class_bias, dtype=np.float64).reshape(1, -1)
+        if bias.shape[1] != probs.shape[1]:
+            raise ValueError("class_bias must provide one offset per class")
+        predictions = (np.log(np.maximum(probs, 1e-12)) + bias).argmax(axis=1)
     estimates = coherent_score(predictions, raw) if coherent else raw
     pearson = (float(np.corrcoef(actual, estimates)[0, 1])
                if np.std(estimates) > 1e-8 else 0.0)

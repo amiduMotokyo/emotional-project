@@ -3,6 +3,7 @@ from __future__ import annotations
 
 import argparse
 import csv
+import json
 import pickle
 import sys
 from pathlib import Path
@@ -15,6 +16,7 @@ ROOT = Path(__file__).resolve().parents[2]
 sys.path.insert(0, str(ROOT))
 
 from B.src.data import LABELS, apply_audio_vision_scale, assemble_sample, encode_text
+from C.src.reliability_imputation import ReliabilityImputationFusion
 from B.src.fusion import Fusion
 from B.src.temporal_fusion import TemporalFusion
 from C.src.q2_protocol import coherent_score, support_mask
@@ -27,9 +29,15 @@ def infer(data_root: Path, package: Path, output: Path, device: str):
         scale = {"audio": (arrays["audio_mean"], arrays["audio_std"]),
                  "vision": (arrays["vision_mean"], arrays["vision_std"])}
     saved = torch.load(package / "model.pt", map_location=device, weights_only=False)
+    bias_path = package / "class_bias.json"
+    bias_data = json.loads(bias_path.read_text()) if bias_path.exists() else {}
+    class_bias = torch.tensor(bias_data.get("class_bias", [0., 0., 0.]), device=device)
+    if class_bias.shape != (3,):
+        raise ValueError("class_bias must contain three offsets")
     architecture = saved["architecture"]
     kwargs = saved.get('model_kwargs', {})
-    model = (TemporalFusion(**kwargs) if architecture == "temporal" else Fusion(**kwargs)).to(device)
+    cls = {"fusion": Fusion, "temporal": TemporalFusion, "impute": ReliabilityImputationFusion}[architecture]
+    model = cls(**kwargs).to(device)
     model.load_state_dict(saved["state_dict"])
     model.eval()
     directory = data_root / "附件3-模态缺失特征样本" / "对齐版本"
@@ -48,6 +56,7 @@ def infer(data_root: Path, package: Path, output: Path, device: str):
                 logits, raw, gates = model(*inputs, torch.from_numpy(support.copy()).to(device))
             else:
                 logits, raw, gates = model(*inputs)
+            logits = logits + class_bias.to(dtype=logits.dtype)
             probs = torch.softmax(logits, dim=1).cpu().numpy()[0]
             raw_score = float(raw.cpu().numpy()[0])
             gate = gates.cpu().numpy()[0]

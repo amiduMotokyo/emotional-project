@@ -1,0 +1,1592 @@
+{
+  "checkpoint": "/mnt/disk/data/inainai/mosei_e_20260924/q2_minilm_finetune_10ep_20260925/checkpoints/minilm_top2_20260925.pt",
+  "encoder": "/mnt/disk/data/inainai/mosei_e_20260924/q2_minilm_finetune_10ep_20260925/deployment/text_encoder_finetuned_int8.onnx",
+  "encoder_execution": "ONNX Runtime CPU; batch size 1 per sample",
+  "metrics": [
+    {
+      "mode": "clean",
+      "accuracy": 0.6373626373626373,
+      "macro_f1": 0.600083952286622,
+      "mae": 0.5960548520088196,
+      "pearson": 0.6424594101890478,
+      "per_class_f1": [
+        0.683046683046683,
+        0.4050632911392405,
+        0.7121418826739427
+      ],
+      "n": 728,
+      "confusion_matrix_true_by_pred": [
+        [
+          139,
+          23,
+          44
+        ],
+        [
+          30,
+          64,
+          90
+        ],
+        [
+          32,
+          45,
+          261
+        ]
+      ],
+      "true_class_counts": [
+        206,
+        184,
+        338
+      ],
+      "predicted_class_counts": [
+        201,
+        132,
+        395
+      ],
+      "condition": {
+        "mode": "clean",
+        "rate": null,
+        "position": null
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.6222527472527473,
+      "macro_f1": 0.5811550009721469,
+      "mae": 0.6133474111557007,
+      "pearson": 0.6217810092866037,
+      "per_class_f1": [
+        0.6384039900249376,
+        0.3961661341853035,
+        0.7088948787061995
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.1,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.6304945054945055,
+      "macro_f1": 0.5940798709967646,
+      "mae": 0.6044558882713318,
+      "pearson": 0.6248845243089901,
+      "per_class_f1": [
+        0.6764705882352942,
+        0.3987538940809969,
+        0.7070151306740028
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.1,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.6236263736263736,
+      "macro_f1": 0.5927107922149831,
+      "mae": 0.6097418665885925,
+      "pearson": 0.5952081019368926,
+      "per_class_f1": [
+        0.6617647058823529,
+        0.417910447761194,
+        0.6984572230014026
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.1,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.6098901098901099,
+      "macro_f1": 0.5627537122618804,
+      "mae": 0.6291993260383606,
+      "pearson": 0.5832792482704869,
+      "per_class_f1": [
+        0.6292682926829268,
+        0.3564356435643564,
+        0.702557200538358
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.3,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.6057692307692307,
+      "macro_f1": 0.5694734607149181,
+      "mae": 0.6229596734046936,
+      "pearson": 0.5763531851101341,
+      "per_class_f1": [
+        0.6240409207161125,
+        0.39039039039039036,
+        0.6939890710382514
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.3,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.5934065934065934,
+      "macro_f1": 0.5636807198513404,
+      "mae": 0.6249971389770508,
+      "pearson": 0.5843945149037585,
+      "per_class_f1": [
+        0.6381909547738693,
+        0.3815028901734104,
+        0.6713483146067416
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.3,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.5934065934065934,
+      "macro_f1": 0.5495628020600273,
+      "mae": 0.6555961966514587,
+      "pearson": 0.530847168211844,
+      "per_class_f1": [
+        0.5980392156862745,
+        0.3660130718954248,
+        0.6846361185983828
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.5,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.5810439560439561,
+      "macro_f1": 0.5500169543692714,
+      "mae": 0.6539000868797302,
+      "pearson": 0.5239812818113367,
+      "per_class_f1": [
+        0.5842105263157895,
+        0.3954802259887006,
+        0.6703601108033241
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.5,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.5659340659340659,
+      "macro_f1": 0.5467133384923106,
+      "mae": 0.6492371559143066,
+      "pearson": 0.5151866685868678,
+      "per_class_f1": [
+        0.5774278215223098,
+        0.4194373401534527,
+        0.6432748538011696
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text",
+        "rate": 0.5,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.0,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6332417582417582,
+      "macro_f1": 0.5958224069223219,
+      "mae": 0.597777247428894,
+      "pearson": 0.6413579803682434,
+      "per_class_f1": [
+        0.6813725490196079,
+        0.39747634069400634,
+        0.7086183310533516
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.1,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.10189186032932383,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6346153846153846,
+      "macro_f1": 0.5960517410926874,
+      "mae": 0.5959128737449646,
+      "pearson": 0.6413165029611709,
+      "per_class_f1": [
+        0.683046683046683,
+        0.39490445859872614,
+        0.710204081632653
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.1,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.10189186032932383,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6332417582417582,
+      "macro_f1": 0.5954432821063682,
+      "mae": 0.5970556139945984,
+      "pearson": 0.6404130805724969,
+      "per_class_f1": [
+        0.6862745098039216,
+        0.3924050632911392,
+        0.7076502732240437
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.1,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.10200864183113395,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6263736263736264,
+      "macro_f1": 0.59171597350474,
+      "mae": 0.5961571335792542,
+      "pearson": 0.642084297140394,
+      "per_class_f1": [
+        0.6748166259168704,
+        0.39755351681957185,
+        0.7027777777777777
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.3,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.2996029428938456,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6304945054945055,
+      "macro_f1": 0.592052422930193,
+      "mae": 0.5958830714225769,
+      "pearson": 0.6414256203972061,
+      "per_class_f1": [
+        0.6765432098765433,
+        0.3911671924290221,
+        0.7084468664850136
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.3,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.2996029428938456,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.635989010989011,
+      "macro_f1": 0.5988128775219376,
+      "mae": 0.597561776638031,
+      "pearson": 0.6397339118588827,
+      "per_class_f1": [
+        0.6814814814814815,
+        0.4037854889589905,
+        0.7111716621253406
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.3,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.29971972439565575,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6291208791208791,
+      "macro_f1": 0.5971873702280409,
+      "mae": 0.5954058170318604,
+      "pearson": 0.6424789646524384,
+      "per_class_f1": [
+        0.6780487804878049,
+        0.4133738601823708,
+        0.700139470013947
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.5,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.4994744832418545,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6277472527472527,
+      "macro_f1": 0.5881093111001144,
+      "mae": 0.5968716740608215,
+      "pearson": 0.6403771191331961,
+      "per_class_f1": [
+        0.6699751861042184,
+        0.3860759493670886,
+        0.7082767978290366
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.5,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.4994744832418545,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6318681318681318,
+      "macro_f1": 0.5923534951427761,
+      "mae": 0.5998883843421936,
+      "pearson": 0.6372644413955695,
+      "per_class_f1": [
+        0.6782178217821783,
+        0.38977635782747605,
+        0.7090663058186739
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio",
+        "rate": 0.5,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.4995912647436646,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.635989010989011,
+      "macro_f1": 0.5987390131377787,
+      "mae": 0.5972501039505005,
+      "pearson": 0.6401776197461531,
+      "per_class_f1": [
+        0.6813725490196079,
+        0.4025157232704403,
+        0.7123287671232876
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.1,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.10245800395256917
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.6346153846153846,
+      "macro_f1": 0.5980602457901584,
+      "mae": 0.5966274738311768,
+      "pearson": 0.6408555697620132,
+      "per_class_f1": [
+        0.683046683046683,
+        0.4025157232704403,
+        0.7086183310533516
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.1,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.10221096837944664
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.6332417582417582,
+      "macro_f1": 0.5959189998196138,
+      "mae": 0.5978554487228394,
+      "pearson": 0.6395846932677577,
+      "per_class_f1": [
+        0.6813725490196079,
+        0.3987341772151899,
+        0.7076502732240437
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.1,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.100975790513834
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.6414835164835165,
+      "macro_f1": 0.6042475741695649,
+      "mae": 0.5954799652099609,
+      "pearson": 0.6407481264384789,
+      "per_class_f1": [
+        0.6847290640394089,
+        0.41139240506329117,
+        0.7166212534059946
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.3,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.3011981225296443
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.6346153846153846,
+      "macro_f1": 0.5979254563439833,
+      "mae": 0.596796452999115,
+      "pearson": 0.6396403208209681,
+      "per_class_f1": [
+        0.6813725490196079,
+        0.4037854889589905,
+        0.7086183310533516
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.3,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.3005187747035573
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.6332417582417582,
+      "macro_f1": 0.5961404817013823,
+      "mae": 0.5970823764801025,
+      "pearson": 0.6395666657844253,
+      "per_class_f1": [
+        0.681265206812652,
+        0.4012738853503185,
+        0.7058823529411765
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.3,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.2972455533596838
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.635989010989011,
+      "macro_f1": 0.5981157624691193,
+      "mae": 0.5986045598983765,
+      "pearson": 0.64017509650793,
+      "per_class_f1": [
+        0.6847290640394089,
+        0.39747634069400634,
+        0.7121418826739427
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.5,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.5020380434782609
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.6291208791208791,
+      "macro_f1": 0.5915526984567162,
+      "mae": 0.598659873008728,
+      "pearson": 0.637509420382763,
+      "per_class_f1": [
+        0.6798029556650246,
+        0.389937106918239,
+        0.7049180327868853
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.5,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.5005558300395256
+      }
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.635989010989011,
+      "macro_f1": 0.601960414320642,
+      "mae": 0.5951099395751953,
+      "pearson": 0.6380270826105685,
+      "per_class_f1": [
+        0.6796116504854369,
+        0.4200626959247649,
+        0.7062068965517241
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "vision",
+        "rate": 0.5,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.0,
+        "vision": 0.4971590909090909
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.6263736263736264,
+      "macro_f1": 0.5861993031380993,
+      "mae": 0.6124821305274963,
+      "pearson": 0.6207940610864682,
+      "per_class_f1": [
+        0.6384039900249376,
+        0.40764331210191085,
+        0.7125506072874493
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.1,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.10189186032932383,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.6291208791208791,
+      "macro_f1": 0.5915958677532752,
+      "mae": 0.6040641665458679,
+      "pearson": 0.6258037817615983,
+      "per_class_f1": [
+        0.6732186732186732,
+        0.39375,
+        0.7078189300411523
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.1,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.10189186032932383,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.6263736263736264,
+      "macro_f1": 0.5955436481708788,
+      "mae": 0.6087484955787659,
+      "pearson": 0.595335865142612,
+      "per_class_f1": [
+        0.6617647058823529,
+        0.4226190476190476,
+        0.702247191011236
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.1,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.10200864183113395,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.6002747252747253,
+      "macro_f1": 0.5534411913918101,
+      "mae": 0.632347583770752,
+      "pearson": 0.5812754205645232,
+      "per_class_f1": [
+        0.6195121951219512,
+        0.34527687296416937,
+        0.6955345060893099
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.3,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.2996029428938456,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.5989010989010989,
+      "macro_f1": 0.5658708761267159,
+      "mae": 0.6235999464988708,
+      "pearson": 0.5749827065414643,
+      "per_class_f1": [
+        0.6205128205128205,
+        0.39296187683284456,
+        0.6841379310344827
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.3,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.2996029428938456,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.5961538461538461,
+      "macro_f1": 0.5669496147984431,
+      "mae": 0.624970555305481,
+      "pearson": 0.5821161479455462,
+      "per_class_f1": [
+        0.6347607052896725,
+        0.3919308357348703,
+        0.6741573033707865
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.3,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.29971972439565575,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.5906593406593407,
+      "macro_f1": 0.5521553622658679,
+      "mae": 0.6549043655395508,
+      "pearson": 0.5307541727060874,
+      "per_class_f1": [
+        0.6014669926650367,
+        0.37735849056603776,
+        0.6776406035665294
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.5,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.4994744832418545,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.5810439560439561,
+      "macro_f1": 0.5479539873067524,
+      "mae": 0.6513870358467102,
+      "pearson": 0.5231041889258422,
+      "per_class_f1": [
+        0.5759162303664922,
+        0.39204545454545453,
+        0.6759002770083102
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.5,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.4994744832418545,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+audio",
+      "accuracy": 0.5618131868131868,
+      "macro_f1": 0.5405782057831052,
+      "mae": 0.6532078981399536,
+      "pearson": 0.5055987463285937,
+      "per_class_f1": [
+        0.5668449197860963,
+        0.41131105398457585,
+        0.6435786435786436
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio",
+        "rate": 0.5,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.4995912647436646,
+        "vision": 0.0
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.6195054945054945,
+      "macro_f1": 0.5771803442249539,
+      "mae": 0.6151108741760254,
+      "pearson": 0.6212763568924732,
+      "per_class_f1": [
+        0.6384039900249376,
+        0.3870967741935484,
+        0.7060402684563758
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.1,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.0,
+        "vision": 0.10245800395256917
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.6304945054945055,
+      "macro_f1": 0.5939916989672861,
+      "mae": 0.6039892435073853,
+      "pearson": 0.6254063368614077,
+      "per_class_f1": [
+        0.6764705882352942,
+        0.39751552795031053,
+        0.7079889807162535
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.1,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.0,
+        "vision": 0.10221096837944664
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.625,
+      "macro_f1": 0.5942185248215783,
+      "mae": 0.6096876859664917,
+      "pearson": 0.5961827862127439,
+      "per_class_f1": [
+        0.6650366748166259,
+        0.41916167664670656,
+        0.6984572230014026
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.1,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.0,
+        "vision": 0.100975790513834
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.6098901098901099,
+      "macro_f1": 0.5623307334053848,
+      "mae": 0.6285576224327087,
+      "pearson": 0.5834685721421228,
+      "per_class_f1": [
+        0.6328502415458938,
+        0.35333333333333333,
+        0.7008086253369272
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.3,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.0,
+        "vision": 0.3011981225296443
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.6043956043956044,
+      "macro_f1": 0.5707618484642354,
+      "mae": 0.6222047209739685,
+      "pearson": 0.575993114161492,
+      "per_class_f1": [
+        0.6259541984732825,
+        0.39762611275964393,
+        0.6887052341597796
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.3,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.0,
+        "vision": 0.3005187747035573
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.5934065934065934,
+      "macro_f1": 0.5665682613101054,
+      "mae": 0.6237478852272034,
+      "pearson": 0.5824728864783495,
+      "per_class_f1": [
+        0.6401985111662531,
+        0.3909348441926346,
+        0.6685714285714286
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.3,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.0,
+        "vision": 0.2972455533596838
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.5961538461538461,
+      "macro_f1": 0.5546220419081055,
+      "mae": 0.6532223224639893,
+      "pearson": 0.5340400015717914,
+      "per_class_f1": [
+        0.6063569682151589,
+        0.3717948717948718,
+        0.6857142857142857
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.5,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.0,
+        "vision": 0.5020380434782609
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.5741758241758241,
+      "macro_f1": 0.5411063758803741,
+      "mae": 0.6536162495613098,
+      "pearson": 0.5226885104366233,
+      "per_class_f1": [
+        0.5744125326370757,
+        0.3785310734463277,
+        0.6703755215577191
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.5,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.0,
+        "vision": 0.5005558300395256
+      }
+    },
+    {
+      "mode": "text+vision",
+      "accuracy": 0.5576923076923077,
+      "macro_f1": 0.5382649719279712,
+      "mae": 0.6549478769302368,
+      "pearson": 0.50706481165927,
+      "per_class_f1": [
+        0.5721649484536082,
+        0.4082687338501292,
+        0.6343612334801763
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+vision",
+        "rate": 0.5,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.0,
+        "vision": 0.4971590909090909
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6346153846153846,
+      "macro_f1": 0.5982185211157174,
+      "mae": 0.5965307950973511,
+      "pearson": 0.6407410985064483,
+      "per_class_f1": [
+        0.6781326781326781,
+        0.40498442367601245,
+        0.7115384615384616
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.1,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.10189186032932383,
+        "vision": 0.10245800395256917
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6318681318681318,
+      "macro_f1": 0.5936455808376991,
+      "mae": 0.596458911895752,
+      "pearson": 0.6412481514888896,
+      "per_class_f1": [
+        0.6798029556650246,
+        0.39365079365079364,
+        0.7074829931972789
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.1,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.10189186032932383,
+        "vision": 0.10221096837944664
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6346153846153846,
+      "macro_f1": 0.5971817201072148,
+      "mae": 0.5973029732704163,
+      "pearson": 0.6399508496250064,
+      "per_class_f1": [
+        0.6829268292682927,
+        0.4,
+        0.7086183310533516
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.1,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.10200864183113395,
+        "vision": 0.100975790513834
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6346153846153846,
+      "macro_f1": 0.5998764597023062,
+      "mae": 0.5948500037193298,
+      "pearson": 0.6428065537676453,
+      "per_class_f1": [
+        0.684596577017115,
+        0.4049079754601227,
+        0.710124826629681
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.3,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.2996029428938456,
+        "vision": 0.3011981225296443
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6236263736263736,
+      "macro_f1": 0.5848579392271129,
+      "mae": 0.5972246527671814,
+      "pearson": 0.6416421574200324,
+      "per_class_f1": [
+        0.674937965260546,
+        0.3785488958990536,
+        0.7010869565217391
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.3,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.2996029428938456,
+        "vision": 0.3005187747035573
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6332417582417582,
+      "macro_f1": 0.5967804684981588,
+      "mae": 0.5969460010528564,
+      "pearson": 0.6372325229729364,
+      "per_class_f1": [
+        0.6797066014669927,
+        0.4037854889589905,
+        0.7068493150684931
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.3,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.29971972439565575,
+        "vision": 0.2972455533596838
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6291208791208791,
+      "macro_f1": 0.5979134168637514,
+      "mae": 0.5964361429214478,
+      "pearson": 0.6444974474698041,
+      "per_class_f1": [
+        0.6862745098039216,
+        0.40718562874251496,
+        0.7002801120448179
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.5,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.4994744832418545,
+        "vision": 0.5020380434782609
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6236263736263736,
+      "macro_f1": 0.5823253606296,
+      "mae": 0.5966036319732666,
+      "pearson": 0.6420449782861566,
+      "per_class_f1": [
+        0.6733167082294265,
+        0.3682539682539683,
+        0.7054054054054054
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.5,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.4994744832418545,
+        "vision": 0.5005558300395256
+      }
+    },
+    {
+      "mode": "audio+vision",
+      "accuracy": 0.6387362637362637,
+      "macro_f1": 0.6005086108849266,
+      "mae": 0.5957573056221008,
+      "pearson": 0.6352149525839114,
+      "per_class_f1": [
+        0.6763990267639902,
+        0.41025641025641024,
+        0.7148703956343793
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "audio+vision",
+        "rate": 0.5,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.0,
+        "audio": 0.4995912647436646,
+        "vision": 0.4971590909090909
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.625,
+      "macro_f1": 0.5840761608875685,
+      "mae": 0.6130800247192383,
+      "pearson": 0.6210649062465622,
+      "per_class_f1": [
+        0.6384039900249376,
+        0.4012738853503185,
+        0.7125506072874493
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.1,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.10189186032932383,
+        "vision": 0.10245800395256917
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.6304945054945055,
+      "macro_f1": 0.5934905773803317,
+      "mae": 0.6033666133880615,
+      "pearson": 0.6269461892409425,
+      "per_class_f1": [
+        0.6797066014669927,
+        0.39375,
+        0.7070151306740028
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.1,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.10189186032932383,
+        "vision": 0.10221096837944664
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.6263736263736264,
+      "macro_f1": 0.5952457357606215,
+      "mae": 0.609774649143219,
+      "pearson": 0.5955723880145918,
+      "per_class_f1": [
+        0.6650366748166259,
+        0.42042042042042044,
+        0.7002801120448179
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.1,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.10191008618681574,
+        "audio": 0.10200864183113395,
+        "vision": 0.100975790513834
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.6002747252747253,
+      "macro_f1": 0.553478217822187,
+      "mae": 0.6321099400520325,
+      "pearson": 0.5815980030516611,
+      "per_class_f1": [
+        0.6277372262773723,
+        0.33986928104575165,
+        0.6928281461434371
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.3,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.2996029428938456,
+        "vision": 0.3011981225296443
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.603021978021978,
+      "macro_f1": 0.5704486972172617,
+      "mae": 0.6213728785514832,
+      "pearson": 0.5765230386175473,
+      "per_class_f1": [
+        0.6243654822335025,
+        0.4,
+        0.6869806094182825
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.3,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.2996029428938456,
+        "vision": 0.3005187747035573
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.5906593406593407,
+      "macro_f1": 0.5634465928348784,
+      "mae": 0.625653862953186,
+      "pearson": 0.5821810434144802,
+      "per_class_f1": [
+        0.6384039900249376,
+        0.38526912181303113,
+        0.6666666666666666
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.3,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.2996156533892383,
+        "audio": 0.29971972439565575,
+        "vision": 0.2972455533596838
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.5879120879120879,
+      "macro_f1": 0.5475075974384088,
+      "mae": 0.6527893543243408,
+      "pearson": 0.5376197617793377,
+      "per_class_f1": [
+        0.5970873786407767,
+        0.3659305993690852,
+        0.6795048143053645
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.5,
+        "position": "start"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.4994744832418545,
+        "vision": 0.5020380434782609
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.5796703296703297,
+      "macro_f1": 0.5454570976060936,
+      "mae": 0.6507053375244141,
+      "pearson": 0.5238782346319913,
+      "per_class_f1": [
+        0.5669291338582677,
+        0.3898305084745763,
+        0.6796116504854369
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.5,
+        "position": "middle"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.4994744832418545,
+        "vision": 0.5005558300395256
+      }
+    },
+    {
+      "mode": "text+audio+vision",
+      "accuracy": 0.5563186813186813,
+      "macro_f1": 0.5353172858120088,
+      "mae": 0.655553936958313,
+      "pearson": 0.5011260634781056,
+      "per_class_f1": [
+        0.575197889182058,
+        0.3958333333333333,
+        0.6349206349206349
+      ],
+      "n": 728,
+      "condition": {
+        "mode": "text+audio+vision",
+        "rate": 0.5,
+        "position": "end"
+      },
+      "observed_missing_rate_by_modality": {
+        "text": 0.49953412532028885,
+        "audio": 0.4995912647436646,
+        "vision": 0.4971590909090909
+      }
+    }
+  ],
+  "package_encoder_bytes": 22875509,
+  "text_encoder_forward_cache_entries": 10,
+  "inference_class_bias": [
+    0.2,
+    0.0,
+    0.0
+  ],
+  "grid_summary": {
+    "mode": {
+      "text": 0.6028693528693528,
+      "audio": 0.6314102564102563,
+      "vision": 0.6349206349206349,
+      "text+audio": 0.6011904761904762,
+      "text+vision": 0.6011904761904762,
+      "audio+vision": 0.6315628815628815,
+      "text+audio+vision": 0.599969474969475
+    },
+    "rate": {
+      "0.1": 0.6295787545787546,
+      "0.3": 0.6142726321297749,
+      "0.5": 0.6003401360544218
+    },
+    "position": {
+      "start": 0.6181972789115646,
+      "middle": 0.615188383045526,
+      "end": 0.6108058608058607
+    },
+    "mode_rate": {
+      "text|0.1": 0.6254578754578755,
+      "text|0.3": 0.6030219780219781,
+      "text|0.5": 0.5801282051282052,
+      "audio|0.1": 0.6336996336996337,
+      "audio|0.3": 0.6309523809523809,
+      "audio|0.5": 0.6295787545787546,
+      "vision|0.1": 0.6346153846153846,
+      "vision|0.3": 0.6364468864468864,
+      "vision|0.5": 0.6336996336996337,
+      "text+audio|0.1": 0.6272893772893773,
+      "text+audio|0.3": 0.5984432234432234,
+      "text+audio|0.5": 0.5778388278388279,
+      "text+vision|0.1": 0.625,
+      "text+vision|0.3": 0.6025641025641026,
+      "text+vision|0.5": 0.576007326007326,
+      "audio+vision|0.1": 0.6336996336996337,
+      "audio+vision|0.3": 0.6304945054945055,
+      "audio+vision|0.5": 0.6304945054945055,
+      "text+audio+vision|0.1": 0.6272893772893773,
+      "text+audio+vision|0.3": 0.597985347985348,
+      "text+audio+vision|0.5": 0.5746336996336997
+    },
+    "mode_position": {
+      "text|start": 0.6085164835164836,
+      "text|middle": 0.6057692307692308,
+      "text|end": 0.5943223443223443,
+      "audio|start": 0.6295787545787546,
+      "audio|middle": 0.6309523809523809,
+      "audio|end": 0.6336996336996337,
+      "vision|start": 0.6378205128205128,
+      "vision|middle": 0.6327838827838828,
+      "vision|end": 0.6341575091575091,
+      "text+audio|start": 0.6057692307692308,
+      "text+audio|middle": 0.6030219780219781,
+      "text+audio|end": 0.5947802197802198,
+      "text+vision|start": 0.6085164835164836,
+      "text+vision|middle": 0.603021978021978,
+      "text+vision|end": 0.592032967032967,
+      "audio+vision|start": 0.6327838827838828,
+      "audio+vision|middle": 0.6263736263736264,
+      "audio+vision|end": 0.6355311355311355,
+      "text+audio+vision|start": 0.6043956043956045,
+      "text+audio+vision|middle": 0.6043956043956045,
+      "text+audio+vision|end": 0.5911172161172161
+    },
+    "rate_position": {
+      "0.1|start": 0.6281397174254317,
+      "0.1|middle": 0.6316718995290423,
+      "0.1|end": 0.6289246467817896,
+      "0.3|start": 0.6175431711145997,
+      "0.3|middle": 0.614403453689168,
+      "0.3|end": 0.6108712715855573,
+      "0.5|start": 0.6089089481946626,
+      "0.5|middle": 0.5994897959183675,
+      "0.5|end": 0.5926216640502355
+    }
+  },
+  "clean_predictions_file": "validation_grid_full_calibrated_clean_predictions.json"
+}

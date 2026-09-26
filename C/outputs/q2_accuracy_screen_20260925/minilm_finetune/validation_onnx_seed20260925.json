@@ -1,0 +1,60 @@
+{
+  "checkpoint": "/mnt/disk/data/inainai/mosei_e_20260924/q2_minilm_finetune_10ep_20260925/checkpoints/minilm_top2_20260925.pt",
+  "encoder": "/mnt/disk/data/inainai/mosei_e_20260924/q2_minilm_finetune_10ep_20260925/deployment/text_encoder_finetuned_int8.onnx",
+  "encoder_execution": "ONNX Runtime CPU; batch size 1 per sample",
+  "metrics": [
+    {
+      "mode": "clean",
+      "accuracy": 0.6318681318681318,
+      "macro_f1": 0.596043204853674,
+      "mae": 0.5959148406982422,
+      "pearson": 0.6418521080422709,
+      "per_class_f1": [
+        0.673469387755102,
+        0.4036697247706422,
+        0.7109905020352781
+      ],
+      "n": 728
+    },
+    {
+      "mode": "text",
+      "accuracy": 0.603021978021978,
+      "macro_f1": 0.5691781431927246,
+      "mae": 0.6219169497489929,
+      "pearson": 0.5769330771097971,
+      "per_class_f1": [
+        0.6129032258064516,
+        0.39886039886039887,
+        0.6957708049113234
+      ],
+      "n": 728
+    },
+    {
+      "mode": "audio",
+      "accuracy": 0.6277472527472527,
+      "macro_f1": 0.5919919007286587,
+      "mae": 0.5952431559562683,
+      "pearson": 0.6411680335937118,
+      "per_class_f1": [
+        0.6735218508997429,
+        0.3951367781155015,
+        0.7073170731707317
+      ],
+      "n": 728
+    },
+    {
+      "mode": "vision",
+      "accuracy": 0.6304945054945055,
+      "macro_f1": 0.594641522608205,
+      "mae": 0.5965994000434875,
+      "pearson": 0.6397265859974408,
+      "per_class_f1": [
+        0.6700507614213198,
+        0.4036697247706422,
+        0.710204081632653
+      ],
+      "n": 728
+    }
+  ],
+  "package_encoder_bytes": 22875509
+}

@@ -5,3 +5,6 @@
 *.pdf binary
 *.docx binary
 *.png binary
+
+# Preserve archived prediction bytes referenced by SHA256 manifest.
+C/outputs/q2_accuracy_screen_20260925/deployment_candidate_seed20260925/attachment3_predictions.csv -text whitespace=cr-at-eol
