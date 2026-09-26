@@ -1,0 +1,10 @@
+{
+  "tables": 25,
+  "figures": 9,
+  "equations": 21,
+  "special_predictions_verified": 30,
+  "missing_summary_values_verified": 192,
+  "single_model": "S0 frozen BERT width32 seed43 epoch3",
+  "historical_grid_model": "B0 MiniLM",
+  "academic_wording_checked": true
+}

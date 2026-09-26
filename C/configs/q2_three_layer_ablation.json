@@ -1,0 +1,92 @@
+{
+  "seeds": [
+    20267001,
+    20267002,
+    20267003
+  ],
+  "epochs": 10,
+  "batch_size": 32,
+  "checkpoint": "fixed_final_epoch_no_selection",
+  "precision": "FP32",
+  "groups": {
+    "full": {},
+    "prob_0": {
+      "probability": 0
+    },
+    "prob_0.1": {
+      "probability": 0.1
+    },
+    "prob_0.5": {
+      "probability": 0.5
+    },
+    "length_0.1": {
+      "length": 0.1
+    },
+    "length_0.3": {
+      "length": 0.3
+    },
+    "length_0.5": {
+      "length": 0.5
+    },
+    "unweighted": {
+      "weighted": false
+    },
+    "ce_only": {
+      "objective": "ce"
+    },
+    "reg_only": {
+      "objective": "reg"
+    },
+    "frozen": {
+      "scope": "frozen"
+    },
+    "no_mask": {
+      "kind": "no_mask"
+    },
+    "mean_pool": {
+      "kind": "mean_pool"
+    },
+    "mean_fusion": {
+      "kind": "mean_fusion"
+    },
+    "interaction": {
+      "kind": "interaction"
+    },
+    "experts": {
+      "kind": "experts"
+    },
+    "input_T": {
+      "modalities": [
+        0
+      ]
+    },
+    "input_A": {
+      "modalities": [
+        1
+      ]
+    },
+    "input_V": {
+      "modalities": [
+        2
+      ]
+    },
+    "input_TA": {
+      "modalities": [
+        0,
+        1
+      ]
+    },
+    "input_TV": {
+      "modalities": [
+        0,
+        2
+      ]
+    },
+    "input_AV": {
+      "modalities": [
+        1,
+        2
+      ]
+    }
+  }
+}

@@ -1,0 +1,85 @@
+{
+  "feature_version": "aligned_50; text_bert re-encoded consistently using frozen bert-base-uncased",
+  "seeds": [
+    43
+  ],
+  "hidden_dim": 32,
+  "batch_size": 128,
+  "max_epochs": 20,
+  "patience": 20,
+  "learning_rate": 0.0008,
+  "weight_decay": 0.001,
+  "dropout": 0.2,
+  "classification_weight": 0.5,
+  "consistency_weight": 0.3,
+  "gradient_clip": 1.0,
+  "variants": {
+    "A4_consistency": {
+      "augmentation": true,
+      "mask_aware": true,
+      "dynamic": true,
+      "consistency": true
+    }
+  },
+  "checkpoint_selection": "Selected best calibrated single model from the completed prior validation search; user chose single-model deployment.",
+  "validation_corruption_seed": 20260926,
+  "evaluation_corruption_seeds": [
+    701,
+    702,
+    703
+  ],
+  "rates": [
+    0.1,
+    0.2,
+    0.3,
+    0.5,
+    0.7
+  ],
+  "positions": [
+    "front",
+    "middle",
+    "back",
+    "random"
+  ],
+  "modalities": [
+    "T",
+    "A",
+    "V",
+    "TA",
+    "TV",
+    "AV",
+    "TAV"
+  ],
+  "fixed_protocol_note": "Specified before fitting. No selection from attachment 3/4 or test labels. Standardization fits train only. Zero rows in A/V treated as unavailable, without claiming their cause. UNK token 100 in attachment 3 treated as unavailable text; original arrays never modified.",
+  "text_corruption": "Before frozen BERT, replace unavailable wordpiece IDs with UNK 100; re-encode remaining contextual vectors. Six deterministic training view banks, sampled per example each epoch. The same perturbation is used across all model ablations.",
+  "training_text_view_banks": 6,
+  "view_bank_seeds": [
+    91000,
+    91001,
+    91002,
+    91003,
+    91004,
+    91005
+  ],
+  "device": "CUDA preferred",
+  "classification_reporting": "class probability argmax after fixed validation-selected bias; raw regression intensity unchanged",
+  "prior_test_exposure": "The original study already reported test outcomes. This is a revised experiment on the same split, not a newly untouched test. No test-dependent selection in this revision.",
+  "q3_training": "Not part of this Q2-only experiment.",
+  "search_configs": [
+    {
+      "name": "width32",
+      "hidden_dim": 32
+    }
+  ],
+  "bias_search": {
+    "grid_min": -0.6,
+    "grid_max": 0.6,
+    "step": 0.025,
+    "anchor": "positive bias fixed to zero",
+    "rule": "softmax(log(mean member softmax probabilities)+[b_negative,b_neutral,0])",
+    "selection": "highest complete validation correct count, then macro-F1, then smallest squared bias norm, then lowest MAE",
+    "negative_only_control": "same grid with neutral and positive biases zero",
+    "scope": "calibrated-best and raw-accuracy-best checkpoint per seed over 20 epochs; all single seeds and same-config 3-seed equal-probability ensembles; previous A4 checkpoints also candidates",
+    "interpretation": "decision-boundary calibration, not a claim of calibrated confidence probabilities"
+  }
+}

@@ -1,0 +1,56 @@
+[
+  {
+    "group": "A0",
+    "accuracy_percent_mean": 64.9616368286445,
+    "accuracy_percent_sd": 1.5971861888486951,
+    "macro_f1": 0.6227245438193528,
+    "mae": 0.5932110746701559,
+    "pearson": 0.655065675576528,
+    "missing_macro_f1": 0.6088572121977728
+  },
+  {
+    "group": "A1",
+    "accuracy_percent_mean": 61.636828644501286,
+    "accuracy_percent_sd": 0.4429797461812982,
+    "macro_f1": 0.606505416524393,
+    "mae": 0.5962338050206503,
+    "pearson": 0.644718587398529,
+    "missing_macro_f1": 0.5892608818581775
+  },
+  {
+    "group": "A2",
+    "accuracy_percent_mean": 61.55157715260017,
+    "accuracy_percent_sd": 0.5323953962829018,
+    "macro_f1": 0.6055602315526697,
+    "mae": 0.6029015183448792,
+    "pearson": 0.646185060342153,
+    "missing_macro_f1": 0.5865268945948606
+  },
+  {
+    "group": "B0",
+    "accuracy_percent_mean": 65.64364876385336,
+    "accuracy_percent_sd": 0.8981802005842064,
+    "macro_f1": 0.6373656830559622,
+    "mae": 0.590443472067515,
+    "pearson": 0.6650996009508768,
+    "missing_macro_f1": 0.6168829887815607
+  },
+  {
+    "group": "B1",
+    "accuracy_percent_mean": 66.0699062233589,
+    "accuracy_percent_sd": 0.738299576968829,
+    "macro_f1": 0.6348791562636337,
+    "mae": 0.5969544251759847,
+    "pearson": 0.6595685283342997,
+    "missing_macro_f1": 0.6113056532576944
+  },
+  {
+    "group": "B2",
+    "accuracy_percent_mean": 66.32566069906223,
+    "accuracy_percent_sd": 0.5906396615750615,
+    "macro_f1": 0.6421793729893029,
+    "mae": 0.591046929359436,
+    "pearson": 0.668677826722463,
+    "missing_macro_f1": 0.6230436566911729
+  }
+]

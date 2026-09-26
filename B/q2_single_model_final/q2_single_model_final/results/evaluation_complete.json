@@ -1,0 +1,9 @@
+{
+  "complete": true,
+  "single_model": true,
+  "fixed_bias": [
+    0.375,
+    0.275,
+    0.0
+  ]
+}

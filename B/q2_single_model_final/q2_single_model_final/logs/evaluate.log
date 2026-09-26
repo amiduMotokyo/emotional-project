@@ -1,0 +1,12 @@
+ATTACHMENT3 COMPLETE 30
+FULL valid {'raw': {'accuracy': 0.6291208791208791, 'macro_f1': 0.5762680858848205, 'weighted_f1': 0.6094273198372595, 'mae': 0.5949344038963318, 'pearson': 0.6600177622771374, 'confusion': [[137, 27, 42], [35, 51, 98], [41, 27, 270]]}, 'calibrated': {'accuracy': 0.6552197802197802, 'macro_f1': 0.6295182014378207, 'weighted_f1': 0.6513697705527426, 'mae': 0.5949344038963318, 'pearson': 0.6600177622771374, 'confusion': [[153, 28, 25], [38, 81, 65], [47, 48, 243]]}, 'sign_conflicts': 46}
+FULL test {'raw': {'accuracy': 0.6657496561210454, 'macro_f1': 0.5745665383868576, 'weighted_f1': 0.6374065378843885, 'mae': 0.6231396794319153, 'pearson': 0.6882138527624334, 'confusion': [[152, 18, 37], [44, 30, 84], [34, 26, 302]]}, 'calibrated': {'accuracy': 0.6602475928473177, 'macro_f1': 0.602987196784703, 'weighted_f1': 0.6525606119850272, 'mae': 0.6231396794319153, 'pearson': 0.6882138527624334, 'confusion': [[159, 24, 24], [49, 50, 59], [41, 50, 271]]}, 'sign_conflicts': 38}
+MISSING CASE 0 / 144
+MISSING CASE 20 / 144
+MISSING CASE 40 / 144
+MISSING CASE 60 / 144
+MISSING CASE 80 / 144
+MISSING CASE 100 / 144
+MISSING CASE 120 / 144
+MISSING CASE 140 / 144
+EVALUATION COMPLETE

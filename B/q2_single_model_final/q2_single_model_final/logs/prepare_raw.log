@@ -1,0 +1,3 @@
+BERT device cuda
+ENCODE special3 0/30 elapsed=0.1s
+INFERENCE PREPARATION COMPLETE

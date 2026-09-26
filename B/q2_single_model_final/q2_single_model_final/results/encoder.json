@@ -1,0 +1,7 @@
+{
+  "model": "bert-base-uncased",
+  "revision": null,
+  "frozen": true,
+  "device": "cuda",
+  "torch": "2.3.1"
+}

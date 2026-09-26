@@ -1,0 +1,6 @@
+# Archive extraction metadata and reproducible local caches.
+__MACOSX/
+.DS_Store
+/q2_single_model_final/work/
+/q2_single_model_final/models/
+/q2_single_model_final/env/

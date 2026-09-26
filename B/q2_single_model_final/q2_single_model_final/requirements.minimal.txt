@@ -1,0 +1,8 @@
+numpy==1.26.4
+scikit-learn==1.4.2
+pandas==2.2.3
+matplotlib==3.8.4
+transformers==4.45.2
+imageio-ffmpeg==0.6.0
+num2words==0.5.14
+opencv-python==4.9.0.80

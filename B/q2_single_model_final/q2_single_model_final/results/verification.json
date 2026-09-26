@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "single_model": true,
+  "special3_count": 30,
+  "raw_attachment3_preprocessing_reproduced": true,
+  "max_prediction_difference": 0.0,
+  "class_predictions_identical": true,
+  "weight_bytes": 278746
+}

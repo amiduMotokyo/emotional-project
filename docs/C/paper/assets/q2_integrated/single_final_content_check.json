@@ -1,0 +1,10 @@
+{
+  "valid_rows": 728,
+  "test_rows": 727,
+  "special_rows": 30,
+  "metrics_recomputed_from_saved_predictions": true,
+  "special_sign_conflicts": 9,
+  "missing_rows": 144,
+  "rate_groups": 20,
+  "position_groups": 28
+}
