@@ -19,21 +19,29 @@ MASK_NAMES = ("tmask", "amask", "vmask")
 class Q3Predictor:
     """Use the selected Q2 checkpoint unchanged, with deterministic Q3 explanations."""
 
-    def __init__(self, package: Path, device: str = "cpu"):
+    def __init__(self, package: Path, device: str = "cpu", ort_threads: int | None = None):
         import onnxruntime as ort
 
         self.package = package
         self.device = device
+        session_options = ort.SessionOptions()
+        if ort_threads is not None:
+            session_options.intra_op_num_threads = ort_threads
+            session_options.inter_op_num_threads = 1
         self.session = ort.InferenceSession(
             str(package / "text_encoder_int8.onnx"),
+            sess_options=session_options,
             providers=["CPUExecutionProvider"],
         )
         saved = torch.load(package / "model.pt", map_location=device, weights_only=False)
         self.architecture = saved["architecture"]
         if self.architecture == "fusion":
-            self.model = Fusion()
+            self.model = Fusion(**saved.get("model_kwargs", {}))
         elif self.architecture == "temporal":
             self.model = TemporalFusion()
+        elif self.architecture == "temporal_primary":
+            from B.src.q3_temporal_primary_fusion import TemporalPrimaryFusion
+            self.model = TemporalPrimaryFusion(**saved.get("model_kwargs", {}))
         elif self.architecture == "impute":
             from C.src.reliability_imputation import ReliabilityImputationFusion
             self.model = ReliabilityImputationFusion()

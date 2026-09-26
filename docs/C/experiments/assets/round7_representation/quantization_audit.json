@@ -1,0 +1,49 @@
+{
+  "passed": true,
+  "rows_per_model": 12,
+  "scope": "Torch FP32 versus batch-one ONNX FP32, clean plus three missing conditions; quantization accuracy reported separately",
+  "models": [
+    {
+      "group": "A0",
+      "seed": 20267001,
+      "fp32_onnx_probability_max_error": 4.76837158203125e-07,
+      "regression_max_error": 1.430511474609375e-06,
+      "fp32_minus_int8_accuracy": -0.0027472527472527375
+    },
+    {
+      "group": "A0",
+      "seed": 20267002,
+      "fp32_onnx_probability_max_error": 1.3709068298339844e-06,
+      "regression_max_error": 2.682209014892578e-06,
+      "fp32_minus_int8_accuracy": 0.013736263736263687
+    },
+    {
+      "group": "A0",
+      "seed": 20267003,
+      "fp32_onnx_probability_max_error": 6.556510925292969e-07,
+      "regression_max_error": 1.6093254089355469e-06,
+      "fp32_minus_int8_accuracy": 0.015109890109890167
+    },
+    {
+      "group": "B2",
+      "seed": 20267001,
+      "fp32_onnx_probability_max_error": 8.940696716308594e-07,
+      "regression_max_error": 1.6689300537109375e-06,
+      "fp32_minus_int8_accuracy": 0.0013736263736263687
+    },
+    {
+      "group": "B2",
+      "seed": 20267002,
+      "fp32_onnx_probability_max_error": 5.960464477539062e-07,
+      "regression_max_error": 1.430511474609375e-06,
+      "fp32_minus_int8_accuracy": -0.005494505494505586
+    },
+    {
+      "group": "B2",
+      "seed": 20267003,
+      "fp32_onnx_probability_max_error": 8.642673492431641e-07,
+      "regression_max_error": 1.6987323760986328e-06,
+      "fp32_minus_int8_accuracy": -0.004120879120879106
+    }
+  ]
+}

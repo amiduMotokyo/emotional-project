@@ -1,0 +1,40 @@
+{
+  "MISR_ACL2025": {
+    "url": "https://aclanthology.org/2025.findings-acl.761.pdf",
+    "bytes": 455246,
+    "sha256": "1d89f08fdda31e3c018611ed01b62dc92f2f64f4014ac6a774b71a75074d471d",
+    "status": "downloaded",
+    "pages": 13,
+    "retrieved_on": "2026-09-26",
+    "local_pdf": "MISR_ACL2025.pdf"
+  },
+  "SFTTR_COLING2025": {
+    "url": "https://aclanthology.org/2025.coling-main.4.pdf",
+    "bytes": 1013559,
+    "sha256": "020831508f907c25232c44062252f9f63b9c676a8e55941709a4e8cf9da257cd",
+    "status": "downloaded",
+    "pages": 10,
+    "retrieved_on": "2026-09-26",
+    "local_pdf": "SFTTR_COLING2025.pdf"
+  },
+  "EBMC_CVPR2026": {
+    "url": "https://openaccess.thecvf.com/content/CVPR2026/papers/He_Enhance-then-Balance_Modality_Collaboration_for_Robust_Multimodal_Sentiment_Analysis_CVPR_2026_paper.pdf",
+    "bytes": 1251493,
+    "sha256": "c33d5d0a8e91597f4f34f0127ebd3e7e5e7bafe327cd8e0cba012c82cabba919",
+    "status": "downloaded",
+    "pages": 11,
+    "retrieved_on": "2026-09-26",
+    "local_pdf": "EBMC_CVPR2026.pdf"
+  },
+  "MODS_arxiv2026v3": {
+    "url": "https://arxiv.org/pdf/2511.06328",
+    "bytes": 1669541,
+    "sha256": "e83052d9ad18f4d549eb2f23c5b063670761447a3c9b41a0ca32f2a7528a7fed",
+    "status": "downloaded",
+    "pages": 9,
+    "version": "arXiv:2511.06328v3, 2026-04-01",
+    "version_url": "https://arxiv.org/pdf/2511.06328v3",
+    "retrieved_on": "2026-09-26",
+    "local_pdf": "MODS_arxiv2026v3.pdf"
+  }
+}

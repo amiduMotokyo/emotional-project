@@ -52,6 +52,13 @@ def _flat_prediction(row_id: str, explanation: dict) -> dict:
             effects[modality]["delta_probability"], 6)
         row[f"{modality}_abs_effect_share"] = round(effects[modality]["abs_share"], 6)
         row[f"{modality}_observed"] = effects[modality]["observed"]
+        if "shapley" in explanation:
+            row[f"{modality}_shapley"] = explanation["shapley"]["signed"][modality]
+            row[f"{modality}_shapley_abs_share"] = explanation["shapley"]["abs_share"][modality]
+    if "raw_probabilities" in prediction:
+        for index, label in enumerate(("negative", "neutral", "positive")):
+            row[f"raw_prob_{label}"] = prediction["raw_probabilities"][index]
+        row["raw_intensity"] = prediction["raw_intensity"]
     return row
 
 
@@ -158,7 +165,8 @@ def _extract_media(ffmpeg: Path | None, video: Path, time_seconds: float,
     else:
         command = [str(ffmpeg), "-nostdin", "-y", "-ss", f"{time_seconds:.3f}",
                    "-i", str(video), "-frames:v", "1", "-q:v", "2", str(output)]
-    result = subprocess.run(command, capture_output=True, text=True)
+    result = subprocess.run(command, capture_output=True, text=True,
+                            encoding="utf-8", errors="replace")
     return output.name if result.returncode == 0 and output.exists() else None
 
 
@@ -199,6 +207,14 @@ def _card(sample_id: str, record: dict) -> str:
         parts.extend(["", f"[播放语音证据](../audio/{record['audio_preview']})"])
     parts.extend(["", "局部时间由对齐特征与未对齐帧精确匹配后，按音频20 Hz、视觉15 Hz估计；视频流时长用于核查。",
                   "遮挡效应反映模型对输入变化的敏感性，不等同于人类情绪的因果来源。", ""])
+    if record.get("explanation_note"):
+        parts.extend([record["explanation_note"], ""])
+        if "shapley" in record:
+            parts.append("模态Shapley（固定预测类别log概率）：" + "，".join(
+                f"{m}={v:+.4f}" for m, v in record["shapley"]["signed"].items()))
+    elif record.get("explanation_scope"):
+        parts.extend(["本模型采用预计算特征位置遮挡，未删除原文后重新编码；上下文化特征仍可能保留关联信息。",
+                      "表中logit字段表示整个集成的固定类别分数 log(集成概率)+偏置，其变化用于复核预测敏感性。", ""])
     return "\n".join(parts)
 
 
@@ -213,8 +229,11 @@ def run_attachment4(predictor: Q3Predictor, data_root: Path, tokenizer,
     for path in paths:
         sample_id = path.stem
         aligned, unaligned, video = load_pair(data_root, sample_id)
-        sample = predictor.prepare(aligned["text_bert"][0], aligned["text_bert"][1],
-                                   aligned["audio"], aligned["vision"])
+        if hasattr(predictor, "prepare_aligned"):
+            sample = predictor.prepare_aligned(aligned)
+        else:
+            sample = predictor.prepare(aligned["text_bert"][0], aligned["text_bert"][1],
+                                       aligned["audio"], aligned["vision"])
         explanation = predictor.explain(sample)
         streams = stream_metadata(video, ffprobe)
         localized = {}

@@ -1,0 +1,15 @@
+{
+  "selected": "B2",
+  "paired_calibrated_delta": [
+    -0.0027472527472527375,
+    0.020604395604395642,
+    0.0219780219780219
+  ],
+  "fixed_seed_delta": -0.0027472527472527375,
+  "mean_guard": true,
+  "prespecified_mean_gate_passed": true,
+  "replacement_eligible": false,
+  "old_packages_overwritten": false,
+  "delivery_policy": "Mean gate is prespecified; conservatively retain old single-model delivery when the fixed seed loses accuracy. Do not select another seed using validation.",
+  "interpretation": "Internal validation with historically reused data; no test evaluation."
+}

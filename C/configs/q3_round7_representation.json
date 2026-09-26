@@ -1,0 +1,18 @@
+{
+  "seeds": [20267001, 20267002, 20267003],
+  "deployment_seed": 20267001,
+  "calibration_seed": 20267010,
+  "epochs": 10,
+  "batch_size": 32,
+  "contrastive_weight": 0.05,
+  "temperature": 0.1,
+  "bias_levels": [-0.2, -0.1, 0.0, 0.1, 0.2],
+  "groups": {
+    "A0": {"dim": 64, "scope": "top2", "fusion": "original", "balanced": false, "contrastive": false},
+    "A1": {"dim": 64, "scope": "top2", "fusion": "original", "balanced": true, "contrastive": false},
+    "A2": {"dim": 64, "scope": "top2", "fusion": "original", "balanced": true, "contrastive": true},
+    "B0": {"dim": 64, "scope": "top2", "fusion": "text", "balanced": false, "contrastive": false},
+    "B1": {"dim": 64, "scope": "top2", "fusion": "uniform", "balanced": false, "contrastive": false},
+    "B2": {"dim": 64, "scope": "top2", "fusion": "dynamic", "balanced": false, "contrastive": false}
+  }
+}

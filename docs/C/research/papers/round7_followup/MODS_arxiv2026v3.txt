@@ -1,0 +1,1346 @@
+
+=== PDF PAGE 1 ===
+Improving Multimodal Sentiment Analysis via Modality Optimization and
+Dynamic Primary Modality Selection
+Dingkang Yang1,2, Mingcheng Li1∗, Xuecheng Wu3, Zhaoyu Chen1, Kaixun Jiang1,
+Keliang Liu1 Peng Zhai1 Lihua Zhang1*
+1College of Intelligent Robotics and Advanced Manufacturing, Fudan University 2ByteDance
+3School of Computer Science and Technology, Xi’an Jiaotong University
+yangdingkang@bytedance.com, lihuazhang@fudan.edu.cn
+Abstract
+Multimodal Sentiment Analysis (MSA) aims to predict sen-
+timent from language, acoustic, and visual data in videos.
+However, imbalanced unimodal performance often leads to
+suboptimal fused representations. Existing approaches typ-
+ically adopt fixed primary modality strategies to maximize
+dominant modality advantages, yet fail to adapt to dynamic
+variations in modality importance across different samples.
+Moreover, non-language modalities suffer from sequential
+redundancy and noise, degrading model performance when
+they serve as primary inputs. To address these issues, this
+paper proposes a modality optimization and dynamic pri-
+mary modality selection framework (MODS). First, a Graph-
+based Dynamic Sequence Compressor (GDC) is constructed,
+which employs capsule networks and graph convolution to
+reduce sequential redundancy in acoustic/visual modalities.
+Then, we develop a sample-adaptive Primary Modality Se-
+lector (MSelector) for dynamic dominance determination. Fi-
+nally, a Primary-modality-Centric Cross-Attention (PCCA)
+module is designed to enhance dominant modalities while
+facilitating cross-modal interaction. Extensive experiments
+on four benchmark datasets demonstrate that MODS out-
+performs state-of-the-art methods, achieving superior perfor-
+mance by effectively balancing modality contributions and
+eliminating redundant noise.
+Introduction
+In the modern digital era, individuals frequently share opin-
+ions and emotions through social media and e-commerce
+platforms. Sentiment analysis of such data holds broad ap-
+plication value (Gallagher, Furey, and Curran 2019; Tsai
+and Wang 2021; Drus and Khalid 2019; Yang et al. 2022c,
+2023a). Traditional unimodal sentiment analysis (USA)
+methods (Ortis, Farinella, and Battiato 2019; Xiao, Yang,
+and Ning 2021) rely solely on a single data source (e.g., lan-
+guage or visual) and suffer from inherent limitations such as
+informational ambiguity and poor noise resistance. Emerg-
+ing multimodal sentiment analysis (MSA) techniques en-
+hance analytical accuracy by integrating multidimensional
+information from different modalities, better aligning with
+natural human emotional expression, where emotions are of-
+ten conveyed through multiple channels, such as language
+content, facial expressions, and vocal tones.
+*Corresponding authors.
+In the MSA task (Mai et al. 2022), different modali-
+ties contribute unevenly to sentiment prediction. The lan-
+guage modality, due to its condensed emotional expression
+and high semantic density, is typically regarded as the pri-
+mary information source, particularly excelling in opinion-
+oriented or conversational scenarios. Consequently, prior
+studies have developed a series of language-oriented MSA
+methods (Wu et al. 2021; Lei et al. 2023; Zhang et al. 2023)
+to use the advantages of language data. While these meth-
+ods recognize intermodal disparities and improve perfor-
+mance, their static modality-dominant strategies have lim-
+itations: they capture population-level patterns but fail to
+adapt to dynamic sample-wise variations in modality dom-
+inance. Specifically, when non-language modalities domi-
+nate emotional expression in certain samples, forcibly pri-
+oritizing the language modality causes models to overlook
+critical affective cues from other modalities, thereby com-
+promising prediction performance. Previous work (Wang
+et al. 2023b) identifies this issue and proposes the HCT-
+DMG for dynamic primary modality selection. However,
+HCT-DMG overlooks another key problem: the inherent se-
+quential redundancy of non-language modalities. Compared
+to language modality, serialized representations of acoustic
+and visual modalities exhibit significantly lower informa-
+tion density, containing more repetitive and irrelevant fea-
+tures. Directly treating them as primary modalities may in-
+troduce noise interference, degrading fusion performance.
+Furthermore, asynchronous multimodal sequences restrict
+HCT-DMG to batch-level (rather than sample-level) primary
+modality selection, preventing true sample-wise adaptation.
+To address these challenges, we propose a modality
+optimization and dynamic primary modality selection
+framework (MODS), a new MSA algorithm supporting
+sample-level dynamic modality selection. Specifically, we
+first design a Graph-based Dynamic Compressor (GDC)
+module to resolve sequential redundancy in non-language
+modalities via graph convolution operations. This mod-
+ule employs capsule networks (Sabour, Frosst, and Hinton
+2017) for efficient graph structure modeling, compressing
+redundant information while eliminating noise in acoustic-
+visual modalities to enhance feature quality and emotional
+expressiveness. Then, we present a sample-adaptive MS-
+elector module to transcend conventional unimodal domi-
+nance paradigms by dynamically determining the optimal
+arXiv:2511.06328v3  [cs.CV]  1 Apr 2026
+
+
+=== PDF PAGE 2 ===
+primary modality for each input sample. Automatic modal-
+ity selection based on sample characteristics enables flexible
+cross-scenario adaptability. Finally, we introduce a Primary-
+modality-Centric Crossmodal Attention (PCCA) module to
+facilitate intermodal interaction and primary modality en-
+hancement. These components improve MSA performance
+by simultaneously capturing dynamic modality dominance
+patterns and eliminating redundant interference, delivering
+a more robust and generalizable solution for complex mul-
+timodal tasks. We develop the MODS and conduct compre-
+hensive experiments on four public MSA datasets. Empirical
+results and analyses validate the framework’s effectiveness.
+Related Work
+Ternary Symmetric-based Methods in MSA. Existing
+MSA methods primarily focus on multimodal representation
+learning and multimodal fusion (Zadeh et al. 2018a; Haz-
+arika, Zimmermann, and Poria 2020; Tsai et al. 2019; Yang
+et al. 2022b,a,d, 2023b). Mainstream representation learn-
+ing and fusion approaches typically treat different modalities
+equally. For instance, Zadeh et al. (Zadeh et al. 2018a) pro-
+posed the Memory Fusion Network (MFN) that combines
+LSTM with attention mechanisms, utilizing their Delta-
+memory attention module to achieve cross-modal interac-
+tion at each timestep of aligned multimodal data. Haz-
+arika et al. (Hazarika, Zimmermann, and Poria 2020) in-
+troduced MISA, projecting each modality into two distinct
+subspaces to separately learn modality-invariant shared fea-
+tures and modality-specific characteristics. Tsai et al. (Tsai
+et al. 2019) created the MulT that employs pairwise cross-
+modal attention to align and fuse asynchronous multimodal
+sequences without manual alignment. Building upon MulT,
+Lv et al. (Lv et al. 2021) proposed the PMR model, which
+extends bidirectional cross-modal attention to tri-directional
+attention involving all modalities while introducing a mes-
+sage hub to explore intrinsic inter-modal correlations for
+more efficient multimodal feature fusion. Liang et al. (Liang
+et al. 2021) developed the MICA architecture based on
+MulT, incorporating modality distribution alignment strate-
+gies into cross-modal attention operations to obtain reliable
+cross-modal representations for asynchronous multimodal
+sequences. Mai et al. (Mai et al. 2022) presented HyCon us-
+ing hybrid contrastive learning for trimodal representation,
+employing three distinct contrastive learning models to cap-
+ture inter-modal interactions and inter-class relationships af-
+ter obtaining unimodal representations.
+Language Center-based Methods in MSA. Another
+prominent line of research focuses on enhancing the weight-
+ing of language modality in MSA tasks to better leverage
+dominant modalities, aiming to overcome performance bot-
+tlenecks in MSA. For instance, existing efforts (Delbrouck
+et al. 2020; Han et al. 2021; Wang et al. 2023a) employed
+transformer-based approaches to integrate complementary
+information from other modalities through language modal-
+ity. Han et al. (Han, Chen, and Poria 2021) further improved
+this by maximizing mutual information between non-textual
+and textual modalities to filter out task-irrelevant modality-
+specific noise. Meanwhile, some works (Li et al. 2022; Lin
+and Hu 2022) introduced contrastive learning to capture
+shared features between non-language and language modal-
+ities. Furthermore, Wu et al. (Wu et al. 2021) proposed
+a Text-Centric Shared-Private (TCSP) framework that dis-
+tinguishes between shared and private semantics of textual
+and non-textual modalities, effectively fusing text features
+with two types of non-text features. Building upon Trans-
+former (Vaswani et al. 2017) architectures, impressive meth-
+ods (Lei et al. 2023; Zhang et al. 2023; Wu et al. 2023) have
+been designed that establish language modality’s dominant
+role to achieve sequence fusion. Although the aforemen-
+tioned types of MSA methods have achieved encouraging
+results, performance bottlenecks still exist. Approaches that
+treat each modality equally may cause the model to be dis-
+tracted by secondary modalities, while methods focused on
+the language modality lack flexibility and struggle to adapt
+to variations in dominant modality across samples.
+Methodology
+Problem Statement
+The MSA task focuses on detecting sentiments by leverag-
+ing the language (l), visual (v), and acoustic (a) modalities
+from the video clips. Given unimodal sequences from these
+modalities as Xm ∈RTm×dm, where m ∈{l, v, a}. Tm and
+dm are used to represent the sequence length and the feature
+dimension of the modality m, respectively.
+Framework Overview
+The overall architecture of the MODS algorithm is illus-
+trated in Figure 1. First, preliminary feature extraction is
+performed on each modality using corresponding methods
+to obtain unimodal sequence features Hm, where m ∈
+{l, a, v}. For the language features, after extraction via
+BERT, a linear layer projects the feature dimension to d,
+yielding Hl ∈RTl×d. Meanwhile, the acoustic and visual
+features are compressed to the same dimension as the lan-
+guage features through a graph convolutional sequence com-
+pression module, resulting in Ha ∈RTl×d and Hv ∈RTl×d,
+respectively. The three unimodal features are then fed into
+the Primary Modality Selector (MSelector) to determine the
+primary modality p and secondary modalities a1, a2 along
+with their weighted sequence feature outputs Hp, Ha1, and
+Ha2. After primary modality selection, the three modal-
+ity features are progressively processed by the Primary-
+modality-Centric Crossmodal Attention (PCCA) module for
+multimodal interaction and fusion. The final output is the en-
+hanced fused feature Hp. Ultimately, Hp undergoes adaptive
+aggregation to produce a one-dimensional vector hp, which
+is then passed through a multilayer perceptron (MLP) to ob-
+tain the sentiment prediction result ypred.
+Graph-based Dynamic Compression
+RNNs (Hochreiter and Schmidhuber 1997) were widely
+used to study sequential semantics in feature embedding
+modeling. However, it suffers from slow training, difficulty
+in capturing long-range dependencies due to their recurrent
+nature, and gradient-related issues. Transformers (Vaswani
+et al. 2017) enable parallel computation and improve long-
+range dependency modeling, but rely on attention-weighted
+
+
+=== PDF PAGE 3 ===
+Figure 1: The overall architecture of the proposed MODS framework.
+summation, making explicit temporal relationship model-
+ing challenging. Both lack sequence compression capa-
+bility: RNNs process data step-by-step inefficiently, while
+Transformers incur redundant computations and suboptimal
+weight allocation. In contrast, graph structures enhance in-
+formation efficiency via direct node connections, and graph
+convolutional networks (GCNs) (Kipf and Welling 2016)
+improve stability through neighbourhood aggregation, mit-
+igating gradient problems. Thus, we propose the Graph-
+based Dynamic Compression (GDC) module to project non-
+language sequences into graph space, exploring intra-modal
+dependencies while compressing redundant long sequences.
+In prior sequence modeling frameworks, graph node con-
+struction generally follows one of two strategies: treating
+features at each timestep as individual nodes, which pre-
+serves sequence fidelity at the cost of computational redun-
+dancy, or employing temporal slice pooling, which improves
+efficiency but may compromise fine-grained temporal in-
+formation. Instead of these, we propose a capsule network-
+based solution, where its dynamic routing mechanism adap-
+tively learns node importance weights, and vectorized fea-
+ture representation preserves directional and semantic infor-
+mation. This enables sequence compression while avoiding
+the loss of critical details. The detail of the GDC module
+is shown in Figure 2. We first compress the sequence in-
+formation into an appropriate number of nodes using a cap-
+sule network. To facilitate model training and subsequent
+cross-modal interactions, we align the compressed sequence
+lengths of acoustic and visual modalities with that of the lan-
+guage modality. Specifically, for the sequence features Hm
+of modality m ∈a, v, the capsule Caps construction pro-
+cess is defined as follows:
+Capsi,j
+m = W ij
+mHi
+m,
+(1)
+where Hi
+m ∈Rdmdenotes the feature at the i-th timestep of
+sequence Hm, W ij
+m ∈Rd×dm represents the trainable pa-
+rameters, and Capsi,j
+m ∈Rd is the capsule created from the
+i-th timestep feature for constructing the j-th node. Subse-
+quently, the graph node representations are generated based
+on the defined capsules and the dynamic routing algorithm:
+N j
+m =
+X
+i
+Capsi,j
+m × ri,j
+m ,
+(2)
+where ri,j
+m is the is the routing coefficient, which is updated
+through an iterative optimization process:
+ri,j
+m =
+exp(bi,j
+m )
+P
+j exp(bi,j
+m )
+,
+(3)
+bi,j
+m ←bi,j
+m + Capsm
+i,j ⊙tanh(N j
+m).
+(4)
+Here, bi,j
+m is the unnormalized routing coefficient initial-
+ized to 0. After normalization, the initial value of ri,j
+m is
+1
+n (where n is the number of capsules), meaning each cap-
+sule is initially assigned equal routing coefficients. Accord-
+ing to the properties of capsule networks, during the iter-
+ative process of dynamic routing, capsules receiving noise
+or redundant information will be gradually assigned smaller
+weights, while capsules containing important affective infor-
+mation will obtain larger weights. Therefore, using capsule
+networks to create graph nodes helps improve the quality
+of acoustic-visual features and increase the density of ef-
+fective information in sequences. After obtaining the node
+representations of the modality feature graph, we employ a
+self-attention mechanism to explore the edge weight rela-
+tionships between nodes in the feature graph:
+Em = ReLU
+ 
+(W q
+mNm)T  W k
+mNm
+
+√
+d
+!
+.
+(5)
+The edge construction process, empowered by the self-
+attention mechanism, focuses on the most relevant informa-
+tion in the modality feature graph to generate edge represen-
+tations. This process effectively strengthens the dependen-
+
+
+=== PDF PAGE 4 ===
+Figure 2: The architecture of the proposed GDC module.
+cies between nodes, ensuring that the generated edge rep-
+resentations can more accurately reflect the inter-node rela-
+tionships within the graph.
+GCNs are pivotal for graph-based learning. GCNs enable
+simultaneous processing of complex data, capture essential
+global information, and demonstrate high efficacy in learn-
+ing both nodes and edges. Therefore, for the modality fea-
+ture graph Gm = (Nm, Em), we employ GCN to perform
+representation learning on the graph. The specific formula-
+tion is as follows:
+Hl
+m = ReLU
+
+D
+−1
+2
+m EmD
+−1
+2
+m Hl−1
+m W l
+m + bl
+m
+
+,
+(6)
+where Hl
+m is the output of l-th GCN, m ∈{l, a, v},Dm
+is the degree matrix of Em, W l
+m and bl
+m are the learnable
+parameters of the l-th GCN layer. The initial input to the
+GCN is the set of node representations from the modality
+feature graph, denoted as H0
+m = N j
+m.
+Primary Modality Selection
+The adaptive dynamic primary modality selection module
+(MSelector) aims to enable the network to autonomously se-
+lect the primary modality through training, eliminating the
+need for manual intervention. The core mechanism of this
+module involves dynamically evaluating the importance of
+each modality by learning its trainable parameters. First, it
+performs adaptive aggregation on each modality’s sequen-
+tial features, transforming them into one-dimensional fea-
+ture vectors. Specifically, for Hm ∈RTm×d, the attention
+weight matrix is first computed as follows:
+am = softmax
+HmWm
+√
+d
+T
+∈R1×Tm,
+(7)
+where m ∈{l, a, v}. Wm ∈Rd is the linear projection
+parameters and am represents the attention weight matrix
+for Hm. Subsequently, the attention weights are multiplied
+with the sequential features to obtain the aggregated vector:
+hm = amHm ∈R1×d.
+(8)
+Subsequently, the vectors from the three modalities are con-
+catenated and fed into a Multilayer Perceptron (MLP) for
+processing:
+w = softmax(MLP(concat(ha, hl, hv))).
+(9)
+The output of the MLP is a three-dimensional vector, which
+is processed through a softmax function to generate three
+weight values that sum to 1:
+w = [wa, wt, wv],
+wa + wt + wv = 1.
+(10)
+Each weight value represents the importance degree of a cor-
+responding modality, where a higher weight indicates that
+the model considers the modality to have greater contribu-
+tion. The modality with the highest weight is identified as
+the primary modality p:
+p = arg max(wa, wt, wv).
+(11)
+To further enhance the influence of the primary modality
+while distinguishing between the suboptimal modality a1
+and a2, we multiply these weight values with their corre-
+sponding modality features, and use the resulting products
+as inputs to the subsequent network:
+Ha1 = wa · Ha,
+Ha2 = wt · Ht,
+Hp = wv · Hv. (12)
+It should be noted that the formula here is written with
+modality v as the primary modality for illustration purposes.
+During training and inference, the primary modality dynam-
+ically varies based on the model’s selection.
+Primary-modality-Centric Interaction
+To capture element correlations among multimodal se-
+quences and enhance the primary modality, we design the
+PCCA module to enable cross-modal interactions. In the
+PCCA module, a two-step process is employed to facili-
+tate information flow among three modalities. Initially, in-
+formation from the suboptimal modality flows to the pri-
+mary modality via the CA[i]
+a→p block and is then fused.
+Subsequently, the fused information flows from the primary
+modality to the suboptimal modality via the CA[i]
+p→a block.
+This module ensures a mutual information flow and pro-
+gressive enhancement across all modalities. The architec-
+ture of PCCA[i] is shown in Figure 3, and the superscript
+[i] indicates the i-th modality reinforcement processes. Its
+inputs are H[i]
+p , H[i]
+a1, and H[i]
+a2 while its outputs are the re-
+inforced features of these three modalities as H[i+1]
+p
+, H[i+1]
+a1
+and H[i+1]
+a2
+:
+H[i+1]
+p
+, H[i+1]
+a1
+, H[i+1]
+a2
+= PCCA[i] 
+H[i]
+p , H[i]
+a1, H[i]
+a2
+
+.
+(13)
+Specifically, we first perform a layer normalization (LN) on
+the features H[i]
+m , where H[0]
+m = Hm and m ∈{p, a1, a2}.
+Then, two cross-attention and one self-attention are simul-
+taneously implemented. The cross-attention block CA[i]
+a→l
+takes H[i]
+p as Quary and H[i]
+a as Key and Value, and obtain
+H[i]
+a→p with a ∈{a1, a2} :
+H[i]
+a→p = CA[i]
+a→p
+
+H[i]
+a , H[i]
+p
+
+.
+(14)
+
+
+=== PDF PAGE 5 ===
+Meanwhile, the self-attention block SA[i]
+p takes H[i]
+p as input
+to obtain H[i+1]
+pupdate:
+H[i]
+pupdate = SA[i]
+p
+
+H[i]
+p
+
++ H[i]
+p .
+(15)
+Here, SA[i]
+p
+aims to capture the contextual relation-
+ships inside the modality and realize the modality’s self-
+reinforcement. Now we obtain primary modality features
+that capture both intra-modal and inter-modal dependencies,
+and then we add them together to get a complete enhance-
+ment of the primary modality:
+H[i+1]
+p
+= H[i]
+pupdate +
+X
+a∈{a1,a2}
+H[i]
+a→p.
+(16)
+Since H[i+1]
+p
+contains information from all modalities, we
+then perform two cross-attention operations CA[i]
+p→a to pass
+the information of the enhanced language modality to the
+visual/acoustic modalities, which is expressed as follows:
+H[i]
+p→a = CA[i]
+p→a
+
+H[i+1]
+p
+, H[i]
+a
+
+.
+(17)
+In doing so, we utilize the primary modality as a bridge
+to implicitly realize the information flow among all three
+modalities. Subsequently, we process H[i+1]
+p
+and H[i]
+p→a by
+a Position-wise Feed-Forward layer (PFF) with skip con-
+nection:
+H[i+1]
+a
+= PFF
+
+LN
+
+H[i]
+p→a
+
++ H[i]
+p→a,
+(18)
+H[i+1]
+p
+= PFF
+
+LN
+
+H[i+1]
+p
+
++ H[i+1]
+p
+.
+(19)
+It should be noted that the final PCCA module retains only
+the CAa→p operation, with its enhanced output feature Hp
+being used for downstream regression tasks. Since direct
+interactions between suboptimal modalities make it easy
+to generate interference information, our proposed PCCA
+module uses the primary modality as a bridge so that sub-
+optimal modalities’ information can be fused under the pri-
+mary modality’s feature monitoring, thereby reducing the
+generation of unnecessary semantics.
+Training Objective Optimization
+In the early stages of training, the selection of the primary
+modality may be influenced by weight initialization or data
+distribution, leading to instability in the choice. To address
+this, we introduce the InfoNCE loss to enhance the stabil-
+ity of primary modality selection and constrain the model to
+retain key information across different modalities. Specifi-
+cally, for the output Hp of the PCCA module, we first ag-
+gregate it into a one-dimensional vector hp using the adap-
+tive aggregation method described above. Then, we con-
+struct a reverse prediction path F from the feature hp to the
+unimodal feature hm, and measure the correlation between
+them using the following normalized similarity function:
+sim(hm, hp) = exp
+
+hm
+∥hm∥2 ⊙
+F(hp)
+∥F(hp)∥2
+
+,
+(20)
+Figure 3: The architecture of the proposed PCCA module.
+where F takes hp as input and produces a prediction for
+hm, ∥· ∥2 denotes the Euclidean norm normalization, and
+⊙represents element-wise multiplication. Then, the above
+similarity function is incorporated into the noise-contrastive
+estimation framework to generate the InfoNCE loss:
+Lf,m
+NCE = −Ehm,hp
+
+log
+exp (sim(h+
+m, F(hp)))
+PK
+k=1 exp
+
+sim(˜hkm, F(hp))
+
+
+.
+(21)
+˜hm = {˜h1, ˜h2...˜hK} represents all other samples in the
+same batch during training, where K is the batch size. These
+samples are treated as negative samples for contrastive learn-
+ing. Finally, the InfoNCE loss for all modalities is computed
+as follows:
+LNCE = Lp,l
+NCE + Lp,a
+NCE + Lp,v
+NCE.
+(22)
+In the output, we input the representation hp into an MLP
+to predict sentiment score ypred. Given the predictions ypred
+and the ground truth ytrue, we calculate the task loss Lreg
+by mean absolute error (MAE). Finally, we training MODS
+by the union loss Ltask:
+ypred = MLP (hp; θΦ) ,
+(23)
+Lreg = 1
+N
+N
+X
+i=1
+|ytrue −ypred|,
+(24)
+Ltask = Lreg + αLNCE,
+(25)
+where α is a parameter that balances the loss contribution.
+
+
+=== PDF PAGE 6 ===
+Methods
+MOSI Dataset
+MOSEI Dataset
+MAE ↓Corr ↑Acc7 ↑
+Acc2 ↑
+F1 ↑
+MAE ↓Corr ↑Acc7 ↑
+Acc2 ↑
+F1 ↑
+TFN (Zadeh et al. 2017)†
+0.947
+0.673
+34.46
+77.99/79.08 77.95/79.11
+0.572
+0.714
+51.60
+78.50/81.89 78.96/81.74
+LMF (Liu et al. 2018)†
+0.950
+0.651
+33.82
+77.90/79.18 77.80/79.15
+0.576
+0.717
+51.59
+80.54/83.48 80.94/83.36
+ICCN (Sun et al. 2020)
+0.862
+0.714
+39.0
+-/83.0
+-/83.0
+0.565
+0.713
+51.6
+-/84.2
+-/84.2
+MulT (Tsai et al. 2019)†
+0.879
+0.702
+36.91
+79.71/80.98 79.63/80.95
+0.559
+0.733
+52.84
+81.15/84.63 81.56/84.52
+MISA (Hazarika, Zimmermann, and Poria 2020)†
+0.776
+0.778
+41.37
+81.84/83.54 81.82/83.58
+0.568
+0.724
+-
+82.59/84.23 82.67/83.97
+Self-MM (Yu et al. 2021)†
+0.708
+0.796
+46.67
+83.44/85.46 83.36/85.43
+0.531
+0.764
+53.87
+83.76/85.15 83.82/84.90
+MMIM (Han, Chen, and Poria 2021)∗
+0.718
+0.797
+46.64
+83.38/85.82 83.29/85.81
+0.537
+0.759
+53.42
+82.08/85.14 82.51/85.11
+MSG (Lin and Hu 2023)
+0.748
+0.782
+47.3
+-/85.6
+/85.6
+0.583
+0.787
+52.8
+-/85.4
+-/85.4
+PriSA (Ma, Zhang, and Sun 2023)∗
+0.719
+0.782
+47.1
+83.3/85.4
+83.1/85.4
+0.536
+0.761
+53.95
+82.1/85.2
+83.3/85.2
+DMD (Li, Wang, and Cui 2023)∗
+-
+-
+43.9
+- /84.9
+- /85.0
+-
+-
+53.1
+- /85.2
+- /85.2
+MIM (Zeng et al. 2023)∗
+0.718
+0.792
+46.4
+- /84.8
+- /84.8
+0.579
+0.779
+51.8
+- /85.7
+- /85.6
+DTN (Zeng et al. 2024)∗
+0.716
+0.790
+47.5
+- /85.1
+- /85.1
+0.572
+0.765
+52.3
+- /85.5
+- /85.5
+MODS (Ours)
+0.688
+0.798
+49.27
+83.53/85.83 83.75/85.96
+0.527
+0.772
+54.32
+84.52/85.88
+84.5/86.14
+Table 1: Comparison results on the MOSI and MOSEI datasets. †: the results from (Mao et al. 2022); ∗: the results are repro-
+duced from the open-source codebase with hyper-parameters provided in original papers. For Acc2 and F1, we have two sets
+of non-negative/negative (left) and positive/negative (right) evaluation results. Bold represents the best results, respectively.
+Methods
+SIMS Dataset
+SIMSv2 Dataset
+MAE ↓
+Corr ↑
+Acc2 ↑
+Acc3 ↑
+Acc5 ↑
+F1 ↑
+MAE ↓
+Corr ↑
+Acc2 ↑
+Acc3 ↑
+Acc5 ↑
+F1 ↑
+TFN (Zadeh et al. 2017)†
+0.432
+0.591
+78.3
+65.12
+39.3
+78.62
+0.329
+0.640
+77.95
+70.21
+51.93
+77.74
+LMF (Liu et al. 2018)†
+0.441
+0.576
+77.77
+64.68
+40.53
+77.88
+0.367
+0.557
+74.18
+64.90
+47.79
+73.88
+MulT (Tsai et al. 2019)∗
+0.453
+0.564
+78.56
+64.77
+37.94
+79.66
+0.304
+0.705
+79.3
+72.63
+53.29
+79.43
+Self-MM (Yu et al. 2021)†
+0.425
+0.595
+80.04
+65.47
+41.53
+80.44
+0.322
+0.678
+79.11
+72.34
+53.0
+79.05
+CENet (Wang et al. 2022)†
+0.471
+0.534
+77.90
+62.58
+33.92
+77.53
+0.310
+0.699
+79.56
+73.10
+53.04
+79.63
+ALMT (Zhang et al. 2023)∗
+0.408
+0.594
+78.77
+65.86
+43.11
+78.71
+0.308
+0.700
+79.59
+71.86
+52.90
+79.51
+DMD (Li, Wang, and Cui 2023)∗
+0.412
+0.586
+78.33
+65.23
+44.26
+79.21
+0.305
+0.702
+78.87
+72.01
+53.18
+79.21
+MIM (Zeng et al. 2023)∗
+0.420
+0.592
+78.98
+65.12
+44.98
+78.70
+0.310
+0.694
+77.56
+71.45
+52.87
+78.56
+DTN (Zeng et al. 2024)∗
+0.419
+0.593
+79.45
+65.67
+44.26
+79.47
+0.302
+0.701
+78.29
+72.56
+53.71
+78.12
+MODS (Ours)
+0.407
+0.605
+80.96
+66.74
+45.51
+80.94
+0.297
+0.712
+79.59
+73.69
+55.51
+79.53
+Table 2: Comparison results on the SIMS and SIMSv2 datasets. †: the results from (Mao et al. 2022); ∗: the results are re-
+produced from the open-source codebase with hyper-parameters provided in original papers. Bold represents the best results,
+respectively.
+Experiments
+Datasets and Evaluation Metrics
+We conduct experiments on four publicly benchmark
+datasets of MSA, including MOSI (Zadeh et al. 2016),
+MOSEI (Zadeh et al. 2018b), SIMS (Yu et al. 2020), and
+SIMSv2 (Liu et al. 2022). In contrast to the MOSI and MO-
+SEI, both SIMS and SIMSv2 prioritize balanced modality-
+specific sentiment dominance, avoiding a clear trend where
+any single modality dominates emotional expression. This
+design better validates the effectiveness of MODS. We use
+the accuracy of 3-class (Acc3) and 5-class (Acc5) on SIMS
+and SIMSv2, the accuracy of 7-class (Acc7) on MOSI and
+MOSEI, and the accuracy of 2-class (Acc2), Mean Absolute
+Error (MAE), Pearson Correlation (Corr), and F1-score
+(F1) on all datasets. In particular, higher values indicate bet-
+ter performance for all metrics except MAE.
+Implementation Details
+Following the (Yu et al. 2021), we use unaligned raw data
+in all experiments. All models are built on the Pytorch tool-
+box (Paszke et al. 2019) with two Quadro RTX 8000 GPUs.
+The Adam optimizer (Kingma and Ba 2014) is adopted
+for network optimization. The training duration of each
+model is governed by an early-stopping strategy with the
+patience of 25 epochs for MOSI, SIMS and SIMSv2 and
+15 epochs for MOSEI. For MOSI, MOSEI, SIMS, and
+SIMSv2, the detailed hyper-parameter settings are as fol-
+lows: the learning rates are {3e −5, 1e −5, 1e −5, 1e −5},
+the batch sizes are {32, 64, 32, 32}, the hidden size are
+{128, 128, 64, 128}, the PCCA layers are {3, 3, 3, 4}, the co-
+efficient α are {0.1, 0.1, 0.01, 0.01}, and weight decay are
+{1e −3, 1e −3, 1e −2, 1e −2}. The hyper-parameters are
+determined based on the validation set.
+
+
+=== PDF PAGE 7 ===
+Setting
+SIMS Dataset
+MOSI Dataset
+MAE ↓Corr ↑Acc5 ↑MAE ↓Corr ↑Acc7 ↑
+MODS (Full)
+0.407
+0.605
+45.51
+0.688
+0.798
+49.27
+w/o GDC
+0.428
+0.584
+42.01
+0.731
+0.792
+45.34
+w/o Caps
+0.426
+0.582
+43.33
+0.727
+0.787
+48.27
+l-oriented
+0.417
+0.595
+43.33
+0.709
+0.789
+45.92
+a-oriented
+0.419
+0.599
+43.76
+0.717
+0.782
+45.34
+v-oriented
+0.418
+0.586
+42.45
+0.713
+0.785
+46.94
+w/o PCCA
+0.444
+0.554
+42.89
+0.738
+0.775
+45.48
+Table 3: Ablation study results of MODS’s components on
+SIMS and MOSI datasets.
+Comparison with State-of-the-art Methods
+Tables 1 and 2 present comparison experimental results
+of different methods on the MOSI, MOSEI, SIMS, and
+SIMSv2 datasets. It can be observed that MODS achieves
+the best performance on most metrics across all datasets,
+surpassing previous methods to become the new state-of-
+the-art (SOTA). Compared to methods that treat all modali-
+ties equally or fix a primary one, MODS dynamically selects
+the primary modality to reduce interference from heteroge-
+neous emotions. It exhibits lower error rates and stronger
+fine-grained emotion discrimination. This observation also
+validates the rationality and effectiveness of the sample-level
+dynamic primary modality selection approach.
+Ablation Study
+To further verify the effectiveness of the proposed method,
+we launched elaborate ablation experiments on both SIMS
+and MOSI datasets, as shown in Table 3.
+Effectiveness of GDC Module. For the GDC Module, we
+conduct two comparisons: (1) experiments without GDC,
+and (2) experiments excluding the capsule network dur-
+ing graph construction. The results show that two abla-
+tion approaches lead to significant performance degrada-
+tion, with the complete removal of the GDC module caus-
+ing more severe performance deterioration. This occurs be-
+cause under unbalanced modality information density, the
+selection of primary modalities and cross-modal interactions
+are both adversely affected, making it impossible to fully
+utilize the effective information from non-language modali-
+ties. These findings demonstrate the importance of perform-
+ing sequence compression on non-language modalities and
+highlight the crucial role of using capsule networks for graph
+node construction.
+Importance of MSelector Module. To validate the impor-
+tance of the MSelector module, we compare MODS with
+models that fixed single modality as the primary modality,
+respectively. The experimental results demonstrate that fix-
+ing the primary modality leads to performance degradation,
+indicating that dynamic primary modality selection outper-
+forms static modality assignment.
+Effect of PCCA Module. To validate the proposed PCCA
+module, we compare the model’s performance with and
+without PCCA. Specifically, after primary modality selec-
+Figure 4: Display of cases and modality weights on SIMS.
+tion, we directly perform sentiment regression using only
+the selected primary modality, bypassing inter-modal in-
+teraction. The consistent performance drop across metrics
+demonstrates that even with optimal primary modality selec-
+tion, ignoring complementary relationships between modal-
+ities severely limits prediction accuracy. This confirms that
+exhaustive inter-modal interaction, where auxiliary modali-
+ties supplement the primary modality with contextual infor-
+mation, is indispensable for achieving robust predictions.
+Case Study
+We illustrate MODS’s dynamic modality selection on SIMS
+cases with strong cross-modal conflict. In Figure 4(a), lan-
+guage (“aquarium”) conveys positivity, while audio-visual
+cues suggest negativity. MODS emphasizes language, align-
+ing with the weakly positive label. In Figure 4(b), neu-
+tral language contrasts with positive acoustic-visual cues.
+MODS assigns higher weights to non-language inputs, cor-
+rectly predicting positive sentiment.
+Conclusion
+In the MSA task, different modalities within the same sam-
+ple may express inconsistent emotions. Dynamically select-
+ing the dominant modality is crucial for accurately deter-
+mining the overall sentiment. To address this, we propose
+the MODS algorithm, which provides a more versatile MSA
+solution by compressing redundant non-language modality
+sequences, dynamically selecting the primary modality, and
+progressively enhancing the primary modality. Extensive ex-
+periments demonstrate the rationality of our work.
+Future Work. We will evaluate MODS in domains where
+cross-modal emotional mismatches are common, such as
+humor and sarcasm detection. Meanwhile, the algorithm’s
+robustness in real-world scenarios will also be considered,
+such as handling modality data gaps (Yang et al. 2024a,b)
+and spurious correlations (Yang et al. 2024d,c).
+
+
+=== PDF PAGE 8 ===
+Acknowledgments
+We sincerely thank Yuxuan Lei and Yue Jiang for their out-
+standing contributions.
+References
+Delbrouck, J.-B.; Tits, N.; Brousmiche, M.; and Dupont,
+S. 2020.
+A transformer-based joint-encoding for emo-
+tion recognition and sentiment analysis.
+arXiv preprint
+arXiv:2006.15955.
+Drus, Z.; and Khalid, H. 2019. Sentiment analysis in so-
+cial media and its application: Systematic literature review.
+Procedia Computer Science, 161: 707–714.
+Gallagher, C.; Furey, E.; and Curran, K. 2019. The appli-
+cation of sentiment analysis and text analytics to customer
+experience reviews to understand what customers are re-
+ally saying. International Journal of Data Warehousing and
+Mining (IJDWM), 15(4): 21–47.
+Han, W.; Chen, H.; Gelbukh, A.; Zadeh, A.; Morency, L.-
+p.; and Poria, S. 2021.
+Bi-bimodal modality fusion for
+correlation-controlled multimodal sentiment analysis.
+In
+Proceedings of the 2021 international conference on mul-
+timodal interaction, 6–15.
+Han, W.; Chen, H.; and Poria, S. 2021.
+Improving mul-
+timodal fusion with hierarchical mutual information maxi-
+mization for multimodal sentiment analysis. arXiv preprint
+arXiv:2109.00412.
+Hazarika, D.; Zimmermann, R.; and Poria, S. 2020. Misa:
+Modality-invariant and-specific representations for multi-
+modal sentiment analysis. In Proceedings of the 28th ACM
+International Conference on Multimedia, 1122–1131.
+Hochreiter, S.; and Schmidhuber, J. 1997. Long short-term
+memory. Neural Computation, 9(8): 1735–1780.
+Kingma, D. P.; and Ba, J. 2014.
+Adam: A method for
+stochastic optimization. arXiv preprint arXiv:1412.6980.
+Kipf, T. N.; and Welling, M. 2016. Semi-supervised classi-
+fication with graph convolutional networks. arXiv preprint
+arXiv:1609.02907.
+Lei, Y.; Yang, D.; Li, M.; Wang, S.; Chen, J.; and Zhang,
+L. 2023. Text-oriented modality reinforcement network for
+multimodal sentiment analysis from unaligned multimodal
+sequences. In CAAI International Conference on Artificial
+Intelligence, 189–200. Springer.
+Li, Y.; Wang, Y.; and Cui, Z. 2023.
+Decoupled Multi-
+modal Distilling for Emotion Recognition. In Proceedings
+of the IEEE/CVF Conference on Computer Vision and Pat-
+tern Recognition, 6631–6640.
+Li, Z.; Zhou, Y.; Zhang, W.; Liu, Y.; Yang, C.; Lian, Z.;
+and Hu, S. 2022. AMOA: Global acoustic feature enhanced
+modal-order-aware network for multimodal sentiment anal-
+ysis. In Proceedings of the 29th International Conference
+on Computational Linguistics, 7136–7146.
+Liang, T.; Lin, G.; Feng, L.; Zhang, Y.; and Lv, F. 2021.
+Attention is not enough: Mitigating the distribution dis-
+crepancy in asynchronous multimodal sequence fusion. In
+Proceedings of the IEEE/CVF International Conference on
+Computer Vision, 8148–8156.
+Lin, R.; and Hu, H. 2022. Multimodal contrastive learning
+via uni-modal coding and cross-modal prediction for multi-
+modal sentiment analysis. arXiv preprint arXiv:2210.14556.
+Lin, R.; and Hu, H. 2023. Dynamically shifting multimodal
+representations via hybrid-modal attention for multimodal
+sentiment analysis. IEEE Transactions on Multimedia, 26:
+2740–2755.
+Liu, Y.; Yuan, Z.; Mao, H.; Liang, Z.; Yang, W.; Qiu, Y.;
+Cheng, T.; Li, X.; Xu, H.; and Gao, K. 2022. Make acoustic
+and visual cues matter: Ch-sims v2. 0 dataset and av-mixup
+consistent module. In Proceedings of the 2022 international
+conference on multimodal interaction, 247–258.
+Liu, Z.; Shen, Y.; Lakshminarasimhan, V. B.; Liang, P. P.;
+Zadeh, A.; and Morency, L.-P. 2018. Efficient low-rank mul-
+timodal fusion with modality-specific factors. arXiv preprint
+arXiv:1806.00064.
+Lv, F.; Chen, X.; Huang, Y.; Duan, L.; and Lin, G. 2021.
+Progressive modality reinforcement for human multimodal
+emotion recognition from unaligned multimodal sequences.
+In Proceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition, 2554–2562.
+Ma, F.; Zhang, Y.; and Sun, X. 2023.
+Multimodal senti-
+ment analysis with preferential fusion and distance-aware
+contrastive learning. In 2023 IEEE International Confer-
+ence on Multimedia and Expo (ICME), 1367–1372. IEEE.
+Mai, S.; Zeng, Y.; Zheng, S.; and Hu, H. 2022. Hybrid con-
+trastive learning of tri-modal representation for multimodal
+sentiment analysis. IEEE Transactions on Affective Comput-
+ing, 14(3): 2276–2289.
+Mao, H.; Yuan, Z.; Xu, H.; Yu, W.; Liu, Y.; and Gao, K.
+2022. M-SENA: An integrated platform for multimodal sen-
+timent analysis. arXiv preprint arXiv:2203.12441.
+Ortis, A.; Farinella, G. M.; and Battiato, S. 2019.
+An
+Overview on Image Sentiment Analysis: Methods, Datasets
+and Current Challenges. ICETE (1), 296–306.
+Paszke, A.; Gross, S.; Massa, F.; Lerer, A.; Bradbury, J.;
+Chanan, G.; Killeen, T.; Lin, Z.; Gimelshein, N.; Antiga, L.;
+et al. 2019. Pytorch: An imperative style, high-performance
+deep learning library. Advances in Neural Information Pro-
+cessing Systems, 32.
+Sabour, S.; Frosst, N.; and Hinton, G. E. 2017. Dynamic
+routing between capsules. Advances in neural information
+processing systems, 30.
+Sun, Z.; Sarma, P.; Sethares, W.; and Liang, Y. 2020. Learn-
+ing relationships between text, audio, and video via deep
+canonical correlation for multimodal language analysis. In
+Proceedings of the AAAI Conference on Artificial Intelli-
+gence, volume 34, 8992–8999.
+Tsai, M. H.; and Wang, Y. 2021. Analyzing Twitter data
+to evaluate people’s attitudes towards public health policies
+and events in the era of COVID-19. International Journal of
+Environmental Research and Public Health, 18(12): 6272.
+Tsai, Y.-H. H.; Bai, S.; Liang, P. P.; Kolter, J. Z.; Morency,
+L.-P.; and Salakhutdinov, R. 2019. Multimodal transformer
+for unaligned multimodal language sequences. In Proceed-
+ings of the conference. Association for Computational Lin-
+guistics. Meeting, volume 2019, 6558. NIH Public Access.
+
+
+=== PDF PAGE 9 ===
+Vaswani, A.; Shazeer, N.; Parmar, N.; Uszkoreit, J.; Jones,
+L.; Gomez, A. N.; Kaiser, Ł.; and Polosukhin, I. 2017. At-
+tention is all you need. Advances in Neural Information Pro-
+cessing Systems, 30.
+Wang, D.; Guo, X.; Tian, Y.; Liu, J.; He, L.; and Luo, X.
+2023a.
+TETFN: A text enhanced transformer fusion net-
+work for multimodal sentiment analysis. Pattern Recogni-
+tion, 136: 109259.
+Wang, D.; Liu, S.; Wang, Q.; Tian, Y.; He, L.; and Gao, X.
+2022. Cross-modal Enhancement Network for Multimodal
+Sentiment Analysis. IEEE Transactions on Multimedia.
+Wang, Y.; Li, Y.; Liang, P. P.; Morency, L.-P.; Bell, P.; and
+Lai, C. 2023b. Cross-attention is not enough: Incongruity-
+aware dynamic hierarchical fusion for multimodal affect
+recognition. arXiv preprint arXiv:2305.13583.
+Wu, S.; Dai, D.; Qin, Z.; Liu, T.; Lin, B.; Cao, Y.; and Sui,
+Z. 2023.
+Denoising Bottleneck with Mutual Information
+Maximization for Video Multimodal Fusion. arXiv preprint
+arXiv:2305.14652.
+Wu, Y.; Lin, Z.; Zhao, Y.; Qin, B.; and Zhu, L.-N. 2021. A
+text-centered shared-private framework via cross-modal pre-
+diction for multimodal sentiment analysis. In Findings of the
+Association for Computational Linguistics: ACL-IJCNLP
+2021, 4730–4738.
+Xiao, X.; Yang, J.; and Ning, X. 2021. Research on mul-
+timodal emotion analysis algorithm based on deep learn-
+ing. In Journal of Physics: Conference Series, volume 1802,
+032054. IOP Publishing.
+Yang, D.; Chen, Z.; Wang, Y.; Wang, S.; Li, M.; Liu, S.;
+Zhao, X.; Huang, S.; Dong, Z.; Zhai, P.; and Zhang, L.
+2023a. Context De-Confounded Emotion Recognition. In
+Proceedings of the IEEE/CVF Conference on Computer Vi-
+sion and Pattern Recognition, 19005–19015.
+Yang, D.; Huang, S.; Kuang, H.; Du, Y.; and Zhang, L.
+2022a.
+Disentangled Representation Learning for Multi-
+modal Emotion Recognition.
+In Proceedings of the 30th
+ACM International Conference on Multimedia, 1642–1651.
+Yang, D.; Huang, S.; Liu, Y.; and Zhang, L. 2022b. Contex-
+tual and Cross-Modal Interaction for Multi-Modal Speech
+Emotion Recognition. IEEE Signal Processing Letters, 29:
+2093–2097.
+Yang, D.; Huang, S.; Wang, S.; Liu, Y.; Zhai, P.; Su, L.; Li,
+M.; and Zhang, L. 2022c. Emotion Recognition for Mul-
+tiple Context Awareness. In Proceedings of the European
+Conference on Computer Vision, volume 13697, 144–162.
+Yang, D.; Kuang, H.; Huang, S.; and Zhang, L. 2022d.
+Learning Modality-Specific and -Agnostic Representations
+for Asynchronous Multimodal Language Sequences. In Pro-
+ceedings of the 30th ACM International Conference on Mul-
+timedia, 1708–1717.
+Yang, D.; Kuang, H.; Yang, K.; Li, M.; and Zhang, L. 2024a.
+Towards Asynchronous Multimodal Signal Interaction and
+Fusion via Tailored Transformers. IEEE Signal Processing
+Letters.
+Yang, D.; Li, M.; Qu, L.; Yang, K.; Zhai, P.; Wang, S.;
+and Zhang, L. 2024b.
+Asynchronous Multimodal Video
+Sequence Fusion via Learning Modality-Exclusive and-
+Agnostic Representations. IEEE Transactions on Circuits
+and Systems for Video Technology.
+Yang, D.; Li, M.; Xiao, D.; Liu, Y.; Yang, K.; Chen, Z.;
+Wang, Y.; Zhai, P.; Li, K.; and Zhang, L. 2024c. Towards
+Multimodal Sentiment Analysis Debiasing via Bias Purifi-
+cation. In Proceedings of the European Conference on Com-
+puter Vision (ECCV).
+Yang, D.; Liu, Y.; Huang, C.; Li, M.; Zhao, X.; Wang,
+Y.; Yang, K.; Wang, Y.; Zhai, P.; and Zhang, L. 2023b.
+Target and source modality co-reinforcement for emotion
+understanding from asynchronous multimodal sequences.
+Knowledge-Based Systems, 265: 110370.
+Yang, D.; Yang, K.; Li, M.; Wang, S.; Wang, S.; and Zhang,
+L. 2024d. Robust emotion recognition in context debiasing.
+In Proceedings of the IEEE/CVF Conference on Computer
+Vision and Pattern Recognition (CVPR), 12447–12457.
+Yu, W.; Xu, H.; Meng, F.; Zhu, Y.; Ma, Y.; Wu, J.; Zou, J.;
+and Yang, K. 2020. Ch-sims: A chinese multimodal senti-
+ment analysis dataset with fine-grained annotation of modal-
+ity. In Proceedings of the 58th Annual Meeting of the Asso-
+ciation for Computational Linguistics, 3718–3727.
+Yu, W.; Xu, H.; Yuan, Z.; and Wu, J. 2021.
+Learn-
+ing modality-specific representations with self-supervised
+multi-task learning for multimodal sentiment analysis. In
+Proceedings of the AAAI conference on artificial intelli-
+gence, 10790–10797.
+Zadeh, A.; Chen, M.; Poria, S.; Cambria, E.; and Morency,
+L.-P. 2017. Tensor fusion network for multimodal sentiment
+analysis. arXiv preprint arXiv:1707.07250.
+Zadeh, A.; Liang, P. P.; Mazumder, N.; Poria, S.; Cambria,
+E.; and Morency, L.-P. 2018a. Memory fusion network for
+multi-view sequential learning. In Proceedings of the AAAI
+Conference on Artificial Intelligence, volume 32.
+Zadeh, A.; Zellers, R.; Pincus, E.; and Morency, L.-P. 2016.
+Mosi: multimodal corpus of sentiment intensity and sub-
+jectivity analysis in online opinion videos. arXiv preprint
+arXiv:1606.06259.
+Zadeh, A. B.; Liang, P. P.; Poria, S.; Cambria, E.; and
+Morency, L.-P. 2018b. Multimodal language analysis in the
+wild: Cmu-mosei dataset and interpretable dynamic fusion
+graph. In Proceedings of the 56th Annual Meeting of the
+Association for Computational Linguistics, 2236–2246.
+Zeng, Y.; Mai, S.; Yan, W.; and Hu, H. 2023. Multimodal
+reaction: Information modulation for cross-modal represen-
+tation learning. IEEE Trans. Multimedia.
+Zeng, Y.; Yan, W.; Mai, S.; and Hu, H. 2024. Disentangle-
+ment Translation Network for multimodal sentiment analy-
+sis. Inf. Fusion, 102: 102031.
+Zhang, H.; Wang, Y.; Yin, G.; Liu, K.; Liu, Y.; and Yu, T.
+2023. Learning language-guided adaptive hyper-modality
+representation for multimodal sentiment analysis.
+arXiv
+preprint arXiv:2310.05804.

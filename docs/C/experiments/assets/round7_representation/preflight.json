@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": [
+    "contrastive_no_positive_differentiable_zero",
+    "contrastive_valid_pair_finite_gradient",
+    "balanced_batch_total_and_unique_ids",
+    "temporal_all_empty_and_partial_missing_finite_forward_backward",
+    "temporal_invalid_padding_invariance",
+    "A0_exact_initial_state_matches_round6"
+  ],
+  "execution": "Inline preflight before formal training launch; CPU edge cases and identical initialization checked",
+  "gpu": "NVIDIA GeForce RTX 4070 Laptop GPU",
+  "cuda_available": true
+}

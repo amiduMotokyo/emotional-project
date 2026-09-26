@@ -1,0 +1,16 @@
+{
+  "seeds": [20267001, 20267002, 20267003],
+  "deployment_seed": 20267001,
+  "epochs": 10,
+  "batch_size": 32,
+  "missing_probability": 0.3,
+  "groups": {
+    "R0": {"dim": 64, "scope": "top2"},
+    "R1": {"dim": 192, "scope": "top2"},
+    "R2": {"dim": 192, "scope": "all"},
+    "R3": {"dim": 192, "scope": "frozen"}
+  },
+  "bias_levels": [-0.2, -0.1, 0.0, 0.1, 0.2],
+  "calibration_folds": 5,
+  "calibration_seed": 20267000
+}

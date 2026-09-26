@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "rows": 20,
+  "exact_prediction_explanation_and_mapping_match": true,
+  "isolated_unzip": true,
+  "dependencies": "Pinned third-round dependency directory; no repository implementation on PYTHONPATH"
+}

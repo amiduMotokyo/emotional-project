@@ -1,0 +1,95 @@
+{
+  "source_commit": "226b84fd00eba160511a8723b5f01cd45c553bdc",
+  "scope": "Saved archive integrity and prediction arithmetic only; no training or inference rerun.",
+  "artifact_checks": {
+    "minilm_finetune/validation_onnx_seed20260925.json": "LF_normalized",
+    "minilm_finetune/validation_clean_predictions_seed20260926.json": "LF_normalized",
+    "minilm_finetune/validation_onnx_seed20260924.json": "LF_normalized",
+    "minilm_finetune/validation_clean_predictions_calibrated_seed20260925.json": "LF_normalized",
+    "minilm_finetune/seed20260924.json": "LF_normalized",
+    "minilm_finetune/unweighted_seed20260924.json": "LF_normalized",
+    "minilm_finetune/validation_grid_full_seed20260925.json": "LF_normalized",
+    "minilm_finetune/unweighted_seed20260925.json": "LF_normalized",
+    "minilm_finetune/seed20260925.json": "LF_normalized",
+    "minilm_finetune/seed20260926.json": "LF_normalized",
+    "minilm_finetune/unweighted_seed20260926.json": "LF_normalized",
+    "minilm_finetune/validation_clean_predictions_seed20260924.json": "LF_normalized",
+    "minilm_finetune/validation_grid_full_calibrated_seed20260925.json": "LF_normalized",
+    "minilm_finetune/class_bias_nested_cv.json": "LF_normalized",
+    "minilm_finetune/validation_onnx_seed20260926.json": "LF_normalized",
+    "minilm_finetune/validation_clean_predictions_seed20260925.json": "LF_normalized",
+    "deployment_candidate_seed20260925/model.pt": "exact",
+    "deployment_candidate_seed20260925/class_bias.json": "LF_normalized",
+    "deployment_candidate_seed20260925/attachment3_predictions.csv": "CRLF_normalized",
+    "deployment_candidate_seed20260925/metadata.json": "LF_normalized",
+    "deployment_candidate_seed20260925/audio_vision_normalization.npz": "exact",
+    "deployment_candidate_seed20260925/text_encoder_int8.onnx": "exact"
+  },
+  "metrics": {
+    "validation_clean_predictions_seed20260925.json": {
+      "n": 728,
+      "correct": 460,
+      "accuracy": 0.6318681318681318,
+      "macro_f1": 0.596043204853674,
+      "per_class_f1": [
+        0.673469387755102,
+        0.4036697247706422,
+        0.7109905020352781
+      ],
+      "mae": 0.5959148617838075,
+      "pearson": 0.641852113703503,
+      "confusion_matrix": [
+        [
+          132,
+          28,
+          46
+        ],
+        [
+          27,
+          66,
+          91
+        ],
+        [
+          27,
+          49,
+          262
+        ]
+      ]
+    },
+    "validation_clean_predictions_calibrated_seed20260925.json": {
+      "n": 728,
+      "correct": 464,
+      "accuracy": 0.6373626373626373,
+      "macro_f1": 0.600083952286622,
+      "per_class_f1": [
+        0.683046683046683,
+        0.4050632911392405,
+        0.7121418826739427
+      ],
+      "mae": 0.5960548147332092,
+      "pearson": 0.6424594101890481,
+      "confusion_matrix": [
+        [
+          139,
+          23,
+          44
+        ],
+        [
+          30,
+          64,
+          90
+        ],
+        [
+          32,
+          45,
+          261
+        ]
+      ]
+    }
+  },
+  "missing63_mean_accuracy": 0.6147305075876505,
+  "historical_log_damaged_conditions": 3,
+  "current_training_script_damaged_conditions": 6,
+  "original_fp32_checkpoint_in_archive": false,
+  "calibrated_prediction_probabilities": "Raw probabilities; predicted_class applies [0.2,0,0] to log probabilities."
+}

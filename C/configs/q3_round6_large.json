@@ -1,0 +1,16 @@
+{
+  "split_seed":2026,"dev_fraction":0.2,"epochs":24,"patience":6,"batch_size":32,
+  "lr":0.0005,"weight_decay":0.01,"reg_weight":0.8,"aux_weight":0.1,"consistency_weight":0.05,
+  "explanation_weight":0.05,"explanation_every":4,"explanation_batch":8,
+  "search_seed":20266000,"search_iterations":30,"search_popsize":8,
+  "guard_macro":0.005,"guard_neutral":0.02,"guard_mae":0.02,
+  "models":[
+    {"name":"gru_6601","kind":"gru","dim":128,"dropout":0.2,"seed":20266601,"missing":0.6},
+    {"name":"gru_6602","kind":"gru","dim":128,"dropout":0.2,"seed":20266602,"missing":0.8},
+    {"name":"gru_6603","kind":"gru","dim":160,"dropout":0.2,"seed":20266603,"missing":0.6},
+    {"name":"gru_6604","kind":"gru","dim":160,"dropout":0.25,"seed":20266604,"missing":0.8},
+    {"name":"gru_6605","kind":"gru","dim":192,"dropout":0.25,"seed":20266605,"missing":0.7},
+    {"name":"transformer_6606","kind":"transformer","dim":192,"heads":6,"layers":2,"dropout":0.1,"seed":20266606,"missing":0.6},
+    {"name":"transformer_6607","kind":"transformer","dim":256,"heads":8,"layers":2,"dropout":0.15,"seed":20266607,"missing":0.8}
+  ]
+}

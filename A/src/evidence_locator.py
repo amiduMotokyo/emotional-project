@@ -50,7 +50,7 @@ def stream_metadata(path: Path, ffprobe: Path | None) -> dict:
     result = subprocess.run(
         [str(ffprobe), "-v", "error", "-show_entries",
          "stream=codec_type,duration,r_frame_rate", "-of", "json", str(path)],
-        check=True, capture_output=True, text=True,
+        check=True, capture_output=True, text=True, encoding="utf-8", errors="replace",
     )
     streams = json.loads(result.stdout).get("streams", [])
     return {item["codec_type"]: {

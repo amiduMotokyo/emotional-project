@@ -1,0 +1,8 @@
+{
+  "passed": true,
+  "rows": 20,
+  "exact_prediction_explanation_and_mapping_match": true,
+  "isolated_unzip": true,
+  "isolated_directory": "E:\\emotional project\\C\\outputs\\q3_round7_cn9t9k_e",
+  "dependencies": "Pinned dependency directory only; implementation loaded from isolated archive"
+}
